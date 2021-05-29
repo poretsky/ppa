@@ -1,0 +1,211 @@
+Package: librutts-dev
+Source: ru-tts
+Version: 3.0
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 164
+Depends: librutts0 (= 3.0)
+Priority: optional
+Section: libdevel
+Filename: pool/non-free/r/ru-tts/librutts-dev_3.0_i386.deb
+Size: 43234
+SHA256: cfec217c6e9987a861cb8e386833703d02aba44a061a9043158c8b6f454686de
+SHA1: cf3a5294497845c0a66e4d0ec6f8b8e94e40d480
+MD5sum: b78e7c2af1fb99be0990248a17a71f65
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signet 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts0
+Source: ru-tts
+Version: 3.0
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 124
+Depends: libc6 (>= 2.1.3)
+Priority: optional
+Section: libs
+Filename: pool/non-free/r/ru-tts/librutts0_3.0_i386.deb
+Size: 32976
+SHA256: d4960bc67b3471117134a3e473c03b3919abaa1ecd695da163261761bd569a1b
+SHA1: cc26a10c027170f354ae1df4e3b8e052043716ee
+MD5sum: 60ff841cef9dd0544f2352ee2c901a07
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signet 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
+Package: mbrola
+Version: 3.01h-2
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 100
+Depends: libc6
+Recommends: mbrola-en1 | mbrola-voice
+Suggests: freephone
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Priority: optional
+Section: sound
+Filename: pool/non-free/m/mbrola/mbrola_3.01h-2_i386.deb
+Size: 34344
+SHA256: b7788e38c734a3fbfa69b00dca9a74ecdc9acf13524f866315f8ec63d9dc3859
+SHA1: 4d53f12d51c3fad374f5903c27c94d57c5d8ff14
+MD5sum: ac606bd8a2a630dd11cea8a65b5d302a
+Description: multilingual software speech synthesizer
+ This package provides Thierry Dutoit's phonemizer for multilingual
+ speech synthesis. The various diphone databases are distributed on separate
+ packages, but they must be used with and only with Mbrola because of license
+ matters. Read the copyright for details.
+ .
+ Mbrola itself doesn't provide full TTS. It is a speech synthesizer based on
+ the concatenation of diphones. It takes a list of phonemes as input,
+ along with prosodic information (duration of phonemes and a piecewise linear
+ description of pitch), and produces speech samples on 16 bits (linear),
+ at the sampling frequency of the diphone database.
+ .
+ Use Mbrola along with Freephone to have a complete text-to-speech in English.
+
+Package: mbrola-en1
+Version: 0.0.980910-2
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 6652
+Depends: mbrola
+Provides: mbrola-voice, mbrola-voice-en, mbrola-voice-en-uk
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Priority: optional
+Section: sound
+Filename: pool/non-free/m/mbrola-en1/mbrola-en1_0.0.980910-2_all.deb
+Size: 5833206
+SHA256: 3d6e3ea0d40b249e45bd62318966ca16faac68e4d04bf69ae8c6d241922f368d
+SHA1: d4fe4e67707ba1056b1bc6cbad9a0d294c0976b1
+MD5sum: 013d6a723d48065f119f7e44566965f0
+Description: British English male voice for Mbrola
+ This package provides a British English male voice (known as "Roger's
+ voice") to be used with the Mbrola program. It has been built from the
+ original Roger diphones made available by CSTR, University of Edinburgh,
+ as part of their generic text-to-speech system Festival.
+ .
+ http://www.cstr.ed.ac.uk/projects/festival.html
+ .
+ Input files use the SAMPA phonetic notation, as adopted in other Mbrola
+ databases. This package also provides the correspondence with the MRPA
+ phonetic notation used in the original distribution of Roger's voice
+ in the Festival TTS system.
+
+Package: mbrola-us1
+Version: 0.3-2
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 7156
+Depends: mbrola
+Provides: mbrola-voice, mbrola-voice-en, mbrola-voice-en-us
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Priority: optional
+Section: sound
+Filename: pool/non-free/m/mbrola-us1/mbrola-us1_0.3-2_all.deb
+Size: 6564584
+SHA256: 59e0eaa5a973d65fa347f899db6c570afe793fb24a240ca7a613bd7a8ca25a1a
+SHA1: 0d415501580fe77ca47fe022efc0161aa52c1310
+MD5sum: 237165be148ebf7509e35fcc4e0d3ac6
+Description: an American English female voice for the Mbrola synthesizer
+ This package contains a diphone database for American English, consisting
+ of 2025 diphones, female voice.
+
+Package: mbrola-us2
+Version: 0.1-2
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 6992
+Depends: mbrola
+Provides: mbrola-voice, mbrola-voice-en, mbrola-voice-en-us
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Priority: optional
+Section: sound
+Filename: pool/non-free/m/mbrola-us2/mbrola-us2_0.1-2_all.deb
+Size: 6388920
+SHA256: 30f9f9d00b46369f87346be53ab80523f6670e226e98522c413bb2e15a505352
+SHA1: 55cfd21264d01a759137d6d4251ef6145afbd617
+MD5sum: 8441bc86f23530eb65ddf9d04b8523d4
+Description: an American English male voice for the Mbrola synthesizer
+ This package contains a diphone database for American English, consisting
+ of 2065 diphones, male voice.
+
+Package: mbrola-us3
+Version: 0.1-1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 7316
+Depends: mbrola
+Provides: mbrola-voice, mbrola-voice-en, mbrola-voice-en-us
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Priority: optional
+Section: sound
+Filename: pool/non-free/m/mbrola-us3/mbrola-us3_0.1-1_all.deb
+Size: 6192622
+SHA256: 6d78bc8083b0d5b221ffa0116180c33cef0460b1802cb7355e6f26f805cd16d5
+SHA1: 8745835b48ea8d671a807aef7738a805351aa043
+MD5sum: 5a40e2677f046765f171f3c196c97866
+Description: an American English male voice for the Mbrola synthesizer
+ This package contains a diphone database for American English, consisting
+ of 2065 diphones, male voice.
+ .
+ Created by :  Oregon Graduate Institute of Science & Technology,
+ recorded by Mike Macon and Terri Lander at the Center for Spoken
+ Language Understanding (CSLU), USA .
+
+Package: rbook
+Version: 2.3
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 176
+Depends: alsa-utils, emacs | emacsen, libsox-fmt-base, ru-tts, sox
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/non-free/r/rbook/rbook_2.3_all.deb
+Size: 26052
+SHA256: 07c6666e60601e610d95bfe03f5357eaf59d68d146341b1dd57345e6f5aa2c90
+SHA1: fcc3fcf64b7d658774e2e8c1bc6da9e65154c852
+MD5sum: 60e8bc3f9337dcbc9d8951382e76f1d0
+Description: Read books in Emacs with synthesized voice
+ This program allows to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 3.0
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 68
+Depends: libc6 (>= 2.3), librulexdb0, librutts0
+Recommends: rulex
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/non-free/r/ru-tts/ru-tts_3.0_i386.deb
+Size: 9884
+SHA256: 813141587c17aeabf0037382cf67427f49b206817e04f0fdbf4fb989a1b619ef
+SHA1: e9a867a79658dc270e3b992b8d73dea3c6b8b8a6
+MD5sum: 3594664f248aefa63ea32a0a47e67285
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signet 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+

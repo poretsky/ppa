@@ -1,0 +1,23 @@
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.4.2lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ rbook deb text optional
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ 8b6c72358b92dc7cc8b27000986b517b 504 rbook_2.4.2lucid1.dsc
+ e0d28fa44e4426a438ce2dbca8754710 24687 rbook_2.4.2lucid1.tar.gz
+Checksums-Sha1: 
+ 068c4cc24e3e5be72d91ef9ea563519bb759a964 504 rbook_2.4.2lucid1.dsc
+ 5c0027f865d25cade772e354c7ebed45b06c44c6 24687 rbook_2.4.2lucid1.tar.gz
+Checksums-Sha256: 
+ b5ec5e66598315cb141e92536d568b3555531eb56a0f1c20bc18f59983b02595 504 rbook_2.4.2lucid1.dsc
+ c985955c9b426963cd941302b09b7fc03337d8360a80b5e8359afe42f2dfc9b1 24687 rbook_2.4.2lucid1.tar.gz
+

@@ -1,0 +1,7 @@
+Archive: debian
+Version: 7.0
+Component: free
+Origin: poretsky
+Label: accessibility
+Architecture: i386
+Description: Accessibility packages

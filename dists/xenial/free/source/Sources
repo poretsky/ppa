@@ -1,0 +1,160 @@
+Package: btpd-el
+Format: 1.0
+Binary: btpd-el
+Architecture: all
+Version: 1.9xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ btpd-el deb net optional
+Priority: optional
+Section: net
+Directory: pool/free/b/btpd-el
+Files: 
+ f1d6ed9b5853e5a5a4db4cb0d45f4f9b 511 btpd-el_1.9xenial1.dsc
+ d7b6a231731a8d6230e545d2d32cec2a 17065 btpd-el_1.9xenial1.tar.gz
+Checksums-Sha1: 
+ 6f7ccc5c7f984035f94d542b41330db0d8768e9c 511 btpd-el_1.9xenial1.dsc
+ f8dc00709f2908f4a30a5adc1dd3e9c7f5902004 17065 btpd-el_1.9xenial1.tar.gz
+Checksums-Sha256: 
+ bc7caeefa55bee383f1c35160ff859378b5c42ea96b82ef926c64c44d3823b34 511 btpd-el_1.9xenial1.dsc
+ 16ce080f2794bbab5355d3667375eb9c4898a28ef78bef676db1e98213a22c06 17065 btpd-el_1.9xenial1.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 1:50.0-11xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9), po-debconf, libespeak-dev, tcl-dev, libasound2-dev
+Build-Depends-Indep: texinfo, texlive-latex-base, texlive-fonts-recommended, xsltproc, docbook-xsl, csound
+Package-List:
+ emacspeak deb editors extra arch=all
+ emacspeak-classic deb sound extra arch=all
+ emacspeak-doc deb doc extra arch=all
+ emacspeak-espeak deb sound extra arch=any
+ emacspeak-outloud deb sound extra arch=any
+ emacspeak-pan-chimes deb sound extra arch=all
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 9f368b9a63105e45a089d3723f4fe2e3 1309 emacspeak_50.0-11xenial1.dsc
+ c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
+ c7a9338948185bd8635d8c21596d9313 155814 emacspeak_50.0-11xenial1.diff.gz
+Checksums-Sha1: 
+ a8bc45398e15369a4ddc81a157cbda6ee075f0b4 1309 emacspeak_50.0-11xenial1.dsc
+ 61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
+ 1dd71e44fd67c73a49e0e65a137ec4947680532d 155814 emacspeak_50.0-11xenial1.diff.gz
+Checksums-Sha256: 
+ 7302adac906c01a779570de023611a198b2b619e022c41354b2681ea5977bc5c 1309 emacspeak_50.0-11xenial1.dsc
+ 5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
+ 7c0ac1fd540e2ab2823d5f00598b4e1cf648cd7012c4f764ee52fefd22092b69 155814 emacspeak_50.0-11xenial1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.7
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ b5416942df718b2003ddfad89daaca7a 848 freespeech_1.0m-16xenial1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ 20beaf204b8b80379cb0a2feaca62715 27154 freespeech_1.0m-16xenial1.diff.gz
+Checksums-Sha1: 
+ 722012a747bf03c2a2e464c300ee0552fb95252c 848 freespeech_1.0m-16xenial1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ c99e70e55c04426b35911383c0d7810d2e3a8bf9 27154 freespeech_1.0m-16xenial1.diff.gz
+Checksums-Sha256: 
+ 5f7d825ed62e2871966d509ca8d9e71ed68b699441d51a27bef08f6f8471833c 848 freespeech_1.0m-16xenial1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 5fe0a47bdef61933d251e4a01978044eda669ce5dcdbf7d40ec3b91831ec1e17 27154 freespeech_1.0m-16xenial1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech0
+Architecture: any
+Version: 4.0.2xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.7
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List:
+ libmultispeech0 deb sound extra arch=any
+ multispeech deb sound extra arch=any
+ sd-multispeech deb sound extra arch=any
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ d567be17c11fede2b6a0ced85f87956a 919 multispeech_4.0.2xenial1.dsc
+ 75327de92c5bbb24f18ce37a12bcb351 520860 multispeech_4.0.2xenial1.tar.gz
+Checksums-Sha1: 
+ 1942cb0bce1d2bf4b343fe56ee10aa58f8d549a3 919 multispeech_4.0.2xenial1.dsc
+ a10282a562c04e8fd069c0f6abda88fbebdb7feb 520860 multispeech_4.0.2xenial1.tar.gz
+Checksums-Sha256: 
+ c51eedc2d8daa4cfb383cd40dd5bbcd5b012ec56553524fd6664893651e31783 919 multispeech_4.0.2xenial1.dsc
+ 11f2d95ed232596777e75ae99b854b0c1cc409773a86c1b46baac8be8aed339f 520860 multispeech_4.0.2xenial1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ cac84b1dbc9fb1c1d83b450fcaef45a4 669 rulex_3.5.0xenial1.dsc
+ 4f75e8b9f3cb05f364d66478f087a10e 3211108 rulex_3.5.0xenial1.tar.gz
+Checksums-Sha1: 
+ 1bd374a17787b707ecf74d6f24208f6196610bfa 669 rulex_3.5.0xenial1.dsc
+ e40b8b3133280f6b304605dfbb49f55bffe2ee4f 3211108 rulex_3.5.0xenial1.tar.gz
+Checksums-Sha256: 
+ b8498d70830e97720119606aeb94fdeecd80badcb07fa3dea4e6070568135a60 669 rulex_3.5.0xenial1.dsc
+ cd0b7d7c4c598e7a5bacc304aba57ede3299cf41f838aa8bc5ef72e2d0bd52f8 3211108 rulex_3.5.0xenial1.tar.gz
+
+Package: wget-el
+Format: 1.0
+Binary: wget-el
+Architecture: all
+Version: 0.5.0-11xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/ataka/emacs-wget
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 7.0.50~)
+Package-List: 
+ wget-el deb net optional
+Priority: optional
+Section: net
+Directory: pool/free/w/wget-el
+Files: 
+ 26b1a368e141d663aa7ef21af1af8fb2 821 wget-el_0.5.0-11xenial1.dsc
+ eed64c8bd629b82538753af54e8749ab 37074 wget-el_0.5.0.orig.tar.gz
+ 12fa23024dfe478a702ca9b64802c564 8834 wget-el_0.5.0-11xenial1.diff.gz
+Checksums-Sha1: 
+ 38afca91b68b9f589f145d77c437603750166aec 821 wget-el_0.5.0-11xenial1.dsc
+ f4a6406268e82dbbebfeaa17954189ebc6129a0e 37074 wget-el_0.5.0.orig.tar.gz
+ 2fa27552bc46c0ef19d243b3d074fc18c7cbb91a 8834 wget-el_0.5.0-11xenial1.diff.gz
+Checksums-Sha256: 
+ b1e4494c67d9e661f38e70365a095be05c8f1566c41acae5f954a717154def68 821 wget-el_0.5.0-11xenial1.dsc
+ ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
+ 49e5f10d94983afba1341fb59786a5dba90f9a46e4b213290ed61a0f7af864b0 8834 wget-el_0.5.0-11xenial1.diff.gz
+

@@ -1,0 +1,23 @@
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.4.2trusty2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ rbook deb text optional
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ 0239a1db69f9c363dbb03cfad4323f7f 508 rbook_2.4.2trusty2.dsc
+ f6c6c96a06bad128a0fdb07a9d75214b 24716 rbook_2.4.2trusty2.tar.gz
+Checksums-Sha1: 
+ e89db0ece84510a1ee6ff10326611b935f8720d3 508 rbook_2.4.2trusty2.dsc
+ 0d5f3b024ad3e5983c80e7b8002de2f95cb6476f 24716 rbook_2.4.2trusty2.tar.gz
+Checksums-Sha256: 
+ c317a54e676494eecfd67dc2039bafb9794331b940860295a9116788cf50c806 508 rbook_2.4.2trusty2.dsc
+ a68afd577b6bb51d222625b982e2d3fc989b0c82cfbd29b6fe257c31e5a12b07 24716 rbook_2.4.2trusty2.tar.gz
+

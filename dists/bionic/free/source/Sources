@@ -1,0 +1,137 @@
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 1:50.0-11bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), po-debconf, libespeak-dev, tcl-dev, libasound2-dev
+Build-Depends-Indep: texinfo, texlive-latex-base, texlive-fonts-recommended, xsltproc, docbook-xsl, csound
+Package-List:
+ emacspeak deb editors optional arch=all
+ emacspeak-classic deb sound optional arch=all
+ emacspeak-doc deb doc optional arch=all
+ emacspeak-espeak deb sound optional arch=any
+ emacspeak-outloud deb sound optional arch=any
+ emacspeak-pan-chimes deb sound optional arch=all
+Priority: optional
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ dbf75e7cc12ade5f06d0094fd1a740c9 1327 emacspeak_50.0-11bionic1.dsc
+ c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
+ 62e6b8450ab0aa81ec3167078c25b7c8 167707 emacspeak_50.0-11bionic1.diff.gz
+Checksums-Sha1: 
+ e68f4d1110775e157a3deb01821183cea3abb6ba 1327 emacspeak_50.0-11bionic1.dsc
+ 61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
+ 9c46baa59c23a6c4429b863f531c309d9f1a0e6c 167707 emacspeak_50.0-11bionic1.diff.gz
+Checksums-Sha256: 
+ 648277a72d154a02415e5769ece56305a2a5601a15082ed62212ebdaf5956e12 1327 emacspeak_50.0-11bionic1.dsc
+ 5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
+ 4074d98fdac896cc5d11abbd9e015c84362c687a83da917784217b52081679cd 167707 emacspeak_50.0-11bionic1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: cdbs, debhelper (>= 9), libdb-dev
+Package-List:
+ enlex deb sound optional arch=any
+ freephone deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ 9803836884f464dafa436e29bc1e3aff 862 freespeech_1.0m-16bionic1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ adf37dea0de53c9543dff9e7d4244cc0 26597 freespeech_1.0m-16bionic1.diff.gz
+Checksums-Sha1: 
+ eb534ab2e22e976722478f55cab045be8311fd58 862 freespeech_1.0m-16bionic1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ bb018f848f5330f801c1c273762efe0d2411163c 26597 freespeech_1.0m-16bionic1.diff.gz
+Checksums-Sha256: 
+ e02a8910c514c43b130e251489db5c8512a7dd4602b771329b65f2106ef7830d 862 freespeech_1.0m-16bionic1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ bf4c396e6f8a4b94f7242a15b8ea451cd4997b275d2d8eed10adae422f5b20eb 26597 freespeech_1.0m-16bionic1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech0
+Architecture: any
+Version: 4.0.2bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List:
+ libmultispeech0 deb sound optional arch=any
+ multispeech deb sound optional arch=any
+ sd-multispeech deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 18da14c583d0c9401a5933be3365cdc8 928 multispeech_4.0.2bionic1.dsc
+ 9b0587d5671e05f16417f8d975575608 520920 multispeech_4.0.2bionic1.tar.gz
+Checksums-Sha1: 
+ 8949faa6c1244599a2eb829b95cb72970ca866b7 928 multispeech_4.0.2bionic1.dsc
+ 1a7fd562405020afeadcb851356277ae8aa4523a 520920 multispeech_4.0.2bionic1.tar.gz
+Checksums-Sha256: 
+ 1923438184b58910daa96f484b387f7542629eae5b061e310db533a920e76860 928 multispeech_4.0.2bionic1.dsc
+ fd63dee59e558af9352ae2426495e70fdccc4dfdae7eef22a79b02dfff8e5da9 520920 multispeech_4.0.2bionic1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ 0e6e829b5b36aaa1f3941a618c1bdc46 669 rulex_3.5.0bionic1.dsc
+ ccffbd03089631ef6829fd973af2b1df 3211158 rulex_3.5.0bionic1.tar.gz
+Checksums-Sha1: 
+ 3e6be2ebb41e9da8034209d378a7a21f74e1cd45 669 rulex_3.5.0bionic1.dsc
+ 6b4d5251c5b104b28a2470b82ffe62ebe2bd7a60 3211158 rulex_3.5.0bionic1.tar.gz
+Checksums-Sha256: 
+ 19b70f16af4ab2e8b9e84e5a0479ec6f6d81c28883cbb3eba67465e808626c55 669 rulex_3.5.0bionic1.dsc
+ c6a32438436c2ed8988c8e235c98c58b75eefc25c659115535a08a9676333891 3211158 rulex_3.5.0bionic1.tar.gz
+
+Package: wget-el
+Format: 1.0
+Binary: wget-el
+Architecture: all
+Version: 0.5.0-11bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/ataka/emacs-wget
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9)
+Package-List:
+ wget-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/w/wget-el
+Files: 
+ e3955d848c23335fe71411fe4c654d1a 820 wget-el_0.5.0-11bionic1.dsc
+ eed64c8bd629b82538753af54e8749ab 37074 wget-el_0.5.0.orig.tar.gz
+ c15f77c3ed420cda28115800ce8e51de 8654 wget-el_0.5.0-11bionic1.diff.gz
+Checksums-Sha1: 
+ cccd9490ead3448702f1fae76b3fe47ab611a6a2 820 wget-el_0.5.0-11bionic1.dsc
+ f4a6406268e82dbbebfeaa17954189ebc6129a0e 37074 wget-el_0.5.0.orig.tar.gz
+ 53862b18cf840baba51843709eae90f3f92d8ad0 8654 wget-el_0.5.0-11bionic1.diff.gz
+Checksums-Sha256: 
+ 0f3b36f8849bd5dd07f463d9b2b62a0245dd7a06232cf65762afe611cf451697 820 wget-el_0.5.0-11bionic1.dsc
+ ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
+ 0889bce0cfef8afd168e37c0fe575c807767cd0a5b2e25da5d2d04f55cdec2ce 8654 wget-el_0.5.0-11bionic1.diff.gz
+

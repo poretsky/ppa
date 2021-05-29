@@ -1,0 +1,469 @@
+Package: btpd-el
+Version: 1.9xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 92
+Depends: emacs | emacsen, btpd (>= 0.16)
+Enhances: w3m-el
+Priority: optional
+Section: net
+Filename: pool/free/b/btpd-el/btpd-el_1.9xenial1_all.deb
+Size: 16652
+SHA256: 5e2d59a9445c4bfa17f17d266670dde4096f9f762abe9df94029ed7c9d49a644
+SHA1: 8aea65d29d0e997cc1ffcc99fd13db82fc7f08b0
+MD5sum: 103bb04c26cb7452e0c885696ed135c7
+Description: Emacs frontend for the Btpd BitTorrent client
+ This package provides more or less intuitive and simple Emacs interface
+ for Btpd BitTorrent client. It communicates with Emacs-w3m web browser
+ allowing to start torrent download just by clicking on a respective
+ link. Torrent's content can be previewed as a virtual directory tree.
+
+Package: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 10453
+Depends: emacs24 | emacs (>= 46.0), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
+Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
+Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
+Conflicts: emacspeak (<< 1:50.0), emacspeak-3d, emacspeak-dt, emacspeak-ss, multispeech (<< 2.8)
+Replaces: emacspeak (<< 1:50.0), emacspeak-3d
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: editors
+Filename: pool/free/e/emacspeak/emacspeak_50.0-11xenial1_all.deb
+Size: 3390800
+SHA256: f1e6ad09772f02c1539b8d2b3874c812460b1f360408726550b757ee6661c644
+SHA1: 070a83bed253ec3b1b0807fa9c76f840fb9bd69e
+MD5sum: 894cc969d7c990bf65968ac08384d93e
+Description: speech output interface to Emacs
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ Emacspeak is built on
+ top of Emacs.  Once Emacs is started with Emacspeak loaded, users get
+ spoken feedback for all actions.  As Emacs can do everything,
+ they get speech feedback for everything they do.
+ .
+ This package also includes speech server written in Tcl to support
+ the DECtalk Express speech synthesizer and remote speech server
+ access scripts.  For other synthesizers, look for separate
+ speech server packages such as emacspeak-espeak, emacspeak-outloud,
+ multispeech and eflite.
+
+Package: emacspeak-3d
+Source: emacspeak
+Version: 42.0-9xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 3904
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-3d_42.0-9xenial1_all.deb
+Size: 1775628
+SHA256: 8f28670be48c86bae2bc37b04bfa56986f715c035d4cbf84292a26eca182e4aa
+SHA1: 1b429f9bae1563de1b5567b0320ebb8e7dae79f3
+MD5sum: f7de4f33ee048159482cc8ca8b99a4c8
+Description: 3d auditory icons theme for Emacspeak
+ This theme is made up of sound files generated using CSound
+ from its example files and compositions.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-cartoon-22k-mono
+Source: emacspeak
+Version: 42.0-9xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 1272
+Recommends: emacspeak
+Conflicts: emacspeak-cartoons
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-cartoon-22k-mono_42.0-9xenial1_all.deb
+Size: 918820
+SHA256: 6ebe92f52d3d432d691fe115042dd8c0d8267e00d643c679780f9e2441e127f6
+SHA1: 4249a4d09d1a750b83ad7263b544b2d02796667b
+MD5sum: 9f68779987090d9a35a6b9c68959c640
+Description: Cartoons auditory icons theme for Emacspeak
+ This theme was originally contributed by Bryan Smart
+ and is made up of 22K-mono sounds.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-chimes
+Source: emacspeak
+Version: 43.0-5xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 6430
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-chimes_43.0-5xenial1_all.deb
+Size: 2226602
+SHA256: 93cabf3b369f428b568f4bd7af65cd17e16d96374122678c8ed2888a00a83429
+SHA1: 04749fd945ccaa5c028057902a892db3c47e44a1
+MD5sum: a4b677603eafca768dc01e6eb0c235d1
+Description: Chimes auditory icons theme for Emacspeak
+ This theme is made up mostly of different chimes and short notes
+ from various instruments. The icons are high-quality 44K-stereo.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-chimes-stereo
+Source: emacspeak
+Version: 42.0-9xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 5930
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-chimes-stereo_42.0-9xenial1_all.deb
+Size: 2016690
+SHA256: 2400692c44670bdeffb3cba87badc1a0164e49d2940f9a42457bb320ae7624fc
+SHA1: 1925987b841789a4f81c40233798e7076a7ef4d7
+MD5sum: 9b366e084c2045063328e0121a6d7de1
+Description: Chimes auditory icons theme for Emacspeak
+ This theme is made up mostly of different chimes and short notes
+ from various instruments. The icons are high-quality 44K-stereo.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-classic
+Source: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 7281
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-11xenial1_all.deb
+Size: 2986778
+SHA256: cb0bb46d9cd0dd00f6ba72a57231d24495436e051b6bc4887d778f11168c302c
+SHA1: 79008fc3f5ede483f10f520dafe0d8ddcfc04949
+MD5sum: 521a3d01dd21c9294fac17b715580a71
+Description: Classic auditory icons theme for Emacspeak
+ This theme is made up of the original default-8k sounds
+ that have been converted to 44.1k stereo format.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-doc
+Source: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 6580
+Suggests: emacspeak, www-browser
+Replaces: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: doc
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-11xenial1_all.deb
+Size: 1472036
+SHA256: 6e0daf2769ddb24fb1c92405ad8a4637ff8fb53de9cfe9474bcb2a26127f1870
+SHA1: 97663b349655dbe523d032f71cf5fbb461a9a709
+MD5sum: 7ac3e25096f720cd0a3ccd172851e90c
+Description: Emacspeak documentation
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package contains additional documentation in html and pdf
+ formats.
+
+Package: emacspeak-espeak
+Source: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 106
+Depends: tclsh, tclx8.4, libc6 (>= 2.14), libespeak1 (>= 1.48.04+dfsg), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), libtcl8.6 (>= 8.6.0), debconf (>= 0.5) | debconf-2.0
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-11xenial1_amd64.deb
+Size: 40860
+SHA256: 94bc4a8be0b45f7d2444f5f21b45bbcb83a696d8d6b4b18cb831d42aae69a499
+SHA1: ba8318ba32b91fdfd152b2b9395435df72cf1402
+MD5sum: a2b2d32802197f239f2da967957b06a2
+Description: Espeak speech server for Emacspeak
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package provides additional speech output for Emacspeak
+ via eSpeak speech synthesizer.
+
+Package: emacspeak-outloud
+Source: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 136
+Depends: tclsh, tclx8.4, libasound2 (>= 1.0.16), libc6 (>= 2.4), libstdc++6 (>= 4.1.1), libtcl8.6 (>= 8.6.0), debconf (>= 0.5) | debconf-2.0
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-11xenial1_amd64.deb
+Size: 43406
+SHA256: e8159a65a0bdb12c2f6520e92dc034637e29b2aad1226ecc1920795f45f0d58a
+SHA1: d13da801ca24f43f75a31e7e0caf24eaa95ddeb8
+MD5sum: 2c34f649b4a5e6cb713d402f41f521a7
+Description: IBM ViaVoice Outloud speech server for Emacspeak
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package allows one to use IBM ViaVoice Outloud speech synthesizer
+ for speech output in Emacspeak.
+
+Package: emacspeak-pan-chimes
+Source: emacspeak
+Version: 1:50.0-11xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 6536
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-11xenial1_all.deb
+Size: 3737212
+SHA256: b9bd52a3287b14c4243493d59c97b4b5fb1ae5fb2b9724613bb7c8b16911e461
+SHA1: d7f808d7753ce1da75f9250a7956b10fe63e3a72
+MD5sum: 0fcd4933689f9fe281f3f79636b874aa
+Description: Pan-chimes auditory icons theme for Emacspeak
+ This theme is made up mostly of different chimes and short notes
+ from various instruments with autopan effect applied.
+ The icons are high-quality 44K-stereo.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: enlex
+Source: freespeech
+Version: 1.0m-16xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 5188
+Depends: libc6 (>= 2.4), libdb5.3
+Recommends: freephone
+Priority: optional
+Section: sound
+Filename: pool/free/f/freespeech/enlex_1.0m-16xenial1_amd64.deb
+Size: 854380
+SHA256: d49fd8adb04148a1504ea3b19a4b6a5de35e431a43ab63afbc813b1e52d132d6
+SHA1: 8c35336fda81b472cfdc87bbcd0c3a2a37870e65
+MD5sum: 41f4da0d2a4b1b0649bbd1da4a310455
+Description: English pronunciation dictionary
+ This package is aimed primarily for use together with the Freephone
+ phonetizer for Mbrola. When it is installed you can instruct Freephone
+ to use the pronunciation dictionary by the command line switch
+ "-h /usr/share/freespeech/enlex.db".
+
+Package: freephone
+Source: freespeech
+Version: 1.0m-16xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 105
+Depends: libc6 (>= 2.7), libdb5.3
+Recommends: enlex
+Suggests: mbrola, mbrola-voice-en
+Priority: optional
+Section: sound
+Filename: pool/free/f/freespeech/freephone_1.0m-16xenial1_amd64.deb
+Size: 27120
+SHA256: f45a0382b0725173fb2fc0b5a57498155288ae20e4ccc5e0fef2f51efd504b5b
+SHA1: 3431d07a02670555d6250930be3a419b01c7c3c9
+MD5sum: 6209282f22f9bce0f777d84a13b0f0f7
+Description: English Text-To-Phoneme converter
+ freephone converts English text to phonemes for MBROLA.
+ .
+ It can make use of an external dictionary in hash format,
+ such as the one provided by enlex package.
+
+Package: libmultispeech0
+Source: multispeech
+Version: 4.0.2xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 869
+Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 1.9.2), libstdc++6 (>= 5.2)
+Recommends: multispeech | sd-multispeech
+Conflicts: multispeech (<< 4.0.0)
+Replaces: multispeech (<< 4.0.0)
+Priority: extra
+Section: sound
+Filename: pool/free/m/multispeech/libmultispeech0_4.0.2xenial1_amd64.deb
+Size: 231674
+SHA256: 99b4c090d47e7d88ce8b8cdb8a2c699e1c9113100c3d112b858c64d8f7f1181b
+SHA1: d3dacd9eee259d77957726a58a2cb84c49357910
+MD5sum: 7df27bf41fc89945f038bed7be1cfa17
+Description: Multilingual speech server
+ Though Multispeech was primarily designed for use in conjunction
+ with Emacspeak, but being capable to work with Speech Dispatcher
+ as its backend module, it can provide multilingual speech output
+ for Orca screenreader as well.
+ .
+ This package provides common shared library and main
+ configuration file used by all Multispeech implementations.
+
+Package: librulexdb-dev
+Source: rulex
+Version: 3.5.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 69
+Depends: librulexdb0 (= 3.5.0xenial1), libdb-dev, libc6-dev
+Suggests: rulex
+Priority: optional
+Section: libdevel
+Filename: pool/free/r/rulex/librulexdb-dev_3.5.0xenial1_amd64.deb
+Size: 29512
+SHA256: 12087d1b4ea5fad858b134015290b3238c80387b11968c2ed5273fb5790d08fc
+SHA1: c35dccc6b0356804c67235bbe4dce4e3059989f4
+MD5sum: 2a04d04aabe9b6f68aeee3a9abb2e094
+Description: Russian pronunciation dictionary access library
+ .
+ This package contains the development files.
+
+Package: librulexdb0
+Source: rulex
+Version: 3.5.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 36
+Depends: libc6 (>= 2.4), libdb5.3
+Priority: optional
+Section: libs
+Filename: pool/free/r/rulex/librulexdb0_3.5.0xenial1_amd64.deb
+Size: 11842
+SHA256: d0c46398a0f3f79c42392464f9ece03c73954d6edbfe7b93546443137976740b
+SHA1: b87da0b82dedc6f3929c3e45cabcf11174be45a6
+MD5sum: 89defdc85d9435ebfcefd0d47f20d355
+Description: Russian pronunciation dictionary access library
+ .
+ This package contains the shared library.
+
+Package: multispeech
+Version: 4.0.2xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 264
+Depends: libbobcat4 (>= 4.01.03), libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0, libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Recommends: espeak (>= 1.44.01), espeak-data (>= 1.44.01)
+Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
+Enhances: emacspeak
+Priority: extra
+Section: sound
+Filename: pool/free/m/multispeech/multispeech_4.0.2xenial1_amd64.deb
+Size: 73190
+SHA256: 75dabc8816c3e034e6aba8b4c4b4874a0fccf619e3cd53a7d5f6c1f6c0aaf752
+SHA1: 1809e63e81467b43c7192e7921df75e52371603d
+MD5sum: 09dc6e7ef8bf0173b7cd1292dd407f24
+Description: Multilingual speech server for Emacspeak
+ This speech server provides multilingual speech output for Emacspeak
+ using software TTS engines such as mbrola, espeak, ru_tts, etc.
+ At the moment English, German, French, Italian, Spanish,
+ Portuguese and Russian languages are supported.
+ .
+ The most prominent features are as follows:
+  - flexible configuration;
+  - easy adaptation to various speech engines;
+  - language autodetection capability;
+  - online voice control means.
+
+Package: rulex
+Version: 3.5.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 2361
+Depends: locales, libc6 (>= 2.4), librulexdb0
+Enhances: ru-tts
+Conflicts: ru-tts (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/free/r/rulex/rulex_3.5.0xenial1_amd64.deb
+Size: 776516
+SHA256: 30e2540df676207f5e9ce77eb8e4e89d717dd775ad76651299e79f14b0993916
+SHA1: 831113c7af0087167f2f8949e741fba1e3d9a221
+MD5sum: af1a9e41757b1f480201e3d87e3bb114
+Description: Russian pronunciation dictionary
+ This package is aimed primarily for use together with the Russian
+ TTS engine Ru_tts. When it is installed you can instruct Ru_tts
+ to use the pronunciation dictionary by the command line switch
+ "-s /usr/share/freespeech/rulex.db".
+
+Package: sd-multispeech
+Source: multispeech
+Version: 4.0.2xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 203
+Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0, libportaudiocpp0, libstdc++6 (>= 5.2)
+Recommends: espeak, espeak-data
+Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
+Enhances: speech-dispatcher
+Priority: extra
+Section: sound
+Filename: pool/free/m/multispeech/sd-multispeech_4.0.2xenial1_amd64.deb
+Size: 58224
+SHA256: a232332829218ed97b142883fddadf64932a6dac0b281aa3eacd3ae74a77a3ee
+SHA1: 60d5b2f0c18e4b00ce17ad7ef6ebaf608de296ad
+MD5sum: 0364fe744f6302905e4c5718b1542711
+Description: Multilingual Speech Dispatcher backend
+ This module provides multilingual speech output for Speech Dispatcher
+ using software TTS engines such as mbrola, espeak, ru_tts, etc.
+ It is based on the Multispeech speech server.
+ At the moment English, German, French, Italian, Spanish,
+ Portuguese and Russian languages are supported.
+ .
+ The most prominent features are as follows:
+  - flexible configuration;
+  - easy adaptation to various speech engines;
+  - language autodetection capability;
+  - online voice control means.
+
+Package: wget-el
+Version: 0.5.0-11xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 91
+Depends: emacs | emacsen, wget
+Recommends: w3m-el
+Homepage: https://github.com/ataka/emacs-wget
+Priority: optional
+Section: net
+Filename: pool/free/w/wget-el/wget-el_0.5.0-11xenial1_all.deb
+Size: 29564
+SHA256: a75d61f23bce7566b8c809dff353b410f8ccef0382a5d89cbbefa5034ac96993
+SHA1: ee6f7abf64b48a0705d76d82cbf47ddb106080e9
+MD5sum: 0258609eac024f38f56baa3229ddd795
+Description: interface for wget on Emacsen
+ GNU wget is a free software package for retrieving files
+ using HTTP, HTTPS and FTP, the most widely-used Internet
+ protocols. It is a non-interactive command line tool.
+ This package contains an interface program of GNU wget for
+ Emacsen.
+

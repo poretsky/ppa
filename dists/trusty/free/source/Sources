@@ -1,0 +1,132 @@
+Package: btpd-el
+Format: 1.0
+Binary: btpd-el
+Architecture: all
+Version: 1.9trusty1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ btpd-el deb net optional
+Priority: optional
+Section: net
+Directory: pool/free/b/btpd-el
+Files: 
+ 1e069d766d5e47623080eb5dd3c5dec4 511 btpd-el_1.9trusty1.dsc
+ e59ce5168a3ba6c067b982ce96eaf3e4 17015 btpd-el_1.9trusty1.tar.gz
+Checksums-Sha1: 
+ b2a9d9af6ca6391e34aebdc6f0d1f7369f4b59de 511 btpd-el_1.9trusty1.dsc
+ 92e9c40aa4b608752cef891032db60fd21bfc604 17015 btpd-el_1.9trusty1.tar.gz
+Checksums-Sha256: 
+ c8dfe4884ad3e575e29490c4f3fab68d80a2f698877bb5cc7b34618150aaa940 511 btpd-el_1.9trusty1.dsc
+ 38a31bc40feb085f38baa5e73be5ac2d29ba805b0364bcfa1eb6a88abf8132fc 17015 btpd-el_1.9trusty1.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 45.0-3trusty7
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 5), po-debconf, libespeak-dev, tcl-dev, libasound2-dev, texinfo
+Package-List: 
+ emacspeak deb editors extra
+ emacspeak-classic deb sound extra
+ emacspeak-doc deb doc extra
+ emacspeak-espeak deb sound extra
+ emacspeak-outloud deb sound extra
+ emacspeak-pan-chimes deb sound extra
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 9af14650409b75bfb9c178e6df8ca74d 1155 emacspeak_45.0-3trusty7.dsc
+ 9277797b502c6f4fbb89b617df180c1e 12455161 emacspeak_45.0.orig.tar.gz
+ 3347367e0fd46464579104712923015e 149679 emacspeak_45.0-3trusty7.diff.gz
+Checksums-Sha1: 
+ 48a8e95c3fba237e895fe9503e5f81a13048e44d 1155 emacspeak_45.0-3trusty7.dsc
+ a52c5a434df523450502f8a25f073947c2f2f374 12455161 emacspeak_45.0.orig.tar.gz
+ d1484a3b401018ab063cc70c52a629bbcee1f3c5 149679 emacspeak_45.0-3trusty7.diff.gz
+Checksums-Sha256: 
+ 265a92efca9b97f3889b03d95a9e7aeb5e7b41b56a45ad50013defe13dc5610d 1155 emacspeak_45.0-3trusty7.dsc
+ 2dd8fa6bfed7a52ce27352c00892e18a2143c9d45ed64350f71e279eeec7bdb9 12455161 emacspeak_45.0.orig.tar.gz
+ 45fea27ac281d90119b34f94fac48469697502ad667f1eb7532a81a0aedddf89 149679 emacspeak_45.0-3trusty7.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16trusty1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.5
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ fa48e2cbe63a0ab8e7fed7ea11b3326c 848 freespeech_1.0m-16trusty1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ dbf3557ad291275ed090d088da30a2e8 27152 freespeech_1.0m-16trusty1.diff.gz
+Checksums-Sha1: 
+ af79deb3b27de9a456486ba31657e60ee5ab92b6 848 freespeech_1.0m-16trusty1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 372713e1f521da7cea0615b866fad1c90de8dea3 27152 freespeech_1.0m-16trusty1.diff.gz
+Checksums-Sha256: 
+ 2b36f2c07a3aa4ec271d9cff117b419432a27315d9a0b0220d86448ae302455a 848 freespeech_1.0m-16trusty1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 11523294d78f7653cdb0e32d4d577f3358390d60ed4a0e088bc3d9804b3b81b8 27152 freespeech_1.0m-16trusty1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech0
+Architecture: any
+Version: 4.0.2trusty1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.5
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List:
+ libmultispeech0 deb sound extra arch=any
+ multispeech deb sound extra arch=any
+ sd-multispeech deb sound extra arch=any
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 3d670c57fb93db828241ceb3c02d2a7f 919 multispeech_4.0.2trusty1.dsc
+ 89794577c21443f103f9d3a19c38ba93 521223 multispeech_4.0.2trusty1.tar.gz
+Checksums-Sha1: 
+ b9de6ef9c11874a87ed292268520542415b593de 919 multispeech_4.0.2trusty1.dsc
+ e54cc22f51ecce62fcd594488d3fabcf7c49a01b 521223 multispeech_4.0.2trusty1.tar.gz
+Checksums-Sha256: 
+ 90ca09e4b512767705d1e299eae0c003f84cef7b9b36423ca052edf607a11a09 919 multispeech_4.0.2trusty1.dsc
+ 659b2a0c733b65a2704ba57a66f0928080ac4dd01e436ca294781b8f4e22fe9e 521223 multispeech_4.0.2trusty1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0trusty1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ eac56c3ab05a94bc133be9676e4c0bfb 676 rulex_3.5.0trusty1.dsc
+ e6592027d1de1f62b00d33a89bf8a75a 3210969 rulex_3.5.0trusty1.tar.gz
+Checksums-Sha1: 
+ 2fedf87e3becc398ddf444b568da35224d7ffd3b 676 rulex_3.5.0trusty1.dsc
+ 410a9b71802e149e204b81e862b26ea1feca301a 3210969 rulex_3.5.0trusty1.tar.gz
+Checksums-Sha256: 
+ 6a5ee9e11db898eadaaec650bda6ed977c777a66cfa15df81918b8038dc1771b 676 rulex_3.5.0trusty1.dsc
+ 0189b3a4cf430cfe06ea467c82d9e9956495eba77ff64e88a2bc0ac94718f057 3210969 rulex_3.5.0trusty1.tar.gz
+

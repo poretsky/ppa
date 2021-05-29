@@ -1,0 +1,137 @@
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 1:50.0-11focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10), po-debconf, libespeak-dev, tcl-dev, libasound2-dev
+Build-Depends-Indep: texinfo, texlive-latex-base, texlive-fonts-recommended, xsltproc, docbook-xsl, csound
+Package-List:
+ emacspeak deb editors optional arch=all
+ emacspeak-classic deb sound optional arch=all
+ emacspeak-doc deb doc optional arch=all
+ emacspeak-espeak deb sound optional arch=any
+ emacspeak-outloud deb sound optional arch=any
+ emacspeak-pan-chimes deb sound optional arch=all
+Priority: optional
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ febce7d4afdc0a79d175a6863dcc4789 1324 emacspeak_50.0-11focal1.dsc
+ c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
+ 7a1334f92a48696da89f1e88c1431f68 167811 emacspeak_50.0-11focal1.diff.gz
+Checksums-Sha1: 
+ bacc2c963e7525fe74e0a1c8fd8b0048588d2b93 1324 emacspeak_50.0-11focal1.dsc
+ 61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
+ cfa2f947d197bb709a79cbcc32276fa78c0be973 167811 emacspeak_50.0-11focal1.diff.gz
+Checksums-Sha256: 
+ 40fb120051a36819cfac44f5186887cd61550b0abe56357f039e210809fa9d57 1324 emacspeak_50.0-11focal1.dsc
+ 5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
+ 3d38aa0ebf289b07ec211829256740a893daab10239d52f4caa343238e70ed84 167811 emacspeak_50.0-11focal1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: cdbs, debhelper (>= 10), libdb-dev
+Package-List:
+ enlex deb sound optional arch=any
+ freephone deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ ed09b1423660f3ab709db181038014d4 859 freespeech_1.0m-16focal1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ 726f288380471bd3da4570efab316a44 26613 freespeech_1.0m-16focal1.diff.gz
+Checksums-Sha1: 
+ c51ddad484faacf9b70214b053b26285d25e3a86 859 freespeech_1.0m-16focal1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 42a6f8730bd7c251a84f759b2c897ce43353bc2a 26613 freespeech_1.0m-16focal1.diff.gz
+Checksums-Sha256: 
+ 1bf480365e088d200503a34f1418a2fff7a5c2ef62acf4f239bdf76d0a5a1a2a 859 freespeech_1.0m-16focal1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ f30fc0755bdb7730b6c5333aeb2504f107080c6e5f78ea6c4643141edbc5feee 26613 freespeech_1.0m-16focal1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech0
+Architecture: any
+Version: 4.0.2focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List:
+ libmultispeech0 deb sound optional arch=any
+ multispeech deb sound optional arch=any
+ sd-multispeech deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 59523b2bc0d32d1d2d8cc4e6e365cf32 910 multispeech_4.0.2focal1.dsc
+ 1e0d40d11d832d2ba14ac69dff5794bb 520847 multispeech_4.0.2focal1.tar.gz
+Checksums-Sha1: 
+ 72aa53f47b08497ec0d166cf2ea11186ccb49ba6 910 multispeech_4.0.2focal1.dsc
+ 178aba405d260e6b0c0bfeba11eec07f4d12ac8f 520847 multispeech_4.0.2focal1.tar.gz
+Checksums-Sha256: 
+ d41ed6e6e86d3c642b9a862fc3e2aebf38ef9b2ff5d8c968f29c41bc6a4e1bd8 910 multispeech_4.0.2focal1.dsc
+ 7c611675901954d30c54eb471a5c6a11244ba19863878c01f83bdb3350bb040f 520847 multispeech_4.0.2focal1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ 3238009771fec0d47fe2a036caff6b1f 666 rulex_3.5.0focal1.dsc
+ d1a535d8915b2ad94fa7dd96c841f31f 3211140 rulex_3.5.0focal1.tar.gz
+Checksums-Sha1: 
+ ea0e039279d9f6d87017483b0a6c3a7e724137f7 666 rulex_3.5.0focal1.dsc
+ 9b80f383b531bfe95dac5c32c301fb1b22116e08 3211140 rulex_3.5.0focal1.tar.gz
+Checksums-Sha256: 
+ 740f4f5e27aefd193c85b245dacdf44c610be0884afea49f5c6678df17242ea5 666 rulex_3.5.0focal1.dsc
+ a90f15f288c14a1e1924609af0b40e9748b4f48e4f84b361e0f0ed0747a7fc02 3211140 rulex_3.5.0focal1.tar.gz
+
+Package: wget-el
+Format: 1.0
+Binary: wget-el
+Architecture: all
+Version: 0.5.0-11focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/ataka/emacs-wget
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Package-List:
+ wget-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/w/wget-el
+Files: 
+ 3e39f3fc34f5bf6d37da30da1fb758e5 817 wget-el_0.5.0-11focal1.dsc
+ eed64c8bd629b82538753af54e8749ab 37074 wget-el_0.5.0.orig.tar.gz
+ 4f13f4e68196258202cdff37e3412c83 8693 wget-el_0.5.0-11focal1.diff.gz
+Checksums-Sha1: 
+ 37f3746e62389fb7d803caa6d1d9bc537c6b369f 817 wget-el_0.5.0-11focal1.dsc
+ f4a6406268e82dbbebfeaa17954189ebc6129a0e 37074 wget-el_0.5.0.orig.tar.gz
+ 9c691525b60feecb613e1b7c0fa04b1cfd3e57e7 8693 wget-el_0.5.0-11focal1.diff.gz
+Checksums-Sha256: 
+ a9ce2accad76a6a6dbd5fe7d639e2927349e4abaed49cf0b4733b083036b17ae 817 wget-el_0.5.0-11focal1.dsc
+ ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
+ 572e82404b8c422cc4b7ca9c8e4f8acef45059455d6f915c2a2f1298e24c85d7 8693 wget-el_0.5.0-11focal1.diff.gz
+

@@ -1,0 +1,146 @@
+Package: mbrola
+Format: 1.0
+Binary: mbrola
+Architecture: i386 alpha powerpc sparc amd64
+Version: 3.01h-2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/non-free/m/mbrola
+Files: 
+ 93a21b64d43e8e26121c0def3edfed1a 627 mbrola_3.01h-2.dsc
+ a6690472efd017538cad122bb75a7494 310988 mbrola_3.01h.orig.tar.gz
+ 76823a77e4e3bf8e8ab2f45f399c684a 4139 mbrola_3.01h-2.diff.gz
+Checksums-Sha1: 
+ b413c5432e8d26510d4851b58bb93430baf0f103 627 mbrola_3.01h-2.dsc
+ ce60e3bc1ed6c3a1556727a3e44c7cfdf6e21327 310988 mbrola_3.01h.orig.tar.gz
+ dfa19d3288e34da4aec0a5c820cd4ff7780f853d 4139 mbrola_3.01h-2.diff.gz
+Checksums-Sha256: 
+ 1654120bc08742c6b751c9e7eda6c06bb20fd8a58706e0081f9858a1807656ce 627 mbrola_3.01h-2.dsc
+ 9a296583fd9d851f0c5f221d5cdd8916fcfae84480545942a93016cefac122cf 310988 mbrola_3.01h.orig.tar.gz
+ 739bb16c192b2c993df3619cab58cc3b18da4ff929ddf0f7131d6190f9fc51f3 4139 mbrola_3.01h-2.diff.gz
+
+Package: mbrola-en1
+Format: 1.0
+Binary: mbrola-en1
+Architecture: all
+Version: 0.0.980910-2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/non-free/m/mbrola-en1
+Files: 
+ 0f27fbe55960151fe0b6250ec759fd75 632 mbrola-en1_0.0.980910-2.dsc
+ 69f04987ff3ec02d4c03f8121afa15df 5827685 mbrola-en1_0.0.980910.orig.tar.gz
+ a4863ea776e909e4f6757431d268f033 2892 mbrola-en1_0.0.980910-2.diff.gz
+Checksums-Sha1: 
+ 44e6f87ed65bb2133755f269dff27d2b6576502a 632 mbrola-en1_0.0.980910-2.dsc
+ 1ce4005d85940ad9d5f45f3d4fce70f8c39db9be 5827685 mbrola-en1_0.0.980910.orig.tar.gz
+ 92c3c062279cff6fc557d22c1e632212f3b7841c 2892 mbrola-en1_0.0.980910-2.diff.gz
+Checksums-Sha256: 
+ ef73ef4ca4c7490b9e2b54cbd80ad547b55cfd91aa6c20f62696740b04ae2d6f 632 mbrola-en1_0.0.980910-2.dsc
+ 53cd3937273b09236215a6b35b8af9c6f8e7aa3188f2614f6bc009aa2bd6c971 5827685 mbrola-en1_0.0.980910.orig.tar.gz
+ a2878f4d9b651ef89f7b16d2c32e65e5ef010e9d55d3b5a1e4ff14ebabfc5c25 2892 mbrola-en1_0.0.980910-2.diff.gz
+
+Package: mbrola-us1
+Format: 1.0
+Binary: mbrola-us1
+Architecture: all
+Version: 0.3-2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/non-free/m/mbrola-us1
+Files: 
+ 7009a107f96e6f2d62be1992a3fce1ff 611 mbrola-us1_0.3-2.dsc
+ 865087d47bfffadb4f1b2a67c8cb4283 6568709 mbrola-us1_0.3.orig.tar.gz
+ 330640af4e7f8ee431b120b8feb8b30b 2299 mbrola-us1_0.3-2.diff.gz
+Checksums-Sha1: 
+ 0445d6532b0d14f1449de17057c27f2bb8834317 611 mbrola-us1_0.3-2.dsc
+ 71b94eeaf61392c3f1216e04d6d5442a83b4936d 6568709 mbrola-us1_0.3.orig.tar.gz
+ 6e0816352cad3f3811104ccb44cde875b97e0390 2299 mbrola-us1_0.3-2.diff.gz
+Checksums-Sha256: 
+ 73830930d6c8fd974d3c28c9ca0624972e213fe6d7512e6fefc2a394f1561eb3 611 mbrola-us1_0.3-2.dsc
+ 13185249cecdd1e9f3b4fb70befbdd4bde52c1147221239e795df2d597e8e30e 6568709 mbrola-us1_0.3.orig.tar.gz
+ 9fde893b3c751cd00e841f78967cca8e371bc2fb1fa5198bf67a80a9648f76bd 2299 mbrola-us1_0.3-2.diff.gz
+
+Package: mbrola-us2
+Format: 1.0
+Binary: mbrola-us2
+Architecture: all
+Version: 0.1-2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/non-free/m/mbrola-us2
+Files: 
+ c565137d5d4bad0ac7f4406af07ac253 611 mbrola-us2_0.1-2.dsc
+ f78a82e3fbeff1620e1f086469810ab1 6386142 mbrola-us2_0.1.orig.tar.gz
+ 4039bc5811468b6c8056d277d95da52d 2032 mbrola-us2_0.1-2.diff.gz
+Checksums-Sha1: 
+ 9f34beba3e0630cf9d4806064bca6dc5a7876057 611 mbrola-us2_0.1-2.dsc
+ e96a6881461af8276bb68ba6e1a2a72c65b35880 6386142 mbrola-us2_0.1.orig.tar.gz
+ 31e8bad34e64296d926d84a1e22c3a645f5de69a 2032 mbrola-us2_0.1-2.diff.gz
+Checksums-Sha256: 
+ fb1ca713988c5104094607c6f85061321992f0761636c9e22850a964f0738afb 611 mbrola-us2_0.1-2.dsc
+ 4cbb11aebfcd03dc163f97f1dff180c762a60bcfd6716281480c6c595b2215d2 6386142 mbrola-us2_0.1.orig.tar.gz
+ c337250316d3925448eac6c48791ab8295b357ef71675d00204812362598f46d 2032 mbrola-us2_0.1-2.diff.gz
+
+Package: mbrola-us3
+Format: 1.0
+Binary: mbrola-us3
+Architecture: all
+Version: 0.1-1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://tcts.fpms.ac.be/synthesis/
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/non-free/m/mbrola-us3
+Files: 
+ fc6035b811797263ea67f6ee49cd7328 611 mbrola-us3_0.1-1.dsc
+ d432dba285fdf2e945ba3ada85d41109 6194318 mbrola-us3_0.1.orig.tar.gz
+ d64cabf30acd1caeceba9e4b92a5fca2 2008 mbrola-us3_0.1-1.diff.gz
+Checksums-Sha1: 
+ db5a44997931522904f31e8d099688b0368fe22e 611 mbrola-us3_0.1-1.dsc
+ 044c7ab505278bad9149da0aba4007ed4aa2a7d4 6194318 mbrola-us3_0.1.orig.tar.gz
+ fceb0b954e7df8caa1f24a67f325f39d057ab711 2008 mbrola-us3_0.1-1.diff.gz
+Checksums-Sha256: 
+ 7683f5f9e34fe44f5c69ceca2827fc24dd290c3e379708049e885e1d16178414 611 mbrola-us3_0.1-1.dsc
+ 3c03301bb6fa73823183482710ce9173917ea72be4ca83bec893f3abb10875f2 6194318 mbrola-us3_0.1.orig.tar.gz
+ 64c4f958164e46967f1030cb47528952c38c4d629e5c57b914fe1a29505dd5db 2008 mbrola-us3_0.1-1.diff.gz
+
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.3
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ 88c8a4069867ff5ff6c852f82cc56b47 479 rbook_2.3.dsc
+ 832a85ec73ce0a6551ad2d45c030949e 24691 rbook_2.3.tar.gz
+Checksums-Sha1: 
+ 57aff86c45fd2a9c994eabf25c9256e8419b30a9 479 rbook_2.3.dsc
+ 123641f1a5be9a01c971b967e9fe1fcc7883989c 24691 rbook_2.3.tar.gz
+Checksums-Sha256: 
+ 51d9e80b4c5e3b341cd21765596c3bc471a2bdcd609718423bcbe80a01559801 479 rbook_2.3.dsc
+ 91cdba4ae53d81bff4e35373c863f6c6b2cd9c3c493980f6b70ec3aafad50cc3 24691 rbook_2.3.tar.gz
+

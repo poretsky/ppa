@@ -1,0 +1,253 @@
+Package: catalogue
+Format: 1.0
+Binary: catalogue
+Architecture: all
+Version: 2.7.1wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ catalogue deb misc optional
+Priority: optional
+Section: misc
+Directory: pool/free/c/catalogue
+Files: 
+ 891ae60b02821092a9198cdc245873a9 532 catalogue_2.7.1wheezy1.dsc
+ e889051bade066abdfa88a97ef679cc5 29319 catalogue_2.7.1wheezy1.tar.gz
+Checksums-Sha1: 
+ 7f7b33fb5c2fd301f54468afb089b5cae649d729 532 catalogue_2.7.1wheezy1.dsc
+ d657a614c76cfac08d1828865ec76d6dac35c73f 29319 catalogue_2.7.1wheezy1.tar.gz
+Checksums-Sha256: 
+ 7499b7898f1b7737bc819ce68f0a00f10dd4c39a54f259e74e10fae58ad0d220 532 catalogue_2.7.1wheezy1.dsc
+ 120f4cf309447fa91c7d40e23daf1c622b1cf6f6609e896c06712be3827a9b70 29319 catalogue_2.7.1wheezy1.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-cartoon-22k-mono, emacspeak-chimes-stereo
+Architecture: any all
+Version: 41.0-8wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), po-debconf, libespeak-dev, tcl8.4-dev, libasound2-dev, texi2html, texinfo
+Package-List: 
+ emacspeak deb editors extra
+ emacspeak-cartoon-22k-mono deb sound extra
+ emacspeak-chimes-stereo deb sound extra
+ emacspeak-doc deb doc extra
+ emacspeak-espeak deb sound extra
+ emacspeak-outloud deb sound extra
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 81bd907386cfa5543f2b999c2d2e943d 1190 emacspeak_41.0-8wheezy1.dsc
+ 5073a46629a40995f589864da206c9a1 5706512 emacspeak_41.0.orig.tar.gz
+ d4d360746a4d48e758b348610a6962c2 165155 emacspeak_41.0-8wheezy1.diff.gz
+Checksums-Sha1: 
+ 48c212042ec8f346eace329cb8e7c3f7921a93d0 1190 emacspeak_41.0-8wheezy1.dsc
+ 067e7a43fbe822745f33dd909367f6e001919cfe 5706512 emacspeak_41.0.orig.tar.gz
+ c4457c4e069fa6a11d01ebdf3aba2286530e68da 165155 emacspeak_41.0-8wheezy1.diff.gz
+Checksums-Sha256: 
+ bb11bff771beb37f5988ce1212299eee20a6c8b37afca78b3cc179a7e0f0687a 1190 emacspeak_41.0-8wheezy1.dsc
+ 74172f21e587e08caf2a5cb520292e1a447f297aace02a42299abb6a9f3e327d 5706512 emacspeak_41.0.orig.tar.gz
+ 9b1d41bf2fdb917fe03d46984f42bff4e72a430c836a9ba4ec48b406d3049243 165155 emacspeak_41.0-8wheezy1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ f154f7dfd5207839a64282a9049fb03a 848 freespeech_1.0m-16wheezy1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ 962722e2e584a1927c6db52bd4fc4629 27098 freespeech_1.0m-16wheezy1.diff.gz
+Checksums-Sha1: 
+ 189c92aff2029f63bec0bd37d3a20bb7ccc984b4 848 freespeech_1.0m-16wheezy1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 39f50328849007b1de6d3eaada0328b6b4fcea81 27098 freespeech_1.0m-16wheezy1.diff.gz
+Checksums-Sha256: 
+ 6e789f28409f47ccee5b8f4a0a3a2eee60dbb72f7f562027954d603d2080e87d 848 freespeech_1.0m-16wheezy1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 1a0d2ab820c5ed12e04937a1aae7289594a575499a9949761ada4d58c479edbf 27098 freespeech_1.0m-16wheezy1.diff.gz
+
+Package: liblouis
+Format: 1.0
+Binary: liblouis-dev, liblouis2, liblouis-data, liblouis-bin, python-louis
+Architecture: any all
+Version: 2.5.3-1wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.3
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouis.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouis
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, python-all-dev (>= 2.6.5), python-support (>= 0.7.5), texinfo, help2man
+Package-List: 
+ liblouis-bin deb text extra
+ liblouis-data deb text extra
+ liblouis-dev deb libdevel extra
+ liblouis2 deb libs extra
+ python-louis deb python extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouis
+Files: 
+ b97e43597009ce99724af9fae31cb544 1236 liblouis_2.5.3-1wheezy1.dsc
+ 5de179044c5147b71c60ca0edbeaabab 3785311 liblouis_2.5.3.orig.tar.gz
+ 4f959884c11c2332eee7ad15a955c6dc 10066 liblouis_2.5.3-1wheezy1.diff.gz
+Checksums-Sha1: 
+ 3d920cf1d60ea703bce4111b0bf3d0782297e451 1236 liblouis_2.5.3-1wheezy1.dsc
+ a2ba4d99bab07900dba02a03349f2099beb9b490 3785311 liblouis_2.5.3.orig.tar.gz
+ 8f76ae3f886f1188d3e2e733699e7b521fcb19ab 10066 liblouis_2.5.3-1wheezy1.diff.gz
+Checksums-Sha256: 
+ 42bf38980046260e709580a520a2a3057cc96e079c0e83c740a5639896a18e74 1236 liblouis_2.5.3-1wheezy1.dsc
+ 19ed3c31e11cc53d51bb7bc1d6868ad57e6966c0512b74c716d94298fca2e548 3785311 liblouis_2.5.3.orig.tar.gz
+ 887ea514c42837300c633a63a0421583482bbc6d5d8e5684cf093ab06cf8a197 10066 liblouis_2.5.3-1wheezy1.diff.gz
+Python-Version: >=2.6
+
+Package: liblouisutdml
+Format: 1.0
+Binary: liblouisutdml-dev, liblouisutdml6, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin
+Architecture: any all
+Version: 2.4.0-2wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://code.google.com/p/liblouisutdml/
+Standards-Version: 3.9.3
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisutdml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisutdml
+Build-Depends: debhelper (>= 7), autoconf, automake, autotools-dev, pkg-config, libtool, liblouis-dev (>= 2.2.0), libxml2-dev, texinfo, chrpath, help2man, default-jdk, ant
+Package-List: 
+ liblouisutdml-bin deb text extra
+ liblouisutdml-data deb text extra
+ liblouisutdml-dev deb libdevel extra
+ liblouisutdml-java deb java extra
+ liblouisutdml-java-doc deb doc extra
+ liblouisutdml6 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisutdml
+Files: 
+ 7786f3483955d52815e85bc04a45d983 1420 liblouisutdml_2.4.0-2wheezy1.dsc
+ a0250d86e2316e3300fb798143636a21 831311 liblouisutdml_2.4.0.orig.tar.gz
+ 312e8929964fefa5b9e5c524938abf77 9127 liblouisutdml_2.4.0-2wheezy1.diff.gz
+Checksums-Sha1: 
+ f9d3c9604399c4f0067612286064cff8352bc5f4 1420 liblouisutdml_2.4.0-2wheezy1.dsc
+ a2a36dd151ba767591ba338b5a04126eeb094ffb 831311 liblouisutdml_2.4.0.orig.tar.gz
+ f470590fad7753b295612b593f1dd4d20acda924 9127 liblouisutdml_2.4.0-2wheezy1.diff.gz
+Checksums-Sha256: 
+ d975cd824df6abd6ab68dcbd9fbde451e50459f74507b40805fce59af1c5f887 1420 liblouisutdml_2.4.0-2wheezy1.dsc
+ 7b44a40908e008893ca84116aaba8b1a33e65fc0c4cdff28aefd55c9ddda71d7 831311 liblouisutdml_2.4.0.orig.tar.gz
+ 9103d018fc83441b2d8befffa845966e2e3753574ec3e1b1012d48df23304fed 9127 liblouisutdml_2.4.0-2wheezy1.diff.gz
+
+Package: liblouisxml
+Format: 1.0
+Binary: liblouisxml-dev, liblouisxml1, liblouisxml-data, liblouisxml-bin
+Architecture: any all
+Version: 2.4.0-4wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.3
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisxml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisxml
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, liblouis-dev (>= 2.0.0), libxml2-dev, texinfo, chrpath, help2man
+Package-List: 
+ liblouisxml-bin deb text extra
+ liblouisxml-data deb text extra
+ liblouisxml-dev deb libdevel extra
+ liblouisxml1 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisxml
+Files: 
+ bd022b10f035d348e26fa28a3507cad0 1207 liblouisxml_2.4.0-4wheezy1.dsc
+ 3bf2d3f4d6d94a5a50e07c391491e532 769296 liblouisxml_2.4.0.orig.tar.gz
+ 1c53935c2010cf0007b82133c27b2014 8139 liblouisxml_2.4.0-4wheezy1.diff.gz
+Checksums-Sha1: 
+ eec5b0ed8c8f11a34ecfa59fdf8dc261863500bb 1207 liblouisxml_2.4.0-4wheezy1.dsc
+ e4b23667d23cd14377588d86a85a78422382f668 769296 liblouisxml_2.4.0.orig.tar.gz
+ 3f48a00c5b31660facdb4a7db33ae334bd143a3e 8139 liblouisxml_2.4.0-4wheezy1.diff.gz
+Checksums-Sha256: 
+ 3d99756a1279905fc3935443f7a495a89853c556b1afefcf79c688e2c6ff143c 1207 liblouisxml_2.4.0-4wheezy1.dsc
+ 7dcfcba2d4918e4c2b2bd2b3ec24a8cf86941c252e2d73f3ac2fa25704794912 769296 liblouisxml_2.4.0.orig.tar.gz
+ b1afcde52cf7e4f7f7290b85c4ff9df21c91edd2282d43016e668f41ba952899 8139 liblouisxml_2.4.0-4wheezy1.diff.gz
+
+Package: linphone-el
+Format: 1.0
+Binary: linphone-el
+Architecture: all
+Version: 2.4wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ linphone-el deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/l/linphone-el
+Files: 
+ 924c00961900cdb6caf88d2ad28774a5 537 linphone-el_2.4wheezy1.dsc
+ 294947cfd9c983825907d285de9cb689 77945 linphone-el_2.4wheezy1.tar.gz
+Checksums-Sha1: 
+ 3f6c670164d8708d1023df7cd2d5caa37d94929a 537 linphone-el_2.4wheezy1.dsc
+ e0c9fbda0a3e2b9bf691b23d592acf15c995291d 77945 linphone-el_2.4wheezy1.tar.gz
+Checksums-Sha256: 
+ d8a1ad495a7e677398087777d97954467ca75d1e4b9441d2c5d84be27e1e7cfe 537 linphone-el_2.4wheezy1.dsc
+ 787b7833ef15ddb8b7eb1ae5f1eeb69837acd79ffb76850e8f7b94ddf3c5fcd9 77945 linphone-el_2.4wheezy1.tar.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech
+Architecture: any
+Version: 2.6.3wheezy2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch1-dev, portaudio19-dev, libportaudiocpp0, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List: 
+ multispeech deb sound extra
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 844505fd6ec68f5af6b5a410c53cfd3d 785 multispeech_2.6.3wheezy2.dsc
+ 3d59161360e26a4e3dc651e2088087e2 210992 multispeech_2.6.3wheezy2.tar.gz
+Checksums-Sha1: 
+ f6eed12a2d0bb8da17c9a929e56e470a4325ecbe 785 multispeech_2.6.3wheezy2.dsc
+ d85daed28a9d1f30de8b7d398b2a4da5abcdd602 210992 multispeech_2.6.3wheezy2.tar.gz
+Checksums-Sha256: 
+ 2edb544d2ff9431aa10796da71396507b27c5615f7f65f09f329f3d0af5b5bd0 785 multispeech_2.6.3wheezy2.dsc
+ 045f70c855f59ffffdf6a8555d891a05e7f71a503c041b5b0f031d14f3e85b86 210992 multispeech_2.6.3wheezy2.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ 9e2ed7958d5e72932fddb7941356cdb7 676 rulex_3.5.0wheezy1.dsc
+ d49a46113e0499f83964d6ddec2c6e3d 3210840 rulex_3.5.0wheezy1.tar.gz
+Checksums-Sha1: 
+ 278dc7559c0219324a7990c7080be7fd385ede62 676 rulex_3.5.0wheezy1.dsc
+ 029f8abd610c0a651ed56b105d7a4c4424e0cf96 3210840 rulex_3.5.0wheezy1.tar.gz
+Checksums-Sha256: 
+ 5e626df8dabb9d27953bea5b1996466c9b19b0420bf583ecc8917610ee199557 676 rulex_3.5.0wheezy1.dsc
+ 32884e056ff96f0b243ba83e3c43d81ab0161173484d2d1bfe57248ce16b2c8f 3210840 rulex_3.5.0wheezy1.tar.gz
+

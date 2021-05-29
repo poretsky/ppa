@@ -1,0 +1,76 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: poretsky
+Label: accessibility
+Suite: ubuntu
+Codename: focal
+Version: 20.04
+Date: Tue, 11 May 2021 18:00:40 UTC
+Architectures: amd64
+Components: free non-free
+Description: Accessibility packages
+MD5Sum:
+ 1342fc79d96c600e5ae06614e6a425eb 13724 free/binary-amd64/Packages
+ 16b8a583fdfdfb7195d0528d395a8ce5 4265 free/binary-amd64/Packages.gz
+ 6975d6e37edc89680e7fb6d059c1de40 4367 free/binary-amd64/Packages.bz2
+ c53ce450c7b1948a3ec5d9a238833095 141 free/binary-amd64/Release
+ f42c307151b4fbd85fe98262dad6865d 6108 free/source/Sources
+ 25e3502068c4def38a5e75bea1705c09 2189 free/source/Sources.gz
+ 279e0553e779a9ca201a38496da979c8 2265 free/source/Sources.bz2
+ e656b98cc585739da0f33db8c09f5e88 142 free/source/Release
+ 3bcd22d32aa225a513d2fb97ec9fc241 3248 non-free/binary-amd64/Packages
+ ccd1b8dfa9d61c0c920519926468d8b6 1224 non-free/binary-amd64/Packages.gz
+ beaef8766f4eaa04829a9ad4daed97c5 1450 non-free/binary-amd64/Packages.bz2
+ 4af7ee1588e99ae82f5ffb7604de50f6 145 non-free/binary-amd64/Release
+ dc345de7ecb66cb3d9b9a25e80a77d50 801 non-free/source/Sources
+ 7f960c037bdf38dce02f71c45c0c121a 479 non-free/source/Sources.gz
+ 32787ddf32fd918637d88b6ec23919f5 530 non-free/source/Sources.bz2
+ 7dae6473c2840df42472d0f6af3307fd 146 non-free/source/Release
+ 085763675628889ed41d1851f1e457e8 103869 Contents-amd64
+ 313b53293bd648e2874a5b0d2f8e3f7a 9095 Contents-amd64.gz
+SHA1:
+ 4580393e96aaf0ad36e4a86e3f19c4aa11874064 13724 free/binary-amd64/Packages
+ 73b9a6643e8b0578deffa221e729fa11b99ff14a 4265 free/binary-amd64/Packages.gz
+ fbf0640c311c1785dc11d161f6da43d3ef139540 4367 free/binary-amd64/Packages.bz2
+ 83316948a2177f0261b05118b0f7b5ff05afe52d 141 free/binary-amd64/Release
+ 1fb73881721d388ba27cd94d54927da4bd80fced 6108 free/source/Sources
+ 75ea65a9e0bed32e8bce6229560042ad909385e5 2189 free/source/Sources.gz
+ dd8c4b34a19fd0de64e2741b248ffad596d44083 2265 free/source/Sources.bz2
+ 72c38f138214050fe38584a030e8d50fccc3e687 142 free/source/Release
+ 7696b61189eb3682d59b00cccd6a689d2eacb3c0 3248 non-free/binary-amd64/Packages
+ 58b8445e7e12749ba3799acd08ae9a595b35cd4c 1224 non-free/binary-amd64/Packages.gz
+ 3d693d3b981f5236d58602faabd98307b371331c 1450 non-free/binary-amd64/Packages.bz2
+ 1f28fde4daa049994931ab0796c2837a4070b46a 145 non-free/binary-amd64/Release
+ 620cf87cf9e5ccfee77322e922b445d6ff6805a1 801 non-free/source/Sources
+ 6eb5fef8a35a68bd4561f7db2c1cac95ea730642 479 non-free/source/Sources.gz
+ 9b34615d43297221fb74a4b0ca0ad00ee23c0134 530 non-free/source/Sources.bz2
+ ba756219ebbf7b01087848aac27a57d3fa79af0b 146 non-free/source/Release
+ c7f32c3401eeebdcaf201f626c75fd84a81003b3 103869 Contents-amd64
+ d6de352916bc1b72fd7cae2815f70ca04a308565 9095 Contents-amd64.gz
+SHA256:
+ 3989f41595835871948e1f6d6f32226edcd4b7421d278f25cb0cf41991918006 13724 free/binary-amd64/Packages
+ 129d738fb7d52ce0a495fd9fc6faefe34f016babdee19a689b4629a7678dc711 4265 free/binary-amd64/Packages.gz
+ e4a0cc4466e5c754976ef7b1d73d78904db0b4959a43f3d826e80f51da9e7506 4367 free/binary-amd64/Packages.bz2
+ c58a929747c4df195c0f8fe1485094377c53435403b927818af92b5103c0913c 141 free/binary-amd64/Release
+ 76e8b45555efc50669a68fc616298ee4e09217a37a7e9ab041865a1b5e769b96 6108 free/source/Sources
+ e40dd43fef482df990a6a4415bef9c1c6031ca9925ac977903811c19e70dcf4b 2189 free/source/Sources.gz
+ 2228ae3782bbcd65930dc4c966619029df55100e9bf1d80e2b2fb801e016c32c 2265 free/source/Sources.bz2
+ 4a616b85c7ae4a310e7c36b4d380b80c2f6d12cb73478203ab82b127e82e2621 142 free/source/Release
+ b0590e0bbee242a7f86b4a0be09b59b5792dc2d51dead4e0da89b24e40e1e4cc 3248 non-free/binary-amd64/Packages
+ 86590568a926d873cfde7051f4c499020b02dbde17883e2ae3757fcd961acd2d 1224 non-free/binary-amd64/Packages.gz
+ bbd21df6087b2b720f2727b818814f6312b6bf1cb60e137210d8ca2e1051bab0 1450 non-free/binary-amd64/Packages.bz2
+ d9e058ccdf9f7053c639ea2a6a18a0e570a24a84d16b1a8bcc29b4c977ea5c8c 145 non-free/binary-amd64/Release
+ 0dcd0f98fa7271b714b03cfe74fcbf8f4c4e2ddd29d07991ebc032ac29319f5e 801 non-free/source/Sources
+ df12216b9571c43d8f926072a9103d6e4ed5d404552bc34101e7de8aebc5bab6 479 non-free/source/Sources.gz
+ f377e80176d82947f54cd0945fd26d6691ba899ddf69c7a8adfbb2cab3371d1d 530 non-free/source/Sources.bz2
+ 56947373bffe5388bb3dc5887ff8c86c07431fbbd383f6115c535a4b5feb0488 146 non-free/source/Release
+ 3dcec15fca5852db2763e68fae22ad97296ecfbfd89fdeb9b6655d5f1e00862d 103869 Contents-amd64
+ 94b8e4e72fe02a1fb1af23d2ff5681ea84f299c7bbc7f6e4de414be50afcdefe 9095 Contents-amd64.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iEYEAREIAAYFAmCaxkkACgkQ/ytogf9LBB+T1ACfX6XUIl3yVTaz22u3FUfH9w58
+rIMAoLKGnDke2x1kM7jjIX3UsdZOEWEO
+=cNYJ
+-----END PGP SIGNATURE-----

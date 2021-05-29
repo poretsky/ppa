@@ -1,0 +1,106 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: poretsky
+Label: accessibility
+Suite: ubuntu
+Codename: lucid
+Version: 10.04
+Date: Thu, 12 May 2016 20:06:50 UTC
+Architectures: amd64 i386
+Components: free non-free
+Description: Accessibility packages
+MD5Sum:
+ e43c30571c847beffef7128bd3c98bbe 28317 free/binary-amd64/Packages
+ c11c7572d8bce97fe1e23e70bc374fb9 7234 free/binary-amd64/Packages.gz
+ 4b96b341e0bf8290ce1f66ba9ad761f1 7167 free/binary-amd64/Packages.bz2
+ 4142d66eda4d8aefbb4a1bc0e46378d3 141 free/binary-amd64/Release
+ 0fb32313719b17718e19da35616aa764 28491 free/binary-i386/Packages
+ 83bc8270642474fdb7bd155cdaa407ff 7278 free/binary-i386/Packages.gz
+ d74988a2e24700ed3df050f6b03a4f0e 7222 free/binary-i386/Packages.bz2
+ 4430fc04f6b4b380a3f8c31771f24f2d 140 free/binary-i386/Release
+ c43ea6e36112baa903cfdd047245c29c 11131 free/source/Sources
+ 2183867439b3e5e8a84b1c106e2d3f51 3610 free/source/Sources.gz
+ bd0522b1001d43f4665c662c2a2de7e7 3621 free/source/Sources.bz2
+ 58f8f6ad1ef92ba1724384d1395e57f3 142 free/source/Release
+ f7cc525ec40ca8a66b2988e546ade19d 4067 non-free/binary-amd64/Packages
+ 8472124b30ca51f9ac7d3fb7bdb23985 1353 non-free/binary-amd64/Packages.gz
+ f49fe1e36a1588ce8e9ea0cb7874361e 1597 non-free/binary-amd64/Packages.bz2
+ cdb54047fd2e2d2b592c21dadd5ab34c 145 non-free/binary-amd64/Release
+ c666cc9bd1e0baa339ec5a108f25b3a5 4054 non-free/binary-i386/Packages
+ 8e08368deea54986d83648ec5cd42290 1349 non-free/binary-i386/Packages.gz
+ 8450b09f2e15fe0abdb8c514c12ef002 1600 non-free/binary-i386/Packages.bz2
+ 28afd483db836008c82fd1eda2066e72 144 non-free/binary-i386/Release
+ 6eac7ae5ac1ad7dd00472742bba09bd4 792 non-free/source/Sources
+ 45feb72f34df59d0b900b50b08fa0c47 473 non-free/source/Sources.gz
+ dfd65a19b9d25716a122bc6f7ff341da 529 non-free/source/Sources.bz2
+ 1a1499f4c0ec0653982b9d1a17faf9e5 146 non-free/source/Release
+ a53ff4bf742fb47bb35196f8d4fece1f 106330 Contents-amd64
+ f798e3ff4995a9fa99d0d64d88d15096 9259 Contents-amd64.gz
+ 8dd83996572927c76956d6252f546d1e 106787 Contents-i386
+ 8de62d926b58d7a8a403b5e9b1911289 9321 Contents-i386.gz
+SHA1:
+ ef70abec728aa774f41a804cee60d9da67a1efb1 28317 free/binary-amd64/Packages
+ 4480cb2cccd5de79b5941e1e546b60a895ef1b0f 7234 free/binary-amd64/Packages.gz
+ ee245d0cc505b85d8a878c1e6f379ab5942808a7 7167 free/binary-amd64/Packages.bz2
+ d9d685264f70eda9b43184f5f33fecb98d2bffe0 141 free/binary-amd64/Release
+ b43497e999f03856c8416826b04c55f5d6d60c04 28491 free/binary-i386/Packages
+ 2f409ae3eb19f58a3549dfa8f7f07b347c0413c1 7278 free/binary-i386/Packages.gz
+ 8bc94a06653f01e5c9db227d336ae952792eb69e 7222 free/binary-i386/Packages.bz2
+ 85832872133a06e6973acbc147abfb2b0a49c97a 140 free/binary-i386/Release
+ 99d67b42e8c6e2015794278a743c2794c04e44a7 11131 free/source/Sources
+ 6d360ac8439f5cbb4175166b1b9cf7f0059db284 3610 free/source/Sources.gz
+ fd3473a6b11f673d45f675bdecfd6718b3fee8d4 3621 free/source/Sources.bz2
+ 6ac0fe017e28b40c78b221d726edb742ef5e5e79 142 free/source/Release
+ 6a98ffe08a581b71edd55539598ee03b0f4751c5 4067 non-free/binary-amd64/Packages
+ 8362373504bc37babadaa6e0e578a7c8ececb283 1353 non-free/binary-amd64/Packages.gz
+ b4305c47ba272104f023af445cbe2d8e597268bb 1597 non-free/binary-amd64/Packages.bz2
+ 7326904c50d103fbacee4f75cef993bbb36d8e35 145 non-free/binary-amd64/Release
+ 6970cd7d60a2ed0b680ff966d0fb60c2bdda5e8c 4054 non-free/binary-i386/Packages
+ 81d0c44bf38cd1e8bcc26b4e223d6e228b0f60f5 1349 non-free/binary-i386/Packages.gz
+ c84b04c6bfabf326ef11048a5db634e7dcdbf123 1600 non-free/binary-i386/Packages.bz2
+ 720e1edfbfd736abe620aab586abb0e070b4bd75 144 non-free/binary-i386/Release
+ 40c2824a492465406cddfe03acff3a70c655416d 792 non-free/source/Sources
+ 8acf8e8ca719821f510743d73933f2bedf773d21 473 non-free/source/Sources.gz
+ 7ba872e3f75fa50bac2c4666fc432d424cf37bfc 529 non-free/source/Sources.bz2
+ 620bfc4a2840eb75bc3e42f8adddd5a9add3419e 146 non-free/source/Release
+ 2cf5c7bcce91bb1d532a66d679e94e789df63218 106330 Contents-amd64
+ 3af4f7882ceb56e07e6d6c96d967dcbadbe58e59 9259 Contents-amd64.gz
+ 52041c0ef0b1c52fa9e523dc39f9a23b6c8064b0 106787 Contents-i386
+ fb3f30eef08ddad8ff1733e3d9da95a9dfeb8a17 9321 Contents-i386.gz
+SHA256:
+ a8722eb0189ff29affcee549605d46bdd211285fbf6c4a5847eae40d6766b93a 28317 free/binary-amd64/Packages
+ 884d2f4de2b458445f450c06c0cc42dd71cd7bfbb3edcd55857167a80a60763a 7234 free/binary-amd64/Packages.gz
+ 4c968b1ac6a62fcef105c1a5ae8a81c1e8eea02b9e24107c1b6b19386b06bed3 7167 free/binary-amd64/Packages.bz2
+ f45e8dfda9ef124f5c6f0dd80e3866948f846acb237ce29d4b13777ea0edd0d1 141 free/binary-amd64/Release
+ 4deab430a94b255e96e4dd7c87d25a538aeb1bba57d517ef3c0ac29d2c2c161b 28491 free/binary-i386/Packages
+ 41bbc19b4234920f4cb6ff0c53a75dc75b5e89f2edd96a0b07007f91c40de8e5 7278 free/binary-i386/Packages.gz
+ 2c51eed5b3b509f042dee021c24b9e376f9741a7a0acb369b32a045ac3287bae 7222 free/binary-i386/Packages.bz2
+ 1d0ab6a3e75003ebb98428a0666e534ad5e7f270064a89599addbced5faff636 140 free/binary-i386/Release
+ 94560fb16a2c41b3e4f768e447b40d1f136de7b038cb586f3e3410111e737f27 11131 free/source/Sources
+ 16ee20d92d45ec1f2bc66bf38470c29be0f220781ed9f654d4839ddcd175cc58 3610 free/source/Sources.gz
+ a7436ed4ec1d2a159cf66c95481b84604a707e63c82802937a30434aba10e664 3621 free/source/Sources.bz2
+ 39a4cd4e0c29bd3b70ab9a648db381b03da6d536ef004eeecc83ceb90cb6a797 142 free/source/Release
+ df0c7dc2a940c9cd5b4f140a651b73d428de0a5d44212da06babfdd7a835364b 4067 non-free/binary-amd64/Packages
+ cacea6252063c1d1ca6d398bdc190143edbeea2e04e3665b34c117815f7c0de9 1353 non-free/binary-amd64/Packages.gz
+ 175a4009b3892d9021a64946614c385296727f6710ec5fcd5340bc8e81275db6 1597 non-free/binary-amd64/Packages.bz2
+ 6a183756a591c0cd8e459555d0435f33788ecc5d0328c1f5ac47e11ff0d46b30 145 non-free/binary-amd64/Release
+ 57c584b9e9400216c1afce842c7333f9820cadf7cdf002353ea815077fded07c 4054 non-free/binary-i386/Packages
+ 7d4700959307755d40b6d2aaedd48a33dcaab2b3b480c826e4d60376e71b39b2 1349 non-free/binary-i386/Packages.gz
+ 35076f3acf42d755681efda9b23e93cdeae775dba75a097bf2ae9ba72d840f43 1600 non-free/binary-i386/Packages.bz2
+ f2a7327cf779b5762ab50e8069476c1543ee5460a5362825560d094eceb57008 144 non-free/binary-i386/Release
+ 7465786d11eec017267d1a4fc6b24c83a5b93d33f77dfbe3e137cac5781c81ed 792 non-free/source/Sources
+ 8d56f63a2ca0d1d8237efd5bdef661a3f28ac41cb065bc6263ec802821682c90 473 non-free/source/Sources.gz
+ 2f16b3991e1833f201ff9e7967b5ede9fdc7d9a78cbf1dc72168f36e9e8afe27 529 non-free/source/Sources.bz2
+ bd19b9061537b83857a909f0d8e7da378cfb330e5841971ed91ba71453bf68f2 146 non-free/source/Release
+ ffa227bd470093f2d27c7ba3481e98347346c6b2be107bd6893fb9c97bf21faf 106330 Contents-amd64
+ 2116dc6a1a021628920981af59b7fcf9a46de0fa579f87164caa613f9aa9deec 9259 Contents-amd64.gz
+ 54f0f2cf93db5e5e5d0470d042b606297e44a9e9c6faf974df06f7c012083a52 106787 Contents-i386
+ f4cea1aa34c8897b3bb8ada3cdefd3f5a02e9f2542b77ba6c02872eac0ef5a66 9321 Contents-i386.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlc04loACgkQ/ytogf9LBB/3FgCgjSG4uaV8UFTMRrk1mdrYje6U
+vHwAoMcXgW4GYpI0xi6GU8sHoE6ivdQI
+=18en
+-----END PGP SIGNATURE-----

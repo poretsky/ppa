@@ -1,0 +1,76 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: poretsky
+Label: accessibility
+Suite: ubuntu
+Codename: hardy
+Version: 8.04
+Date: Tue, 02 Oct 2012 22:04:42 UTC
+Architectures: i386
+Components: free non-free
+Description: Accessibility packages
+MD5Sum:
+ e9ceb721ccd855be45a20e0a49d4c5cd 22869 free/binary-i386/Packages
+ d890a626cbfd8eafb9f4ba975710cc53 6550 free/binary-i386/Packages.gz
+ b96f21175c8c8cf3cf1ea7166b6cc5b3 6515 free/binary-i386/Packages.bz2
+ e3c56fdb0fbffd2a5d242e1ebf2a6ead 139 free/binary-i386/Release
+ 082e7d606aec97c89b6bf9bbc9196fc8 10061 free/source/Sources
+ 9607550b6a37c2dcf13bcccaab4f307e 3532 free/source/Sources.gz
+ 46d5c865e66e798d1a1478dfa3ee35d0 3548 free/source/Sources.bz2
+ d188bac273ecbf888af702290ce69a76 141 free/source/Release
+ eaa67ca797fa291d62bea6991bc16276 7812 non-free/binary-i386/Packages
+ 1e13b445981fb5ed28c4c39e66bb05f2 2739 non-free/binary-i386/Packages.gz
+ e056e99a7d99d7026721a397bff1be78 2911 non-free/binary-i386/Packages.bz2
+ ab7cb3b0c977377c1f06963b4a049dc5 143 non-free/binary-i386/Release
+ 00dbc4fd782f120ad64f7c6ad40f6ba5 5997 non-free/source/Sources
+ 42e93e199e2999b794fea08d19af8d6e 2129 non-free/source/Sources.gz
+ 78db5048d601bece2cda279554fce702 2217 non-free/source/Sources.bz2
+ 60d834bcdf75a0e877fc7beb324bef41 145 non-free/source/Release
+ 834e9daa221e3e44b843eb02f44814a6 102591 Contents-i386
+ 532a5fc196345de057a3398b94dbd00d 9050 Contents-i386.gz
+SHA1:
+ 1b3169b39c38f94e2f14eeb0e3435d3ab42684dd 22869 free/binary-i386/Packages
+ 8ff86d469b8ff5223fae765daea8a1533158c94e 6550 free/binary-i386/Packages.gz
+ 29092c79060b21eab2b3d190e634e5891dae8eb1 6515 free/binary-i386/Packages.bz2
+ 7817d2b43c187ac623977a82edc7770ccd631eec 139 free/binary-i386/Release
+ f9ed52fd4c930e5cc740c473f14d376be9c53497 10061 free/source/Sources
+ e8722f7c76cb296f2c678cd72bb9a63dbade421a 3532 free/source/Sources.gz
+ f9253c8e48205d9cc3bac105c2436c783629a108 3548 free/source/Sources.bz2
+ 723f952648d4d627878c6922ce836c8db0d4d5e1 141 free/source/Release
+ 7e627cda816c9c4fe1d8619c84e996ae31146314 7812 non-free/binary-i386/Packages
+ 6a35118ee635b1be56bfcf633a2ba1c500f5668f 2739 non-free/binary-i386/Packages.gz
+ 1afaf7195ce1240d31810928f070e6e8de7d8f76 2911 non-free/binary-i386/Packages.bz2
+ 6bdc9170574f1d20acd385955d475ba4f3732828 143 non-free/binary-i386/Release
+ 546c0c9f64aba360074cd58fd86f9225cb32a7a6 5997 non-free/source/Sources
+ 9123006208e1c1e215f7a00981107c396c3ed1d6 2129 non-free/source/Sources.gz
+ 70dc2c0db8ed4d54a9e29a41a13346308e11c129 2217 non-free/source/Sources.bz2
+ 183c80f80f8a33c6cdb4ff849330ee783535bf77 145 non-free/source/Release
+ acce2e90acb671169f465da775389c47b3255f7d 102591 Contents-i386
+ 47ad3210e8435e719519652d208cce34af454c86 9050 Contents-i386.gz
+SHA256:
+ ca5effbec7371c605e8873b3dd1d9c411995d7397c1f20332390f1e7fce77c82 22869 free/binary-i386/Packages
+ 6a61c93d4277fa2d5ae39bb283253cc88f9b66f37a4e6a95eed8263c9ca6aa74 6550 free/binary-i386/Packages.gz
+ afe61971696cad54098bbc2ca5e3bc5738dc25a13cbe1d2c9d0c2ecdb6bb30fe 6515 free/binary-i386/Packages.bz2
+ 7d8b80126b9e30841ebf3a84e05a1d8f119cbe3bf3a4c22078aaafe3939ae49f 139 free/binary-i386/Release
+ 23aedeae2eeb2191ada2876b4c0547a2b3c5ef1859cfa69795cd0101088d76b0 10061 free/source/Sources
+ a6e34221e174b3bdecf52ce3e25a71c799ec5caddbee9a23731081d5d2fb5359 3532 free/source/Sources.gz
+ 335a4f668b1833525c113207989538c82f6fe2860be0c072968b7c534bea0532 3548 free/source/Sources.bz2
+ 09803b1f75f6ddfbf91ef73a2ef0899cd013d52d4a92c37bac61140791c86f96 141 free/source/Release
+ c80e9ccb9daf5e86996ac058227560fb84033f90a62a71bb7bb5f443995e5c3f 7812 non-free/binary-i386/Packages
+ e9af28b02f32cc90dd496c922c4487e6a232b90e801e493c4bbb6e55b0a586c9 2739 non-free/binary-i386/Packages.gz
+ 279619b62deaf7ec7fe2ed3e44eb46dfae100498e8257150c41766ed1d130947 2911 non-free/binary-i386/Packages.bz2
+ 0a387aa5e141026c852f966db587b874a4d2225ec834f797b4256acf77c49b4e 143 non-free/binary-i386/Release
+ 53296817462defa4b1b74019db0dfc14dbccf3462aaf9a1fcb390613f290afb1 5997 non-free/source/Sources
+ 1bfbab7f92aac2d5d21979ab4126796b9f1e7a0383416085355fb8a63650918b 2129 non-free/source/Sources.gz
+ bb06d5b10e0d616311c33f1f03d19b1dc664b56d37d848e7821fc3517219cd65 2217 non-free/source/Sources.bz2
+ dadf1c8ea0ca1ae07c76ab676c376d52b696f73865e69a49f17c6497b14a3fa2 145 non-free/source/Release
+ b5508990a5678cc49748d054c6ced239df71adda0ec83096a2174c7ed4460b13 102591 Contents-i386
+ 010b14f3fd5f8919a6e2df8f04ca9c66b89b67115c87ac9c386c67b1e738e49e 9050 Contents-i386.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAlBrZPoACgkQ/ytogf9LBB85rwCffAWf/8vVkhjiFQJubKEjN+XZ
+tGkAn1dLtsfgbqbwynULMxZZwcybwyYV
+=+h3T
+-----END PGP SIGNATURE-----

@@ -1,0 +1,116 @@
+Package: librutts-dev
+Source: ru-tts
+Version: 4.2.0lucid1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 148
+Depends: librutts2 (= 4.2.0lucid1)
+Priority: optional
+Section: libdevel
+Filename: pool/non-free/r/ru-tts/librutts-dev_4.2.0lucid1_amd64.deb
+Size: 50872
+SHA256: f4d36250339575e68de455c825994c9da06a67ef885b2e355effe9208c04323b
+SHA1: a8c2675479598d8091d0a71ccc3073719030037e
+MD5sum: b570e48de57e0c4748264a5704845930
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts1
+Source: ru-tts
+Version: 3.9.0lucid1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 108
+Depends: libc6-i386 (>= 2.1.3)
+Priority: optional
+Section: libs
+Filename: pool/non-free/r/ru-tts/librutts1_3.9.0lucid1_amd64.deb
+Size: 32802
+SHA256: 49141357e1869a55d1a1830e9b4e43d9ba5a8bbc3cc918f56d6e891cce6bc7b9
+SHA1: 36cda55824ac1889b067834dad59e26f7cdfca3c
+MD5sum: 94945f965fe7f1c14c58f4b65743a437
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
+Package: librutts2
+Source: ru-tts
+Version: 4.2.0lucid1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 120
+Depends: libc6 (>= 2.4)
+Priority: optional
+Section: libs
+Filename: pool/non-free/r/ru-tts/librutts2_4.2.0lucid1_amd64.deb
+Size: 46802
+SHA256: ac3f96a8d02d326bd44e04ca555971ce06f213fc17a4f7cc98aa91abb2f8e004
+SHA1: 4ac499a167389ac58a0413dc071d55c8a942fb00
+MD5sum: 228e32abdc93e70c98e948ddaa1fd065
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
+Package: rbook
+Version: 2.4.2lucid1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 176
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/non-free/r/rbook/rbook_2.4.2lucid1_all.deb
+Size: 26592
+SHA256: 01741f2f917a4cb2f72678882bdfc6676dda42526c3904077e51dbeef2291d65
+SHA1: 5f573147702e191e14c719b9ed7cdaadb6a52e22
+MD5sum: f904dec9f9f502fda4765f091eae9937
+Description: Read books in Emacs with synthesized voice
+ This program allows one to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 4.2.0lucid1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 76
+Depends: libc6 (>= 2.3.4), librulexdb0, librutts2 (>= 4.0)
+Recommends: rulex (>= 2.0)
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/non-free/r/ru-tts/ru-tts_4.2.0lucid1_amd64.deb
+Size: 11642
+SHA256: ed5892d280819d463bdd675d2984002455da2f9463da2e100b9cc2658d9d5d99
+SHA1: f3b93fab6ebd2048a7c926bf762060678683cf16
+MD5sum: 55d08f356b64c8a7c2af7e83fa50daf3
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+

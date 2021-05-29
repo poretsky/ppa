@@ -1,0 +1,253 @@
+Package: catalogue
+Format: 1.0
+Binary: catalogue
+Architecture: all
+Version: 2.7.1squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ catalogue deb misc optional
+Priority: optional
+Section: misc
+Directory: pool/free/c/catalogue
+Files: 
+ ed13290075f0cbd776a293534364f1f6 536 catalogue_2.7.1squeeze1.dsc
+ 859df06bcf892dc22faf82aac553eb1b 29302 catalogue_2.7.1squeeze1.tar.gz
+Checksums-Sha1: 
+ 7c23732ea1e454af7e3c20d1fb026b801f6879c1 536 catalogue_2.7.1squeeze1.dsc
+ ae33a731abc9a45004cb75ee68866fc14e89f768 29302 catalogue_2.7.1squeeze1.tar.gz
+Checksums-Sha256: 
+ e2ea79841e9b54a98dd679423d6f50a517ceda7528f971f660fbaf7a7f315e23 536 catalogue_2.7.1squeeze1.dsc
+ 8d5c7ee37abf09f83252ca1ae403d54e89536608c97549ddaa19e0421a8e1611 29302 catalogue_2.7.1squeeze1.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-cartoon-22k-mono, emacspeak-chimes-stereo
+Architecture: any all
+Version: 41.0-8squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), po-debconf, libespeak-dev, tcl8.4-dev, libasound2-dev, texi2html, texinfo
+Package-List: 
+ emacspeak deb editors extra
+ emacspeak-cartoon-22k-mono deb sound extra
+ emacspeak-chimes-stereo deb sound extra
+ emacspeak-doc deb doc extra
+ emacspeak-espeak deb sound extra
+ emacspeak-outloud deb sound extra
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ ce77d6172a8d44fa3bf03afa3d056ae7 1194 emacspeak_41.0-8squeeze1.dsc
+ 5073a46629a40995f589864da206c9a1 5706512 emacspeak_41.0.orig.tar.gz
+ 7111cd30883c2bf407078210fecff279 165128 emacspeak_41.0-8squeeze1.diff.gz
+Checksums-Sha1: 
+ 12d084380543bf1cb37b0b23332208b6f9c6e337 1194 emacspeak_41.0-8squeeze1.dsc
+ 067e7a43fbe822745f33dd909367f6e001919cfe 5706512 emacspeak_41.0.orig.tar.gz
+ 3cdfaa66bd1e6d26c7f813f0e7062d9c4a181639 165128 emacspeak_41.0-8squeeze1.diff.gz
+Checksums-Sha256: 
+ 9544bb531bd5bb79b95b9eac9cd9e3024eceb527b355ecec78f8400c5bff8c8a 1194 emacspeak_41.0-8squeeze1.dsc
+ 74172f21e587e08caf2a5cb520292e1a447f297aace02a42299abb6a9f3e327d 5706512 emacspeak_41.0.orig.tar.gz
+ 42d04fe25ab6a65efd83327acd5eaed6e01ac773667ec27bcfd6ae34ac616b16 165128 emacspeak_41.0-8squeeze1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ 89d4b96568b99ee57e350cd0bd4e2253 852 freespeech_1.0m-16squeeze1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ c0735f558468b5fad6ac33e0177f89b0 26994 freespeech_1.0m-16squeeze1.diff.gz
+Checksums-Sha1: 
+ 33db13d5a575d65e9c8e040fc670041880bcda60 852 freespeech_1.0m-16squeeze1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ fa78dab7bd50f16c39df222b83d1c8ecb5cae5c5 26994 freespeech_1.0m-16squeeze1.diff.gz
+Checksums-Sha256: 
+ 5d587c8eb16f16d6e38721ba7db187dc81238e7128b01b4b6d3767b970769182 852 freespeech_1.0m-16squeeze1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 8cc0f32927a1b3607fe2c56698409c267fb3b7887245d926c1f0bdcb8e78d059 26994 freespeech_1.0m-16squeeze1.diff.gz
+
+Package: liblouis
+Format: 1.0
+Binary: liblouis-dev, liblouis2, liblouis-data, liblouis-bin, python-louis
+Architecture: any all
+Version: 2.5.3-1squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.1
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouis.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouis
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, python-all-dev (>= 2.6.5), python-support (>= 0.7.5), texinfo, help2man
+Package-List: 
+ liblouis-bin deb text extra
+ liblouis-data deb text extra
+ liblouis-dev deb libdevel extra
+ liblouis2 deb libs extra
+ python-louis deb python extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouis
+Files: 
+ 2f30b5962ee077929ea855e47158779c 1240 liblouis_2.5.3-1squeeze1.dsc
+ 5de179044c5147b71c60ca0edbeaabab 3785311 liblouis_2.5.3.orig.tar.gz
+ 4d35ba89fc110e26f768fda184f620a5 10118 liblouis_2.5.3-1squeeze1.diff.gz
+Checksums-Sha1: 
+ 860c6c8f383f51b832c1f51eb232945fe971140c 1240 liblouis_2.5.3-1squeeze1.dsc
+ a2ba4d99bab07900dba02a03349f2099beb9b490 3785311 liblouis_2.5.3.orig.tar.gz
+ 8262f3387794d69fe4316e5672d318faf75ef0cc 10118 liblouis_2.5.3-1squeeze1.diff.gz
+Checksums-Sha256: 
+ 119f20e2082adf02542a935717bf56bc22b333c51ca942febf73abe4a56d4af6 1240 liblouis_2.5.3-1squeeze1.dsc
+ 19ed3c31e11cc53d51bb7bc1d6868ad57e6966c0512b74c716d94298fca2e548 3785311 liblouis_2.5.3.orig.tar.gz
+ 1dba7d46ba70b9ed06633db0dfd094ac8cb96596f1db9dfa499fdebea693e269 10118 liblouis_2.5.3-1squeeze1.diff.gz
+Python-Version: >=2.6
+
+Package: liblouisutdml
+Format: 1.0
+Binary: liblouisutdml-dev, liblouisutdml6, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin
+Architecture: any all
+Version: 2.4.0-2squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://code.google.com/p/liblouisutdml/
+Standards-Version: 3.9.2
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisutdml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisutdml
+Build-Depends: debhelper (>= 7), autoconf, automake, autotools-dev, pkg-config, libtool, liblouis-dev (>= 2.2.0), libxml2-dev, texinfo, chrpath, help2man, default-jdk, ant
+Package-List: 
+ liblouisutdml-bin deb text extra
+ liblouisutdml-data deb text extra
+ liblouisutdml-dev deb libdevel extra
+ liblouisutdml-java deb java extra
+ liblouisutdml-java-doc deb doc extra
+ liblouisutdml6 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisutdml
+Files: 
+ 1a7440754cb61d45af3e41f58062b77c 1424 liblouisutdml_2.4.0-2squeeze1.dsc
+ a0250d86e2316e3300fb798143636a21 831311 liblouisutdml_2.4.0.orig.tar.gz
+ fcf1b8ba9354fdc41edc2da9c9e896fb 9052 liblouisutdml_2.4.0-2squeeze1.diff.gz
+Checksums-Sha1: 
+ 22dc0cc9ae9915c16c8da17ef52dc0f8ba602590 1424 liblouisutdml_2.4.0-2squeeze1.dsc
+ a2a36dd151ba767591ba338b5a04126eeb094ffb 831311 liblouisutdml_2.4.0.orig.tar.gz
+ 9671f3060249194d3a7239027ceb8ec266b4a83a 9052 liblouisutdml_2.4.0-2squeeze1.diff.gz
+Checksums-Sha256: 
+ c49e06abaae770d69cc6eb131458a5916c4aa487c5a608a72f2a54ca44014e7b 1424 liblouisutdml_2.4.0-2squeeze1.dsc
+ 7b44a40908e008893ca84116aaba8b1a33e65fc0c4cdff28aefd55c9ddda71d7 831311 liblouisutdml_2.4.0.orig.tar.gz
+ 4d6cc1b2ca9acd108178473e2b0ec5f641b8e4da168050df247906529b7a9eef 9052 liblouisutdml_2.4.0-2squeeze1.diff.gz
+
+Package: liblouisxml
+Format: 1.0
+Binary: liblouisxml-dev, liblouisxml1, liblouisxml-data, liblouisxml-bin
+Architecture: any all
+Version: 2.4.0-4squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.1
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisxml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisxml
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, liblouis-dev (>= 2.0.0), libxml2-dev, texinfo, chrpath, help2man
+Package-List: 
+ liblouisxml-bin deb text extra
+ liblouisxml-data deb text extra
+ liblouisxml-dev deb libdevel extra
+ liblouisxml1 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisxml
+Files: 
+ c16404c93ac59f3b8740d55749aeb320 1211 liblouisxml_2.4.0-4squeeze1.dsc
+ 3bf2d3f4d6d94a5a50e07c391491e532 769296 liblouisxml_2.4.0.orig.tar.gz
+ ab040de43a8d229242bb4f5db11ee626 8059 liblouisxml_2.4.0-4squeeze1.diff.gz
+Checksums-Sha1: 
+ 9604d7490aee16715aff302e9be96c4bf201c623 1211 liblouisxml_2.4.0-4squeeze1.dsc
+ e4b23667d23cd14377588d86a85a78422382f668 769296 liblouisxml_2.4.0.orig.tar.gz
+ db492f76e5213265bac728a832ffe13792e7f20a 8059 liblouisxml_2.4.0-4squeeze1.diff.gz
+Checksums-Sha256: 
+ d23c9c276bc62e81f25bee25e57c592d89da2e32aadb6bf708116c1457201a7a 1211 liblouisxml_2.4.0-4squeeze1.dsc
+ 7dcfcba2d4918e4c2b2bd2b3ec24a8cf86941c252e2d73f3ac2fa25704794912 769296 liblouisxml_2.4.0.orig.tar.gz
+ 75ae3d44ba8025406020fc67ad9243ff21567d9aab6492b313012794656e6571 8059 liblouisxml_2.4.0-4squeeze1.diff.gz
+
+Package: linphone-el
+Format: 1.0
+Binary: linphone-el
+Architecture: all
+Version: 2.4squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ linphone-el deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/l/linphone-el
+Files: 
+ 2d5317f4278ed538b6fb68aac65706b9 541 linphone-el_2.4squeeze1.dsc
+ a50fc5a3746a4f914a312e25c7fdc837 77527 linphone-el_2.4squeeze1.tar.gz
+Checksums-Sha1: 
+ 0eae8aa8ac174c65a4920a491b5fe978ccca555a 541 linphone-el_2.4squeeze1.dsc
+ 88ac86801de181adf31f78173318b6651b559c5e 77527 linphone-el_2.4squeeze1.tar.gz
+Checksums-Sha256: 
+ 12996f0487d9f60071f0324cd71764098520d885dc872853f153b7c38fd17a8d 541 linphone-el_2.4squeeze1.dsc
+ 3e0b05031e5d1fd50b8bcf821211bb515c40ab329361c54d7c474be7788edb90 77527 linphone-el_2.4squeeze1.tar.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech
+Architecture: any
+Version: 2.6.3squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch1-dev, portaudio19-dev, libportaudiocpp0, libbobcat1-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List: 
+ multispeech deb sound extra
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ c5cff71fc206fca26f6c6c6434e0a1d2 790 multispeech_2.6.3squeeze1.dsc
+ fd49c94bee80a9c78ec0ba3faab51699 211848 multispeech_2.6.3squeeze1.tar.gz
+Checksums-Sha1: 
+ 366bf673c5193a5cd0c77e7dea858369f288d9e3 790 multispeech_2.6.3squeeze1.dsc
+ 675613c2fc2a8e8193b020bdea07876aae932010 211848 multispeech_2.6.3squeeze1.tar.gz
+Checksums-Sha256: 
+ 8f9c3c55a23528aef31363a7b103a9540d85ee54e238c11d37eda375a966a262 790 multispeech_2.6.3squeeze1.dsc
+ d859014e513110e83526db097af8a9cd5efcf4056508d14fe5f421093eb122e4 211848 multispeech_2.6.3squeeze1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.4.9squeeze1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
+Package-List: 
+ librulexdb-dev deb libdevel optional
+ librulexdb0 deb libs optional
+ rulex deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ 4dc0d219946d3d433661a46285035334 657 rulex_3.4.9squeeze1.dsc
+ b66093c681c8cacc9edfea1e969c098d 3203647 rulex_3.4.9squeeze1.tar.gz
+Checksums-Sha1: 
+ 45ef5f78c18688203c9c300e3bd06d1f79e8ac84 657 rulex_3.4.9squeeze1.dsc
+ 108aa2897157d906a979cc199698c43f1d2bbe08 3203647 rulex_3.4.9squeeze1.tar.gz
+Checksums-Sha256: 
+ 2ddd88ca742d0c7f6b8699def8c21f93752335e48a47893e6629f30e1714ecd0 657 rulex_3.4.9squeeze1.dsc
+ 66f1a53263e3520a8150e2624f8285cd0d0d8534533958461c3fe37ed7707445 3203647 rulex_3.4.9squeeze1.tar.gz
+

@@ -1,0 +1,235 @@
+Package: catalogue
+Format: 1.0
+Binary: catalogue
+Architecture: all
+Version: 2.5.2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: misc
+Directory: pool/free/c/catalogue
+Files: 
+ 670594ffe4051fde9dce7f89b416c2d6 495 catalogue_2.5.2.dsc
+ 9daf50c16133363546ad8de744be46f4 27968 catalogue_2.5.2.tar.gz
+Checksums-Sha1: 
+ f5240470e13c62f7898e3e510406f08af44bd9cc 495 catalogue_2.5.2.dsc
+ 5a2093fd6db4194a91972de7f492b97e8d8f1a71 27968 catalogue_2.5.2.tar.gz
+Checksums-Sha256: 
+ f17e906919070e2898e1883a564c136f81698b73f44ebae56357e14416e1ef0f 495 catalogue_2.5.2.dsc
+ ad0072229c0805bc9219506a9cdba14ffcc5f53e75c1d80238f036d692db2eaa 27968 catalogue_2.5.2.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-cartoon-22k-mono, emacspeak-chimes-stereo
+Architecture: any
+Version: 36.0-2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5), libasound2-dev, libespeak-dev, po-debconf, tcl8.4-dev
+Build-Depends-Indep: texi2html, texinfo
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 9447fcad27aafae03f64981bbdb3736a 802 emacspeak_36.0-2.dsc
+ 1cc6cb4c0c635b00a3a0502b3a7e4cb9 5838061 emacspeak_36.0.orig.tar.gz
+ 1297cf3d11206ee7989501b09df88685 147555 emacspeak_36.0-2.diff.gz
+Checksums-Sha1: 
+ a657730d82296dc5abed8fd709741d7b6d75ce2a 802 emacspeak_36.0-2.dsc
+ 5801e5daf186aa63da0c070b92dc05c28f7ddaa0 5838061 emacspeak_36.0.orig.tar.gz
+ 07dce43ae4692f6af97e94d10108c1c394c6d9e9 147555 emacspeak_36.0-2.diff.gz
+Checksums-Sha256: 
+ c82bb3459f62b7224ef9a3c371f64080690a0df250eafb74a8162476a8fd9c2e 802 emacspeak_36.0-2.dsc
+ fe1aaa34bdb1efc616913dd07117214d58bd0a8a286fca5ec9ec224a21ff2860 5838061 emacspeak_36.0.orig.tar.gz
+ 54bbd704162dbb906c06c3059f43a4bf8d87ac22edaebd4b2865c2569830ffad 147555 emacspeak_36.0-2.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-9
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ abed00c020bc044b6f109135634be4c5 594 freespeech_1.0m-9.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ 7d6274dc6d490899dd15b5f3af00924d 22380 freespeech_1.0m-9.diff.gz
+Checksums-Sha1: 
+ 2a94adfcf3d603bf06cf939b4287fd55dcb0228d 594 freespeech_1.0m-9.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 7aa932b029e8c7c7df3064d61bae4e9fc949fcbf 22380 freespeech_1.0m-9.diff.gz
+Checksums-Sha256: 
+ 5f3ed4be753b3c738a929a2ff15df4b0011fe9df386dc18e0326fc04c7808f52 594 freespeech_1.0m-9.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 52702a1a7d2bd9bb09ffc798f7fd244d1432a62f58c3acaa3e563965263dd7ee 22380 freespeech_1.0m-9.diff.gz
+
+Package: liblouis
+Format: 1.0
+Binary: liblouis-dev, liblouis2, liblouis-data, liblouis-bin, python-louis
+Architecture: any
+Version: 2.4.0-1ubuntu2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://code.google.com/p/liblouis/
+Standards-Version: 3.7.3
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouis.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouis
+Build-Depends: autoconf, automake, autotools-dev, debhelper (>= 5), help2man, pkg-config, python-all-dev (>= 2.5), python-support (>= 0.7.5), recode, texinfo
+Build-Conflicts: autoconf2.13, automake1.4
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouis
+Files: 
+ fa3f43063700c704fc60fd8c33cf1406 1073 liblouis_2.4.0-1ubuntu2.dsc
+ b7c0b99cf29d3ce9584def498ad6ec63 1732785 liblouis_2.4.0.orig.tar.gz
+ cad6370d3c276091345020013e297768 27965 liblouis_2.4.0-1ubuntu2.diff.gz
+Checksums-Sha1: 
+ 0bcc58512ce69bc2e22b23611680b58f09aec8e0 1073 liblouis_2.4.0-1ubuntu2.dsc
+ c7bbf263a8b27fc1f0fb9406c2e6440ca29a806b 1732785 liblouis_2.4.0.orig.tar.gz
+ a1fda428b1f29286f7bdf3ffa2857b6b66ef94b1 27965 liblouis_2.4.0-1ubuntu2.diff.gz
+Checksums-Sha256: 
+ 9d19d71b40d5f9819e7d31ed3c44b4e556a045a7450ae1a4e6a085b4ff18d01e 1073 liblouis_2.4.0-1ubuntu2.dsc
+ 60762ca48221d588e8f0c6d7f32c350a609d72565b32ba22f3717fc1272be439 1732785 liblouis_2.4.0.orig.tar.gz
+ 9a372a6d007b84f9932c3dcbf8f642ad12dbf91a22f540bf9ad8cad637189593 27965 liblouis_2.4.0-1ubuntu2.diff.gz
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+Python-Version: >=2.5
+
+Package: liblouisxml
+Format: 1.0
+Binary: liblouisxml-dev, liblouisxml1, liblouisxml-data, liblouisxml-bin
+Architecture: any
+Version: 2.4.0-1ubuntu5
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://code.google.com/p/liblouisxml/
+Standards-Version: 3.7.3
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisxml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisxml
+Build-Depends: autoconf, automake, autotools-dev, chrpath, debhelper (>= 5), help2man, liblouis-dev (>= 2.0.0), libxml2-dev, pkg-config, texinfo
+Build-Conflicts: autoconf2.13, automake1.4
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisxml
+Files: 
+ aa89a397c256341b6990e729d2c3dd60 1052 liblouisxml_2.4.0-1ubuntu5.dsc
+ 3bf2d3f4d6d94a5a50e07c391491e532 769296 liblouisxml_2.4.0.orig.tar.gz
+ 59a0ffd29f9fc6c6e51e71dbb734d924 8061 liblouisxml_2.4.0-1ubuntu5.diff.gz
+Checksums-Sha1: 
+ b61b1328ff4f70555c9cd2b0bff37a7d2e14f50b 1052 liblouisxml_2.4.0-1ubuntu5.dsc
+ e4b23667d23cd14377588d86a85a78422382f668 769296 liblouisxml_2.4.0.orig.tar.gz
+ 6b8067bb8b9a845506b14db7d12e72b1c61e1aab 8061 liblouisxml_2.4.0-1ubuntu5.diff.gz
+Checksums-Sha256: 
+ 3b5aa58eeab7f1f051a8ed5460a5a219f64ec53a820cae6815eac75e3d52b85d 1052 liblouisxml_2.4.0-1ubuntu5.dsc
+ 7dcfcba2d4918e4c2b2bd2b3ec24a8cf86941c252e2d73f3ac2fa25704794912 769296 liblouisxml_2.4.0.orig.tar.gz
+ 65a3eb09f518d9e3e7244413835cefb5c77b0afb547c6a9f3a9c3a83c7acb9e2 8061 liblouisxml_2.4.0-1ubuntu5.diff.gz
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: linphone-el
+Format: 1.0
+Binary: linphone-el
+Architecture: all
+Version: 1.2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: sound
+Directory: pool/free/l/linphone-el
+Files: 
+ 778752f6b4bf4732d4fa5dbc79f0dd4c 497 linphone-el_1.2.dsc
+ 71ab07c0cc0c14d3d710d30cab578d2e 71397 linphone-el_1.2.tar.gz
+Checksums-Sha1: 
+ 00f0a53813448b7de713afd9461408501e3160c8 497 linphone-el_1.2.dsc
+ 9bdaa2e3c9f4bbd9639545efe641d11e172569db 71397 linphone-el_1.2.tar.gz
+Checksums-Sha256: 
+ e1e9752a1acd04497ecc0331b58fb30b3343b11a5230e3bd5890b45f0bf677ff 497 linphone-el_1.2.dsc
+ 9fb8ce8f799915c93610e2e5d7a0564334255d70d646d4d1b96d142f5d4d0272 71397 linphone-el_1.2.tar.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech
+Architecture: any
+Version: 2.4.5
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: autotools-dev, cdbs, debhelper (>= 5), libbobcat1-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-regex-dev, libboost-thread-dev, libportaudiocpp0, libsndfile1-dev, libsoundtouch1-dev, po-debconf, portaudio19-dev
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 44a912b4afb52bcf2b8baa445b051fbd 743 multispeech_2.4.5.dsc
+ 33ee8034b23c88be7b780621d49db167 195151 multispeech_2.4.5.tar.gz
+Checksums-Sha1: 
+ e6e0fd5b979075134380e8c92656e65bdbdd3a14 743 multispeech_2.4.5.dsc
+ 96797024fb9bf3cf7b6e84d34847cdc793543105 195151 multispeech_2.4.5.tar.gz
+Checksums-Sha256: 
+ c14b5b19bbe1e5c9ec7642edf73ee0e4473206c54bbbab66e6adf0f5b8427988 743 multispeech_2.4.5.dsc
+ 2ff884a5a6a9bd4fd1ec7a5982fcf17748db7a33e5bde5f52a2f559f894297bb 195151 multispeech_2.4.5.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2)
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ cb4c946627c6741afa98f81130fb8265 541 rulex_3.1.dsc
+ ee6a5fdfbac1bb8eb16cca59199c94c2 3275275 rulex_3.1.tar.gz
+Checksums-Sha1: 
+ a6e4f2ca6df2843702c583fefdcff7078d0dacfe 541 rulex_3.1.dsc
+ 318d368091b7db0f545359369aec7ffb217aecb4 3275275 rulex_3.1.tar.gz
+Checksums-Sha256: 
+ bd953dc77e4372adda80314c8522218fb3ada2b218e203666b8f071c1224f5ae 541 rulex_3.1.dsc
+ ed687d007b1030f599dc6a8d7217f788f37e497d996d46bb221e43196b2496ae 3275275 rulex_3.1.tar.gz
+
+Package: transmission-el
+Format: 1.0
+Binary: transmission-el
+Architecture: all
+Version: 1.2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: net
+Directory: pool/free/t/transmission-el
+Files: 
+ aa06757a4555db4f70207168a283332a 508 transmission-el_1.2.dsc
+ c429048af43917e22cee9579aaf43e60 7488 transmission-el_1.2.tar.gz
+Checksums-Sha1: 
+ 711fb2de37e8f99e0998607803994cfea49fafaa 508 transmission-el_1.2.dsc
+ 55084e10c6682493a2ef74c7b87ac41608424871 7488 transmission-el_1.2.tar.gz
+Checksums-Sha256: 
+ 8aaf090ada0aebbfd3b1a2c527923bb8e8eaa3b0db6eb13ef482b2f7f9961861 508 transmission-el_1.2.dsc
+ cd94eb5a66a2baac4b85f8330078725b12db1b8277573979ef5d180ed4dd73bd 7488 transmission-el_1.2.tar.gz
+
+Package: w3xt
+Format: 1.0
+Binary: w3xt
+Architecture: all
+Version: 1.0
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.7.3
+Build-Depends: debhelper (>= 5)
+Priority: optional
+Section: web
+Directory: pool/free/w/w3xt
+Files: 
+ 29206cfb8a7eeeec897fa37ffa1c3c36 475 w3xt_1.0.dsc
+ 043c1f133621c03a126256b37e587f83 4651 w3xt_1.0.tar.gz
+Checksums-Sha1: 
+ 2df174ee5b3957baaff6fdd88b11da8279fd001a 475 w3xt_1.0.dsc
+ 71eee8904c3c60b83eb69d88ae04dccbae69591d 4651 w3xt_1.0.tar.gz
+Checksums-Sha256: 
+ 3991ea0adc349a1b10ee7d2707f5f2fccfcaf636997a619bd90cc76001d7f1f9 475 w3xt_1.0.dsc
+ 76458348c13910fc61124efbfd60f960460de6bcd6f2c6301cd9eef48cd2c843 4651 w3xt_1.0.tar.gz
+

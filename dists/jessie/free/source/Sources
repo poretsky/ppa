@@ -1,0 +1,109 @@
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 45.0-3jessie7
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 5), po-debconf, libespeak-dev, tcl-dev, libasound2-dev, texinfo
+Package-List: 
+ emacspeak deb editors extra
+ emacspeak-classic deb sound extra
+ emacspeak-doc deb doc extra
+ emacspeak-espeak deb sound extra
+ emacspeak-outloud deb sound extra
+ emacspeak-pan-chimes deb sound extra
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 6a1c58b584c68292b89a68dd53b2201e 1155 emacspeak_45.0-3jessie7.dsc
+ 9277797b502c6f4fbb89b617df180c1e 12455161 emacspeak_45.0.orig.tar.gz
+ bf5e0e36fddc85e71d028be325f15e57 149710 emacspeak_45.0-3jessie7.diff.gz
+Checksums-Sha1: 
+ 2c9f8d8d0782d3a88f67a17231401cdaaa6a2f4a 1155 emacspeak_45.0-3jessie7.dsc
+ a52c5a434df523450502f8a25f073947c2f2f374 12455161 emacspeak_45.0.orig.tar.gz
+ 20aeba5da3ee39893a1a8a25f42b18fcc5eb7fee 149710 emacspeak_45.0-3jessie7.diff.gz
+Checksums-Sha256: 
+ 4944eac4b2ebb3ce3783bc361eb12c5a096c6086fb4ba6f27d53763912795ecc 1155 emacspeak_45.0-3jessie7.dsc
+ 2dd8fa6bfed7a52ce27352c00892e18a2143c9d45ed64350f71e279eeec7bdb9 12455161 emacspeak_45.0.orig.tar.gz
+ 9dcbcf6cd1a0358d659ac7a65206c5ef045813038b43feff9d9055edfcd16a0e 149710 emacspeak_45.0-3jessie7.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16jessie1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ e0a36a809bcee7183111f374bdafd6c0 848 freespeech_1.0m-16jessie1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ 6b91430d4b27357fbef96544719c381e 27226 freespeech_1.0m-16jessie1.diff.gz
+Checksums-Sha1: 
+ 0060d77a8d754015cfc768eea0c84e2e57c6b14b 848 freespeech_1.0m-16jessie1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 235d57dce8b7a473537b56c5d73985ad0e711429 27226 freespeech_1.0m-16jessie1.diff.gz
+Checksums-Sha256: 
+ 81074b492b41c2842103f65a9614d9f84c74c152e42c031cfb1c014d85b30974 848 freespeech_1.0m-16jessie1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 9f4b8e5bd7e819509620a2e21d63e1ccf3535c921d85214fee29863e653abc38 27226 freespeech_1.0m-16jessie1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech0
+Architecture: any
+Version: 4.0.2jessie1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List:
+ libmultispeech0 deb sound extra arch=any
+ multispeech deb sound extra arch=any
+ sd-multispeech deb sound extra arch=any
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 06a4b61f8515c45ba5fdeefcddb1d7ac 919 multispeech_4.0.2jessie1.dsc
+ 84a65d06b4e3666ff71d20f3868c4ce1 520925 multispeech_4.0.2jessie1.tar.gz
+Checksums-Sha1: 
+ 0c81307b0980cdee4c9bfb17293e266fa64a018e 919 multispeech_4.0.2jessie1.dsc
+ 9baa513d16707732b2233c259e3be53c2375138c 520925 multispeech_4.0.2jessie1.tar.gz
+Checksums-Sha256: 
+ a74f7d69eafbaf028029ffd9a001c8b7232cef437ce132a5fcfa04c772a1899a 919 multispeech_4.0.2jessie1.dsc
+ 4d3c8bc270b7c90aa6beb999316a70ff1e8e9eef9af9fa230507e848f4ee53ce 520925 multispeech_4.0.2jessie1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.5.0jessie1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ ec055759bb6b95c4111cb4045b7ab2bb 669 rulex_3.5.0jessie1.dsc
+ 09095cb955d04de7347bbb0aa03fed3c 3211013 rulex_3.5.0jessie1.tar.gz
+Checksums-Sha1: 
+ f021c937092ac775933b7d985d24389f72056819 669 rulex_3.5.0jessie1.dsc
+ b949a2b19e43e785a491a287918a4bb0ce70a668 3211013 rulex_3.5.0jessie1.tar.gz
+Checksums-Sha256: 
+ 9b5e9bc0ecf12bc5571e7ced518f5c57c81452d85ad0ca4aa78792f327cfb208 669 rulex_3.5.0jessie1.dsc
+ 6b9151272529e0be041e0e91092fecf38f1f71a4f3c8a68d0dd45227203ae566 3211013 rulex_3.5.0jessie1.tar.gz
+

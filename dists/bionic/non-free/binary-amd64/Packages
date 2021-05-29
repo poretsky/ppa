@@ -1,0 +1,92 @@
+Package: librutts-dev
+Source: ru-tts
+Version: 4.5.0bionic1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 108
+Depends: librutts2 (= 4.5.0bionic1)
+Priority: optional
+Section: libdevel
+Filename: pool/non-free/r/ru-tts/librutts-dev_4.5.0bionic1_amd64.deb
+Size: 44552
+SHA256: 55ba2d1919cb721dd4fa8b3f0baa6a9d354c15449389b6c777ba39cbc6661778
+SHA1: 7a07e736c30d8924f41af9841b2584a528749a1d
+MD5sum: ddc3f01e6978c4777235cf83541ff7e5
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts2
+Source: ru-tts
+Version: 4.5.0bionic1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 85
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/non-free/r/ru-tts/librutts2_4.5.0bionic1_amd64.deb
+Size: 40648
+SHA256: 7b4cc3e7c82cc14899dcd95e1556fad0ab422e42ac12ba269df03404cf13bf7d
+SHA1: a79e9f7b8adb0096ac66153c230115cfc2b1249a
+MD5sum: 241c110e3fe96adf7a8886b1fd104506
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
+Package: rbook
+Version: 2.4.2bionic2
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 79
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/non-free/r/rbook/rbook_2.4.2bionic2_all.deb
+Size: 23360
+SHA256: 98675090703650f6eb16229ab86b79f7e6468ec622b234b08fddf8a8deaa4576
+SHA1: cfb67d6de73432622bbf7a7f23276e520c185bf2
+MD5sum: d214dad3cd0555604efd6881c0ee196f
+Description: Read books in Emacs with synthesized voice
+ This program allows one to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 4.5.0bionic1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 34
+Depends: libc6 (>= 2.3.4), librulexdb0, librutts2 (>= 4.0)
+Recommends: rulex (>= 2.0)
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/non-free/r/ru-tts/ru-tts_4.5.0bionic1_amd64.deb
+Size: 10956
+SHA256: 3a2d67b552298cd53e5a29744f8ea77d51ed01af47743bf46d83d65bbf1a802e
+SHA1: e28c56edd18d32382b756c5aa08b48cc081cf32f
+MD5sum: 3e9e80eb57e88a886aa21c3075941f83
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+

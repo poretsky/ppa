@@ -1,0 +1,253 @@
+Package: catalogue
+Format: 1.0
+Binary: catalogue
+Architecture: all
+Version: 2.7.1lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ catalogue deb misc optional
+Priority: optional
+Section: misc
+Directory: pool/free/c/catalogue
+Files: 
+ a70de7904f057f2ff0811dfc745733d8 528 catalogue_2.7.1lucid1.dsc
+ a036fdd89060c0164a221dd75434abe6 29363 catalogue_2.7.1lucid1.tar.gz
+Checksums-Sha1: 
+ 7a7d134c1ca2551f053f039a3e5120ba7a2d4448 528 catalogue_2.7.1lucid1.dsc
+ 48c5fdf755db2e1a54e6b287ede5320241a2c23b 29363 catalogue_2.7.1lucid1.tar.gz
+Checksums-Sha256: 
+ 657dd591c6d10bdd0caa8fb078097bdeddc93865da10b8e1240b88d7d920ac02 528 catalogue_2.7.1lucid1.dsc
+ 8a0288e7305f6523bb9b2d52c59015cc7ceb0f9518a5d945c63a60cfafb53381 29363 catalogue_2.7.1lucid1.tar.gz
+
+Package: emacspeak
+Format: 1.0
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-cartoon-22k-mono, emacspeak-chimes-stereo
+Architecture: any all
+Version: 41.0-8lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), po-debconf, libespeak-dev, tcl8.4-dev, libasound2-dev, texi2html, texinfo
+Package-List: 
+ emacspeak deb editors extra
+ emacspeak-cartoon-22k-mono deb sound extra
+ emacspeak-chimes-stereo deb sound extra
+ emacspeak-doc deb doc extra
+ emacspeak-espeak deb sound extra
+ emacspeak-outloud deb sound extra
+Priority: extra
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ dce5a807982bfa1fd11c9836aec2acbf 1186 emacspeak_41.0-8lucid1.dsc
+ 5073a46629a40995f589864da206c9a1 5706512 emacspeak_41.0.orig.tar.gz
+ 2eaa46119b75428131932f3b908034df 165126 emacspeak_41.0-8lucid1.diff.gz
+Checksums-Sha1: 
+ 81ff1bff2832c7ce078079b52d8b4969c3d3f0aa 1186 emacspeak_41.0-8lucid1.dsc
+ 067e7a43fbe822745f33dd909367f6e001919cfe 5706512 emacspeak_41.0.orig.tar.gz
+ 3a095f041b9dc5f89eed740b3e1bb64fd18d72b6 165126 emacspeak_41.0-8lucid1.diff.gz
+Checksums-Sha256: 
+ 0d7e209be13083a3bdb11f0fae02c25c4e1018437f27fa04d9375d0adf4a28dd 1186 emacspeak_41.0-8lucid1.dsc
+ 74172f21e587e08caf2a5cb520292e1a447f297aace02a42299abb6a9f3e327d 5706512 emacspeak_41.0.orig.tar.gz
+ b4af13c9664153c9e14cf607866f74377d4bea0e743d853dca0dda51b6a0b721 165126 emacspeak_41.0-8lucid1.diff.gz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex
+Architecture: any
+Version: 1.0m-16lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), libdb-dev
+Package-List: 
+ enlex deb sound optional
+ freephone deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ 3bc9ae43be521fbac7a97a94610a1c37 844 freespeech_1.0m-16lucid1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ a17e075e9013b582c161068b9f24ff30 27031 freespeech_1.0m-16lucid1.diff.gz
+Checksums-Sha1: 
+ 35524d60e23b6a784dca812d6973d72c042f2971 844 freespeech_1.0m-16lucid1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 5c899804ec024d8475620bc042d3f21cc4944d1d 27031 freespeech_1.0m-16lucid1.diff.gz
+Checksums-Sha256: 
+ ef04386f86d622ebea05c6a76fbf507a6260799bac24e4886d8959001d80629b 844 freespeech_1.0m-16lucid1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 1edb3181fc1a8153cbffdc528ff7416ee8392c46ff71e8f797a00b89f6659e16 27031 freespeech_1.0m-16lucid1.diff.gz
+
+Package: liblouis
+Format: 1.0
+Binary: liblouis-dev, liblouis2, liblouis-data, liblouis-bin, python-louis
+Architecture: any all
+Version: 2.5.3-1lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.1
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouis.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouis
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, python-all-dev (>= 2.6.5), python-support (>= 0.7.5), texinfo, help2man
+Package-List: 
+ liblouis-bin deb text extra
+ liblouis-data deb text extra
+ liblouis-dev deb libdevel extra
+ liblouis2 deb libs extra
+ python-louis deb python extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouis
+Files: 
+ b502ebe96a580eaaa7598f82ade67f82 1232 liblouis_2.5.3-1lucid1.dsc
+ 5de179044c5147b71c60ca0edbeaabab 3785311 liblouis_2.5.3.orig.tar.gz
+ 3517ee1c2eb83ff5559a6ab50376a413 10083 liblouis_2.5.3-1lucid1.diff.gz
+Checksums-Sha1: 
+ 19747ffad23b01bff97beba51d1b2c45bd71896a 1232 liblouis_2.5.3-1lucid1.dsc
+ a2ba4d99bab07900dba02a03349f2099beb9b490 3785311 liblouis_2.5.3.orig.tar.gz
+ 8021778d78674a13874256252d4181883254bf46 10083 liblouis_2.5.3-1lucid1.diff.gz
+Checksums-Sha256: 
+ da47b93778400454d77b5ebfa6749ae5f92de6d91ce91edfb7662e70b743b8e5 1232 liblouis_2.5.3-1lucid1.dsc
+ 19ed3c31e11cc53d51bb7bc1d6868ad57e6966c0512b74c716d94298fca2e548 3785311 liblouis_2.5.3.orig.tar.gz
+ 68363999273f966d32bbe3e715269355ab5f22aa7338e0bd0ea612d17eccbc82 10083 liblouis_2.5.3-1lucid1.diff.gz
+Python-Version: >=2.6
+
+Package: liblouisutdml
+Format: 1.0
+Binary: liblouisutdml-dev, liblouisutdml6, liblouisutdml-java, liblouisutdml-java-doc, liblouisutdml-data, liblouisutdml-bin
+Architecture: any all
+Version: 2.4.0-2lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://code.google.com/p/liblouisutdml/
+Standards-Version: 3.9.2
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisutdml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisutdml
+Build-Depends: debhelper (>= 7), autoconf, automake, autotools-dev, pkg-config, libtool, liblouis-dev (>= 2.2.0), libxml2-dev, texinfo, chrpath, help2man, default-jdk, ant
+Package-List: 
+ liblouisutdml-bin deb text extra
+ liblouisutdml-data deb text extra
+ liblouisutdml-dev deb libdevel extra
+ liblouisutdml-java deb java extra
+ liblouisutdml-java-doc deb doc extra
+ liblouisutdml6 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisutdml
+Files: 
+ e61aa1d266b8a3ee8ee2931e6d71b2c2 1416 liblouisutdml_2.4.0-2lucid1.dsc
+ a0250d86e2316e3300fb798143636a21 831311 liblouisutdml_2.4.0.orig.tar.gz
+ e4760beea3d48cc545a75097d50a31b6 9053 liblouisutdml_2.4.0-2lucid1.diff.gz
+Checksums-Sha1: 
+ ac1c8fd00255ecabb11257f67c325c133be30330 1416 liblouisutdml_2.4.0-2lucid1.dsc
+ a2a36dd151ba767591ba338b5a04126eeb094ffb 831311 liblouisutdml_2.4.0.orig.tar.gz
+ 2f82ca5361ab188fbee0e667fc5a52dec88e66f1 9053 liblouisutdml_2.4.0-2lucid1.diff.gz
+Checksums-Sha256: 
+ 2c6a9465d93e1cc6bc613517db91a9d9f734b5d081288c384c6164a1eac96cb9 1416 liblouisutdml_2.4.0-2lucid1.dsc
+ 7b44a40908e008893ca84116aaba8b1a33e65fc0c4cdff28aefd55c9ddda71d7 831311 liblouisutdml_2.4.0.orig.tar.gz
+ e4d41a7fdf80a54faba5c0454bd1b4bbd5d9b576ffed9e8eabd688b96b8f0cd0 9053 liblouisutdml_2.4.0-2lucid1.diff.gz
+
+Package: liblouisxml
+Format: 1.0
+Binary: liblouisxml-dev, liblouisxml1, liblouisxml-data, liblouisxml-bin
+Architecture: any all
+Version: 2.4.0-4lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://abilitiessoft.com
+Standards-Version: 3.9.1
+Vcs-Browser: http://git.debian.org/?p=pkg-a11y/liblouisxml.git
+Vcs-Git: git://git.debian.org/git/pkg-a11y/liblouisxml
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, liblouis-dev (>= 2.0.0), libxml2-dev, texinfo, chrpath, help2man
+Package-List: 
+ liblouisxml-bin deb text extra
+ liblouisxml-data deb text extra
+ liblouisxml-dev deb libdevel extra
+ liblouisxml1 deb libs extra
+Priority: extra
+Section: libs
+Directory: pool/free/libl/liblouisxml
+Files: 
+ 4acb1c6dd0b4e250e1939b717bb265a5 1203 liblouisxml_2.4.0-4lucid1.dsc
+ 3bf2d3f4d6d94a5a50e07c391491e532 769296 liblouisxml_2.4.0.orig.tar.gz
+ b448950f4eaca6c6695e8a6343b35b79 8087 liblouisxml_2.4.0-4lucid1.diff.gz
+Checksums-Sha1: 
+ 73b7a023d9ca8e0201db6ed30b990620c6555377 1203 liblouisxml_2.4.0-4lucid1.dsc
+ e4b23667d23cd14377588d86a85a78422382f668 769296 liblouisxml_2.4.0.orig.tar.gz
+ 9cb4f422c5ed46815f19243c85a2af921b3361e0 8087 liblouisxml_2.4.0-4lucid1.diff.gz
+Checksums-Sha256: 
+ 3e24494cc6223cb4148c1fcbc74f826d9fb97d509575e601a0bf0f9f0230a096 1203 liblouisxml_2.4.0-4lucid1.dsc
+ 7dcfcba2d4918e4c2b2bd2b3ec24a8cf86941c252e2d73f3ac2fa25704794912 769296 liblouisxml_2.4.0.orig.tar.gz
+ 79eb4ff81664fa71c5c152aadc64cc37ed3023decf085c96522476c0f37cb2c1 8087 liblouisxml_2.4.0-4lucid1.diff.gz
+
+Package: linphone-el
+Format: 1.0
+Binary: linphone-el
+Architecture: all
+Version: 2.4lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ linphone-el deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/l/linphone-el
+Files: 
+ 916f4eed17f97fd502f80ed16a97d531 533 linphone-el_2.4lucid1.dsc
+ 5ae0aae4c4810f89c1f01f9631064417 78167 linphone-el_2.4lucid1.tar.gz
+Checksums-Sha1: 
+ 81bc3cfdc9ec4fa8b7c4bfc6af1368ce14982372 533 linphone-el_2.4lucid1.dsc
+ 40ca0f26d3f22a07ff7375d58c765ba7aa20a8b6 78167 linphone-el_2.4lucid1.tar.gz
+Checksums-Sha256: 
+ af88fcf0f63c0cc50142d6a201ea341e86e079118e4647f6fbeda96629bfecc7 533 linphone-el_2.4lucid1.dsc
+ fd5774802a05057eda2c4f24a313586d7a2dcc8a705004022f7942c3ca21cd54 78167 linphone-el_2.4lucid1.tar.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech
+Architecture: any
+Version: 2.6.3lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch1-dev, portaudio19-dev, libportaudiocpp0, libbobcat1-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Package-List: 
+ multispeech deb sound extra
+Priority: extra
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 42a77528b93533214fba68b9f20c65b3 782 multispeech_2.6.3lucid1.dsc
+ 79f7e32d11d4220d20ba6b5ae54b5263 211712 multispeech_2.6.3lucid1.tar.gz
+Checksums-Sha1: 
+ ea2b8747b3dd5fa1dddd5e2684ecf353c28708a7 782 multispeech_2.6.3lucid1.dsc
+ 1141820209f92493b37cae406b783e961c413923 211712 multispeech_2.6.3lucid1.tar.gz
+Checksums-Sha256: 
+ e11018123834d08ab2ee2a08a4ad40dd5a37518a4c4b678a45bcf3a0ab31d42c 782 multispeech_2.6.3lucid1.dsc
+ eec81fb2fa79986b5fa514dea76ab5ae5444faa4103ba9e213ea44876404b7f7 211712 multispeech_2.6.3lucid1.tar.gz
+
+Package: rulex
+Format: 1.0
+Binary: rulex, librulexdb0, librulexdb-dev
+Architecture: any
+Version: 3.3.5lucid1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
+Package-List: 
+ librulexdb-dev deb libdevel optional
+ librulexdb0 deb libs optional
+ rulex deb sound optional
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ c7224fd287b175d1ffcbac6b5d0668c9 649 rulex_3.3.5lucid1.dsc
+ bfeacce6b6b8de9e33628bf08f54605d 3284385 rulex_3.3.5lucid1.tar.gz
+Checksums-Sha1: 
+ 2c710b5a04a9413d1361f911bc08ee9689a5ffc1 649 rulex_3.3.5lucid1.dsc
+ f8259909c4ce23567d71b3754958c5d54719db73 3284385 rulex_3.3.5lucid1.tar.gz
+Checksums-Sha256: 
+ bc2cdd6ce625e39b9d2634ee056c270bbb901dea72c7c7d61f3b93ac76fb81ce 649 rulex_3.3.5lucid1.dsc
+ eb9004cf166bfd936963cb46862c3ac398ab2fee86e2a40d7d4a8d0721d236ba 3284385 rulex_3.3.5lucid1.tar.gz
+

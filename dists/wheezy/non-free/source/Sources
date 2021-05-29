@@ -1,0 +1,23 @@
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.4.2wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ rbook deb text optional
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ 0ec540d532693b7b438b6cd82bd3f039 508 rbook_2.4.2wheezy1.dsc
+ dd9225bfaba4f4d74f046a78cd4f6d43 24889 rbook_2.4.2wheezy1.tar.gz
+Checksums-Sha1: 
+ b1034f79c6db80ed4bc16bfb2e8a023ac936c8c0 508 rbook_2.4.2wheezy1.dsc
+ c66af1989d920dd40181842cd4cfb795278a9d04 24889 rbook_2.4.2wheezy1.tar.gz
+Checksums-Sha256: 
+ 918c421be7aa11de8a1babc46acfbb41e310c85ba5d19fe4ddd45760d2271e09 508 rbook_2.4.2wheezy1.dsc
+ 3903b083e3654dd320bb1b6cba038560cde230f543e6611a04d2818f6fedf0fd 24889 rbook_2.4.2wheezy1.tar.gz
+

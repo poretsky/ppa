@@ -1,0 +1,715 @@
+Package: catalogue
+Version: 2.7.1wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 198
+Depends: edb, emacs | emacsen
+Recommends: libcdio-utils, eject, cd-discid
+Suggests: cdtool
+Priority: optional
+Section: misc
+Filename: pool/free/c/catalogue/catalogue_2.7.1wheezy1_all.deb
+Size: 32704
+SHA256: 5fc6acef4e70ba312d83ded4dcd4c11dac33dc0e21e21e54ff05143a6fc0185e
+SHA1: 5f491dd42bb54ef90b650e28d2be90f75fb444d0
+MD5sum: 564dfa2846f760611afe5b943b637fca
+Description: Media collection catalogue
+ The main purpose of this package is to keep and manage simple media
+ collection catalogue providing easy data access and control means from
+ within Emacs. Initially it was designed for keeping CD/DVD collection,
+ but nothing prevents it from using with another content, such as paper
+ books or something else. Nevertheless, there is an extra advantage
+ especially for CD and DVD, since these media types can be
+ automatically identified and recognized being put into the drive.
+
+Package: emacspeak
+Version: 41.0-8wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 7236
+Depends: emacs23 | emacsen, perl, make, adduser, debconf (>= 0.5) | debconf-2.0, dpkg (>= 1.15.4) | install-info
+Recommends: multispeech, python, tclx8.4, tcl8.4
+Suggests: emacspeak-chimes-stereo, emacspeak-cartoon-22k-mono, emacspeak-espeak, emacspeak-outloud, eflite, psgml, xsltproc, espeak, w3m-el
+Conflicts: emacspeak-dt, emacspeak-ss
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: editors
+Filename: pool/free/e/emacspeak/emacspeak_41.0-8wheezy1_all.deb
+Size: 1852898
+SHA256: a1c8a4b74d51af8e2be4133f9f6673b45302cf4f7b33696e859166c46c5df9ea
+SHA1: 175736342a802ff853eba9b9bde2b2400031acd2
+MD5sum: 6c9f223d3d71ea76721ecf53ae672299
+Description: speech output interface to Emacs
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ Emacspeak is built on
+ top of Emacs.  Once Emacs is started with Emacspeak loaded, users get
+ spoken feedback for all actions.  As Emacs can do everything,
+ they get speech feedback for everything they do.
+ .
+ This package also includes speech server written in Tcl to support
+ the DECtalk Express speech synthesizer and remote speech server
+ access scripts.  For other synthesizers, look for separate
+ speech server packages such as emacspeak-espeak, emacspeak-outloud,
+ multispeech and eflite.
+
+Package: emacspeak-cartoon-22k-mono
+Source: emacspeak
+Version: 41.0-8wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 1281
+Recommends: emacspeak
+Conflicts: emacspeak-cartoons
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-cartoon-22k-mono_41.0-8wheezy1_all.deb
+Size: 1043388
+SHA256: 31736d53533822258b83d06e6ccd848591aa3cb11c7f1a98b3eafa27c930501a
+SHA1: 4bd6be5d47bb28825ccb8650caa2bb24a4644eb3
+MD5sum: 407fb9ee4ca5b2b74a5c4a76277ac9a6
+Description: Cartoons auditory icons theme for Emacspeak
+ This theme was originally contributed by Bryan Smart
+ and is made up of 22K-mono sounds.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-chimes-stereo
+Source: emacspeak
+Version: 41.0-8wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 5051
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-chimes-stereo_41.0-8wheezy1_all.deb
+Size: 2599034
+SHA256: e22f347536265760ca6b057dc4440c99e49d79bda5f9b219665a8face996fd26
+SHA1: 34ecb27bc570f658e398399b736c38a831fe72ee
+MD5sum: 823d22f6f94797f932b8ad08c65524b9
+Description: Chimes auditory icons theme for Emacspeak
+ This theme is made up mostly of different chimes and short notes
+ from various instruments. The icons are high-quality 44K-stereo.
+ .
+ When the package is installed, you can switch Emacspeak to use
+ this theme by command emacspeak-sounds-select-theme
+ bound by default to control-e ).
+
+Package: emacspeak-doc
+Source: emacspeak
+Version: 41.0-8wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 1880
+Suggests: emacspeak, www-browser
+Replaces: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: doc
+Filename: pool/free/e/emacspeak/emacspeak-doc_41.0-8wheezy1_all.deb
+Size: 362164
+SHA256: 0f3e3239e41af3e4fedd566842105703aa4068ee7dbb582d8b0884568eeca8d6
+SHA1: 9030f2fb85377884b855e02a2c2318783fa8523e
+MD5sum: 7d354103f16c23c92bca684801a0f7bb
+Description: Emacspeak documentation
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package contains additional documentation in html form.
+
+Package: emacspeak-espeak
+Source: emacspeak
+Version: 41.0-8wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 87
+Depends: tclx8.4, debconf (>= 0.5) | debconf-2.0
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-espeak_41.0-8wheezy1_amd64.deb
+Size: 27130
+SHA256: a36240e03fc218bf44317af4bec4db5c45f81d176749515f445182eaed14722d
+SHA1: 064e3785d578f2a21920b95093528a805fc1a6f3
+MD5sum: 08d173e3b9f7668a0eb066e49bfb03c1
+Description: Espeak speech server for Emacspeak
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package provides additional speech output for Emacspeak
+ via eSpeak speech synthesizer.
+
+Package: emacspeak-outloud
+Source: emacspeak
+Version: 41.0-8wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 101
+Depends: tclx8.4, debconf (>= 0.5) | debconf-2.0
+Recommends: emacspeak
+Homepage: http://emacspeak.sf.net
+Priority: extra
+Section: sound
+Filename: pool/free/e/emacspeak/emacspeak-outloud_41.0-8wheezy1_amd64.deb
+Size: 32470
+SHA256: 92529dbb811502c205dacc167194b9fdcf0ab0e4ec0da073eb036b76050fb522
+SHA1: 01d4134690107c43056ebfd242d2d24c21522d32
+MD5sum: 1183f06c87bfe88d194b3c074d3bab90
+Description: IBM ViaVoice Outloud speech server for Emacspeak
+ Emacspeak is a speech output system that will allow someone who
+ cannot see to work directly on a UNIX system.
+ .
+ This package allows one to use IBM ViaVoice Outloud speech synthesizer
+ for speech output in Emacspeak.
+
+Package: enlex
+Source: freespeech
+Version: 1.0m-16wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 5212
+Depends: libc6 (>= 2.4), libdb5.1
+Recommends: freephone
+Priority: optional
+Section: sound
+Filename: pool/free/f/freespeech/enlex_1.0m-16wheezy1_amd64.deb
+Size: 1675436
+SHA256: 9d3b8265d9ea6f6896c1ceb85269e8a447c591b52c6276163394bd28073e4e2c
+SHA1: 64ea8ddd92b01f79d9dfba4fa7c0cb1e29126c0f
+MD5sum: 228b03902645b12fb255ef7461f0388f
+Description: English pronunciation dictionary
+ This package is aimed primarily for use together with the Freephone
+ phonetizer for Mbrola. When it is installed you can instruct Freephone
+ to use the pronunciation dictionary by the command line switch
+ "-h /usr/share/freespeech/enlex.db".
+
+Package: freephone
+Source: freespeech
+Version: 1.0m-16wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 128
+Depends: libc6 (>= 2.7), libdb5.1
+Recommends: enlex
+Suggests: mbrola, mbrola-voice-en
+Priority: optional
+Section: sound
+Filename: pool/free/f/freespeech/freephone_1.0m-16wheezy1_amd64.deb
+Size: 31804
+SHA256: b0d451bf348301a750e0eaf4e6b9e3e0e6f6ec14e584712ec9220b23755996b7
+SHA1: f5cb3e476fac1cdf1e62360be786fdfda6eaf3d2
+MD5sum: 063a17690a64559426d0a310ed470f26
+Description: English Text-To-Phoneme converter
+ freephone converts English text to phonemes for MBROLA.
+ .
+ It can make use of an external dictionary in hash format,
+ such as the one provided by enlex package.
+
+Package: liblouis-bin
+Source: liblouis
+Version: 2.5.3-1wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 178
+Depends: libc6 (>= 2.2.5), liblouis2
+Multi-Arch: foreign
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouis/liblouis-bin_2.5.3-1wheezy1_amd64.deb
+Size: 55630
+SHA256: 2b807b6e8bc72fb6b7941e861308f7a844c17faca18fc7e19915190d62894116
+SHA1: 084c051bf33cf3668e1ecabe57763e44945da2d0
+MD5sum: 2fef4d7ddd8bcf7b4986b944c69178a3
+Description: Braille translation library - utilities
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains a few tools to test tables and translate text.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouis-data
+Source: liblouis
+Version: 2.5.3-1wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 5813
+Multi-Arch: foreign
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouis/liblouis-data_2.5.3-1wheezy1_all.deb
+Size: 1621006
+SHA256: 6ca96613346515d3cc9378d25692c715915aadaa6bc7620df111b0f9665d02cb
+SHA1: a3f43797aed981c6ad3b75ff0584d00769bec32c
+MD5sum: c29c6aafebe7a627d83d1dcbecdda694
+Description: Braille translation library - data
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).  New languages can easily be added through
+ tables that support a rule- or dictionary based approach. Included are also
+ tools for testing and debugging tables.
+ .
+ This package contains runtime data.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouis-dev
+Source: liblouis
+Version: 2.5.3-1wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 533
+Depends: liblouis2 (= 2.5.3-1wheezy1), dpkg (>= 1.15.4) | install-info
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: libdevel
+Filename: pool/free/libl/liblouis/liblouis-dev_2.5.3-1wheezy1_amd64.deb
+Size: 207264
+SHA256: b254497a1583f4606ab67d325e271d5ca9e4c457ec87deb762fbaf06656b9d1f
+SHA1: ca9e2d59fc6263b196b5ba082de25f0f8c7e047c
+MD5sum: 44ff63d635f3bcad88a787f9c557f2a4
+Description: Braille translation library - static libs and headers
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains static libraries and development headers.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouis2
+Source: liblouis
+Version: 2.5.3-1wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 159
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), liblouis-data
+Multi-Arch: same
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: libs
+Filename: pool/free/libl/liblouis/liblouis2_2.5.3-1wheezy1_amd64.deb
+Size: 76886
+SHA256: 46116140731c2e1896432634c728503d8750a95277a87e94866327dfca54a532
+SHA1: 13fe5f21c00fee45877f9f65060bbc5575479c21
+MD5sum: af2251258f0bd7de74e242a9f77e89cb
+Description: Braille translation library - shared libs
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains shared libraries.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml-bin
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 64
+Depends: libc6 (>= 2.2.5), liblouis2, liblouisutdml6, libxml2 (>= 2.6.27)
+Suggests: antiword, ooo2dbk, poppler-utils, wv
+Multi-Arch: foreign
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouisutdml/liblouisutdml-bin_2.4.0-2wheezy1_amd64.deb
+Size: 17366
+SHA256: c5eaab7545757299d1fe32a9d4ed3e1f83d6caf9ea12aeae33c071614e3e5cbe
+SHA1: 69ae748633517029939ab01f7486425377b3827e
+MD5sum: aa5f482dc7deef6060ac0fcae5bc0cc9
+Description: Braille UTDML translation utilities
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains file2brl utility which translates
+ an xml or text file into an embosser-ready braille file.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml-data
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 177
+Multi-Arch: foreign
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouisutdml/liblouisutdml-data_2.4.0-2wheezy1_all.deb
+Size: 45076
+SHA256: da9c612113dc10705b04e8956503d25033bbf92190fe4a061ea3782a72d3cdce
+SHA1: f26d3b2203580d7286c53025aa13d70206e11f48
+MD5sum: da1f8f21a5d19fee9e15ccd0cbc9469e
+Description: Braille UTDML translation library - data
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains runtime data.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml-dev
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 661
+Depends: dpkg (>= 1.15.4) | install-info, liblouisutdml6 (= 2.4.0-2wheezy1)
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: libdevel
+Filename: pool/free/libl/liblouisutdml/liblouisutdml-dev_2.4.0-2wheezy1_amd64.deb
+Size: 241380
+SHA256: 892b56c234678327c259e87947a84c72b9cb04a336afc660fdc6b1051fec6572
+SHA1: 934fbd3c6332c2001d7574be87bab4992d42f631
+MD5sum: 1eb059bb7062d206036dc9bca09463df
+Description: Braille UTDML translation library - static libs and headers
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains static libraries and development headers.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml-java
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 37
+Depends: liblouisutdml6 (>= 2.4.0-2wheezy1), liblouisutdml6 (<< 2.4.0-2wheezy1.1~)
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: java
+Filename: pool/free/libl/liblouisutdml/liblouisutdml-java_2.4.0-2wheezy1_all.deb
+Size: 8012
+SHA256: 29352f9f882bec201e7765e97c8cd5b6a7074da5f123ed4122e368009d218560
+SHA1: 4cfac1fd0e947f99cd0203c178eb15dd8b30d1b1
+MD5sum: bce736bd49ca0bfb82c75412ec39e6f5
+Description: Braille UTDML translation library - java bindings
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains java bindings.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml-java-doc
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 152
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: doc
+Filename: pool/free/libl/liblouisutdml/liblouisutdml-java-doc_2.4.0-2wheezy1_all.deb
+Size: 19628
+SHA256: a802343d0b059c771efbe838895b84874078d8bd5550362decac0ba6e702287c
+SHA1: e551a3144012376f65ae71397f36b945cd9ca518
+MD5sum: 677dae4c6038807a50701c649e3160c8
+Description: Braille UTDML translation library - java bindings documentation
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains documentation for the java bindings.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisutdml6
+Source: liblouisutdml
+Version: 2.4.0-2wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 208
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.3), liblouis2, libxml2 (>= 2.7.4), liblouisutdml-data
+Multi-Arch: same
+Homepage: http://code.google.com/p/liblouisutdml/
+Priority: extra
+Section: libs
+Filename: pool/free/libl/liblouisutdml/liblouisutdml6_2.4.0-2wheezy1_amd64.deb
+Size: 86242
+SHA256: 8e757365af760f6306fa93bb0d79aef22014d599474e8e218f62871501f9f790
+SHA1: 0fb8809e2ce42a9ea7201502e6e3c7baa6815a14
+MD5sum: db030c72d9246795119745d3ed65da2f
+Description: Braille UTDML translation library - shared libs
+ liblouisutdml is an extension of liblouisxml, the translator from xml
+ format into transcribed braille, that includes support for Unified
+ Tactile Document Markup Language (UTDML).
+ .
+ This consists essentially of <brl> subtrees containing all the braille
+ translations and formatting, plus some <meta> tags.
+ .
+ This package contains shared libraries.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisxml-bin
+Source: liblouisxml
+Version: 2.4.0-4wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 65
+Depends: libc6 (>= 2.2.5), liblouis2, liblouisxml1, libxml2 (>= 2.6.27), antiword, poppler-utils
+Recommends: ooo2dbk
+Multi-Arch: foreign
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouisxml/liblouisxml-bin_2.4.0-4wheezy1_amd64.deb
+Size: 19172
+SHA256: 9372a5cdc0d638c804c5f909f92b2c6c342059f30ac5a1947298c7b719bee874
+SHA1: 16b909fa4fd8ab990614d199f84c93ca038cae8b
+MD5sum: 2c097c53e202020c52d87969645c4360
+Description: Braille XML translation utilities
+ Liblouisxml translates files in the computer lingua franca xml format
+ into properly transcribed braille. This includes translation into grade
+ two, if desired, mathematical codes, etc. It also includes formatting
+ according to a built-in style sheet which can be modified by the user.
+ .
+ This package contains xml2brl which translates an xml or text file into an
+ embosser-ready braille file, and msword2brl which translates an ms-word file
+ into an embosser-ready braille file.
+ .
+ In combination with ooo2dbk, it can also translate OpenOffice.org 1 documents.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisxml-data
+Source: liblouisxml
+Version: 2.4.0-4wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 152
+Multi-Arch: foreign
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: text
+Filename: pool/free/libl/liblouisxml/liblouisxml-data_2.4.0-4wheezy1_all.deb
+Size: 39590
+SHA256: cb14324358b68b9befa647264e4eacc76ca41de901ade966245f434d24ccdb98
+SHA1: af1784a1b2e12b546ff4a0b9c92d1c949f4fcdd7
+MD5sum: 0f04a547c3008575c256e764f3e87357
+Description: Braille XML translation library - data
+ Liblouisxml translates files in the computer lingua franca xml format
+ into properly transcribed braille. This includes translation into grade
+ two, if desired, mathematical codes, etc. It also includes formatting
+ according to a built-in style sheet which can be modified by the user.
+ .
+ This package contains runtime data.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisxml-dev
+Source: liblouisxml
+Version: 2.4.0-4wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 515
+Depends: dpkg (>= 1.15.4) | install-info, liblouisxml1 (= 2.4.0-4wheezy1)
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: libdevel
+Filename: pool/free/libl/liblouisxml/liblouisxml-dev_2.4.0-4wheezy1_amd64.deb
+Size: 200670
+SHA256: f201cdc321242fec6330bb33095cbae7052b81d593846533f874cd0e159f020e
+SHA1: feb9f37c0b45ca027c3af44f8b1a5095336e108f
+MD5sum: 86e5ce37092761093b095a2377c6ab67
+Description: Braille XML translation library - static libs and headers
+ Liblouisxml translates files in the computer lingua franca xml format
+ into properly transcribed braille. This includes translation into grade
+ two, if desired, mathematical codes, etc. It also includes formatting
+ according to a built-in style sheet which can be modified by the user.
+ .
+ This package contains static libraries and development headers.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: liblouisxml1
+Source: liblouisxml
+Version: 2.4.0-4wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 135
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5), liblouis2, libxml2 (>= 2.7.4), liblouisxml-data
+Multi-Arch: same
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: libs
+Filename: pool/free/libl/liblouisxml/liblouisxml1_2.4.0-4wheezy1_amd64.deb
+Size: 53548
+SHA256: 41dcd6ff32bf719c0b6bee0e96bbd7444b04f51d5e96a13abefe8fc39be40c67
+SHA1: 238638d6f6ca2c95a55818257ba2c20757b09e2a
+MD5sum: 7df97512c19720eb4f81505412479adf
+Description: Braille XML translation library - shared libs
+ Liblouisxml translates files in the computer lingua franca xml format
+ into properly transcribed braille. This includes translation into grade
+ two, if desired, mathematical codes, etc. It also includes formatting
+ according to a built-in style sheet which can be modified by the user.
+ .
+ This package contains shared libraries.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: librulexdb-dev
+Source: rulex
+Version: 3.5.0wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 90
+Depends: librulexdb0 (= 3.5.0wheezy1), libdb-dev, libc6-dev
+Suggests: rulex
+Priority: optional
+Section: libdevel
+Filename: pool/free/r/rulex/librulexdb-dev_3.5.0wheezy1_amd64.deb
+Size: 31020
+SHA256: bd23e388a097af58bd9313a828ce2e4ae928ac510de9adb807e789102d55773c
+SHA1: 464a04226bbea6006ee69e4344b746a2ee9a6fb8
+MD5sum: 468c4e2fad0089b80e70077322aaede1
+Description: Russian pronunciation dictionary access library
+ .
+ This package contains the development files.
+
+Package: librulexdb0
+Source: rulex
+Version: 3.5.0wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 50
+Depends: libc6 (>= 2.3.4), libdb5.1
+Priority: optional
+Section: libs
+Filename: pool/free/r/rulex/librulexdb0_3.5.0wheezy1_amd64.deb
+Size: 13072
+SHA256: 19d48b4ae0dcc62063e4e6ac318f467a5de26aeb6501ceee39bb3938dcb68d77
+SHA1: b3aca9852dcc50270708c7f3a473e5530eb3833f
+MD5sum: 1dc4f096c8c346b12a4cabcec1a705e8
+Description: Russian pronunciation dictionary access library
+ .
+ This package contains the shared library.
+
+Package: linphone-el
+Version: 2.4wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 309
+Depends: alsa-utils, emacs | emacsen, linphone-nox
+Priority: optional
+Section: sound
+Filename: pool/free/l/linphone-el/linphone-el_2.4wheezy1_all.deb
+Size: 82230
+SHA256: 5b58bcc76bef520853c4474fc81763f75f66bfed6810cecb568f39d803f38e5d
+SHA1: 5c64bf29034d243d868cb2bf227be8620737b07a
+MD5sum: 5a3c5866bbb2a3ddf8f9e41f65822e93
+Description: Emacs interface for Linphone
+ This package provides more or less intuitive and simple Emacs interface
+ for well-known network telephone program named Linphone. It actually
+ uses linphonec executable (that is console version of Linphone)
+ as a backend.
+
+Package: multispeech
+Version: 2.6.3wheezy2
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 900
+Depends: libbobcat3 (>= 3.01.00), libboost-filesystem1.49.0 (>= 1.49.0-1), libboost-program-options1.49.0 (>= 1.49.0-1), libboost-regex1.49.0 (>= 1.49.0-1), libboost-system1.49.0 (>= 1.49.0-1), libboost-thread1.49.0 (>= 1.49.0-1), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libportaudiocpp0, libsndfile1 (>= 1.0.20), libsoundtouch0, libstdc++6 (>= 4.6), debconf (>= 0.5) | debconf-2.0
+Recommends: espeak (>= 1.44.01), espeak-data (>= 1.44.01)
+Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
+Enhances: emacspeak
+Priority: extra
+Section: sound
+Filename: pool/free/m/multispeech/multispeech_2.6.3wheezy2_amd64.deb
+Size: 286890
+SHA256: fb594fa08882ac98d5d53897ab5d4823484ba2de8719e61cd3a7adad727ac56b
+SHA1: f399ca54471041e8fa5789b3bd17f3754a878617
+MD5sum: 77f27f912a9a2a10f45899fbf2eef20e
+Description: Multilingual speech server for emacspeak
+ This speech server provides multilingual speech output for emacspeak
+ using software TTS engines such as mbrola, espeak, ru_tts, etc.
+ At the moment English, German, French, Italian, Spanish,
+ Brazilian and Russian languages are supported.
+ .
+ The most prominent features are as follows:
+  - flexible configuration;
+  - easy adaptation to various speech engines;
+  - language autodetection capability;
+  - online voice control means.
+ .
+ Though Multispeech was primarily designed for use in conjunction
+ with Emacspeak, now it can easily be employed as a full featured
+ speech service for Orca screenreader as well.
+
+Package: python-louis
+Source: liblouis
+Version: 2.5.3-1wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 69
+Depends: python (>= 2.6), python-support (>= 0.90.0), liblouis2 (>= 2.5.3-1wheezy1)
+Provides: python2.6-louis, python2.7-louis
+Homepage: http://abilitiessoft.com
+Priority: extra
+Section: python
+Filename: pool/free/libl/liblouis/python-louis_2.5.3-1wheezy1_amd64.deb
+Size: 23380
+SHA256: b038f6362172c1b3011fb56573a10a579b9d1a490f4becc211945b6dab20de6d
+SHA1: 6d3b9f2612d9c2879fb2e0bfd80e40f94a11be15
+MD5sum: 1b107008e5261b70977bcf5f4ae57f2f
+Description: Python bindings for liblouis
+ Liblouis is a braille translator and back-translator.  It features support for
+ computer and literary braille, supports contracted and uncontracted translation
+ for many languages and has support for hyphenation.  Liblouis also supports
+ math braille (Nemeth and Marburg).
+ .
+ This package contains Python bindings.
+Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: rulex
+Version: 3.5.0wheezy1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 2383
+Depends: locales, libc6 (>= 2.3), librulexdb0
+Enhances: ru-tts
+Conflicts: ru-tts (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/free/r/rulex/rulex_3.5.0wheezy1_amd64.deb
+Size: 1094448
+SHA256: f29170d068116ccd73193a188cd23a082f7833497a6e4f0a1d7d15a2c3f736f6
+SHA1: 0b9d66faefde6b115998fbff23445b8bf2d0ad60
+MD5sum: 241d7f7b857e9aeff5d0db6db64ab108
+Description: Russian pronunciation dictionary
+ This package is aimed primarily for use together with the Russian
+ TTS engine Ru_tts. When it is installed you can instruct Ru_tts
+ to use the pronunciation dictionary by the command line switch
+ "-s /usr/share/freespeech/rulex.db".
+

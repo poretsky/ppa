@@ -1,0 +1,23 @@
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.4.2focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Package-List:
+ rbook deb text optional arch=all
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ 833ff081b74c39e9802edba99eb55e97 510 rbook_2.4.2focal1.dsc
+ 346ababc3d3246bf1990acfd36d1475c 24331 rbook_2.4.2focal1.tar.gz
+Checksums-Sha1: 
+ 0fa9344457d8ad2d59725b6c1bbb11c2f7db3ed6 510 rbook_2.4.2focal1.dsc
+ f113dc0a41cbfde2f307c06302f62c77e12a9fa1 24331 rbook_2.4.2focal1.tar.gz
+Checksums-Sha256: 
+ 2889c9992a360af58bf6ac15ff30f8df6c8a8898ffaca55d8e01a0c9a8e516b8 510 rbook_2.4.2focal1.dsc
+ 43f4f71358974d3ab446597b8a1c037e9d8fe74e289c28a6ffe563cdda5b0ccc 24331 rbook_2.4.2focal1.tar.gz
+

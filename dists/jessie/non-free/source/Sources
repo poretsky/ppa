@@ -1,0 +1,23 @@
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.4.2jessie2
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 5)
+Package-List: 
+ rbook deb text optional
+Priority: optional
+Section: text
+Directory: pool/non-free/r/rbook
+Files: 
+ efa239eee4ae544afc6e7b610c27d229 508 rbook_2.4.2jessie2.dsc
+ bdc67ae36b959eaeebbac6001c8250e6 24877 rbook_2.4.2jessie2.tar.gz
+Checksums-Sha1: 
+ 04c6b223eaa594d673e3d0a4f7da7ab0f3674b33 508 rbook_2.4.2jessie2.dsc
+ 5fe25b6a3260c0405b5f4128f8d76bf9d7eea100 24877 rbook_2.4.2jessie2.tar.gz
+Checksums-Sha256: 
+ 3465b12ce7dd366e095a890d95bea6d850fc3e6cc3c3a2dc7113c9dcc5dde9f8 508 rbook_2.4.2jessie2.dsc
+ d397bd04cf0c355a93a72a69d50f32b26f1b394941f8cc6d6f652647d5f856b2 24877 rbook_2.4.2jessie2.tar.gz
+
