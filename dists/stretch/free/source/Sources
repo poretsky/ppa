@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -19,17 +19,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- d0e2e3c3352079fbdba1dc7766cbef8a 1313 emacspeak_50.0-11stretch1.dsc
+ 8f86f819c5509479dfc1d2af7089a60e 1313 emacspeak_50.0-12stretch1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 0abc70041cbddf574643511e0da399f1 155824 emacspeak_50.0-11stretch1.diff.gz
+ 31f6dd26b27d0083d7138ad73fddfaa3 155977 emacspeak_50.0-12stretch1.diff.gz
 Checksums-Sha1: 
- f4b8095074a50a813897aebd70faa24970099f2f 1313 emacspeak_50.0-11stretch1.dsc
+ 8d79e8887458d518293789dc1a879774dd5e7c02 1313 emacspeak_50.0-12stretch1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- f54763da13e1fd6fb9718e057149335654fb1e20 155824 emacspeak_50.0-11stretch1.diff.gz
+ 7c2b002224f17c1a490a87c6b2ac7e40aa9db58b 155977 emacspeak_50.0-12stretch1.diff.gz
 Checksums-Sha256: 
- d5c89cde721e13a92cd5ec78d8d283beb3f5e05e4fcb10561b5ad6f5ee8dd3e0 1313 emacspeak_50.0-11stretch1.dsc
+ 0045d21175e82cb4a19203c34a9756888bab01ec004a06ed87485ca11a9c1f3e 1313 emacspeak_50.0-12stretch1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 88deadf2cdbefdd824c595b543c469952b512197d9ac46028c8a9b53961b092c 155824 emacspeak_50.0-11stretch1.diff.gz
+ 27342ce694dab8cc63dfae5c487d617678da95f14c6aa039f58aca31c0a180a0 155977 emacspeak_50.0-12stretch1.diff.gz
 
 Package: freespeech
 Format: 1.0

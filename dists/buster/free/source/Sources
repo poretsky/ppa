@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-11buster1
+Version: 1:50.0-12buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- b5ba00544166c3726e7cbbf2eb115e17 1327 emacspeak_50.0-11buster1.dsc
+ 50bef02d882ea6cbe7465391f37df4a2 1327 emacspeak_50.0-12buster1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 0e174618d33b71fcf1219f270e8f69d2 167838 emacspeak_50.0-11buster1.diff.gz
+ d2bbf95a6cc52d5696c42bbb5714dbc0 167927 emacspeak_50.0-12buster1.diff.gz
 Checksums-Sha1: 
- e115299a9467b0b0ec2b3572a26c5ca097efebda 1327 emacspeak_50.0-11buster1.dsc
+ 28e1d01c00483afeba271bbd3b8c031d2f3db041 1327 emacspeak_50.0-12buster1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- dc09bb7768bd43dd6972013e1a676b35f509a322 167838 emacspeak_50.0-11buster1.diff.gz
+ b505696746f125ef7e971d39ff41141bdd4d6a97 167927 emacspeak_50.0-12buster1.diff.gz
 Checksums-Sha256: 
- 2503c101373186db9ed599d18bdb89a6989758f7127e2525c5b020c538ec98a4 1327 emacspeak_50.0-11buster1.dsc
+ b9001147fd0fd3777d12fd036ad5155a895dcbada3e3bbfdfe530dbb195cb662 1327 emacspeak_50.0-12buster1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- e84b3c3c84efea24c12fdefd50bd15deb7006232282d09ff30c3e684bb2dca37 167838 emacspeak_50.0-11buster1.diff.gz
+ 2b49c490b12600fe02c3b1c7ccc8a5d33e3b0cfbf0a3f168f6cded42f1a4dd04 167927 emacspeak_50.0-12buster1.diff.gz
 
 Package: freespeech
 Format: 1.0

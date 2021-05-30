@@ -19,7 +19,7 @@ Description: Emacs frontend for the Btpd BitTorrent client
  link. Torrent's content can be previewed as a virtual directory tree.
 
 Package: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 10453
@@ -31,11 +31,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-11xenial1_all.deb
-Size: 3390800
-SHA256: f1e6ad09772f02c1539b8d2b3874c812460b1f360408726550b757ee6661c644
-SHA1: 070a83bed253ec3b1b0807fa9c76f840fb9bd69e
-MD5sum: 894cc969d7c990bf65968ac08384d93e
+Filename: pool/free/e/emacspeak/emacspeak_50.0-12xenial1_all.deb
+Size: 3389406
+SHA256: 1a45c927e6e4b26a0834e17f1d47463388fabe93787af516d3740cbd8a955fef
+SHA1: f53c8c33ab9751314a32894f4e4ddd16309f47e5
+MD5sum: e455538f99af8c775d5e6b27b1d987a6
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -146,7 +146,7 @@ Description: Chimes auditory icons theme for Emacspeak
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -154,11 +154,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-11xenial1_all.deb
-Size: 2986778
-SHA256: cb0bb46d9cd0dd00f6ba72a57231d24495436e051b6bc4887d778f11168c302c
-SHA1: 79008fc3f5ede483f10f520dafe0d8ddcfc04949
-MD5sum: 521a3d01dd21c9294fac17b715580a71
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-12xenial1_all.deb
+Size: 2984492
+SHA256: 1beab303bb439b96d6a8acaa682b723f4640702b52cc57c501bc08294fd2e1f6
+SHA1: aab68078dda63b0e1f620da2690037f233a2a129
+MD5sum: a2d05628955025f9c43efd06839f9d36
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -169,7 +169,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6580
@@ -178,11 +178,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-11xenial1_all.deb
-Size: 1472036
-SHA256: 6e0daf2769ddb24fb1c92405ad8a4637ff8fb53de9cfe9474bcb2a26127f1870
-SHA1: 97663b349655dbe523d032f71cf5fbb461a9a709
-MD5sum: 7ac3e25096f720cd0a3ccd172851e90c
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-12xenial1_all.deb
+Size: 1471826
+SHA256: 922fa7f3d750af9bd61f41738b1028f6e8e25abba15e0054c08559c50805455a
+SHA1: ef9460243328b6c523844dcb89dd18daef33fda8
+MD5sum: 77e9319658d65ad3b095228e6d4c2e60
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -192,7 +192,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 106
@@ -201,11 +201,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-11xenial1_amd64.deb
-Size: 40860
-SHA256: 94bc4a8be0b45f7d2444f5f21b45bbcb83a696d8d6b4b18cb831d42aae69a499
-SHA1: ba8318ba32b91fdfd152b2b9395435df72cf1402
-MD5sum: a2b2d32802197f239f2da967957b06a2
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-12xenial1_amd64.deb
+Size: 40902
+SHA256: ef5c8da4fb6ae02781e943920b397a25254e0a207017cb2358a86b356ff8f8fd
+SHA1: ca6e068457f53a89bafbf2a13b6ecb0ad90da53b
+MD5sum: 8ec48b9a0199d200716c697d3aa925de
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -215,7 +215,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 136
@@ -224,11 +224,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-11xenial1_amd64.deb
-Size: 43406
-SHA256: e8159a65a0bdb12c2f6520e92dc034637e29b2aad1226ecc1920795f45f0d58a
-SHA1: d13da801ca24f43f75a31e7e0caf24eaa95ddeb8
-MD5sum: 2c34f649b4a5e6cb713d402f41f521a7
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-12xenial1_amd64.deb
+Size: 43438
+SHA256: 32d48609c9fc57fad8de87c44394af05ef0adab31af06c3a21e3e15cad165826
+SHA1: f9f5d5682e693018ba0f3335ac1a7f21520b1add
+MD5sum: 99b048e9b9fcc7a16b669ee8dc0b96c2
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -238,7 +238,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-11xenial1
+Version: 1:50.0-12xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -246,11 +246,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-11xenial1_all.deb
-Size: 3737212
-SHA256: b9bd52a3287b14c4243493d59c97b4b5fb1ae5fb2b9724613bb7c8b16911e461
-SHA1: d7f808d7753ce1da75f9250a7956b10fe63e3a72
-MD5sum: 0fcd4933689f9fe281f3f79636b874aa
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-12xenial1_all.deb
+Size: 3740558
+SHA256: 5e14cab505cb5eeb32172dec259abf9045512d34c9d24296219bdfee1069e123
+SHA1: aeb548fe2df1100ea265bb179d76b51477831d84
+MD5sum: 09f4b585a1bf6f6b957b4a49ad65a81e
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.

@@ -1,5 +1,5 @@
 Package: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 10449
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-11stretch1_all.deb
-Size: 3489278
-SHA256: f470d44c34ab97981a459051147c866b4516625af4b3119e25b9999351aa3fef
-SHA1: a50f09017b9c4250d752f3b353ecf7f9da08668b
-MD5sum: d7c32b210c476dd8fa2fd86e4402fd64
+Filename: pool/free/e/emacspeak/emacspeak_50.0-12stretch1_all.deb
+Size: 3490176
+SHA256: 57ce902519babe91110c1c8386c6389e7dfd08e38a2b791d9f01053c59df0137
+SHA1: 6560486481c79c51be21873ec287f27fd692fa07
+MD5sum: 98a6691b48bde5d676efd2ebdaec6ce8
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -126,7 +126,7 @@ Description: Chimes auditory icons theme for Emacspeak
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -134,11 +134,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-11stretch1_all.deb
-Size: 2988666
-SHA256: b50a05f4d254dcea316002fda6efa131bfe65268de51dbf9b9669db24c7a70b4
-SHA1: 77b530ee7834f1242d401bb875df90ad35f02c7a
-MD5sum: 57e830ad0932ff0defa5a114c1d44bf9
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-12stretch1_all.deb
+Size: 2987462
+SHA256: 7960b317e321896c02b8dd75e758e267368e96426170542415f186a11208807b
+SHA1: c421d258490cf54980873c2c41c7a8440125f3b3
+MD5sum: 269c12e1d4ba1117ce5b28810961f51d
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -149,7 +149,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6579
@@ -158,11 +158,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-11stretch1_all.deb
-Size: 1468638
-SHA256: 926c13073bfdae7ed58e7e38a0783fd7c06a13ca1a54ca4c1519372d2d32b8b6
-SHA1: 37b9fea2685a6395504f83749aa17162ad01e652
-MD5sum: 4f100979d9d2383f932bf0e858c98300
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-12stretch1_all.deb
+Size: 1468644
+SHA256: 014c3d5a8463327c72ad9b803f6b6904b042a78b73792dd19fe992d8079ac8e6
+SHA1: 3247f127b3aadb299996f828ebca121117f32857
+MD5sum: e0fa11ae06796c86ae41b629b24bb00e
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -172,7 +172,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 106
@@ -181,11 +181,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-11stretch1_amd64.deb
-Size: 40676
-SHA256: 44c8c0ae776f58bcbe072f226d539782eaab7fe2824b5da378f8a35659c1d23c
-SHA1: 4f5fa9d2f38533fe948edd0e3ee21e99c92370d8
-MD5sum: 63e8e90cc1e205740bc9e028972f5bc9
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-12stretch1_amd64.deb
+Size: 40700
+SHA256: a58d24f8277a8dfe62c032a140954f572cff1f263f0377e83fddfdcfc87f2273
+SHA1: 09f608999745bddc5429249e68688b436b37559a
+MD5sum: 5bb3b5feb755b9b0d33cd9c274506dd2
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -195,7 +195,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 136
@@ -204,11 +204,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-11stretch1_amd64.deb
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-12stretch1_amd64.deb
 Size: 43160
-SHA256: 7cbdf139a64d3893846274ac8b71fc2033cffdc347356bb214d6deb8c2485004
-SHA1: a09da2af250b7688444b09096cf0228a79625aaa
-MD5sum: 4f31e50518e3dd582b9919de2022f62c
+SHA256: 4b4598de7faea9473266c20c393b138a6c71487607e349d4904a46fc4acd6d01
+SHA1: e78822264be208aeee091c26a250f96ad5ca0642
+MD5sum: f6efe9c3c17a8182605df6a48561dfa1
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -218,7 +218,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-11stretch1
+Version: 1:50.0-12stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -226,11 +226,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-11stretch1_all.deb
-Size: 3735414
-SHA256: 8effdd2ecfa7c7d9908f8f36464e9619c1a26ea9dc92220c06b210bcf1902888
-SHA1: eb828884617fd37dd05fd26606d4b7a7f7853330
-MD5sum: c7d23d118c76dd640bdfcc42d7880743
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-12stretch1_all.deb
+Size: 3735332
+SHA256: 4d660a2d2a0cbd0006b7ea2b99e119a0d19b13dbcd9fc4fa921e6aeff9aecaf2
+SHA1: 895fae47745674193317f07ff3950e7b8a152137
+MD5sum: 8ae51fa72781700996c930e2bbcfbcec
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
