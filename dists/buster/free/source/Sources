@@ -62,10 +62,10 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.2buster1
+Version: 4.0.3buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
-Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
  libmultispeech0 deb sound optional arch=any
  multispeech deb sound optional arch=any
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- b0ed5067ecb1a125c9fc5fedfc1f5ee1 928 multispeech_4.0.2buster1.dsc
- 32a47bf9302c1c36e10d0b102a4f7731 521317 multispeech_4.0.2buster1.tar.gz
+ 5db8ea62187968efa3567cc8de1ed1e8 944 multispeech_4.0.3buster1.dsc
+ 497ef410a64c4d67d511e0d2e8cbe560 518741 multispeech_4.0.3buster1.tar.gz
 Checksums-Sha1: 
- 6361faf6d32b3180f80edba1ea6362b8012e9001 928 multispeech_4.0.2buster1.dsc
- ec1ae11fe3f4dd939107c7149d6432b7ae3580d8 521317 multispeech_4.0.2buster1.tar.gz
+ d377baceb56fa676bc5b94cbcdd664679b3f95ac 944 multispeech_4.0.3buster1.dsc
+ ba7191276d421ca2d1ae57cbb7045575e1ee61c1 518741 multispeech_4.0.3buster1.tar.gz
 Checksums-Sha256: 
- def0f8633ee5a5493ef2f3f3e3691a7db29fd074fd5ee073d0970546fa866848 928 multispeech_4.0.2buster1.dsc
- 25540b31652a2afff3294f5bc8fd8bca3a7f0f42d5f43a6f173811f1841a6b97 521317 multispeech_4.0.2buster1.tar.gz
+ 36114766c6e09f566a1ed409be5b9c10c7be3beeaf0a4190924a2cc16ecbb794 944 multispeech_4.0.3buster1.dsc
+ 848d69e2d2aae73036a1d84913b244a8ac4a8685217ecd1f1323fa9cbd6851c0 518741 multispeech_4.0.3buster1.tar.gz
 
 Package: rulex
 Format: 1.0

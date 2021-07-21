@@ -85,10 +85,10 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.2xenial1
+Version: 4.0.3xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
-Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
  libmultispeech0 deb sound extra arch=any
  multispeech deb sound extra arch=any
@@ -97,14 +97,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- d567be17c11fede2b6a0ced85f87956a 919 multispeech_4.0.2xenial1.dsc
- 75327de92c5bbb24f18ce37a12bcb351 520860 multispeech_4.0.2xenial1.tar.gz
+ 1c013ad0e822b3aa1d3758df04bbfe01 935 multispeech_4.0.3xenial1.dsc
+ 052efbd2522448ef2c0c316e5557179b 518711 multispeech_4.0.3xenial1.tar.gz
 Checksums-Sha1: 
- 1942cb0bce1d2bf4b343fe56ee10aa58f8d549a3 919 multispeech_4.0.2xenial1.dsc
- a10282a562c04e8fd069c0f6abda88fbebdb7feb 520860 multispeech_4.0.2xenial1.tar.gz
+ 2dcd560f87075f65ffcdf89a4707d68b69dca2c2 935 multispeech_4.0.3xenial1.dsc
+ 9f142cff3fc40b157150de57fc8044494ea86f6e 518711 multispeech_4.0.3xenial1.tar.gz
 Checksums-Sha256: 
- c51eedc2d8daa4cfb383cd40dd5bbcd5b012ec56553524fd6664893651e31783 919 multispeech_4.0.2xenial1.dsc
- 11f2d95ed232596777e75ae99b854b0c1cc409773a86c1b46baac8be8aed339f 520860 multispeech_4.0.2xenial1.tar.gz
+ 5157e48216aec49d7d399bae11001a760ba4e29dd138358406459f96c6fa0219 935 multispeech_4.0.3xenial1.dsc
+ 08773eb9e6e485d357966eba7166e853f0dd7a919b56a7f6dd3a117cff37cc35 518711 multispeech_4.0.3xenial1.tar.gz
 
 Package: rulex
 Format: 1.0

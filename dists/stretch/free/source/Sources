@@ -62,10 +62,10 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.2stretch1
+Version: 4.0.3stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
-Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
  libmultispeech0 deb sound extra arch=any
  multispeech deb sound extra arch=any
@@ -74,14 +74,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 2b55cda3f4ec7887e7304931a98aef9b 923 multispeech_4.0.2stretch1.dsc
- 2cc4c9bc8e98bf320dd8bd1dd80b2029 521302 multispeech_4.0.2stretch1.tar.gz
+ cf6f71e474f107469f0ac39ef86a683c 939 multispeech_4.0.3stretch1.dsc
+ 788e577c4f697351d5c1638ab6eab63c 518610 multispeech_4.0.3stretch1.tar.gz
 Checksums-Sha1: 
- 5de44116f5235b854709e8a6c47a872f2d23bb9c 923 multispeech_4.0.2stretch1.dsc
- 6f140741e922e23093404b32fff410aadb5d1ea1 521302 multispeech_4.0.2stretch1.tar.gz
+ 7ed2a8834f6ffdbfd94ed0d2cd9662b4c7d9f20c 939 multispeech_4.0.3stretch1.dsc
+ 5f45165b29d570a1069cf79fab6b8fe6286776c6 518610 multispeech_4.0.3stretch1.tar.gz
 Checksums-Sha256: 
- 784f3a54f34eadaf0d3b9d37cc33bed575e185cef299bc4adda00d3c5ef88728 923 multispeech_4.0.2stretch1.dsc
- 2d8e2c77de7015e78506bef0dfd90e49b5022a07bf8817af3c7626e562e54455 521302 multispeech_4.0.2stretch1.tar.gz
+ c0e861440188180ddac786044439d74024428bef9b95b841b2c55cad258076d4 939 multispeech_4.0.3stretch1.dsc
+ c07336629761bd6a57f72a7903ef89a6ee4f01ca86886e5b0d260114802dff15 518610 multispeech_4.0.3stretch1.tar.gz
 
 Package: rulex
 Format: 1.0
