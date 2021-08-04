@@ -192,21 +192,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech0
 Source: multispeech
-Version: 4.0.3bionic1
+Version: 4.0.4bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 865
+Installed-Size: 877
 Depends: libbobcat4 (>= 4.08.02), libboost-filesystem1.65.1, libboost-program-options1.65.1, libboost-regex1.65.1, libboost-system1.65.1, libboost-thread1.65.1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 1.9.2), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: multispeech (<< 4.0.0)
 Replaces: multispeech (<< 4.0.0)
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech0_4.0.3bionic1_amd64.deb
-Size: 231580
-SHA256: 583cd57ec9d88dc3f61a0d03a9e9081c92aebb2bcb37f76b8d46b2a39a873719
-SHA1: 36a9be9393fa97d010a165fd8a5c14827c5ef131
-MD5sum: 664326058303e19d7b0f6030799adcfe
+Filename: pool/free/m/multispeech/libmultispeech0_4.0.4bionic1_amd64.deb
+Size: 232304
+SHA256: 9ad857cf173f978febe60cf0600adf9df5dca06e6ec4c96e6e795effe412b3b1
+SHA1: 3f8b6f5fb4200b4e528eb2ed4df76ca7ad61eaf9
+MD5sum: 806ab35c25595d90a3926504928f993a
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -254,21 +254,21 @@ Description: Russian pronunciation dictionary access library
  This package contains the shared library.
 
 Package: multispeech
-Version: 4.0.3bionic1
+Version: 4.0.4bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 291
-Depends: libbobcat4 (>= 4.08.02), libboost-program-options1.65.1, libboost-regex1.65.1, libboost-system1.65.1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0, libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Depends: libbobcat4 (>= 4.08.02), libboost-program-options1.65.1, libboost-regex1.65.1, libboost-system1.65.1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.3), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak, espeak-data
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.0.3bionic1_amd64.deb
-Size: 78904
-SHA256: 26a55a245b9441388867204ce909434a0967b349a2ebcea52d80ea0a4572ba1a
-SHA1: fff8e434755445eff8dd00f8df8db5d7393924c1
-MD5sum: 45aa3893b92bbc2e09c36c7190ab11c4
+Filename: pool/free/m/multispeech/multispeech_4.0.4bionic1_amd64.deb
+Size: 79000
+SHA256: f097941ea380f81b91d29d7b7aaf0805db2cab505fb2a37239ec5776489169d5
+SHA1: eb8912156899396e4cf15cc2f76103bd032e2cbc
+MD5sum: 9331772454cc25282934072a55fb9777
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -304,21 +304,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.0.3bionic1
+Version: 4.0.4bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 238
-Depends: libbobcat4 (>= 4.08.02), libboost-filesystem1.65.1, libboost-program-options1.65.1, libboost-regex1.65.1, libboost-system1.65.1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0, libportaudiocpp0, libstdc++6 (>= 5.2)
+Depends: libbobcat4 (>= 4.08.02), libboost-filesystem1.65.1, libboost-program-options1.65.1, libboost-regex1.65.1, libboost-system1.65.1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.3), libportaudiocpp0, libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.0.3bionic1_amd64.deb
-Size: 65248
-SHA256: 8c6d86ae11d7526430d900bf11b4b142e98bb54677f6e2c02d3d76bc1f069b6b
-SHA1: a1721245e55e6574fcfb721355c272225287e9e7
-MD5sum: 624cef44086bc8220e77413e22932f0d
+Filename: pool/free/m/multispeech/sd-multispeech_4.0.4bionic1_amd64.deb
+Size: 65768
+SHA256: 4efd095d0d2d42666afbb90438be6e44e82e94d7fd5b551a178d09b54a3095f4
+SHA1: 267358f27537849303d38cd4a74eb9ed090585fd
+MD5sum: 050acccbed8060c0543725c444575496
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.

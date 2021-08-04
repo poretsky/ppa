@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.3focal1
+Version: 4.0.4focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 902e51dc5d5aff10f7c93a3a205026c2 926 multispeech_4.0.3focal1.dsc
- 6c15146c3746bf9dbf3d521c3b2c3e9e 518738 multispeech_4.0.3focal1.tar.gz
+ 2121262b99d2f442c92058461cceac51 926 multispeech_4.0.4focal1.dsc
+ 8b803487a634188d8ba1a7132f287a6b 519148 multispeech_4.0.4focal1.tar.gz
 Checksums-Sha1: 
- 89aa759fe983653e2fe6fa4ed432f3651f928182 926 multispeech_4.0.3focal1.dsc
- a6d49e0a1959188695a7fc3d740f94356051deca 518738 multispeech_4.0.3focal1.tar.gz
+ 0f404d27d6b061cb32771113e072ca36a68b461c 926 multispeech_4.0.4focal1.dsc
+ ae5070cf2cde9a7e5f678fe03c25f224e790b3a2 519148 multispeech_4.0.4focal1.tar.gz
 Checksums-Sha256: 
- 9ab29fb23394a0777fa73721f3071ebc085d6811fdbb50f495c1cd80186a8ca6 926 multispeech_4.0.3focal1.dsc
- e02294eeaaf86f3f588f0872df72e98a48400f0fae1e0ff0a34c8a8a264d8fae 518738 multispeech_4.0.3focal1.tar.gz
+ aec661e860c04303b7f86d7d7042effbbdbbe583a0f3bf63fbf42fa2a798ffca 926 multispeech_4.0.4focal1.dsc
+ 3945b50221cde71e684b8d60f9eed7a30503b21dc13d1c2fb0b7c366f7c79182 519148 multispeech_4.0.4focal1.tar.gz
 
 Package: rulex
 Format: 1.0
