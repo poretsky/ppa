@@ -226,6 +226,54 @@ Checksums-Sha256:
  2edb544d2ff9431aa10796da71396507b27c5615f7f65f09f329f3d0af5b5bd0 785 multispeech_2.6.3wheezy2.dsc
  045f70c855f59ffffdf6a8555d891a05e7f71a503c041b5b0f031d14f3e85b86 210992 multispeech_2.6.3wheezy2.tar.gz
 
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.5.0wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5)
+Package-List:
+ rbook deb text optional arch=all
+Priority: optional
+Section: text
+Directory: pool/free/r/rbook
+Files: 
+ df7e86f32795b78ce7e1c9ca0a02939b 513 rbook_2.5.0wheezy1.dsc
+ 7ec820329b2952985bd15f54c52dcd62 24612 rbook_2.5.0wheezy1.tar.gz
+Checksums-Sha1: 
+ 6c4ec3bfd73c83b6e386864ba66dd7d821f7e3f3 513 rbook_2.5.0wheezy1.dsc
+ 3c8e73e3f2d0d53a9d364731f4a38ad1132f7bf9 24612 rbook_2.5.0wheezy1.tar.gz
+Checksums-Sha256: 
+ b01408dfe95ad2e031c7c514ccb0c7b62bdff4403562559886d645e03e1811f4 513 rbook_2.5.0wheezy1.dsc
+ b631c143e7403e6c1efb59aebf5c518aa1ac01e5dc0ef8e1cc108d20e5fccee0 24612 rbook_2.5.0wheezy1.tar.gz
+
+Package: ru-tts
+Format: 1.0
+Binary: ru-tts, librutts5, librutts-dev
+Architecture: any
+Version: 5.1.0wheezy1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
+Package-List:
+ librutts-dev deb libdevel optional arch=any
+ librutts5 deb libs optional arch=any
+ ru-tts deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/ru-tts
+Files: 
+ cbd8cfff593be27c7ada26424c154351 664 ru-tts_5.1.0wheezy1.dsc
+ 5df8467774dd7dd37ece055d0216a46e 74752 ru-tts_5.1.0wheezy1.tar.gz
+Checksums-Sha1: 
+ bfd9a125a4eaf9b9c740af44484016d72259a19f 664 ru-tts_5.1.0wheezy1.dsc
+ 7333de6c2a159ce02570ddc6d81d0986605cf4a6 74752 ru-tts_5.1.0wheezy1.tar.gz
+Checksums-Sha256: 
+ 2dff5a282582230dd5d363faf163b606b8895943ac770f154c83f0ac095f2cab 664 ru-tts_5.1.0wheezy1.dsc
+ 5b2f4ceec6c3dbbdfe0beebd53d8c7cb784df54f90f0a302997ff77b9b0f1b91 74752 ru-tts_5.1.0wheezy1.tar.gz
+
 Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev

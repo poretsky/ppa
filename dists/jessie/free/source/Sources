@@ -82,6 +82,54 @@ Checksums-Sha256:
  a74f7d69eafbaf028029ffd9a001c8b7232cef437ce132a5fcfa04c772a1899a 919 multispeech_4.0.2jessie1.dsc
  4d3c8bc270b7c90aa6beb999316a70ff1e8e9eef9af9fa230507e848f4ee53ce 520925 multispeech_4.0.2jessie1.tar.gz
 
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.5.0jessie1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 5)
+Package-List:
+ rbook deb text optional arch=all
+Priority: optional
+Section: text
+Directory: pool/free/r/rbook
+Files: 
+ 86f2ddd0c8b9d214d4f3b40b607badc8 513 rbook_2.5.0jessie1.dsc
+ bc0ba9ba017bbe7b5ff3ad2ff1981e06 24668 rbook_2.5.0jessie1.tar.gz
+Checksums-Sha1: 
+ 5696340f4481bbccaae44bdb586c629ab51092f1 513 rbook_2.5.0jessie1.dsc
+ ff7b6c10938395ee2506a6dd75e6bde80fa11991 24668 rbook_2.5.0jessie1.tar.gz
+Checksums-Sha256: 
+ 834d5c33908748eefdac36bb09476e05dc7807d402be8a4dd32c2d1917b3bca1 513 rbook_2.5.0jessie1.dsc
+ eafd4dab35cf760f358835971f388cb016d0cf7a8df839da07839fa795710ba7 24668 rbook_2.5.0jessie1.tar.gz
+
+Package: ru-tts
+Format: 1.0
+Binary: ru-tts, librutts5, librutts-dev
+Architecture: any
+Version: 5.1.0jessie1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
+Package-List:
+ librutts-dev deb libdevel optional arch=any
+ librutts5 deb libs optional arch=any
+ ru-tts deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/ru-tts
+Files: 
+ 4463a64356743506acda7971e9603422 657 ru-tts_5.1.0jessie1.dsc
+ bebe64abffb9073b1c5aacb015e0c388 75155 ru-tts_5.1.0jessie1.tar.gz
+Checksums-Sha1: 
+ 3aae0de8c7c2be0147948cc5efd457b5f19a404f 657 ru-tts_5.1.0jessie1.dsc
+ 8842fb0bc01f0d025d4d00b43a637f730f763ac8 75155 ru-tts_5.1.0jessie1.tar.gz
+Checksums-Sha256: 
+ f7939e0c53da0f51510e6efb1de4efb36e04bf10cd822728525c4d4e0c97f2c5 657 ru-tts_5.1.0jessie1.dsc
+ 0dec143c48ebd97b83cac278649f67b5290de4539240dd7bf811499452078d92 75155 ru-tts_5.1.0jessie1.tar.gz
+
 Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev

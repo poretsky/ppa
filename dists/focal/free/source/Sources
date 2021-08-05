@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.4focal1
+Version: 4.0.5focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,62 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 2121262b99d2f442c92058461cceac51 926 multispeech_4.0.4focal1.dsc
- 8b803487a634188d8ba1a7132f287a6b 519148 multispeech_4.0.4focal1.tar.gz
+ b6d6420f831d5927932b69b9b8878007 926 multispeech_4.0.5focal1.dsc
+ 9ef5e579c2638ebadc23310777a3508e 519290 multispeech_4.0.5focal1.tar.gz
 Checksums-Sha1: 
- 0f404d27d6b061cb32771113e072ca36a68b461c 926 multispeech_4.0.4focal1.dsc
- ae5070cf2cde9a7e5f678fe03c25f224e790b3a2 519148 multispeech_4.0.4focal1.tar.gz
+ 23da8d5ac308f7fb8a0328cf0f99cef5b75dac62 926 multispeech_4.0.5focal1.dsc
+ 66ece298696d6cdfd74037cb20598ddb980e3474 519290 multispeech_4.0.5focal1.tar.gz
 Checksums-Sha256: 
- aec661e860c04303b7f86d7d7042effbbdbbe583a0f3bf63fbf42fa2a798ffca 926 multispeech_4.0.4focal1.dsc
- 3945b50221cde71e684b8d60f9eed7a30503b21dc13d1c2fb0b7c366f7c79182 519148 multispeech_4.0.4focal1.tar.gz
+ ae6c86926e1a736cce5654a35c98be26c50d2663946a80214799394cc208a45c 926 multispeech_4.0.5focal1.dsc
+ 6138888fba62782edbac8ade092d7f1582cff1a27d6e83808b5ef32780945823 519290 multispeech_4.0.5focal1.tar.gz
+
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.5.0focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Package-List:
+ rbook deb text optional arch=all
+Priority: optional
+Section: text
+Directory: pool/free/r/rbook
+Files: 
+ 25bc2b2a068439862174246008d039a7 510 rbook_2.5.0focal1.dsc
+ 8091e7c7ce57e84fd3b91c723630827a 24697 rbook_2.5.0focal1.tar.gz
+Checksums-Sha1: 
+ 03ede116aad1181381f87dc33c7de5d530a97871 510 rbook_2.5.0focal1.dsc
+ dbd4917d21e361bf34d2ce156e8a2bc73b69010e 24697 rbook_2.5.0focal1.tar.gz
+Checksums-Sha256: 
+ b8c3dd7f6079458e782a52817137826c483f57f4be678aa4e8d4eaa3b9075a17 510 rbook_2.5.0focal1.dsc
+ 01a0a51b2c0caa96c5c51361df42c46150a8e2f0bcd635511622be4bd7bc1385 24697 rbook_2.5.0focal1.tar.gz
+
+Package: ru-tts
+Format: 1.0
+Binary: ru-tts, librutts5, librutts-dev
+Architecture: any
+Version: 5.1.0focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
+Package-List:
+ librutts-dev deb libdevel optional arch=any
+ librutts5 deb libs optional arch=any
+ ru-tts deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/ru-tts
+Files: 
+ 6ea9bd69356ec588f5ebf3ff4c9e65a8 654 ru-tts_5.1.0focal1.dsc
+ 46b75376136fd2728a330b58df2047e6 75519 ru-tts_5.1.0focal1.tar.gz
+Checksums-Sha1: 
+ 32e69ae8a748105841c1ca37af4f2fecdae05e50 654 ru-tts_5.1.0focal1.dsc
+ e8d0334d15fea83e5ce58f8c5261fcaf27fb3d71 75519 ru-tts_5.1.0focal1.tar.gz
+Checksums-Sha256: 
+ d7d435e1d0049f5ec9aeb574181ca0eb036e19263679be49b6722146a865bc03 654 ru-tts_5.1.0focal1.dsc
+ 773ebfa9af10e157425aaab3451954f2dcc6da780c0f667ed5d7505fa49a80f7 75519 ru-tts_5.1.0focal1.tar.gz
 
 Package: rulex
 Format: 1.0

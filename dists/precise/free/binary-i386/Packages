@@ -636,6 +636,54 @@ Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
+Package: librutts-dev
+Source: ru-tts
+Version: 5.1.0precise1
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 125
+Depends: librutts5 (= 5.1.0precise1)
+Priority: optional
+Section: libdevel
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.0precise1_i386.deb
+Size: 49718
+SHA256: 893fd9936c95bb9caa86da6b5d9539360b38b0072126e85be397f6ed98d21916
+SHA1: f8e83727483f0d1b1c49e1298b20e6c34d220dab
+MD5sum: 16b880d8ea488b04516be73a23ba9620
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts5
+Source: ru-tts
+Version: 5.1.0precise1
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 101
+Depends: libc6 (>= 2.1.3)
+Priority: optional
+Section: libs
+Filename: pool/free/r/ru-tts/librutts5_5.1.0precise1_i386.deb
+Size: 45352
+SHA256: 4d2c4937b375ac3a8c9ceb08a99d26fc46108f1bd3d240473941744a9df6898a
+SHA1: c8ed43b9d24d993d4318883356a0516c48c95f56
+MD5sum: c939968896cd68699d5cbbf2e84b6b0c
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
 Package: linphone-el
 Version: 2.4precise1
 Architecture: all
@@ -711,6 +759,50 @@ Description: Python bindings for liblouis
  .
  This package contains Python bindings.
 Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
+
+Package: rbook
+Version: 2.5.0precise1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 128
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts (>= 5.1)
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/free/r/rbook/rbook_2.5.0precise1_all.deb
+Size: 26402
+SHA256: 81c67ba8265bc15d5102834fdbaad33fde73bb5240d65900faed89f6812d1846
+SHA1: 044c93727619460c1b16b7e433ecdf4cf6e69d45
+MD5sum: c3f6534bd150983564b29b2d03b126ee
+Description: Read books in Emacs with synthesized voice
+ This program allows one to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 5.1.0precise1
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 55
+Depends: libc6 (>= 2.3.4), librulexdb0, librutts5 (>= 5.1)
+Recommends: rulex (>= 2.0)
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/free/r/ru-tts/ru-tts_5.1.0precise1_i386.deb
+Size: 11244
+SHA256: 6fa19fc1c914d7fe3b904569471786cf04b49df14a80869583c578fd120a9e55
+SHA1: ded046e4c4b44086012de8defe3858b3cb2065dd
+MD5sum: 057888f1c44e2cbb747841e30d6c4940
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
 
 Package: rulex
 Version: 3.5.0precise1

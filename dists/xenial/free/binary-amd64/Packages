@@ -305,21 +305,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech0
 Source: multispeech
-Version: 4.0.4xenial1
+Version: 4.0.5xenial1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 881
+Installed-Size: 882
 Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 1.9.2), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: multispeech (<< 4.0.0)
 Replaces: multispeech (<< 4.0.0)
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech0_4.0.4xenial1_amd64.deb
-Size: 232866
-SHA256: 1b2108dcf9902743653443a0a2a6e372a8b10d5cf7e0ec016968c806e66b33aa
-SHA1: 152ee9748faacdf66250246f005f433384235884
-MD5sum: fc35995d4596b52116cb06d0662c03e6
+Filename: pool/free/m/multispeech/libmultispeech0_4.0.5xenial1_amd64.deb
+Size: 233300
+SHA256: 408c1d877e39f8ee79963aea1d5100796c77336963f515e97452fc92f1cae320
+SHA1: 2ee83af954ab77429cee09e7ae06d44f6814db2c
+MD5sum: ccc7b6f3ec2770ab40afb45dd398f8e0
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -366,22 +366,70 @@ Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
+Package: librutts-dev
+Source: ru-tts
+Version: 5.1.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 108
+Depends: librutts5 (= 5.1.0xenial1)
+Priority: optional
+Section: libdevel
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.0xenial1_amd64.deb
+Size: 43704
+SHA256: 1072ed6f9ff7c659d9cb98588137f1b8115e4406ccc42a0b84998ad1b5c32b82
+SHA1: af8e6f51c4dd18e1f7d306cb5cf1f126ccc0a57c
+MD5sum: 62110281e8276b1be7e1cdf3c004ab44
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts5
+Source: ru-tts
+Version: 5.1.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 85
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/free/r/ru-tts/librutts5_5.1.0xenial1_amd64.deb
+Size: 39812
+SHA256: 06aab8195497169c4bf2bb1661ca4144e5b9d9c49724907a5bf73ada600d1043
+SHA1: b7364170bbf143d96a01a297d8693dabe71371cf
+MD5sum: e42d200d34c4a0ea4764377fb7c5ded3
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
 Package: multispeech
-Version: 4.0.4xenial1
+Version: 4.0.5xenial1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 264
-Depends: libbobcat4 (>= 4.01.03), libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.3), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Depends: libbobcat4 (>= 4.01.03), libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.5), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak (>= 1.44.01), espeak-data (>= 1.44.01)
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.0.4xenial1_amd64.deb
-Size: 73968
-SHA256: 65533b9e58d21eb1c7146137afb6a9e7b1322a0ba9bfc7bcd0ce523d0b5fb94f
-SHA1: 06717844faf42b6faf72b1f7b12e57f4f616083c
-MD5sum: f43f7185a1740b3e068cd7e669a8ae16
+Filename: pool/free/m/multispeech/multispeech_4.0.5xenial1_amd64.deb
+Size: 74166
+SHA256: 423fa2534bc58b2461fa6f497420f9da8b186bbd4c21d97e99091dccb3da7fc8
+SHA1: 39751b6a83e930d878837ce532fd8c7ed7da0c71
+MD5sum: edc160e99cd6c9092a445160e2808f0f
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -393,6 +441,50 @@ Description: Multilingual speech server for Emacspeak
   - easy adaptation to various speech engines;
   - language autodetection capability;
   - online voice control means.
+
+Package: rbook
+Version: 2.5.0xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 79
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts (>= 5.1)
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/free/r/rbook/rbook_2.5.0xenial1_all.deb
+Size: 23548
+SHA256: 00459445d8795f02577822dcee0cf28ac234e557ea3c1992710ddd637a221821
+SHA1: dce278d0d12e68a1ccd8e3513d19b16e86458452
+MD5sum: 29a0dc0eeb79fb22c5e83ae72e455fdb
+Description: Read books in Emacs with synthesized voice
+ This program allows one to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 5.1.0xenial1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 34
+Depends: libc6 (>= 2.3.4), librulexdb0, librutts5 (>= 5.1)
+Recommends: rulex (>= 2.0)
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/free/r/ru-tts/ru-tts_5.1.0xenial1_amd64.deb
+Size: 10582
+SHA256: bcffd778763d37cdc4d75a15150ede7429f8035c67bc95cddb22fdc19026f4c5
+SHA1: 48e747f2c4f4b2d1999383a183a6c345848a6d09
+MD5sum: 3f30965ddb67922911f3542b15623548
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
 
 Package: rulex
 Version: 3.5.0xenial1
@@ -417,21 +509,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.0.4xenial1
+Version: 4.0.5xenial1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 207
-Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.3), libportaudiocpp0, libstdc++6 (>= 5.2)
+Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech0 (>= 4.0.5), libportaudiocpp0, libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.0.4xenial1_amd64.deb
-Size: 59874
-SHA256: 46abebe35a051aa83076f1070a5c574673b12fd002e4dc3a8cca98d2492bfce2
-SHA1: a73e5c3e4e8f2291e13c5ae1c7bfde9ffc15159c
-MD5sum: da3cdecec04687b658888f4410f18ef3
+Filename: pool/free/m/multispeech/sd-multispeech_4.0.5xenial1_amd64.deb
+Size: 60120
+SHA256: 7042ab1c74878340711b7e010329f95a25196d8de603e788faf887486efa8707
+SHA1: 198213786878250208ec0cc461e765f6986228c6
+MD5sum: 6dfb2376b418e3a483aa4620a0eafd6f
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.

@@ -365,6 +365,54 @@ Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
+Package: librutts-dev
+Source: ru-tts
+Version: 5.1.0trusty1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 135
+Depends: librutts5 (= 5.1.0trusty1)
+Priority: optional
+Section: libdevel
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.0trusty1_amd64.deb
+Size: 43456
+SHA256: 3b9197189f16b54512966c0123fa96c0996feefcc21891f7c49b21c5420e7183
+SHA1: fd8165f3b8c3877e3559d72a9b64f32ea81f00e7
+MD5sum: a2cd9b1786e12a981cf5871bfe6ae79c
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the development files.
+
+Package: librutts5
+Source: ru-tts
+Version: 5.1.0trusty1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 102
+Depends: libc6 (>= 2.14)
+Priority: optional
+Section: libs
+Filename: pool/free/r/ru-tts/librutts5_5.1.0trusty1_amd64.deb
+Size: 39510
+SHA256: fd9f514d8ef68f9ebd98d7d28fd41c1b99aa47f071e6b90d45dbf9cf0d4d7297
+SHA1: d32499804c1f48c418954896feed213c56fcb00c
+MD5sum: f33c87ada9a081300be8bfd2aed0d437
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
 Package: multispeech
 Version: 4.0.2trusty1
 Architecture: amd64
@@ -392,6 +440,50 @@ Description: Multilingual speech server for Emacspeak
   - easy adaptation to various speech engines;
   - language autodetection capability;
   - online voice control means.
+
+Package: rbook
+Version: 2.5.0trusty1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 132
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts (>= 5.1)
+Recommends: lame
+Priority: optional
+Section: text
+Filename: pool/free/r/rbook/rbook_2.5.0trusty1_all.deb
+Size: 23492
+SHA256: 257b89926a6192bfc2b7b95dce4ac08e8eece8fa25ef647385f90cd88a4e5dc6
+SHA1: eca637d30d0d05dea472c72e81f6e82bef4c9ac9
+MD5sum: 13284d5475174aa0c6da591aaf4b1aeb
+Description: Read books in Emacs with synthesized voice
+ This program allows one to read Russian texts in Emacs
+ with synthesized voice providing bookmarks support
+ and flexible customizations. With Lame package installed
+ it also can produce audiobooks in mp3 format.
+
+Package: ru-tts
+Version: 5.1.0trusty1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 56
+Depends: libc6 (>= 2.3.4), librulexdb0, librutts5 (>= 5.1)
+Recommends: rulex (>= 2.0)
+Suggests: sox
+Conflicts: rulex (<< 2.0)
+Priority: optional
+Section: sound
+Filename: pool/free/r/ru-tts/ru-tts_5.1.0trusty1_amd64.deb
+Size: 10416
+SHA256: 51ba4743bc90c7d787379dba7e51f95965248cafbc11628bf09e20bbae95fb25
+SHA1: 1c7cf7b89f165af1df5921f6c4346d31addaca90
+MD5sum: b26d90ad78ef93c6cb6c021c33ab5c6c
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset from standard input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format on the standard output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
 
 Package: rulex
 Version: 3.5.0trusty1
