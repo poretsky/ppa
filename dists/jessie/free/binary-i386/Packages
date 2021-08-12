@@ -347,18 +347,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 5.1.0jessie1
+Version: 5.1.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 127
-Depends: librutts5 (= 5.1.0jessie1)
+Depends: librutts5 (= 5.1.1jessie1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_5.1.0jessie1_i386.deb
-Size: 43914
-SHA256: 77a17a01844328b457385850ce0dcff00d62ec1fa35e038567a0f5d27572bb9f
-SHA1: ed31b12af5f8b70c72b8f9b95c16767180828431
-MD5sum: facbdaaa828f161a42aa7496c515e9cc
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.1jessie1_i386.deb
+Size: 43906
+SHA256: 397646d8862c5b039083ab670ab3dff455cc23650d2c24c9161ab4d7b4891279
+SHA1: 16f5a42d6b70c72115978b05b835b9d6851246f9
+MD5sum: fd2baa60231bc4f7d83418c92afe6779
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -371,18 +371,18 @@ Description: software Russian TTS engine
 
 Package: librutts5
 Source: ru-tts
-Version: 5.1.0jessie1
+Version: 5.1.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 101
 Depends: libc6 (>= 2.4)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts5_5.1.0jessie1_i386.deb
+Filename: pool/free/r/ru-tts/librutts5_5.1.1jessie1_i386.deb
 Size: 40476
-SHA256: 324e72d0cbb72c3bd9491f669fcbeea8624e7eb515b782a8a7464e482ee74de9
-SHA1: 828329e8dc2a70754a46c1f5727128391258c9fb
-MD5sum: 0412db4aa2678fbf0573a3add3492e74
+SHA256: fda853f98272034ee77c2a9e034f2184e3a6fa98295d99e70bb24deeb26c5e0f
+SHA1: 4df30c9e9f6e83eb4b81e9588e6117069806e1e0
+MD5sum: 87b119ad822d271d57e9e4f6a290b842
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -442,7 +442,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 5.1.0jessie1
+Version: 5.1.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 55
@@ -452,11 +452,11 @@ Suggests: sox
 Conflicts: rulex (<< 2.0)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_5.1.0jessie1_i386.deb
-Size: 10524
-SHA256: 32b6356219aa9d473de9b87ebe36739df6a8fb943366118f314dc17b3ad5efab
-SHA1: 994d6db168f73776feec4f7ca3feb995a0d5053f
-MD5sum: 02b4cb96bc07eb9ca2f36c9ad62d4d27
+Filename: pool/free/r/ru-tts/ru-tts_5.1.1jessie1_i386.deb
+Size: 10544
+SHA256: ba153083fcf56ecb738bc4dd05d16cc375a2264c335bbd8db28fce0e4c1afb58
+SHA1: 628540530c422cac827aa72540a3dc95a3f746a1
+MD5sum: 961b9f5ec3e8b58c3909932d2bba53dd
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input

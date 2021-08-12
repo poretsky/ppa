@@ -253,7 +253,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0wheezy1
+Version: 5.1.1wheezy1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -265,14 +265,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- cbd8cfff593be27c7ada26424c154351 664 ru-tts_5.1.0wheezy1.dsc
- 5df8467774dd7dd37ece055d0216a46e 74752 ru-tts_5.1.0wheezy1.tar.gz
+ fe269c3887c7543d1ce8014463a99141 664 ru-tts_5.1.1wheezy1.dsc
+ 30af27a3cdd89be8df14aac2aa597657 75002 ru-tts_5.1.1wheezy1.tar.gz
 Checksums-Sha1: 
- bfd9a125a4eaf9b9c740af44484016d72259a19f 664 ru-tts_5.1.0wheezy1.dsc
- 7333de6c2a159ce02570ddc6d81d0986605cf4a6 74752 ru-tts_5.1.0wheezy1.tar.gz
+ b5ae9b008a83b0005a9a29bf6b75eeb275965bc7 664 ru-tts_5.1.1wheezy1.dsc
+ 2049f0af6afe328d64a2d3d943309a9f14917f7b 75002 ru-tts_5.1.1wheezy1.tar.gz
 Checksums-Sha256: 
- 2dff5a282582230dd5d363faf163b606b8895943ac770f154c83f0ac095f2cab 664 ru-tts_5.1.0wheezy1.dsc
- 5b2f4ceec6c3dbbdfe0beebd53d8c7cb784df54f90f0a302997ff77b9b0f1b91 74752 ru-tts_5.1.0wheezy1.tar.gz
+ fba575745fc0b322f93a882adca533682e7eccbd47c42fa596ee12a2ee56bde4 664 ru-tts_5.1.1wheezy1.dsc
+ 377edf523fbc1a4f290834fcfe2795706e6a6be3bbec272ce610390bb35d4b56 75002 ru-tts_5.1.1wheezy1.tar.gz
 
 Package: rulex
 Format: 1.0

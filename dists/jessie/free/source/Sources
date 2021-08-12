@@ -109,7 +109,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0jessie1
+Version: 5.1.1jessie1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
@@ -121,14 +121,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 4463a64356743506acda7971e9603422 657 ru-tts_5.1.0jessie1.dsc
- bebe64abffb9073b1c5aacb015e0c388 75155 ru-tts_5.1.0jessie1.tar.gz
+ 997ca26cf041b4a4c3f452893af6f68e 657 ru-tts_5.1.1jessie1.dsc
+ a95f6ca7e92e6b267dc9885f606e6785 75219 ru-tts_5.1.1jessie1.tar.gz
 Checksums-Sha1: 
- 3aae0de8c7c2be0147948cc5efd457b5f19a404f 657 ru-tts_5.1.0jessie1.dsc
- 8842fb0bc01f0d025d4d00b43a637f730f763ac8 75155 ru-tts_5.1.0jessie1.tar.gz
+ c28791ffd131aceb4c71e1f66c1131b015354cb6 657 ru-tts_5.1.1jessie1.dsc
+ fb0de2e525dd0fe93556a0791254024c320cf9d4 75219 ru-tts_5.1.1jessie1.tar.gz
 Checksums-Sha256: 
- f7939e0c53da0f51510e6efb1de4efb36e04bf10cd822728525c4d4e0c97f2c5 657 ru-tts_5.1.0jessie1.dsc
- 0dec143c48ebd97b83cac278649f67b5290de4539240dd7bf811499452078d92 75155 ru-tts_5.1.0jessie1.tar.gz
+ cb053ddff170d333df65f85fa19b6be7eb6c4c79f098b7e8a402db1e44bbc119 657 ru-tts_5.1.1jessie1.dsc
+ 497eacd9b96ded4f8fa65546a90b2eb838db25e6551950f4680a4c1ce2921ead 75219 ru-tts_5.1.1jessie1.tar.gz
 
 Package: rulex
 Format: 1.0

@@ -255,18 +255,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 105
-Depends: librutts5 (= 5.1.0bionic1)
+Depends: librutts5 (= 5.1.1bionic1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_5.1.0bionic1_i386.deb
-Size: 45260
-SHA256: d6b113207f2b41a4b9928062c762bff190aa637782d5ce1196f425cfd038eb53
-SHA1: 543fca91d32115708534b990da49e395c0cf5f2e
-MD5sum: 51abf2ab09c29799b6900fece511a39c
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.1bionic1_i386.deb
+Size: 45272
+SHA256: 9fd1b06a74040cb520cee48b58d8f898f7f7ed12999215535189e4bcac3aa7a4
+SHA1: 4fcf93ff5977b53e20e7bb0b56de821e9ba77fb5
+MD5sum: cc5ab32b6bdb2d97d28fea1b4b8044ad
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -279,18 +279,18 @@ Description: software Russian TTS engine
 
 Package: librutts5
 Source: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 84
 Depends: libc6 (>= 2.4)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts5_5.1.0bionic1_i386.deb
-Size: 40860
-SHA256: 784f2009c9da0452c7d80fa041be5436d59a2cd4b276dc7b5a64dcc10e380e43
-SHA1: ecca331309696086b0418d2d542902b6c3c8de31
-MD5sum: 19ce5b80937a2c2d4fea92ed3790ae0e
+Filename: pool/free/r/ru-tts/librutts5_5.1.1bionic1_i386.deb
+Size: 40888
+SHA256: af2f77a5d079db70468af1c5c69dc16f7cd67fa60b36dbbb53dd13562f89c3cc
+SHA1: 0a58be81bf0bb533a18e8d29101c8724d4a7ed7c
+MD5sum: ebdb6c6d327abf57cc2a389f3127ad74
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -350,7 +350,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 33
@@ -360,11 +360,11 @@ Suggests: sox
 Conflicts: rulex (<< 2.0)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_5.1.0bionic1_i386.deb
-Size: 10764
-SHA256: 97410e705568a4a2a76aa0f2c0584481d50a5c00c62d9d7b6e2c90d152ed8535
-SHA1: c8d318285145212aaf134898dce4f36df6f583c6
-MD5sum: c331568ee26543ab22216a3a3a5650f4
+Filename: pool/free/r/ru-tts/ru-tts_5.1.1bionic1_i386.deb
+Size: 10788
+SHA256: e1d7110cf0fd8a68f5bf47ec185db2716f4614f21e3a091d3ce162701dd19471
+SHA1: 6e6df0b471c7d76c5da93e4e97808e6d7d64ba19
+MD5sum: 09a991f6545c25b6bd977b03584f7b74
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input

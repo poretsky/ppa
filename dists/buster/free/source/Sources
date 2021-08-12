@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0buster1
+Version: 5.1.1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,14 +122,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- e75b919c3f7706aa50be9c6ae34c0153 657 ru-tts_5.1.0buster1.dsc
- ddb11d91cbe17a33412750ab6b92647d 74962 ru-tts_5.1.0buster1.tar.gz
+ 29b11336a8b9511df4dc64f8995110a3 657 ru-tts_5.1.1buster1.dsc
+ 9888c4a2a17f4e47cd3d2c4ed723e7ee 75114 ru-tts_5.1.1buster1.tar.gz
 Checksums-Sha1: 
- 87a3fc9f5b80c829d8405bf8882445a83508d6a9 657 ru-tts_5.1.0buster1.dsc
- cc35a9410254a9f03a85b1956ea2d9c91672db35 74962 ru-tts_5.1.0buster1.tar.gz
+ 62227dc27201418603c6a186fd66ccd16ef86710 657 ru-tts_5.1.1buster1.dsc
+ c4adcd9b77b5f8060deb83bb1e81c4b197bf567c 75114 ru-tts_5.1.1buster1.tar.gz
 Checksums-Sha256: 
- 57290629f929d6645ca0f8aff029ee087c684ee7b73d351dad0f17c5b948d8d8 657 ru-tts_5.1.0buster1.dsc
- 370dca62ee2c4120f33b87de1d3c0930fc694bd1cdd63b391b38cbfeb1df5514 74962 ru-tts_5.1.0buster1.tar.gz
+ 82a30c812b141ee822234c3b596671db08bd1db16f3761865be117b93f805470 657 ru-tts_5.1.1buster1.dsc
+ 9afc7eba894a5ff9e94f44f29f6bd845f3768571d921f8b1d7fc353bb7e97450 75114 ru-tts_5.1.1buster1.tar.gz
 
 Package: rulex
 Format: 1.0

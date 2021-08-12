@@ -132,7 +132,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0trusty1
+Version: 5.1.1trusty1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -144,14 +144,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 5467fcbeaf28a8d7f880d212d2da6bc7 664 ru-tts_5.1.0trusty1.dsc
- 872db7a4a2d1bbbb05ac39eb91d64ed0 75147 ru-tts_5.1.0trusty1.tar.gz
+ e6be7b75e544b3255c6c95abcd2df4c7 664 ru-tts_5.1.1trusty1.dsc
+ a7009401ec94ed64ee4ead7952cf9421 75047 ru-tts_5.1.1trusty1.tar.gz
 Checksums-Sha1: 
- 215a3f6ca128b926646e1e436024950bfe8310c6 664 ru-tts_5.1.0trusty1.dsc
- 9a1e189cc90b2ad1cb71ec54b911087a0352704a 75147 ru-tts_5.1.0trusty1.tar.gz
+ 952f92aa912066f2820c5014530ec06fc4d1f4f7 664 ru-tts_5.1.1trusty1.dsc
+ e9c3c75dce734be4ea6010576d34532c4adb9c5e 75047 ru-tts_5.1.1trusty1.tar.gz
 Checksums-Sha256: 
- 50c69d6cbb86642bd8751c3153b731532ae345dca9392479ad1d5748dd0c4709 664 ru-tts_5.1.0trusty1.dsc
- 54df933f04a35e2e945bc2754eb420767241ecf14fdf50a9179b758afbb5a8b4 75147 ru-tts_5.1.0trusty1.tar.gz
+ 208dc1f8c5f68af0ada4205f00d37ac0aeeedfb01d924e3f23a68ff1b99d1441 664 ru-tts_5.1.1trusty1.dsc
+ 8f086fbd55367d57df96ce251f6e19b46dae20b63ebc8dae32d28d928c12157e 75047 ru-tts_5.1.1trusty1.tar.gz
 
 Package: rulex
 Format: 1.0

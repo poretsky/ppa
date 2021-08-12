@@ -133,7 +133,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0xenial1
+Version: 5.1.1xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
@@ -145,14 +145,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- a313e0664259b0556a59def902d4e578 657 ru-tts_5.1.0xenial1.dsc
- de512e809633f369b195e2e995c4f671 75043 ru-tts_5.1.0xenial1.tar.gz
+ bcb71754f37e19ef24e491841af995ac 657 ru-tts_5.1.1xenial1.dsc
+ 013f2e59078bdd98a62169f7eb001841 75281 ru-tts_5.1.1xenial1.tar.gz
 Checksums-Sha1: 
- 51bb61581e3eb8a6bdaa41ee035b1c716ce77d5d 657 ru-tts_5.1.0xenial1.dsc
- 7a8f00cbf9e3c77112677554099679b28da7b126 75043 ru-tts_5.1.0xenial1.tar.gz
+ b16a8a22ec7a370461fb2afbee4ed7fadc0e3198 657 ru-tts_5.1.1xenial1.dsc
+ a3b121382f856f160e3130bb61d6c2aae02cf583 75281 ru-tts_5.1.1xenial1.tar.gz
 Checksums-Sha256: 
- a5ac2e8857d0e3b538ae1ddd9a33aeb823d48895f78bfb0b83b515d586f24a9e 657 ru-tts_5.1.0xenial1.dsc
- af87aad18c8a32287133e0c824e09ef8ca09aeceefa3e737246e9dda4e2ad58f 75043 ru-tts_5.1.0xenial1.tar.gz
+ fb47c8873a3dedb4e6cb4358f57d101652a2bb1cba1488e26e66443747b8a705 657 ru-tts_5.1.1xenial1.dsc
+ 1a0fd8725a2bfcf893d7ea7df941202dcaa1a078268d600f2f571548f35d520b 75281 ru-tts_5.1.1xenial1.tar.gz
 
 Package: rulex
 Format: 1.0

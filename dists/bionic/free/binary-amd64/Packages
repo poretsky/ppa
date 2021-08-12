@@ -255,18 +255,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 109
-Depends: librutts5 (= 5.1.0bionic1)
+Depends: librutts5 (= 5.1.1bionic1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_5.1.0bionic1_amd64.deb
-Size: 44236
-SHA256: a925b4553738f21c25f8bc25996d452fa3b14f8b47feafbe9631f0abcea5e702
-SHA1: 9aa02f2b874777416b13b4a9492442065a755aae
-MD5sum: e641ced467e7c4d717eca84aa79787ab
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.1bionic1_amd64.deb
+Size: 44264
+SHA256: 34d644bc427b4359d40939602c13d2db1e8c69e355883351c34267754860ec94
+SHA1: 01225ee5e629194eaeb9fbc4c9b8caa5a4ef63fd
+MD5sum: 6ef11103b9f84d9226d5b975c435910c
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -279,18 +279,18 @@ Description: software Russian TTS engine
 
 Package: librutts5
 Source: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 84
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts5_5.1.0bionic1_amd64.deb
-Size: 40160
-SHA256: 847ce82c36102a5b0705c8d6802f120f93cfcf2e907251dc9c8b4d2a48847813
-SHA1: d85c24d602836df1042e3e0f57ccef01ae8eb589
-MD5sum: da0a2567d96c5776e2ded8c685d871fb
+Filename: pool/free/r/ru-tts/librutts5_5.1.1bionic1_amd64.deb
+Size: 40144
+SHA256: d6bde9640c2e22e3ee6e511af67d84136feb6eea689875adfb717e7c36dbbcfe
+SHA1: d0b94e5f18e44a394e0755a90c36975ca624bb60
+MD5sum: d46313e68e8a14ad8d9d0bc3f9d4ec33
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -350,7 +350,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 5.1.0bionic1
+Version: 5.1.1bionic1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 33
@@ -360,11 +360,11 @@ Suggests: sox
 Conflicts: rulex (<< 2.0)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_5.1.0bionic1_amd64.deb
-Size: 10692
-SHA256: 9e5b9843694811fe8ea2f5478271192a260ca1410f665c5412df059caa688bb3
-SHA1: c995ae54fbae734cc76384ed4cd7dab4a0b6a734
-MD5sum: bbeb87693fc08a859308895ef1c4d30e
+Filename: pool/free/r/ru-tts/ru-tts_5.1.1bionic1_amd64.deb
+Size: 10708
+SHA256: 29e23e551e81e1b7e780195f8b1f945dc0eb6a363e0e5b25a56a424fca00b3d2
+SHA1: a6878f2f9cfb2391365eaff919a7aa50b149a554
+MD5sum: 0c21abda4ef2c584f8d5d3202a8cdc0d
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input

@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0focal1
+Version: 5.1.1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
@@ -122,14 +122,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 6ea9bd69356ec588f5ebf3ff4c9e65a8 654 ru-tts_5.1.0focal1.dsc
- 46b75376136fd2728a330b58df2047e6 75519 ru-tts_5.1.0focal1.tar.gz
+ 4b4001a7f9ee90698629cbe18cd1c7f3 654 ru-tts_5.1.1focal1.dsc
+ ba12a518ab1d6e2adbcdada322ae1213 75192 ru-tts_5.1.1focal1.tar.gz
 Checksums-Sha1: 
- 32e69ae8a748105841c1ca37af4f2fecdae05e50 654 ru-tts_5.1.0focal1.dsc
- e8d0334d15fea83e5ce58f8c5261fcaf27fb3d71 75519 ru-tts_5.1.0focal1.tar.gz
+ 88b4cbe5b659f78f57a9f492680e413f7c6ad2cb 654 ru-tts_5.1.1focal1.dsc
+ 46f906d5596ddb3eef8b87846e3a0d77362d7f28 75192 ru-tts_5.1.1focal1.tar.gz
 Checksums-Sha256: 
- d7d435e1d0049f5ec9aeb574181ca0eb036e19263679be49b6722146a865bc03 654 ru-tts_5.1.0focal1.dsc
- 773ebfa9af10e157425aaab3451954f2dcc6da780c0f667ed5d7505fa49a80f7 75519 ru-tts_5.1.0focal1.tar.gz
+ 8540800422c4b866c21b15ad5429ccc579e19e4bd91c4ca167f435d47b0dce15 654 ru-tts_5.1.1focal1.dsc
+ 869cf189d96d33de2f28906050e11a6e19432b02e119d64970f28a4e1c186374 75192 ru-tts_5.1.1focal1.tar.gz
 
 Package: rulex
 Format: 1.0

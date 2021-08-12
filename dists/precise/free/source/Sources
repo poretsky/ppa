@@ -276,7 +276,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.0precise1
+Version: 5.1.1precise1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -288,14 +288,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 36df86a21a4a8b97b5035b04e48823cd 668 ru-tts_5.1.0precise1.dsc
- 56048c6ceed4fcb2dec8c37fcb2de040 74828 ru-tts_5.1.0precise1.tar.gz
+ 1e65846240891a08024db85e071b0245 668 ru-tts_5.1.1precise1.dsc
+ b870a949c18cd97fab425aca139310db 75174 ru-tts_5.1.1precise1.tar.gz
 Checksums-Sha1: 
- 9d41431741736a433eb0d6f661abe9daff81bb5b 668 ru-tts_5.1.0precise1.dsc
- 6465241a06b0324ad6048c9dcbdff8a0aeb5d652 74828 ru-tts_5.1.0precise1.tar.gz
+ fc086a21aad52b18222915bbe75937946a58d77c 668 ru-tts_5.1.1precise1.dsc
+ 720f7b5350a30f9268cd7b7798657d246bc0cbf9 75174 ru-tts_5.1.1precise1.tar.gz
 Checksums-Sha256: 
- f1e4f55f18abc8fd87f6a3b99149e9c003fff24e769e73c55abb39cbedbb8fae 668 ru-tts_5.1.0precise1.dsc
- 95ce9c869e66a1e5851fd6c32241276ac92debfafdf5d710cbf3a3e40663c174 74828 ru-tts_5.1.0precise1.tar.gz
+ d98f3dbaa88233f40eeba1489a62f1e87dba23b62f831b329ac78765d3b5dbbe 668 ru-tts_5.1.1precise1.dsc
+ b7e1b841f3fa1c3b4d8690f1eab691f3063c4b0b048711ef988b43d7c73a7f51 75174 ru-tts_5.1.1precise1.tar.gz
 
 Package: rulex
 Format: 1.0
