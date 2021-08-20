@@ -85,7 +85,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.5xenial1
+Version: 4.1.0xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -97,20 +97,20 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- a41fbff6cac62b5fffddd27815a84637 935 multispeech_4.0.5xenial1.dsc
- 4120299b60eb5ddffb6e36e01625a1a6 520066 multispeech_4.0.5xenial1.tar.gz
+ 19a96ed7b019a0ea9e84fd2a0d70a1cf 935 multispeech_4.1.0xenial1.dsc
+ 40d6a069445fd03f105ae1687b48bf9c 519696 multispeech_4.1.0xenial1.tar.gz
 Checksums-Sha1: 
- 82a661f801ecac158d120045fbf5db2138221592 935 multispeech_4.0.5xenial1.dsc
- 472da615d13cbf52a72c3c23b7ff60bcea194c52 520066 multispeech_4.0.5xenial1.tar.gz
+ 71c6f31756eae81a4c775dfcea1c6f584aba712b 935 multispeech_4.1.0xenial1.dsc
+ 5e02c07e14da01d38c6d20f7d5ef85554e30a5a1 519696 multispeech_4.1.0xenial1.tar.gz
 Checksums-Sha256: 
- 59ff0c7e0e0c60d776977402e761830116c41d008ad91129001e628b3733c2f5 935 multispeech_4.0.5xenial1.dsc
- 6920c9cf2f574e877a9fde0aa19e42ce5423dcd8d8d998d8456d8903d97aa4e0 520066 multispeech_4.0.5xenial1.tar.gz
+ 24077e10e54d6c283e60596d104c3828c3bb2207ca15987968346b6a73615902 935 multispeech_4.1.0xenial1.dsc
+ 6220674996cdf359386ac470f7db9750daa9bc8fdafd505c37bf6a23ba31917a 519696 multispeech_4.1.0xenial1.tar.gz
 
 Package: rbook
 Format: 1.0
 Binary: rbook
 Architecture: all
-Version: 2.5.0xenial1
+Version: 2.6.0xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5)
@@ -120,39 +120,39 @@ Priority: optional
 Section: text
 Directory: pool/free/r/rbook
 Files: 
- f8298d6ef863cbab0202802a25f55271 513 rbook_2.5.0xenial1.dsc
- ba7f841eb6a6cf4fdd2c19a320310b82 24898 rbook_2.5.0xenial1.tar.gz
+ 3a9f58efdf9f91bdd0ab4bbd11a23c8f 513 rbook_2.6.0xenial1.dsc
+ 8942a9bbece98e9db54422a4aa2bfd5f 24783 rbook_2.6.0xenial1.tar.gz
 Checksums-Sha1: 
- efbd5bc8540cbdbcac9d767c81000015f66d4e39 513 rbook_2.5.0xenial1.dsc
- 32bec472fe5515bed86e0e745fb5a9386902a6a3 24898 rbook_2.5.0xenial1.tar.gz
+ c50379640cdedfc0ca8b16e2ae93d8525d8e5875 513 rbook_2.6.0xenial1.dsc
+ 6293ab77bb905d35d65f74dc306509a16454f86d 24783 rbook_2.6.0xenial1.tar.gz
 Checksums-Sha256: 
- 0affec2f8b94669b1c0a6ea79f2449985675db78900a339914a140a6e57849f7 513 rbook_2.5.0xenial1.dsc
- 2b89092bf05137435843129053f29c9e6ba53f8fa734d6f395737ebf15c55a60 24898 rbook_2.5.0xenial1.tar.gz
+ 3fd55570accf41af70a54adf26a7d0cb13776b225172a27e6425a91e976cb5e8 513 rbook_2.6.0xenial1.dsc
+ d87520dc0f7bd0eef1dcd3fcefedc3773286d84153177ce25aaf1fded189bafe 24783 rbook_2.6.0xenial1.tar.gz
 
 Package: ru-tts
 Format: 1.0
-Binary: ru-tts, librutts5, librutts-dev
+Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 5.1.1xenial1
+Version: 6.0.0xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
 Package-List:
  librutts-dev deb libdevel optional arch=any
- librutts5 deb libs optional arch=any
+ librutts6 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- bcb71754f37e19ef24e491841af995ac 657 ru-tts_5.1.1xenial1.dsc
- 013f2e59078bdd98a62169f7eb001841 75281 ru-tts_5.1.1xenial1.tar.gz
+ 7f5732e52f3e70a98b481485753b950e 657 ru-tts_6.0.0xenial1.dsc
+ ad09611528ebe3bfe18305dd0fd5ee28 78478 ru-tts_6.0.0xenial1.tar.gz
 Checksums-Sha1: 
- b16a8a22ec7a370461fb2afbee4ed7fadc0e3198 657 ru-tts_5.1.1xenial1.dsc
- a3b121382f856f160e3130bb61d6c2aae02cf583 75281 ru-tts_5.1.1xenial1.tar.gz
+ 18d06211a430fc652172a02ef857681595d9a184 657 ru-tts_6.0.0xenial1.dsc
+ 74ca3e610117d8c7942ceefc8f528c19624e2042 78478 ru-tts_6.0.0xenial1.tar.gz
 Checksums-Sha256: 
- fb47c8873a3dedb4e6cb4358f57d101652a2bb1cba1488e26e66443747b8a705 657 ru-tts_5.1.1xenial1.dsc
- 1a0fd8725a2bfcf893d7ea7df941202dcaa1a078268d600f2f571548f35d520b 75281 ru-tts_5.1.1xenial1.tar.gz
+ d3b1f59a7af88a2b3d5a2e192df27a47c2691b41b752913fc2f2ec18dd2c0622 657 ru-tts_6.0.0xenial1.dsc
+ de0694fc06a0d71431136049f86c161e2500dd25bf11744dda2235df4a5681b9 78478 ru-tts_6.0.0xenial1.tar.gz
 
 Package: rulex
 Format: 1.0

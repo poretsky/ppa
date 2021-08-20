@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.0.5buster1
+Version: 4.1.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,20 +74,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 2f4b86bd1551fdbdac2e17626d46101f 944 multispeech_4.0.5buster1.dsc
- 785015b267a178fcdc5192c54c4ead02 519368 multispeech_4.0.5buster1.tar.gz
+ ccd9df7463ee4e7cfbfcab53c4028e84 944 multispeech_4.1.0buster1.dsc
+ 5f382ed68effa2a12100b28018abfa5f 519907 multispeech_4.1.0buster1.tar.gz
 Checksums-Sha1: 
- cd1acabf3ebc7ed87e3ac0d759d3b0d8be0d9494 944 multispeech_4.0.5buster1.dsc
- b6c804eeb9b0bc328420663f0cad144fbbb8d4d6 519368 multispeech_4.0.5buster1.tar.gz
+ c4a59c4defded4f413ca9d98a72bf5b3cdf426e1 944 multispeech_4.1.0buster1.dsc
+ c59e2cadd89a48c083b60a8e3b01de3403be8a0f 519907 multispeech_4.1.0buster1.tar.gz
 Checksums-Sha256: 
- ad33b4f200e6c6df88cd91f5addb56bee9c366f504c784ac50df43d086b69ec7 944 multispeech_4.0.5buster1.dsc
- d40ab7881278f7f09841515a95fdc4e867515b9eb9701a883c11a002e5f60456 519368 multispeech_4.0.5buster1.tar.gz
+ 6eb276299ce85076259f49f1796345acb26eb1434955cc5c795adf0ce6a1b4b0 944 multispeech_4.1.0buster1.dsc
+ aa76e1fee671a7832fc8e510d9b6b2c31e7baee587110fb520ce6ef7b8b6be70 519907 multispeech_4.1.0buster1.tar.gz
 
 Package: rbook
 Format: 1.0
 Binary: rbook
 Architecture: all
-Version: 2.5.0buster1
+Version: 2.6.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9)
@@ -97,39 +97,39 @@ Priority: optional
 Section: text
 Directory: pool/free/r/rbook
 Files: 
- f68f9d4b7a72c03b28f7f14e560a3101 513 rbook_2.5.0buster1.dsc
- 2ccb7f82d820b5f61063b56cd49ac8d9 24750 rbook_2.5.0buster1.tar.gz
+ 517c4a5139d8892d440282c319fafded 513 rbook_2.6.0buster1.dsc
+ 15d22e3a76dc15d3f7b114e71a9745e8 25015 rbook_2.6.0buster1.tar.gz
 Checksums-Sha1: 
- 42cf602477972f8d45876a6e709f19573a65bf07 513 rbook_2.5.0buster1.dsc
- 387b8bfa1d45d8706e2abdfd0c4bc62b6730f1b8 24750 rbook_2.5.0buster1.tar.gz
+ a53eacb3c7fc2dbd1bbfd3a0ffa24105e85fe174 513 rbook_2.6.0buster1.dsc
+ 83ffc845ffd09ca1844f151a27d2c21907005a44 25015 rbook_2.6.0buster1.tar.gz
 Checksums-Sha256: 
- a558d6631db310b47231ccfaee2b20c7b005ea0406331b9835f6ecda7fd644ae 513 rbook_2.5.0buster1.dsc
- dcc67df9bf5914f3fd79e3da8bdd50ace71437768ad40b94f9460ca2891bbffd 24750 rbook_2.5.0buster1.tar.gz
+ ee1bb990491b6736f2044b35abe5cfb1860b1eebbf7269aa8dee6c774116379d 513 rbook_2.6.0buster1.dsc
+ ae7582098818688ed44e6a7ca54a4a49369fb115662512d9b10e920689e0e3e1 25015 rbook_2.6.0buster1.tar.gz
 
 Package: ru-tts
 Format: 1.0
-Binary: ru-tts, librutts5, librutts-dev
+Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 5.1.1buster1
+Version: 6.0.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
 Package-List:
  librutts-dev deb libdevel optional arch=any
- librutts5 deb libs optional arch=any
+ librutts6 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 29b11336a8b9511df4dc64f8995110a3 657 ru-tts_5.1.1buster1.dsc
- 9888c4a2a17f4e47cd3d2c4ed723e7ee 75114 ru-tts_5.1.1buster1.tar.gz
+ a78369b2a119ee6fce0fafb78d0e497d 657 ru-tts_6.0.0buster1.dsc
+ 5fb5fd1e94620a3521e18fde43bd939e 78623 ru-tts_6.0.0buster1.tar.gz
 Checksums-Sha1: 
- 62227dc27201418603c6a186fd66ccd16ef86710 657 ru-tts_5.1.1buster1.dsc
- c4adcd9b77b5f8060deb83bb1e81c4b197bf567c 75114 ru-tts_5.1.1buster1.tar.gz
+ ab5d654bc2cc5ff5f91c4e5f2042cd1718204def 657 ru-tts_6.0.0buster1.dsc
+ 25b69e13def38998ff74675659264a7fe6ef9806 78623 ru-tts_6.0.0buster1.tar.gz
 Checksums-Sha256: 
- 82a30c812b141ee822234c3b596671db08bd1db16f3761865be117b93f805470 657 ru-tts_5.1.1buster1.dsc
- 9afc7eba894a5ff9e94f44f29f6bd845f3768571d921f8b1d7fc353bb7e97450 75114 ru-tts_5.1.1buster1.tar.gz
+ f35e4926b49e4e2f6203b48d4028088ad2511451312c9db61fdebf17e7649a36 657 ru-tts_6.0.0buster1.dsc
+ c58c7aa6c13ee248983135bd8642fadce419cb04af04ef5346f4de07ffc8cece 78623 ru-tts_6.0.0buster1.tar.gz
 
 Package: rulex
 Format: 1.0

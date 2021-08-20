@@ -192,21 +192,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech0
 Source: multispeech
-Version: 4.0.5buster1
+Version: 4.1.0buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 880
+Installed-Size: 896
 Depends: libbobcat4, libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: multispeech (<< 4.0.0)
 Replaces: multispeech (<< 4.0.0)
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech0_4.0.5buster1_i386.deb
-Size: 245184
-SHA256: d300c296507ded78ee3fb2634b9b966e1337a95dea5f223297150a64ee296ea2
-SHA1: b2c00867e161b7156052b4519b02912284490e5e
-MD5sum: a1712d5e4de7d038de4dd5056860809b
+Filename: pool/free/m/multispeech/libmultispeech0_4.1.0buster1_i386.deb
+Size: 248644
+SHA256: e5d7d62d08410f1d4935d1b8d929ef2fb5133729c5ab1b425c81d7a95f51aa03
+SHA1: ba3c1c938600e86e765b31ea6e59c41847837533
+MD5sum: 52893d3b59aa4745945dc7b676d7726c
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -255,18 +255,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 5.1.1buster1
+Version: 6.0.0buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 105
-Depends: librutts5 (= 5.1.1buster1)
+Installed-Size: 107
+Depends: librutts6 (= 6.0.0buster1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_5.1.1buster1_i386.deb
-Size: 45664
-SHA256: f8925ae57277f36830b9781ac08672f5805d9e875cdae817fb3c9b6fb0e601c7
-SHA1: ade8c240d4bde148aec68620485932c9eaa33fff
-MD5sum: 510091714ed791e6fcac4f00192d20a6
+Filename: pool/free/r/ru-tts/librutts-dev_6.0.0buster1_i386.deb
+Size: 46976
+SHA256: ae6a2f24324fa0eb0300b7db95df4df824ccc32428b364a137201af07950632e
+SHA1: ac63dd03cc8ebe60af31743e8b9678cfe00b1434
+MD5sum: e32f9d47c69b4c93a4e4f4e2042d8a8e
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -301,8 +301,32 @@ Description: software Russian TTS engine
  .
  This package provides the shared library.
 
+Package: librutts6
+Source: ru-tts
+Version: 6.0.0buster1
+Architecture: i386
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 88
+Depends: libc6 (>= 2.1.3)
+Priority: optional
+Section: libs
+Filename: pool/free/r/ru-tts/librutts6_6.0.0buster1_i386.deb
+Size: 41608
+SHA256: c1e6fcd044ee6334f53010dc148fb1ebd2ba6ad0e7662bc18a61593e43c45e47
+SHA1: 2a54dbf2316a8f040aa8120502549f5c483422e7
+MD5sum: e6ee18b59cffd298d4dd2eb881250e9d
+Description: software Russian TTS engine
+ This is a Russian speech synthesizer.
+ it takes Russian text in koi8-r charset as an input
+ and produces digital sound stream in the raw linear
+ signed 8-bit 10 kHz format for the output.
+ It doesn't actually play this sound. You should use
+ some player for it like sox for example.
+ .
+ This package provides the shared library.
+
 Package: multispeech
-Version: 4.0.5buster1
+Version: 4.1.0buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 287
@@ -312,11 +336,11 @@ Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.0.5buster1_i386.deb
-Size: 81712
-SHA256: adfd04e3fcb738013a960ef9aaffd7f6bd22b2a8df110806b7564f1b85f54104
-SHA1: 696832356ecbeb96eac61dc47f9d3a0b5597f740
-MD5sum: 5f939d72ee400279b86fd653b6b83996
+Filename: pool/free/m/multispeech/multispeech_4.1.0buster1_i386.deb
+Size: 81780
+SHA256: b67e4afb887f2c32459ea503860feb77b8a0b633caecda6071c1f483fc3fb8a5
+SHA1: 59c3341e6bec262c7a3843c1ee369da986dfec16
+MD5sum: 89d445734a540d481fda5f32a2241110
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -330,19 +354,19 @@ Description: Multilingual speech server for Emacspeak
   - online voice control means.
 
 Package: rbook
-Version: 2.5.0buster1
+Version: 2.6.0buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 79
-Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts (>= 5.1)
+Depends: emacs | emacsen, alsa-utils, libsox-fmt-base, sox, ru-tts (>= 6.0)
 Recommends: lame
 Priority: optional
 Section: text
-Filename: pool/free/r/rbook/rbook_2.5.0buster1_all.deb
-Size: 23540
-SHA256: 2912645e480daf64e65824cf67dcf79e7f316e8c83c2285b0d4c74f0b15a7d70
-SHA1: 1f7e65ee42f0bdf5a7d779d38501af79e8b00b7b
-MD5sum: a52ad5d2e28ef213094dc9049d536c3c
+Filename: pool/free/r/rbook/rbook_2.6.0buster1_all.deb
+Size: 23612
+SHA256: 8cc8cd910a3315aeaebd8f1f131172d85415db83d013d19b7815d6618a74192e
+SHA1: f58f8e267b988e6d6b85ea234ed54bca568dd997
+MD5sum: 2c12a24ab7726594ebff940489836972
 Description: Read books in Emacs with synthesized voice
  This program allows one to read Russian texts in Emacs
  with synthesized voice providing bookmarks support
@@ -350,21 +374,22 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 5.1.1buster1
+Version: 6.0.0buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 37
-Depends: libc6 (>= 2.3), librulexdb0, librutts5 (>= 5.1)
+Installed-Size: 40
+Depends: libc6 (>= 2.3), librulexdb0, librutts6 (>= 6.0)
 Recommends: rulex (>= 2.0)
 Suggests: sox
 Conflicts: rulex (<< 2.0)
+Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_5.1.1buster1_i386.deb
-Size: 10788
-SHA256: d066548dbc9c97d7095cecfe348b19d43760b9d834a0610980781224ee90b973
-SHA1: 7263752bc3c769ab759f08ff3aa62f2953995999
-MD5sum: 7e39ebcaee8deabbe6ba074b768d8122
+Filename: pool/free/r/ru-tts/ru-tts_6.0.0buster1_i386.deb
+Size: 13968
+SHA256: a4f7f5e337c15429ca7d81533ba780e68234605107d6057f0d4bc1577c29e7fa
+SHA1: c60e0ab0d9bc97c633537e8281dc7ee1087a5592
+MD5sum: 7f64c571028066f9d6083f374967977f
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -396,7 +421,7 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.0.5buster1
+Version: 4.1.0buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 238
@@ -406,11 +431,11 @@ Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.0.5buster1_i386.deb
-Size: 69656
-SHA256: ddbe3565859066073ebf21eda6a78405924e34e37c0d8047905d68c240b26fbf
-SHA1: 8bf8d860c534adf5c3474c25d9fe1f0b463cbbdb
-MD5sum: 752d8b816f6c62a0931abbfbc4bddb48
+Filename: pool/free/m/multispeech/sd-multispeech_4.1.0buster1_i386.deb
+Size: 69700
+SHA256: 94860b1f1340a4cb846951c6050ec7e61c21e33d4f20d6544e613460da31a79b
+SHA1: 13217d2c1be3cc9f3e5290630de53b32c46dedde
+MD5sum: 572a7161608bcf8c1eba44dd2dd30ee7
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
