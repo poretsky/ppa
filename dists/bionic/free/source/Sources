@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.1.0bionic1
+Version: 4.1.1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 0e5348070acd5c5ccaafc0ce3c7fa014 944 multispeech_4.1.0bionic1.dsc
- 274b19f53cd36cc60ad9e3fae138a8ed 519539 multispeech_4.1.0bionic1.tar.gz
+ c5cd231a8312dddfa806b72185d89f6c 944 multispeech_4.1.1bionic1.dsc
+ 050ed68bf68b1e4eea12eb56f9541dd6 519624 multispeech_4.1.1bionic1.tar.gz
 Checksums-Sha1: 
- 435236bd5754665c6d41bb61584c00722baa5747 944 multispeech_4.1.0bionic1.dsc
- 6ef70f55c9a3ae15b36fc83bd5dfcf622ddbcfed 519539 multispeech_4.1.0bionic1.tar.gz
+ e36c2db8664329b952b972cc98361764c0ef84cc 944 multispeech_4.1.1bionic1.dsc
+ feebd0e53d6b6b4c335bdb95022e7dccae497c75 519624 multispeech_4.1.1bionic1.tar.gz
 Checksums-Sha256: 
- 0db17774110c8adf234d908749e5443b169fe7264f92ef7b624d1f159f438cf6 944 multispeech_4.1.0bionic1.dsc
- 88a5b8e9ec5d721da63816ba3f56251570be4e12879d30f0d644b69952bc9f92 519539 multispeech_4.1.0bionic1.tar.gz
+ da950c1c93f4cae17a2fec9e9ac38c4df99f9c0929b0ae23d4b14f108c0c30fe 944 multispeech_4.1.1bionic1.dsc
+ f2e6defdb2b4370070b65101d12740313b5b2c8be668c7d6da93147be57e2256 519624 multispeech_4.1.1bionic1.tar.gz
 
 Package: rbook
 Format: 1.0
