@@ -285,7 +285,7 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech0
 Source: multispeech
-Version: 4.1.1stretch1
+Version: 4.1.2stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 912
@@ -295,11 +295,11 @@ Conflicts: multispeech (<< 4.0.0)
 Replaces: multispeech (<< 4.0.0)
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech0_4.1.1stretch1_i386.deb
-Size: 252408
-SHA256: 09ecba5d41405fc3f7d4b4119692f1bca18c505a0cb9571340529cdf16c2815c
-SHA1: 26f77b3dd7c64f7497d35f1520ad3e6238b0dddc
-MD5sum: 356f0ec851166868bb38047bf9a792d1
+Filename: pool/free/m/multispeech/libmultispeech0_4.1.2stretch1_i386.deb
+Size: 252124
+SHA256: 0036c9c7233cb652a4d8e190553a5c806ef6bc3f535ebb57c15f792247b8583a
+SHA1: ec78d067c174d454c8cc19b6e4ed43dcea45339b
+MD5sum: 1ff4df00852dacd3fcb6f430d452bee7
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -419,7 +419,7 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.1.1stretch1
+Version: 4.1.2stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 271
@@ -429,11 +429,11 @@ Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.1.1stretch1_i386.deb
-Size: 80272
-SHA256: 759c1f362861b8696843972483c29380519c9ca44cbe2985378aeff8416f9562
-SHA1: 7e895450e6dcb7d2d5044bc7b42efcec6f70c86d
-MD5sum: 58c0be35ff363ce03c4e913f9b9873f4
+Filename: pool/free/m/multispeech/multispeech_4.1.2stretch1_i386.deb
+Size: 80256
+SHA256: 017c4fe1a79b22067a88cf88094f67a149d576683c818ee7001dac6590acb802
+SHA1: 074759ee6ef0b1048c3ef2441387e25485e10ba3
+MD5sum: 9ed0978be06af08f918c562df83a583e
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -514,7 +514,7 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.1.1stretch1
+Version: 4.1.2stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 218
@@ -524,11 +524,11 @@ Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.1.1stretch1_i386.deb
-Size: 67704
-SHA256: c57638e4f101991396ad832de70ef66556f2ff57c019cfc042255fb8499c1ace
-SHA1: af3af67f23c1684706609cdc1609fe68851cc744
-MD5sum: 0cecd77dc1ce9273423d60e34170049a
+Filename: pool/free/m/multispeech/sd-multispeech_4.1.2stretch1_i386.deb
+Size: 67610
+SHA256: dc395fb22f01736053e2d72050021d1bbaa1198881776b7223da0ef889bac378
+SHA1: 8685a137546a3d8ea5386fb80f964d24d44ad405
+MD5sum: 2e6ca3bbb6b7f8924c5823838d8bdebb
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.

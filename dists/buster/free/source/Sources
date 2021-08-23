@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech0
 Architecture: any
-Version: 4.1.1buster1
+Version: 4.1.2buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- c169f688bbb8abc817e4c2bbed8a79ac 944 multispeech_4.1.1buster1.dsc
- 408534c65090c1f122e2a90f4c2e51a0 520048 multispeech_4.1.1buster1.tar.gz
+ 68e63dc417f8d874c1042aa54029c9b1 944 multispeech_4.1.2buster1.dsc
+ cd74bd48dd6b3a1ca460efa80564050c 519668 multispeech_4.1.2buster1.tar.gz
 Checksums-Sha1: 
- 9ead01e6330f029dec23416d1774aab25853d62f 944 multispeech_4.1.1buster1.dsc
- 8511c07f90376e633dfff216d70fd2594aa36ace 520048 multispeech_4.1.1buster1.tar.gz
+ 4d5dc22247422b5ab8574553b5956330dccb702c 944 multispeech_4.1.2buster1.dsc
+ 066c7121856d6aa2a404e051a9173877afb1827a 519668 multispeech_4.1.2buster1.tar.gz
 Checksums-Sha256: 
- 22d6a2629289b9ea78610b0abf3386b84be9ac8656628126ecda313169fb2b73 944 multispeech_4.1.1buster1.dsc
- 03b755ea267547a3314bfbe4b8d0e76e951411461c1278da874e1bbb3dd01bc0 520048 multispeech_4.1.1buster1.tar.gz
+ 93ef75f2bac7adb321a968d137bf0728166d4f66b6a8d8686a0cb139d3c7ee17 944 multispeech_4.1.2buster1.dsc
+ 3efb8f6561f38283d4c8df279c1f9e48eb6d3b51bc8ce018a6a19633855e6b7c 519668 multispeech_4.1.2buster1.tar.gz
 
 Package: rbook
 Format: 1.0
