@@ -60,28 +60,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech0
+Binary: multispeech, sd-multispeech, libmultispeech3
 Architecture: any
-Version: 4.1.2bionic1
+Version: 4.2.0bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech0 deb sound optional arch=any
+ libmultispeech3 deb sound optional arch=any
  multispeech deb sound optional arch=any
  sd-multispeech deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 6e6ee7b992677a76f874a4e53016b95a 944 multispeech_4.1.2bionic1.dsc
- cfa2fb1c563c8a5c3b197a824fd6da2f 519822 multispeech_4.1.2bionic1.tar.gz
+ 4370ab3a352fec2584b55ad903b8cee2 944 multispeech_4.2.0bionic1.dsc
+ bdeaf2c757dc6f170cbf26f29c30e8b6 521147 multispeech_4.2.0bionic1.tar.gz
 Checksums-Sha1: 
- 6e05679117cdcd638dd5e05ce347bfbb31b1b3ff 944 multispeech_4.1.2bionic1.dsc
- 1d551e64affb94e7cdfe41caf6a0ff8c340a74f1 519822 multispeech_4.1.2bionic1.tar.gz
+ 5d6bbe31e7f4cdbf81ff5d3e0611790f98686e29 944 multispeech_4.2.0bionic1.dsc
+ 5193ec827226adf370ed52fbb181388800e2d431 521147 multispeech_4.2.0bionic1.tar.gz
 Checksums-Sha256: 
- ebd17cb44faa38f5c5f350ca72b4d7bb58fefc04f7c23197dfbdb90f35d2b254 944 multispeech_4.1.2bionic1.dsc
- ae166152a477ac14eb1770588b6dde4f54885b4f5a7703268e6029f1b5f1f349 519822 multispeech_4.1.2bionic1.tar.gz
+ 84cdabda4c9fe6654c53367abce1eb83ea19b4e2acc6df8c84d3f3e28b156418 944 multispeech_4.2.0bionic1.dsc
+ cd39092f469145e1806f4ae6fec6a2fb7896e27791649b2b53a89aa106086d58 521147 multispeech_4.2.0bionic1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.0bionic1
+Version: 6.0.1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,14 +122,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- bac4e3c54acfee311db0aef51ef27389 657 ru-tts_6.0.0bionic1.dsc
- bd420365ff780c372e51d25852855497 78721 ru-tts_6.0.0bionic1.tar.gz
+ 0d0c97c0ac7021d6357a1a9109aaea2d 657 ru-tts_6.0.1bionic1.dsc
+ c39c21fa1bce1332c55b3a934e14c9aa 78545 ru-tts_6.0.1bionic1.tar.gz
 Checksums-Sha1: 
- 900a1388ef1d71563144899ed6d4319a1d6697bc 657 ru-tts_6.0.0bionic1.dsc
- c46784a30e2ba8ad344bc0d9578150d98427710f 78721 ru-tts_6.0.0bionic1.tar.gz
+ 0ec6008459429bd67d00cbf15996176e55dee990 657 ru-tts_6.0.1bionic1.dsc
+ 881280b7888a7edd7ebe8b5db819cdee41f92909 78545 ru-tts_6.0.1bionic1.tar.gz
 Checksums-Sha256: 
- f14a3ce3f9aea8077fa1121541f41556d8f3f914d426937162551815750af590 657 ru-tts_6.0.0bionic1.dsc
- 861538ab6f33e929031b1642a51ca79e5603f89882603ab4ca4be45565df2b3e 78721 ru-tts_6.0.0bionic1.tar.gz
+ 6a1c9c00e0898079ef1cadaf7c18afeb40fb8948a9edde9e12bb1fddb862f4f8 657 ru-tts_6.0.1bionic1.dsc
+ e33900f3d81a4b5a14feaa0f60d23ddc376e3eb0f682a1125c568ddb16ad4007 78545 ru-tts_6.0.1bionic1.tar.gz
 
 Package: rulex
 Format: 1.0

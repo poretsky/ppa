@@ -216,6 +216,32 @@ Description: Multilingual speech server
  This package provides common shared library and main
  configuration file used by all Multispeech implementations.
 
+Package: libmultispeech3
+Source: multispeech
+Version: 4.2.0focal1
+Architecture: amd64
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 833
+Depends: libbobcat5 (>= 5.02.00), libboost-filesystem1.71.0, libboost-program-options1.71.0, libboost-regex1.71.0-icu66, libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libstdc++6 (>= 9)
+Recommends: multispeech | sd-multispeech
+Conflicts: multispeech (<< 4.0.0)
+Replaces: multispeech (<< 4.0.0)
+Priority: optional
+Section: sound
+Filename: pool/free/m/multispeech/libmultispeech3_4.2.0focal1_amd64.deb
+Size: 225868
+SHA256: 18e1522538eec3b3678ce5718f7719eed4d284ab73d2d74a2692109998e21159
+SHA1: 1748562c4beb63b2b76a10702e77fa84ee741e5e
+MD5sum: 988987e66ae28f171228ad186aae0d96
+Description: Multilingual speech server
+ Though Multispeech was primarily designed for use in conjunction
+ with Emacspeak, but being capable to work with Speech Dispatcher
+ as its backend module, it can provide multilingual speech output
+ for Orca screenreader as well.
+ .
+ This package provides common shared library and main
+ configuration file used by all Multispeech implementations.
+
 Package: librulexdb-dev
 Source: rulex
 Version: 3.5.0focal1
@@ -255,18 +281,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.0.0focal1
+Version: 6.0.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 113
-Depends: librutts6 (= 6.0.0focal1)
+Depends: librutts6 (= 6.0.1focal1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.0.0focal1_amd64.deb
-Size: 45332
-SHA256: 02ea289646092688f81e9bcd7077446b9d73914a31a26c0d8f6de1ea3018a83d
-SHA1: d783d042c966410c859f9796eca7b0bf1f0b2993
-MD5sum: de24282e9e9d97c23a47ee1ca09b8acd
+Filename: pool/free/r/ru-tts/librutts-dev_6.0.1focal1_amd64.deb
+Size: 45324
+SHA256: 5d9c8deae3d9412fd76d6fab84fa5fd987265a897873bb72a8e6978c34df6304
+SHA1: 18b56255d557fbd2e04ea5d580ac02ef54abcf62
+MD5sum: eabfadb9fdc53dad5c052a1371690fdb
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -303,18 +329,18 @@ Description: software Russian TTS engine
 
 Package: librutts6
 Source: ru-tts
-Version: 6.0.0focal1
+Version: 6.0.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 89
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts6_6.0.0focal1_amd64.deb
-Size: 40104
-SHA256: 7dd5703bcbccc0ae77fb776aedaa4ee2aaa993715d22abbc25dc3b22574ae0cb
-SHA1: 131da0217702237d91800f3cac79ac2916f0a832
-MD5sum: d1c4bd1063f047d46cf128b26cf1dcc6
+Filename: pool/free/r/ru-tts/librutts6_6.0.1focal1_amd64.deb
+Size: 40156
+SHA256: 80eda5df5024cd856b631958500660f7ea17505b83cc222b4e3751349fdfbb67
+SHA1: 24e4bc9cd7272ff74c0a95883da5ea30cea7bf94
+MD5sum: d12647854a360b0bd34ad702ec692eb6
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -326,21 +352,21 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.1.2focal1
+Version: 4.2.0focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 271
-Depends: libbobcat5 (>= 5.02.00), libboost-program-options1.71.0, libboost-regex1.71.0-icu66, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech0 (>= 4.0.5), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Installed-Size: 267
+Depends: libbobcat5 (>= 5.02.00), libboost-regex1.71.0-icu66, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech3 (>= 4.2), libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak, espeak-data
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.1.2focal1_amd64.deb
-Size: 84384
-SHA256: 746241784f4c06f2017fc9e6d6e23c9f8d61449d36c256450ef1d9007cd30c29
-SHA1: 97e1a96d57ef8385cc1cc57831aac77bd14603e7
-MD5sum: 6a38c3e7aa8fafc38e601262e38c3461
+Filename: pool/free/m/multispeech/multispeech_4.2.0focal1_amd64.deb
+Size: 81808
+SHA256: e6a247d3cdbfd9ee01b899d575f535371e1750d35db11e9d5c60d989ca46f5fc
+SHA1: 32888c3d8a5f11aad85deb49108ad05814110901
+MD5sum: ea14b94812b019653ff48f8bb84f83b2
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -374,7 +400,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.0.0focal1
+Version: 6.0.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 41
@@ -385,11 +411,11 @@ Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.0.0focal1_amd64.deb
-Size: 13976
-SHA256: 47112154e9a9f05f69f8df8da43bf8c5de8764ed0588eb14bd63e00f8360f9a6
-SHA1: d3e2c4e8f3b79ae9183346d276297d7c29f7b309
-MD5sum: 7c49fec16faf78bf0156ec8399b192d6
+Filename: pool/free/r/ru-tts/ru-tts_6.0.1focal1_amd64.deb
+Size: 14016
+SHA256: ea4b273d4b15218122d6e098886a573da8b89121c8276a9419c95dd51147649e
+SHA1: ca6978e87a8d750ce73bea152226b9d520f2c0fd
+MD5sum: 73650f9c0133a463e2deb9179575cca2
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -421,21 +447,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.1.2focal1
+Version: 4.2.0focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 246
-Depends: libbobcat5 (>= 5.02.00), libboost-filesystem1.71.0, libboost-program-options1.71.0, libboost-regex1.71.0-icu66, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech0 (>= 4.0.5), libportaudiocpp0, libstdc++6 (>= 5.2)
+Installed-Size: 230
+Depends: libbobcat5 (>= 5.02.00), libboost-filesystem1.71.0, libboost-regex1.71.0-icu66, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech3 (>= 4.2), libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.1.2focal1_amd64.deb
-Size: 72136
-SHA256: 117f319377b40b52892c90b967505f6565409c5cc909b0488a3b3280e3882b64
-SHA1: 50ebbba1a7466e63d6abe8103ac8297249325a3a
-MD5sum: 29a951114d6751f4f61a8569f122286d
+Filename: pool/free/m/multispeech/sd-multispeech_4.2.0focal1_amd64.deb
+Size: 68684
+SHA256: ead27513d92fcfd74c88e3715371a9f27388c1d830e24afeceb6c1aa523f7ed3
+SHA1: 2d5f14bc17dc8298db93296d3ab5e5cb1d96c6d9
+MD5sum: b1dc0cede006fafcbeefcb86a857b604
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
