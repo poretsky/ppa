@@ -190,32 +190,6 @@ Description: English Text-To-Phoneme converter
  It can make use of an external dictionary in hash format,
  such as the one provided by enlex package.
 
-Package: libmultispeech0
-Source: multispeech
-Version: 4.1.2buster1
-Architecture: i386
-Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 892
-Depends: libbobcat4, libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libstdc++6 (>= 5.2)
-Recommends: multispeech | sd-multispeech
-Conflicts: multispeech (<< 4.0.0)
-Replaces: multispeech (<< 4.0.0)
-Priority: optional
-Section: sound
-Filename: pool/free/m/multispeech/libmultispeech0_4.1.2buster1_i386.deb
-Size: 248752
-SHA256: 8a3da31d147366202487a3620081aaeb3f2766243c294312247da93c0be5cfed
-SHA1: d2903d32d4c82026fb821d28bed0b5df8c2a5136
-MD5sum: de687b2cc93986d125e7212423e6606a
-Description: Multilingual speech server
- Though Multispeech was primarily designed for use in conjunction
- with Emacspeak, but being capable to work with Speech Dispatcher
- as its backend module, it can provide multilingual speech output
- for Orca screenreader as well.
- .
- This package provides common shared library and main
- configuration file used by all Multispeech implementations.
-
 Package: libmultispeech3
 Source: multispeech
 Version: 4.2.0buster1
@@ -302,30 +276,6 @@ Description: software Russian TTS engine
  some player for it like sox for example.
  .
  This package provides the development files.
-
-Package: librutts5
-Source: ru-tts
-Version: 5.1.1buster1
-Architecture: i386
-Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 88
-Depends: libc6 (>= 2.1.3)
-Priority: optional
-Section: libs
-Filename: pool/free/r/ru-tts/librutts5_5.1.1buster1_i386.deb
-Size: 41236
-SHA256: 3be615b1a9b964287d1d6d03327f6f6b4920f82229467048d0e9924ad4fd914d
-SHA1: dd307b388e8caa4c02ed7e0ffb014e904b7d3fb9
-MD5sum: 59cffed1d0215c137bb0a1911d19eb83
-Description: software Russian TTS engine
- This is a Russian speech synthesizer.
- it takes Russian text in koi8-r charset as an input
- and produces digital sound stream in the raw linear
- signed 8-bit 10 kHz format for the output.
- It doesn't actually play this sound. You should use
- some player for it like sox for example.
- .
- This package provides the shared library.
 
 Package: librutts6
 Source: ru-tts
