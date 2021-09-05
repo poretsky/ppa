@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech3
 Architecture: any
-Version: 4.2.0stretch1
+Version: 4.2.1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 298982fd5726e8f7d9de7e7afb9b7f35 939 multispeech_4.2.0stretch1.dsc
- 25a95e0951ccc909183b1a58572549fe 521715 multispeech_4.2.0stretch1.tar.gz
+ 72da13ca871cc2b528199c5b74b218ee 939 multispeech_4.2.1stretch1.dsc
+ 482c9bbbb7223ac21c6a49bf56baaa4f 521445 multispeech_4.2.1stretch1.tar.gz
 Checksums-Sha1: 
- 300a376f64b1f6855dd06c350025e45ac880864c 939 multispeech_4.2.0stretch1.dsc
- ae0879f6c355d654d2a1ab06676b7da82318f29f 521715 multispeech_4.2.0stretch1.tar.gz
+ 30672cacd78d5641b753b9ab645a2a1ac6983882 939 multispeech_4.2.1stretch1.dsc
+ ee0f77ec1ee5154ab679cedfc1942b1c58f34185 521445 multispeech_4.2.1stretch1.tar.gz
 Checksums-Sha256: 
- 3ed8408ff275cfc928cc83f6bbf372419cbe5ff26976dd68e31fd1cb05a2a922 939 multispeech_4.2.0stretch1.dsc
- bfea937deb8b1aded0b9183a948fa004a0ac73d060ebcae23c0e58108f195ebd 521715 multispeech_4.2.0stretch1.tar.gz
+ 3bd12e2b45b3c7e4a79d6570bd335170be0bf22851775de25bd2c2809efd1b20 939 multispeech_4.2.1stretch1.dsc
+ 2e762574e93c7aa57d864882ffaef48cf480a12f27ff70172da1b99bb644bf4e 521445 multispeech_4.2.1stretch1.tar.gz
 
 Package: rbook
 Format: 1.0
