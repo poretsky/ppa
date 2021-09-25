@@ -60,28 +60,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech3
+Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.3.0buster1
+Version: 4.4.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
-Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech3 deb sound optional arch=any
+ libmultispeech5 deb sound optional arch=any
  multispeech deb sound optional arch=any
  sd-multispeech deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 7e9377d420997135e24a03e1016a2a5d 944 multispeech_4.3.0buster1.dsc
- 24aa9870fda1790fee9d303160505928 521567 multispeech_4.3.0buster1.tar.gz
+ 355755a5e3e74565e7636539c1236384 965 multispeech_4.4.0buster1.dsc
+ ebff8be6535318b5eaead07cdb6166e0 521204 multispeech_4.4.0buster1.tar.gz
 Checksums-Sha1: 
- 1d989a5f0fe4ee7c0edcd45c0bcfc6bcb1c2f61b 944 multispeech_4.3.0buster1.dsc
- bfbc0a513903491b0c3f44c84ef93f56428d2958 521567 multispeech_4.3.0buster1.tar.gz
+ 19682c7021c20ab8cd4694783f974907b2467816 965 multispeech_4.4.0buster1.dsc
+ fa7c20a300dbc4a5fc782839f24cf264f3fa0e49 521204 multispeech_4.4.0buster1.tar.gz
 Checksums-Sha256: 
- 42f60b864fc140c650bfc2b2b0d1eaf6d99cabd03826fb6f928e1bdeb4b62089 944 multispeech_4.3.0buster1.dsc
- 83f68040cd50fee9631e8cca6b50881109e4ec5616b86342cb8c5b9867c4a6f0 521567 multispeech_4.3.0buster1.tar.gz
+ 9e3de2fc2da4ec1ff12b99d8fb7c4a2380267c83fbb981b351a703346033eacb 965 multispeech_4.4.0buster1.dsc
+ ec61f305f03e63859db1159fbe811ca4d873067d33fe635e938d46370be100fa 521204 multispeech_4.4.0buster1.tar.gz
 
 Package: rbook
 Format: 1.0

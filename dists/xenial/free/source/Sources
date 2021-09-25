@@ -83,28 +83,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech3
+Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.3.0xenial1
+Version: 4.4.0xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
-Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
+Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech3 deb sound extra arch=any
+ libmultispeech5 deb sound extra arch=any
  multispeech deb sound extra arch=any
  sd-multispeech deb sound extra arch=any
 Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 190d7504e9d3c7763e1d780f7f3fc423 935 multispeech_4.3.0xenial1.dsc
- cc6bc4be791919cf03eba113d1be9b85 521595 multispeech_4.3.0xenial1.tar.gz
+ ea8274b243fad9dc3e6b020b2ee59ea8 956 multispeech_4.4.0xenial1.dsc
+ 398d14b056300fa5918c87eae7cb3591 521445 multispeech_4.4.0xenial1.tar.gz
 Checksums-Sha1: 
- 172b26632412f3832e86f26035b9919d5fa37ecf 935 multispeech_4.3.0xenial1.dsc
- eb4140f5e9a7543e777eb6767352c50cfb6e261e 521595 multispeech_4.3.0xenial1.tar.gz
+ 0ae220ce5c9f49a775a30e387023cb55e47140b9 956 multispeech_4.4.0xenial1.dsc
+ 025b2064b5a4c570569d2189395e0b0be9cf0a8d 521445 multispeech_4.4.0xenial1.tar.gz
 Checksums-Sha256: 
- 9f07631d860e5658c63fd12da8ec27bf75aeeba276adf1880547d4bb5f0e15aa 935 multispeech_4.3.0xenial1.dsc
- 70425f51e41d5ef394cd444460cfc2de0cd34645bb86d3c12687fe9c16c5d1ef 521595 multispeech_4.3.0xenial1.tar.gz
+ d984dd213933fc52f3480a6386b4706ed15aa0b57ad5b5045ed44661afc5e8d5 956 multispeech_4.4.0xenial1.dsc
+ a99d58b6823e6c0fc8ff658701fd5e56682a8dedde9c202a5576a05feebe2140 521445 multispeech_4.4.0xenial1.tar.gz
 
 Package: rbook
 Format: 1.0

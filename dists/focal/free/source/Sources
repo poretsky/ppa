@@ -60,28 +60,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech3
+Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.3.0focal1
+Version: 4.4.0focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
-Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
+Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech3 deb sound optional arch=any
+ libmultispeech5 deb sound optional arch=any
  multispeech deb sound optional arch=any
  sd-multispeech deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 2349244607774db2fc3c0f0c4955fbd4 926 multispeech_4.3.0focal1.dsc
- a5d55a978f749ae03c98527551623c56 521860 multispeech_4.3.0focal1.tar.gz
+ 7dda358f813d5580c86d4c4e25a32ca6 947 multispeech_4.4.0focal1.dsc
+ 3674e7c4180fffd9b2cf84127a3536f3 520757 multispeech_4.4.0focal1.tar.gz
 Checksums-Sha1: 
- d4b07e72c066ffe1fb445b69ce2047dfc82c46c9 926 multispeech_4.3.0focal1.dsc
- 605001654ed4d1e8f17553276d676b0c2cfddd0e 521860 multispeech_4.3.0focal1.tar.gz
+ 22295264716f0f91e9939a52e894ed139d46f60a 947 multispeech_4.4.0focal1.dsc
+ 95c51abc48e99c0e2e9d1242bdc76815640f51f7 520757 multispeech_4.4.0focal1.tar.gz
 Checksums-Sha256: 
- 1db664820f55abd3b413c3ceed200b4c542e52a17b6cc10e1295acbc5f40f5ba 926 multispeech_4.3.0focal1.dsc
- 8345b36705281271b6f23e87cb806a2c41441f3f021e8664b99e43cc5330bb68 521860 multispeech_4.3.0focal1.tar.gz
+ 07b77cf92ccbfb19032b4b1fd7456f81d12196e8032b73a26905039817a5dbf5 947 multispeech_4.4.0focal1.dsc
+ 7c1b10617055c52c3384e25ba37009a6c3f4e25185e619639ff5c013a5eed01b 520757 multispeech_4.4.0focal1.tar.gz
 
 Package: rbook
 Format: 1.0

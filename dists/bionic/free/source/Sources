@@ -60,28 +60,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech3
+Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.3.0bionic1
+Version: 4.4.0bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
-Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech3 deb sound optional arch=any
+ libmultispeech5 deb sound optional arch=any
  multispeech deb sound optional arch=any
  sd-multispeech deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- c176cd6ca9bb743a4034ce59195d59e8 944 multispeech_4.3.0bionic1.dsc
- 3d032e860215ee7de7baf2b6d38b6b76 520991 multispeech_4.3.0bionic1.tar.gz
+ 3f7f56bed2ee938ba639272458deb43c 965 multispeech_4.4.0bionic1.dsc
+ 067fed9dce6a67fe65ae120650d2349b 520962 multispeech_4.4.0bionic1.tar.gz
 Checksums-Sha1: 
- 440e9ea2c6959ec3028e9ddedc32348c9b385b1d 944 multispeech_4.3.0bionic1.dsc
- 076138204dc65b98f81d711560b5fedfbed998b7 520991 multispeech_4.3.0bionic1.tar.gz
+ d5323aa577168d55d60ac44c02063140ff1f9a02 965 multispeech_4.4.0bionic1.dsc
+ 98bccc3e45cb7a1c33e59ffbb007b2b28c3303ad 520962 multispeech_4.4.0bionic1.tar.gz
 Checksums-Sha256: 
- ba1ebe32d853782fc3bfa0ba942f80548555e5bd7200aa299d572c8840402ed1 944 multispeech_4.3.0bionic1.dsc
- 6b0a7c47fda3b5d1dc66e58a085a83843fcce4cea61c80cd07be546c0cfb2266 520991 multispeech_4.3.0bionic1.tar.gz
+ 5f47db297c9f7877e57dea4fea7b0691eef3dd63732a093756a2f92d2e9f639f 965 multispeech_4.4.0bionic1.dsc
+ 1f2101710979d14a195821cda08e37fd3365269fc94cece5074f74a0012dd893 520962 multispeech_4.4.0bionic1.tar.gz
 
 Package: rbook
 Format: 1.0

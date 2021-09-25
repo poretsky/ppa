@@ -60,28 +60,28 @@ Checksums-Sha256:
 
 Package: multispeech
 Format: 1.0
-Binary: multispeech, sd-multispeech, libmultispeech3
+Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.3.0stretch1
+Version: 4.4.0stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
-Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libspeechd-dev
+Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
 Package-List:
- libmultispeech3 deb sound extra arch=any
+ libmultispeech5 deb sound extra arch=any
  multispeech deb sound extra arch=any
  sd-multispeech deb sound extra arch=any
 Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- f64d121eee7ad05e425c99d75365d943 939 multispeech_4.3.0stretch1.dsc
- 527c279782babbe856e44ae0525b66ee 521628 multispeech_4.3.0stretch1.tar.gz
+ 3edbb894c02400be3c96c498830ab2e6 960 multispeech_4.4.0stretch1.dsc
+ a312b9dd8290e550f279cf1b85d7ee6b 520974 multispeech_4.4.0stretch1.tar.gz
 Checksums-Sha1: 
- 66c6f651de9ae7ad676a7f7fad6a59a25a499c45 939 multispeech_4.3.0stretch1.dsc
- be683e58fc4dc7c8b4a46859e884d46962a44b95 521628 multispeech_4.3.0stretch1.tar.gz
+ 45dd5f67a44b8aebc84f098af5d43b8f0ef13aca 960 multispeech_4.4.0stretch1.dsc
+ 8a5097105afed7bd045bbe46e5c5ca54d72d161e 520974 multispeech_4.4.0stretch1.tar.gz
 Checksums-Sha256: 
- 7381bc5d8528ed581e5d912794492eb0dcb05c8ac7d75863ccdb028fcf198898 939 multispeech_4.3.0stretch1.dsc
- ad5d5b1f5cd87225192e1994b23cc37d6054ac5957f6239dd860060ef61ab119 521628 multispeech_4.3.0stretch1.tar.gz
+ 63edbaf29efe382d14e89d21067fccde3232ecc8ea8956636bf7c9caed0f48a3 960 multispeech_4.4.0stretch1.dsc
+ 0134b6baf79ecaee7e988546394159253cbe82c67ed58aad059e1872f48f029c 520974 multispeech_4.4.0stretch1.tar.gz
 
 Package: rbook
 Format: 1.0
