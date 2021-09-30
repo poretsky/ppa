@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.0buster1
+Version: 4.4.1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 355755a5e3e74565e7636539c1236384 965 multispeech_4.4.0buster1.dsc
- ebff8be6535318b5eaead07cdb6166e0 521204 multispeech_4.4.0buster1.tar.gz
+ 7b9ceb7aac2e21a5ddfadae186bb9e16 965 multispeech_4.4.1buster1.dsc
+ ea51e9dcfb14d796f2f576809bd41b58 526873 multispeech_4.4.1buster1.tar.gz
 Checksums-Sha1: 
- 19682c7021c20ab8cd4694783f974907b2467816 965 multispeech_4.4.0buster1.dsc
- fa7c20a300dbc4a5fc782839f24cf264f3fa0e49 521204 multispeech_4.4.0buster1.tar.gz
+ f28e5da613415501747a39e53e7957884545c027 965 multispeech_4.4.1buster1.dsc
+ 2d67467b8ce443b03076cb2a1d3fba212e1445cc 526873 multispeech_4.4.1buster1.tar.gz
 Checksums-Sha256: 
- 9e3de2fc2da4ec1ff12b99d8fb7c4a2380267c83fbb981b351a703346033eacb 965 multispeech_4.4.0buster1.dsc
- ec61f305f03e63859db1159fbe811ca4d873067d33fe635e938d46370be100fa 521204 multispeech_4.4.0buster1.tar.gz
+ 81b8661e38471282920f203aa723b87f70d11124f6871857e62bf0a10af80c56 965 multispeech_4.4.1buster1.dsc
+ d32abcb4804b2dc5e870dd178ed9be9e2f0684a6694cf46d419a67a95dc0ad97 526873 multispeech_4.4.1buster1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.5.0buster1
+Version: 3.6.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -147,14 +147,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- b46fa0f2116ace33307bf7ccb0af0272 669 rulex_3.5.0buster1.dsc
- 16c838b9242368a361f7426798b054b0 3210843 rulex_3.5.0buster1.tar.gz
+ 5ecd3145462df83581a0ac68781d52a4 669 rulex_3.6.0buster1.dsc
+ 7507be52839e2f67e3f83d977ff7497e 3221298 rulex_3.6.0buster1.tar.gz
 Checksums-Sha1: 
- 3d78b9fc2bd9193c22bad389cc5b5c30c3f9f9bd 669 rulex_3.5.0buster1.dsc
- 5856493ef77e58dbe840086b76ae296833c4b277 3210843 rulex_3.5.0buster1.tar.gz
+ 60f12e365653fbcccb938ba01a81beb1c392fd83 669 rulex_3.6.0buster1.dsc
+ 35cd49dc5bce5b4d96615db0de2ab61828f6e556 3221298 rulex_3.6.0buster1.tar.gz
 Checksums-Sha256: 
- 28ed8c5f4229102a5427baa195ea2a85492e6efb6687ee7f08a4980155cfbdd5 669 rulex_3.5.0buster1.dsc
- 67cfa850a5f1ab9ba3d736fa3bdcc8cb0472e72ac246e5afa48a36af4b1f5aa1 3210843 rulex_3.5.0buster1.tar.gz
+ b755bd304ae259f0be1afcbc28ec2c97913d025d977fa8ecd35f00645dc344fc 669 rulex_3.6.0buster1.dsc
+ dba0627dadb9d878b57522514c0cac1d4be15b1f79dd7be26642249bbf0f5baa 3221298 rulex_3.6.0buster1.tar.gz
 
 Package: wget-el
 Format: 1.0

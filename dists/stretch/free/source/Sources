@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.0stretch1
+Version: 4.4.1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 3edbb894c02400be3c96c498830ab2e6 960 multispeech_4.4.0stretch1.dsc
- a312b9dd8290e550f279cf1b85d7ee6b 520974 multispeech_4.4.0stretch1.tar.gz
+ 7144c8f1d5e254946909738435b13f07 960 multispeech_4.4.1stretch1.dsc
+ e7926e4fd128a7144b4d96cc715726af 526348 multispeech_4.4.1stretch1.tar.gz
 Checksums-Sha1: 
- 45dd5f67a44b8aebc84f098af5d43b8f0ef13aca 960 multispeech_4.4.0stretch1.dsc
- 8a5097105afed7bd045bbe46e5c5ca54d72d161e 520974 multispeech_4.4.0stretch1.tar.gz
+ c024518052b9c3aeb9b9a4d49f371afb7500ea92 960 multispeech_4.4.1stretch1.dsc
+ 81949978c3a1309c7e077e5b310f729a87051e68 526348 multispeech_4.4.1stretch1.tar.gz
 Checksums-Sha256: 
- 63edbaf29efe382d14e89d21067fccde3232ecc8ea8956636bf7c9caed0f48a3 960 multispeech_4.4.0stretch1.dsc
- 0134b6baf79ecaee7e988546394159253cbe82c67ed58aad059e1872f48f029c 520974 multispeech_4.4.0stretch1.tar.gz
+ 641d7de997ca6b50cb1bb4b2343b7896d7f570154f12f46c7eaacb7dfa197cf1 960 multispeech_4.4.1stretch1.dsc
+ 37d0f3db9d881d68fb305ab979008b5cda0b3e78aec18a81a17d2df624fccbce 526348 multispeech_4.4.1stretch1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.5.0stretch1
+Version: 3.6.0stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -147,14 +147,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- c6b034947e3e62036d346e5b384ea25d 673 rulex_3.5.0stretch1.dsc
- 5836c17f8c5994403bec2fc264550df5 3211096 rulex_3.5.0stretch1.tar.gz
+ 2d430c2370f9cbfe196f9907f8be3e5a 673 rulex_3.6.0stretch1.dsc
+ 01d8d7c8c244a93eaf49b31da22d8833 3220909 rulex_3.6.0stretch1.tar.gz
 Checksums-Sha1: 
- df74c0d855a2ca5ba4945aeed1ddd389d0d88de5 673 rulex_3.5.0stretch1.dsc
- 9599286dc48b928376b5c1f0a20811a44ce12b1d 3211096 rulex_3.5.0stretch1.tar.gz
+ 8effeae602bd20e4658bbbb3bf74c554e6865d64 673 rulex_3.6.0stretch1.dsc
+ 06c6e0928932d75ddd9d7a3ee63e3240d6209113 3220909 rulex_3.6.0stretch1.tar.gz
 Checksums-Sha256: 
- 375e22b50d28cd7246925cfdafefbd484fbe91757faa2658c7e98b6466b9a235 673 rulex_3.5.0stretch1.dsc
- 4118a0c1aaddf6753f0c463b5c8f2ef651857abf72fd942fd368b9393e3762a9 3211096 rulex_3.5.0stretch1.tar.gz
+ 1466909ded9e651b03a081e915030e0ad7ebf5984bceed0fdb4cea8a4007b5cd 673 rulex_3.6.0stretch1.dsc
+ 4eae63c08ad9df00ebdb48de2cb97e863bd02045564c43e116f08137673d08f5 3220909 rulex_3.6.0stretch1.tar.gz
 
 Package: wget-el
 Format: 1.0

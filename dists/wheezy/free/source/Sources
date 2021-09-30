@@ -278,7 +278,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.5.0wheezy1
+Version: 3.6.0wheezy1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -290,12 +290,12 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 9e2ed7958d5e72932fddb7941356cdb7 676 rulex_3.5.0wheezy1.dsc
- d49a46113e0499f83964d6ddec2c6e3d 3210840 rulex_3.5.0wheezy1.tar.gz
+ 15e313bc7180b00ef6e81908f6c297fd 676 rulex_3.6.0wheezy1.dsc
+ 2d021d33d0d837d0bcce998f71df2424 3221215 rulex_3.6.0wheezy1.tar.gz
 Checksums-Sha1: 
- 278dc7559c0219324a7990c7080be7fd385ede62 676 rulex_3.5.0wheezy1.dsc
- 029f8abd610c0a651ed56b105d7a4c4424e0cf96 3210840 rulex_3.5.0wheezy1.tar.gz
+ 0476ee76ad2ec037f42fc83ec90b2b9a9ebab2a0 676 rulex_3.6.0wheezy1.dsc
+ 16547686e097f48240c544861a2db64e50da1329 3221215 rulex_3.6.0wheezy1.tar.gz
 Checksums-Sha256: 
- 5e626df8dabb9d27953bea5b1996466c9b19b0420bf583ecc8917610ee199557 676 rulex_3.5.0wheezy1.dsc
- 32884e056ff96f0b243ba83e3c43d81ab0161173484d2d1bfe57248ce16b2c8f 3210840 rulex_3.5.0wheezy1.tar.gz
+ ab647fe475d1e2a03a3368ffcc0b16df86e25419291bdb144d0ca04f8fb3d278 676 rulex_3.6.0wheezy1.dsc
+ d5f159aca4b7e605e1712e362c229f86ce84ae5a095ea801c88348dece5a0913 3221215 rulex_3.6.0wheezy1.tar.gz
 

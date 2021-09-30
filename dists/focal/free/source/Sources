@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.0focal1
+Version: 4.4.1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 7dda358f813d5580c86d4c4e25a32ca6 947 multispeech_4.4.0focal1.dsc
- 3674e7c4180fffd9b2cf84127a3536f3 520757 multispeech_4.4.0focal1.tar.gz
+ d24513838d7fbe44393e8d98bc806283 947 multispeech_4.4.1focal1.dsc
+ ab99afe877aeeee664b66b1f954da6f3 526519 multispeech_4.4.1focal1.tar.gz
 Checksums-Sha1: 
- 22295264716f0f91e9939a52e894ed139d46f60a 947 multispeech_4.4.0focal1.dsc
- 95c51abc48e99c0e2e9d1242bdc76815640f51f7 520757 multispeech_4.4.0focal1.tar.gz
+ f7e8c96c06ed186c6472d46904cbd909ac0f30a3 947 multispeech_4.4.1focal1.dsc
+ 5010c3c31473142c0520fd3a8e082469d7c693bc 526519 multispeech_4.4.1focal1.tar.gz
 Checksums-Sha256: 
- 07b77cf92ccbfb19032b4b1fd7456f81d12196e8032b73a26905039817a5dbf5 947 multispeech_4.4.0focal1.dsc
- 7c1b10617055c52c3384e25ba37009a6c3f4e25185e619639ff5c013a5eed01b 520757 multispeech_4.4.0focal1.tar.gz
+ 6c16ad5dd091a210778c69ffcf68af84faa5ad3bd0a67578e5459b2b2ecd02fd 947 multispeech_4.4.1focal1.dsc
+ 69b1527f62b80f68e099c1a158c349bf813539dcba2f3408cf7b1c13f963d90d 526519 multispeech_4.4.1focal1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.5.0focal1
+Version: 3.6.0focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
@@ -147,14 +147,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 3238009771fec0d47fe2a036caff6b1f 666 rulex_3.5.0focal1.dsc
- d1a535d8915b2ad94fa7dd96c841f31f 3211140 rulex_3.5.0focal1.tar.gz
+ 2952b6b9eeb859266c76a40afd62ff3f 666 rulex_3.6.0focal1.dsc
+ 74cfac50b76a73368936030c95a4256c 3221020 rulex_3.6.0focal1.tar.gz
 Checksums-Sha1: 
- ea0e039279d9f6d87017483b0a6c3a7e724137f7 666 rulex_3.5.0focal1.dsc
- 9b80f383b531bfe95dac5c32c301fb1b22116e08 3211140 rulex_3.5.0focal1.tar.gz
+ 4fd5f8d2cd71d817d247e2a8fd502bf2224474fa 666 rulex_3.6.0focal1.dsc
+ 5bd8cfd53bd61dace933f7462d4f36c00031dcfc 3221020 rulex_3.6.0focal1.tar.gz
 Checksums-Sha256: 
- 740f4f5e27aefd193c85b245dacdf44c610be0884afea49f5c6678df17242ea5 666 rulex_3.5.0focal1.dsc
- a90f15f288c14a1e1924609af0b40e9748b4f48e4f84b361e0f0ed0747a7fc02 3211140 rulex_3.5.0focal1.tar.gz
+ 6ce28c6e9b75ce40eb4f1b7bbe559960e8333d72f64e58ddb5d981989d6a672e 666 rulex_3.6.0focal1.dsc
+ e5fafb514945a05b17d667b132079e93b208f82635e81c6a8298f07555ae07f0 3221020 rulex_3.6.0focal1.tar.gz
 
 Package: wget-el
 Format: 1.0
