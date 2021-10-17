@@ -85,7 +85,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.1xenial1
+Version: 4.4.2xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -97,14 +97,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- e5b163fd0bc4dcf956a6c286f33781c6 956 multispeech_4.4.1xenial1.dsc
- 0bdeccc41d6009ff65b699113d85d68e 526614 multispeech_4.4.1xenial1.tar.gz
+ 1c008c1a60e0a14f14a87e52287a8833 956 multispeech_4.4.2xenial1.dsc
+ 120f168f354babefa712551ea86198d8 526567 multispeech_4.4.2xenial1.tar.gz
 Checksums-Sha1: 
- b00dff3e0ec0fdd47544d8973118683cf0f18321 956 multispeech_4.4.1xenial1.dsc
- dd7c5049239c3cd31c4437f2ff971775aa28ea89 526614 multispeech_4.4.1xenial1.tar.gz
+ 9b8888d412e72f4130f60e1a44c74d13071efac2 956 multispeech_4.4.2xenial1.dsc
+ f74ff9895d5adbe409dffa3d2a21c5f49f9aac6f 526567 multispeech_4.4.2xenial1.tar.gz
 Checksums-Sha256: 
- c4a8c828e407a03642b22528baefdb5204969dc01741af121eec7ea792bb2e3b 956 multispeech_4.4.1xenial1.dsc
- 4f326f38e49d538b1aeb36c3be47feb991e6b531e0efe89816085234addb7515 526614 multispeech_4.4.1xenial1.tar.gz
+ 0ce00b1eccd402a2bf5080ddf46e7cb1ecf0aee991d85e657dab19e58e1c960b 956 multispeech_4.4.2xenial1.dsc
+ c85807f55a5905aad7b455ba6150fbc6c01e58c456bc3e10354ddb0609f1ba46 526567 multispeech_4.4.2xenial1.tar.gz
 
 Package: rbook
 Format: 1.0

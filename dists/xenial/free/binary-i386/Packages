@@ -305,21 +305,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech5
 Source: multispeech
-Version: 4.4.1xenial1
+Version: 4.4.2xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 827
+Installed-Size: 828
 Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-locale1.58.0, libboost-program-options1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libboost-thread1.58.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 1.9.2), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Replaces: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech5_4.4.1xenial1_i386.deb
-Size: 228010
-SHA256: 6fbe161dafce515b8e802fc31efdb52d9bb1eb8bb237ef5f1ddb4d4ab304c563
-SHA1: 9442ff31709da503d14e29011920684b1735ee43
-MD5sum: 48d7c08279efb1190fa068c3695746bc
+Filename: pool/free/m/multispeech/libmultispeech5_4.4.2xenial1_i386.deb
+Size: 228164
+SHA256: 1fed4225459f7c1f380986aadab82baeefea110b50bbfe1a0b2a76b7161eea8b
+SHA1: d540213fd44bb87efa50d0e93bd35a9185623dd5
+MD5sum: 3fbf8048f58b9f40f9a5517bef3a5917
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -415,21 +415,21 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.4.1xenial1
+Version: 4.4.2xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 250
+Installed-Size: 251
 Depends: libbobcat4 (>= 4.01.03), libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak (>= 1.44.01), espeak-data (>= 1.44.01)
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.4.1xenial1_i386.deb
-Size: 74008
-SHA256: 270a81ae4df143b616aa29afe283f298d70e9919773e5d8dbd3b6b4f7127e28c
-SHA1: 1f717fc7db78bb67f5b16a79d05974cba4ccbb42
-MD5sum: dfda4dec4696c8b9a34ebce49f47e736
+Filename: pool/free/m/multispeech/multispeech_4.4.2xenial1_i386.deb
+Size: 74108
+SHA256: b48948f776c94354b25a5efd67ec3917bcbf987b130d20ce29989865e787e59a
+SHA1: fdb981017ea7a8f08cd533752d4b4aae20180282
+MD5sum: 122a8b858c39f1823d2468a892461051
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -510,21 +510,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.4.1xenial1
+Version: 4.4.2xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 169
+Installed-Size: 170
 Depends: libbobcat4 (>= 4.01.03), libboost-filesystem1.58.0, libboost-regex1.58.0, libboost-system1.58.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.4.1xenial1_i386.deb
-Size: 53426
-SHA256: 902e3c2ffc852f777f0c7ed4e200ecd78c613d5c902a08444802ac930d7386ab
-SHA1: d3046881138e5b3ee913f68e014791fe39f7fdd3
-MD5sum: 867142f00e38741a6d49cc12d7568794
+Filename: pool/free/m/multispeech/sd-multispeech_4.4.2xenial1_i386.deb
+Size: 53454
+SHA256: 4387da63a92d807b29c3d2edc92fddd111f47d12078b45c57f1a96e2cea76b03
+SHA1: 7e9c6784ce236820dff691306100886b40eb6b3c
+MD5sum: a568a62c010f0a2964610425c74fe29a
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
