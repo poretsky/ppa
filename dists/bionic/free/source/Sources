@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.1bionic1
+Version: 6.0.2bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,14 +122,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 0d0c97c0ac7021d6357a1a9109aaea2d 657 ru-tts_6.0.1bionic1.dsc
- c39c21fa1bce1332c55b3a934e14c9aa 78545 ru-tts_6.0.1bionic1.tar.gz
+ 48fd567cb1d04c04d66bfe52ee06ff2d 657 ru-tts_6.0.2bionic1.dsc
+ ff67427b6d33be09fd0b200d29f49188 78879 ru-tts_6.0.2bionic1.tar.gz
 Checksums-Sha1: 
- 0ec6008459429bd67d00cbf15996176e55dee990 657 ru-tts_6.0.1bionic1.dsc
- 881280b7888a7edd7ebe8b5db819cdee41f92909 78545 ru-tts_6.0.1bionic1.tar.gz
+ 20a71f6f764f1c7faa59176d2fe785074aed8be3 657 ru-tts_6.0.2bionic1.dsc
+ a13130199af2b74dce2349b7ca836ac8e4456265 78879 ru-tts_6.0.2bionic1.tar.gz
 Checksums-Sha256: 
- 6a1c9c00e0898079ef1cadaf7c18afeb40fb8948a9edde9e12bb1fddb862f4f8 657 ru-tts_6.0.1bionic1.dsc
- e33900f3d81a4b5a14feaa0f60d23ddc376e3eb0f682a1125c568ddb16ad4007 78545 ru-tts_6.0.1bionic1.tar.gz
+ 35cdf40fa90aec4c5e7e7d592949a254dfa46b2a0dd01f10e73c3744229ee6c9 657 ru-tts_6.0.2bionic1.dsc
+ 9d1a9978f7074a1af99092561efcf538591a54287dffedc6bf184c484279045e 78879 ru-tts_6.0.2bionic1.tar.gz
 
 Package: rulex
 Format: 1.0
