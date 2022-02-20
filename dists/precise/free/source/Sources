@@ -301,7 +301,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.6.0precise1
+Version: 3.6.1precise1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -313,12 +313,12 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- b6bc77f622da381aca34661218729774 680 rulex_3.6.0precise1.dsc
- cacbd7f3948812af8e87ab5ebfb5fa34 3220800 rulex_3.6.0precise1.tar.gz
+ 0f3857f5e24ea138998b733d4834149f 680 rulex_3.6.1precise1.dsc
+ 816bbb9e6806f1882eb9a2404b3aaf4f 3221182 rulex_3.6.1precise1.tar.gz
 Checksums-Sha1: 
- be3bf98661ed2085f0e9e9b69db84ba17674b9bf 680 rulex_3.6.0precise1.dsc
- e90cec2bd1ae05eae02daade4d89fc80f4057f32 3220800 rulex_3.6.0precise1.tar.gz
+ 3a791cc934753c012d42ba1ce7701e01b77565cd 680 rulex_3.6.1precise1.dsc
+ 3c982c9eb3c18e31a7c0bb4ec8598c5ba6fbac90 3221182 rulex_3.6.1precise1.tar.gz
 Checksums-Sha256: 
- 71ba2993b7d123a8bfeb34222ef47c9656b016ec07db67c5dd557f6a52c7c53c 680 rulex_3.6.0precise1.dsc
- 6b3f59e95b3b360808bc2aa9f3ad76c332d4cf3fe03128b307a6ca92150ba423 3220800 rulex_3.6.0precise1.tar.gz
+ 806cda55e7ff5e1286283415fedc6591859f0dfb236cada88b9cfab515069709 680 rulex_3.6.1precise1.dsc
+ 7982e29c415e1f3d46a4d1835cd51be13cc85a512823e002cc95bac929ec296f 3221182 rulex_3.6.1precise1.tar.gz
 

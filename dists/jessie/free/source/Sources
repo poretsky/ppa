@@ -134,7 +134,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.6.0jessie1
+Version: 3.6.1jessie1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
@@ -146,12 +146,12 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- d379c667a2a32ae44429ea52e477a2aa 669 rulex_3.6.0jessie1.dsc
- b3a1d77b2602d19e64a6309e4037729c 3221143 rulex_3.6.0jessie1.tar.gz
+ a6a2c4c320c4ff78cd33e194a1604d37 669 rulex_3.6.1jessie1.dsc
+ 601770d4f5c01fe5bd88e5d6a033d32a 3221539 rulex_3.6.1jessie1.tar.gz
 Checksums-Sha1: 
- 567e5f51f22c8e06318b14b7441fc18b1025887a 669 rulex_3.6.0jessie1.dsc
- 0f2fc9afa6987a3b75f0f0d7eb77f83377f745ce 3221143 rulex_3.6.0jessie1.tar.gz
+ 4f27456250881e78e01cf8bb8ca1db2a755d191f 669 rulex_3.6.1jessie1.dsc
+ 7e2f10cdd60503241ae64c69bf9b6dcf63302cd4 3221539 rulex_3.6.1jessie1.tar.gz
 Checksums-Sha256: 
- bec4099ce51077837108a8d1d8ff80995a1fb39056063a06fb29ebb5438e791a 669 rulex_3.6.0jessie1.dsc
- 0cff46b3b57f9c7e1dfb3514c7e7115d97e07f398bf72293c5f88a8a5b634831 3221143 rulex_3.6.0jessie1.tar.gz
+ 94c2ba77f35f45f8f6300e4008fe63ba19eba03e30b1df934228c46a2a5c6444 669 rulex_3.6.1jessie1.dsc
+ 3b6ece50f4a14e9ed9e67ff10ea9e7b826de48cd99067371cc088d1f394c600b 3221539 rulex_3.6.1jessie1.tar.gz
 

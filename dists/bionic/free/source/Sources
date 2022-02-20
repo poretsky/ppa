@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.2bionic1
+Version: 4.4.3bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 610934c573d9f42902314b180611508d 965 multispeech_4.4.2bionic1.dsc
- ebbb3e320c4ba0053cb6b0af3bbd908c 527046 multispeech_4.4.2bionic1.tar.gz
+ ec3ee843e39670a23ba5ad8740c480c1 965 multispeech_4.4.3bionic1.dsc
+ b3da46fb1ecdd815ace0303638d02636 526738 multispeech_4.4.3bionic1.tar.gz
 Checksums-Sha1: 
- cbe9cf07762e97e459ee1b3412f189608fc413e6 965 multispeech_4.4.2bionic1.dsc
- fbd219a559249605351b0fa576cdfe03de17772a 527046 multispeech_4.4.2bionic1.tar.gz
+ f746f73b27ade43cc148ed8d983feda18875b085 965 multispeech_4.4.3bionic1.dsc
+ 55ebf8f340e7df4a7376ca33f8cb37d14fdc38ec 526738 multispeech_4.4.3bionic1.tar.gz
 Checksums-Sha256: 
- 3dcee852f1ca0bcc4a707b4068d3dddb2f20d3a30a1ed6f7343fd0814040f287 965 multispeech_4.4.2bionic1.dsc
- 8f37350aaadf77b71cfe9348d20af3045dbbc10c706d7696eafecfa8c1b064a5 527046 multispeech_4.4.2bionic1.tar.gz
+ 5125f615201192c294fe2cb220f78e1c77c7179fa2b0e98516283ca004b8f6c9 965 multispeech_4.4.3bionic1.dsc
+ d66ddb3d5f45ec754949dda5a1b8f85154a4116e312abb2211139715631cc981 526738 multispeech_4.4.3bionic1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, librulexdb0, librulexdb-dev
 Architecture: any
-Version: 3.6.0bionic1
+Version: 3.6.1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -147,14 +147,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- c14e51dc575961cb1de463869870e480 669 rulex_3.6.0bionic1.dsc
- 3eae4b35f93a20fe7e25c52d4c3056ce 3220906 rulex_3.6.0bionic1.tar.gz
+ 23a26ab93747a5c5533384bc8e12a47d 669 rulex_3.6.1bionic1.dsc
+ 2b3a7df9b963e5ff040105dbaa0828f1 3221811 rulex_3.6.1bionic1.tar.gz
 Checksums-Sha1: 
- 0e89f719b5bef28539965ffbace7a78bbdaf9067 669 rulex_3.6.0bionic1.dsc
- 5ad58e621eb8586ce8e140321011be18381a81f4 3220906 rulex_3.6.0bionic1.tar.gz
+ 0c01df5cea82c360f82159bf6afc675b2b30387e 669 rulex_3.6.1bionic1.dsc
+ 67708aebd862750f7fd37f8ae302a2800fab0c91 3221811 rulex_3.6.1bionic1.tar.gz
 Checksums-Sha256: 
- ec0b627c41e26a52676b3dc1bb6d8f9d2cfded6cdf1ee26322f877cfaa99aa93 669 rulex_3.6.0bionic1.dsc
- fe5135ad160745054c5ad8da3e928efda225d81e852be469c8956be574125b12 3220906 rulex_3.6.0bionic1.tar.gz
+ 03be1c6d2dffa54ef9bb6add120e42e6664bf71488fc99547df302f22cbb6129 669 rulex_3.6.1bionic1.dsc
+ d246150d808342e9e58343f5c5f3ba3ac7840124ce2527726d099c279dd91a69 3221811 rulex_3.6.1bionic1.tar.gz
 
 Package: wget-el
 Format: 1.0

@@ -310,37 +310,37 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.6.0jessie1
+Version: 3.6.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 89
-Depends: librulexdb0 (= 3.6.0jessie1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.6.1jessie1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.6.0jessie1_i386.deb
-Size: 30186
-SHA256: ef48e950d6036b8b625dc674bf3731bb13c959f78c5d44515ccb0734a106f9d5
-SHA1: f61e25d75f55b62e7f2dcf8bc2bfc82f2692e858
-MD5sum: b3209db0096d94d2243068a957f77ade
+Filename: pool/free/r/rulex/librulexdb-dev_3.6.1jessie1_i386.deb
+Size: 30214
+SHA256: 2fdedb273d775125bcde9b2db3a3d96b46aabe4ba5d68b43e44f7257a774a32b
+SHA1: 1408bbce9bf58ff070ac7c668b053b9566ba8ee8
+MD5sum: 8d05468dff7a0e5fa9e0db99e7f73c07
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.6.0jessie1
+Version: 3.6.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 53
 Depends: libc6 (>= 2.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.6.0jessie1_i386.deb
-Size: 12948
-SHA256: caf1812f61ee62312c98606adcc603adc5f2cc56a5ab025b087592c752e7e848
-SHA1: f5cf38c73a967ebfae1969941d6da7c13f835372
-MD5sum: a33458edf24f2a7dc916995edba23398
+Filename: pool/free/r/rulex/librulexdb0_3.6.1jessie1_i386.deb
+Size: 12976
+SHA256: 9ac6717c7788907bc2f18d8b8b794b14bb9890bbe45a1d2102a15214506e69f8
+SHA1: c8168431b04b76764d20339de36fd04215298823
+MD5sum: 735f105ae937c47a13603c891224813b
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -466,7 +466,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.6.0jessie1
+Version: 3.6.1jessie1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 2387
@@ -475,11 +475,11 @@ Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.6.0jessie1_i386.deb
-Size: 774550
-SHA256: e10c16d218c51ca904576f090e18e49b7b205ad33175a0f1bb5dc5251798e6b6
-SHA1: 5e9b2becc8ae0f7c641732f7e72e94f257e367a7
-MD5sum: 1d4027cbfcd970bbcfd90a4db9a995a1
+Filename: pool/free/r/rulex/rulex_3.6.1jessie1_i386.deb
+Size: 774198
+SHA256: ddc120add9ac3cf31c48e7b6f96ac60e0bbf4683852ed255931027f5878f50a5
+SHA1: 461b42cc586170c292e6d23971eef320a7e76838
+MD5sum: ad3faee4c2845eeb2fe21c50d530777c
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts
