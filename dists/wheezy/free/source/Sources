@@ -55,30 +55,30 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16wheezy1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17wheezy1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: cdbs, debhelper (>= 5), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- f154f7dfd5207839a64282a9049fb03a 848 freespeech_1.0m-16wheezy1.dsc
+ dd378d3c353d232111b9f27f34a70279 876 freespeech_1.0m-17wheezy1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 962722e2e584a1927c6db52bd4fc4629 27098 freespeech_1.0m-16wheezy1.diff.gz
+ bd952028058ebb8a990320640a9c1619 26786 freespeech_1.0m-17wheezy1.diff.gz
 Checksums-Sha1: 
- 189c92aff2029f63bec0bd37d3a20bb7ccc984b4 848 freespeech_1.0m-16wheezy1.dsc
+ 2c2b70afe2e33171421fdabc21c5e4ded4d1c290 876 freespeech_1.0m-17wheezy1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 39f50328849007b1de6d3eaada0328b6b4fcea81 27098 freespeech_1.0m-16wheezy1.diff.gz
+ a0be14249b89291fcdd54056e8058271bc0b6739 26786 freespeech_1.0m-17wheezy1.diff.gz
 Checksums-Sha256: 
- 6e789f28409f47ccee5b8f4a0a3a2eee60dbb72f7f562027954d603d2080e87d 848 freespeech_1.0m-16wheezy1.dsc
+ bb8bcd7a21dd07a98e276bb250f5b67bdc21144ef2c75a1422b6b0c5bf89bb6e 876 freespeech_1.0m-17wheezy1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 1a0d2ab820c5ed12e04937a1aae7289594a575499a9949761ada4d58c479edbf 27098 freespeech_1.0m-16wheezy1.diff.gz
+ a0af6b16707e4ab79badde56f35883cdb023100cb15af0d45c48a9c7d1980cac 26786 freespeech_1.0m-17wheezy1.diff.gz
 
 Package: liblouis
 Format: 1.0
@@ -253,7 +253,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.1wheezy1
+Version: 5.1.1wheezy2
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -265,20 +265,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- fe269c3887c7543d1ce8014463a99141 664 ru-tts_5.1.1wheezy1.dsc
- 30af27a3cdd89be8df14aac2aa597657 75002 ru-tts_5.1.1wheezy1.tar.gz
+ c9480eb161d9e3116d81d259b4a4ebe5 664 ru-tts_5.1.1wheezy2.dsc
+ cb99c66ce6dde1775087d8cc17c4bafd 76035 ru-tts_5.1.1wheezy2.tar.gz
 Checksums-Sha1: 
- b5ae9b008a83b0005a9a29bf6b75eeb275965bc7 664 ru-tts_5.1.1wheezy1.dsc
- 2049f0af6afe328d64a2d3d943309a9f14917f7b 75002 ru-tts_5.1.1wheezy1.tar.gz
+ 27d86e2f47aab8ee04c18f813e43668db2ff8f12 664 ru-tts_5.1.1wheezy2.dsc
+ c9f8f80c2435d9f11f7cc3446e1343b9bc7b59e6 76035 ru-tts_5.1.1wheezy2.tar.gz
 Checksums-Sha256: 
- fba575745fc0b322f93a882adca533682e7eccbd47c42fa596ee12a2ee56bde4 664 ru-tts_5.1.1wheezy1.dsc
- 377edf523fbc1a4f290834fcfe2795706e6a6be3bbec272ce610390bb35d4b56 75002 ru-tts_5.1.1wheezy1.tar.gz
+ 53c755eaad81c2d5791c315330651439b352887a7ebfcfc60da780616d4f43a2 664 ru-tts_5.1.1wheezy2.dsc
+ b9826f422108f08898be3b16db0d2f4627bebdaff03e81d8dccbbaaa156174ef 76035 ru-tts_5.1.1wheezy2.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1wheezy1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1wheezy1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -286,16 +286,20 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- e19b595d1429ec3ad32dceb7faaf24a6 676 rulex_3.6.1wheezy1.dsc
- 439ad76aed82b83563c674706c3c5ab2 3221642 rulex_3.6.1wheezy1.tar.gz
+ 467bb49799e9567f0745e141aa3fad9f 972 rulex_3.7.0-1wheezy1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ 2f7da8b4b912882a899e4f8a7c901a87 4434 rulex_3.7.0-1wheezy1.diff.gz
 Checksums-Sha1: 
- ea98551c6c52f3d4c71a062e0cc58312f73ed873 676 rulex_3.6.1wheezy1.dsc
- 9f0dd310babc92ce2937f4c1ad3421b0233999bf 3221642 rulex_3.6.1wheezy1.tar.gz
+ d126eea6342c8524d96be3d7576132445c137650 972 rulex_3.7.0-1wheezy1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ 633a76d7462315f9fea3f3d8b14ae8d31eef3d34 4434 rulex_3.7.0-1wheezy1.diff.gz
 Checksums-Sha256: 
- 822f182b91e41a8b7c41ac4c6c84c84cfb0f62ddc0f675a6a395a9e8db449a4b 676 rulex_3.6.1wheezy1.dsc
- db5a0b4dd810eabec9da69c17aac23f576015022d83c1f8f8293d21a81aa54fa 3221642 rulex_3.6.1wheezy1.tar.gz
+ 63b46ea6672e1af917f9836ebca3ce00df993711ba6f578b5b6a7b06ab8ffc86 972 rulex_3.7.0-1wheezy1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 7f395b9a67c56754c03b277c7047b1c7d8cd878179718afc5dff8fa96de1ae2c 4434 rulex_3.7.0-1wheezy1.diff.gz
 

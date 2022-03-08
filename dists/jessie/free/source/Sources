@@ -32,30 +32,30 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16jessie1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17jessie1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: cdbs, debhelper (>= 5), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- e0a36a809bcee7183111f374bdafd6c0 848 freespeech_1.0m-16jessie1.dsc
+ 7ca0f278131069f44140801f521c7a59 876 freespeech_1.0m-17jessie1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 6b91430d4b27357fbef96544719c381e 27226 freespeech_1.0m-16jessie1.diff.gz
+ 880f7616018b85af5ac1eff809c82167 26715 freespeech_1.0m-17jessie1.diff.gz
 Checksums-Sha1: 
- 0060d77a8d754015cfc768eea0c84e2e57c6b14b 848 freespeech_1.0m-16jessie1.dsc
+ 856c518dd3cb0194cf8ebffdca2781a41eb51b0a 876 freespeech_1.0m-17jessie1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 235d57dce8b7a473537b56c5d73985ad0e711429 27226 freespeech_1.0m-16jessie1.diff.gz
+ d9b9fa6e4116e44dacdd0e6a4e9c2db34c76e08d 26715 freespeech_1.0m-17jessie1.diff.gz
 Checksums-Sha256: 
- 81074b492b41c2842103f65a9614d9f84c74c152e42c031cfb1c014d85b30974 848 freespeech_1.0m-16jessie1.dsc
+ 3afba2226501d9353061c505b30e493609cc69bd5d96d96bc1d12da5c88a17c4 876 freespeech_1.0m-17jessie1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 9f4b8e5bd7e819509620a2e21d63e1ccf3535c921d85214fee29863e653abc38 27226 freespeech_1.0m-16jessie1.diff.gz
+ 35fcfa05429b5f52cfecd3a73cf45f3d073f4fe82cf704a604e58b15c0902dca 26715 freespeech_1.0m-17jessie1.diff.gz
 
 Package: multispeech
 Format: 1.0
@@ -109,7 +109,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.1jessie1
+Version: 5.1.1jessie2
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
@@ -121,20 +121,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 997ca26cf041b4a4c3f452893af6f68e 657 ru-tts_5.1.1jessie1.dsc
- a95f6ca7e92e6b267dc9885f606e6785 75219 ru-tts_5.1.1jessie1.tar.gz
+ 1fc614c6f97ee6fb3daa41379e8b6e0b 657 ru-tts_5.1.1jessie2.dsc
+ 2a59721a2c0c299e8cabbfc2f70cf5c1 75806 ru-tts_5.1.1jessie2.tar.gz
 Checksums-Sha1: 
- c28791ffd131aceb4c71e1f66c1131b015354cb6 657 ru-tts_5.1.1jessie1.dsc
- fb0de2e525dd0fe93556a0791254024c320cf9d4 75219 ru-tts_5.1.1jessie1.tar.gz
+ 612437f73d2bebe5604382406c1cf848392d01d0 657 ru-tts_5.1.1jessie2.dsc
+ bfb4746bb88b4a335f6c446ec1a7ad54b289f195 75806 ru-tts_5.1.1jessie2.tar.gz
 Checksums-Sha256: 
- cb053ddff170d333df65f85fa19b6be7eb6c4c79f098b7e8a402db1e44bbc119 657 ru-tts_5.1.1jessie1.dsc
- 497eacd9b96ded4f8fa65546a90b2eb838db25e6551950f4680a4c1ce2921ead 75219 ru-tts_5.1.1jessie1.tar.gz
+ 1e4fdb6c1ec0a5db5344b936ed0e69268a55f34d775f4d23d68b91137d7bbbc3 657 ru-tts_5.1.1jessie2.dsc
+ 45b58bd1539ddc76e48757e144e738c4406de23868ec2accfe84c6362878718e 75806 ru-tts_5.1.1jessie2.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1jessie1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1jessie1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
@@ -142,16 +142,20 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- a6a2c4c320c4ff78cd33e194a1604d37 669 rulex_3.6.1jessie1.dsc
- 601770d4f5c01fe5bd88e5d6a033d32a 3221539 rulex_3.6.1jessie1.tar.gz
+ d4e7d5271df6edb18e2ab54a08a53cd5 965 rulex_3.7.0-1jessie1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ ecf3bdd1dd4445439aebe079fa9da25f 4461 rulex_3.7.0-1jessie1.diff.gz
 Checksums-Sha1: 
- 4f27456250881e78e01cf8bb8ca1db2a755d191f 669 rulex_3.6.1jessie1.dsc
- 7e2f10cdd60503241ae64c69bf9b6dcf63302cd4 3221539 rulex_3.6.1jessie1.tar.gz
+ 8c3b0449c7261085c267aaad0f65cc40bb588e32 965 rulex_3.7.0-1jessie1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ ae3371d355837f5e071fcaf9188b605c6cfe3dfd 4461 rulex_3.7.0-1jessie1.diff.gz
 Checksums-Sha256: 
- 94c2ba77f35f45f8f6300e4008fe63ba19eba03e30b1df934228c46a2a5c6444 669 rulex_3.6.1jessie1.dsc
- 3b6ece50f4a14e9ed9e67ff10ea9e7b826de48cd99067371cc088d1f394c600b 3221539 rulex_3.6.1jessie1.tar.gz
+ 2aa6d44823cfcbd55fa2b7de2bb4c0aa4d0c0681f0386bccbd9f77e4bfef6a5a 965 rulex_3.7.0-1jessie1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 9f0c5c446d2784a4ab58c717af7a58488f8d1b0298ee5b7236f9e2ff009a0198 4461 rulex_3.7.0-1jessie1.diff.gz
 

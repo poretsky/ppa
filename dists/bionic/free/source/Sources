@@ -33,36 +33,36 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16bionic1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), libdb-dev
 Package-List:
- enlex deb sound optional arch=any
+ enlex-data deb sound optional arch=all
  freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- 9803836884f464dafa436e29bc1e3aff 862 freespeech_1.0m-16bionic1.dsc
+ f04c4feb2e5f9f5043356793c1c2bfb7 876 freespeech_1.0m-17bionic1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- adf37dea0de53c9543dff9e7d4244cc0 26597 freespeech_1.0m-16bionic1.diff.gz
+ ba16c57b75939c9cd76e34e36b1184fd 26672 freespeech_1.0m-17bionic1.diff.gz
 Checksums-Sha1: 
- eb534ab2e22e976722478f55cab045be8311fd58 862 freespeech_1.0m-16bionic1.dsc
+ c36a8347929124fe1cd75da7e4f4c134a7171014 876 freespeech_1.0m-17bionic1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- bb018f848f5330f801c1c273762efe0d2411163c 26597 freespeech_1.0m-16bionic1.diff.gz
+ a8a23e519a07a2dd3a13d18d5cea91355e73d32c 26672 freespeech_1.0m-17bionic1.diff.gz
 Checksums-Sha256: 
- e02a8910c514c43b130e251489db5c8512a7dd4602b771329b65f2106ef7830d 862 freespeech_1.0m-16bionic1.dsc
+ 89d74737161f8b91482f7d0efdc7e6c93f36f0fa440fbd93c9d0aacbf449b013 876 freespeech_1.0m-17bionic1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- bf4c396e6f8a4b94f7242a15b8ea451cd4997b275d2d8eed10adae422f5b20eb 26597 freespeech_1.0m-16bionic1.diff.gz
+ 2f5f5b52611d73afc038c47550af39e6da9a45b34004f938dc9d072e5ace96db 26672 freespeech_1.0m-17bionic1.diff.gz
 
 Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.3bionic1
+Version: 4.4.4bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- ec3ee843e39670a23ba5ad8740c480c1 965 multispeech_4.4.3bionic1.dsc
- b3da46fb1ecdd815ace0303638d02636 526738 multispeech_4.4.3bionic1.tar.gz
+ bd9e397e05be73d96cc783280d95016a 965 multispeech_4.4.4bionic1.dsc
+ 2daf2330a54a3a9aa84fcd3bf984ca19 526717 multispeech_4.4.4bionic1.tar.gz
 Checksums-Sha1: 
- f746f73b27ade43cc148ed8d983feda18875b085 965 multispeech_4.4.3bionic1.dsc
- 55ebf8f340e7df4a7376ca33f8cb37d14fdc38ec 526738 multispeech_4.4.3bionic1.tar.gz
+ 7d79eb21399a1ad0bda9aa65b01c4de1c9e8bab8 965 multispeech_4.4.4bionic1.dsc
+ 39c426e2e1c0f39bd8a153673f91b74c592fea1f 526717 multispeech_4.4.4bionic1.tar.gz
 Checksums-Sha256: 
- 5125f615201192c294fe2cb220f78e1c77c7179fa2b0e98516283ca004b8f6c9 965 multispeech_4.4.3bionic1.dsc
- d66ddb3d5f45ec754949dda5a1b8f85154a4116e312abb2211139715631cc981 526738 multispeech_4.4.3bionic1.tar.gz
+ abcb96aafda1c8719500617aba47cdf0817a9c78a08f73ec87288db5d6cda3b0 965 multispeech_4.4.4bionic1.dsc
+ 7c3e250d58a93fb9ad874d05cda93562bac96f5f27c4afbe35281d9956f7f0b7 526717 multispeech_4.4.4bionic1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.2bionic1
+Version: 6.0.3bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 48fd567cb1d04c04d66bfe52ee06ff2d 657 ru-tts_6.0.2bionic1.dsc
- ff67427b6d33be09fd0b200d29f49188 78879 ru-tts_6.0.2bionic1.tar.gz
+ 9329da1aacfd9efbb8c4436dd4e247b6 657 ru-tts_6.0.3bionic1.dsc
+ 06d0729c9b39d5ac4db7c39e02417c6b 79577 ru-tts_6.0.3bionic1.tar.gz
 Checksums-Sha1: 
- 20a71f6f764f1c7faa59176d2fe785074aed8be3 657 ru-tts_6.0.2bionic1.dsc
- a13130199af2b74dce2349b7ca836ac8e4456265 78879 ru-tts_6.0.2bionic1.tar.gz
+ 4de5639682d7cfbc0fd054d7135ea4408ac317d8 657 ru-tts_6.0.3bionic1.dsc
+ 0d8184dfd731e3249a792997afb9ab15602f1d82 79577 ru-tts_6.0.3bionic1.tar.gz
 Checksums-Sha256: 
- 35cdf40fa90aec4c5e7e7d592949a254dfa46b2a0dd01f10e73c3744229ee6c9 657 ru-tts_6.0.2bionic1.dsc
- 9d1a9978f7074a1af99092561efcf538591a54287dffedc6bf184c484279045e 78879 ru-tts_6.0.2bionic1.tar.gz
+ cb4b73925a6ef66fc049fa1d939459c29cb83b9bf16d5383afcf83eb0d115ca5 657 ru-tts_6.0.3bionic1.dsc
+ 79bba277d87a252d5ab8a9ae1bf711f264cd8b39942373254a8397e4c77ffd14 79577 ru-tts_6.0.3bionic1.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1bionic1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -143,18 +143,22 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 23a26ab93747a5c5533384bc8e12a47d 669 rulex_3.6.1bionic1.dsc
- 2b3a7df9b963e5ff040105dbaa0828f1 3221811 rulex_3.6.1bionic1.tar.gz
+ 09d50b06c08519b3afead23d232c1594 965 rulex_3.7.0-1bionic1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ 892db3857d3c0fc8d99b5153cb02ad30 4270 rulex_3.7.0-1bionic1.diff.gz
 Checksums-Sha1: 
- 0c01df5cea82c360f82159bf6afc675b2b30387e 669 rulex_3.6.1bionic1.dsc
- 67708aebd862750f7fd37f8ae302a2800fab0c91 3221811 rulex_3.6.1bionic1.tar.gz
+ 99bb08eea983ef2623469e80df1f16425f2521c8 965 rulex_3.7.0-1bionic1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ eec66951ffe6033ecd365a64acc4d87232e16a88 4270 rulex_3.7.0-1bionic1.diff.gz
 Checksums-Sha256: 
- 03be1c6d2dffa54ef9bb6add120e42e6664bf71488fc99547df302f22cbb6129 669 rulex_3.6.1bionic1.dsc
- d246150d808342e9e58343f5c5f3ba3ac7840124ce2527726d099c279dd91a69 3221811 rulex_3.6.1bionic1.tar.gz
+ 5569288a6424f95f0cbc51faef03ea510b95c30a067e9b059936c10cc64a8583 965 rulex_3.7.0-1bionic1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 755b11d91af5abafda230fa01ffb49362d367a005b722cfe8d52dd11f2b4e6e9 4270 rulex_3.7.0-1bionic1.diff.gz
 
 Package: wget-el
 Format: 1.0

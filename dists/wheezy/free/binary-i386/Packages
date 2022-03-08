@@ -169,21 +169,22 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
  This package allows one to use IBM ViaVoice Outloud speech synthesizer
  for speech output in Emacspeak.
 
-Package: enlex
+Package: enlex-data
 Source: freespeech
-Version: 1.0m-16wheezy1
-Architecture: i386
+Version: 1.0m-17wheezy1
+Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 5210
-Depends: libc6 (>= 2.4), libdb5.1
+Installed-Size: 5176
 Recommends: freephone
+Conflicts: enlex
+Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/enlex_1.0m-16wheezy1_i386.deb
-Size: 1684416
-SHA256: 58a0601e718a6b392c7b4a7b13afde5ce40d64373711e5f455bf675937dd2908
-SHA1: 02a54557b2ac5262a3fa16d47c0634e4abaaf6f5
-MD5sum: 9aff7241edb60fd7b8246ce6ecf3bc5d
+Filename: pool/free/f/freespeech/enlex-data_1.0m-17wheezy1_all.deb
+Size: 1665306
+SHA256: 77a1ccabadfa3461f1574ecebfca68c5372ba2b598fdb46cc5a3445cece80585
+SHA1: fa49a625a13d4dbdd002b9891eb827825629c25b
+MD5sum: 71712657929c24a3b7e1f70c826bf32a
 Description: English pronunciation dictionary
  This package is aimed primarily for use together with the Freephone
  phonetizer for Mbrola. When it is installed you can instruct Freephone
@@ -192,25 +193,27 @@ Description: English pronunciation dictionary
 
 Package: freephone
 Source: freespeech
-Version: 1.0m-16wheezy1
+Version: 1.0m-17wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 103
+Installed-Size: 111
 Depends: libc6 (>= 2.7), libdb5.1
-Recommends: enlex
+Recommends: enlex-data
 Suggests: mbrola, mbrola-voice-en
+Conflicts: enlex
+Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/freephone_1.0m-16wheezy1_i386.deb
-Size: 30478
-SHA256: 7a740a38ec8cae0c6280f3313d1f18a12421451dd7e5607dec81686963e07527
-SHA1: 077030f32cfbbc4adf88e195c3f7485331dd9249
-MD5sum: 15240d33ed1cec7c834a1fbbb6c21e0b
+Filename: pool/free/f/freespeech/freephone_1.0m-17wheezy1_i386.deb
+Size: 34826
+SHA256: 4aedd87d550dbe0fdd3e0a727667137b189c8844cf59941b1dba07c7f6b41c32
+SHA1: beab06eb2f06b238a4b629e1a5a7b90fc65c7edb
+MD5sum: e716c9bff4bba126dbaeec9d6b47186b
 Description: English Text-To-Phoneme converter
  freephone converts English text to phonemes for MBROLA.
  .
  It can make use of an external dictionary in hash format,
- such as the one provided by enlex package.
+ such as the one provided by enlex-data package.
 
 Package: liblouis-bin
 Source: liblouis
@@ -581,55 +584,55 @@ Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debia
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.6.1wheezy1
+Version: 3.7.0-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 86
-Depends: librulexdb0 (= 3.6.1wheezy1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.0-1wheezy1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.6.1wheezy1_i386.deb
-Size: 31524
-SHA256: 54f13f9fb7fe3050096f29efdd6cfbd2897cd7769980421f5a2f85a6f3544e8b
-SHA1: 2d1f30a062fbbec163a7e8976485e079711b4eb5
-MD5sum: 10b6fc71b609be144523f4216a8b9cfe
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.0-1wheezy1_i386.deb
+Size: 31658
+SHA256: 223397867f307c6d69f72816b07c387a5539780653c41d62fb6fa45aea07028e
+SHA1: 014f95008bd8c5801f215c9209b4756c5b1aeecf
+MD5sum: 0ea7d5b508681cf2ee64013c1bbb4475
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.6.1wheezy1
+Version: 3.7.0-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 48
 Depends: libc6 (>= 2.3.4), libdb5.1
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.6.1wheezy1_i386.deb
-Size: 13102
-SHA256: 19bbb15b998e46edb9e1ee84b2e797f1b546e366cef878536f7ecf21eb44a041
-SHA1: fde20557dc72166826bbbbe5cdde17d916129ad6
-MD5sum: 7b416d6ae16cd1e5b6c9dfdf59a74082
+Filename: pool/free/r/rulex/librulexdb0_3.7.0-1wheezy1_i386.deb
+Size: 13190
+SHA256: eac84af83f734503de6b7ba6445cec1ce23400661bd32e8795e749c8e1759915
+SHA1: 89650a52a7bf0f5ff3603f069b3fc00011287609
+MD5sum: 45fcf49b31829c40936e8a98daccb214
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
 Package: librutts-dev
 Source: ru-tts
-Version: 5.1.1wheezy1
+Version: 5.1.1wheezy2
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 125
-Depends: librutts5 (= 5.1.1wheezy1)
+Depends: librutts5 (= 5.1.1wheezy2)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_5.1.1wheezy1_i386.deb
-Size: 49776
-SHA256: 9d766b363cbcfe3b02401f470b2bbe8df94d62afb1314b0dd412492cf18b7cda
-SHA1: 2bfecf2138ffa107a7140eb76092597a6f735a76
-MD5sum: 13addc8c6beaa064f31e2c82d52576bc
+Filename: pool/free/r/ru-tts/librutts-dev_5.1.1wheezy2_i386.deb
+Size: 49872
+SHA256: b0131961c1ac7cfed55e6e8091128ce69ea31d3f99b17062df5c83b43ce78387
+SHA1: c54d7fd697833d841d79a7b0b5a9846687e1581b
+MD5sum: 83ae0b8c326a00bdc7f41802639eb9f6
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -642,18 +645,18 @@ Description: software Russian TTS engine
 
 Package: librutts5
 Source: ru-tts
-Version: 5.1.1wheezy1
+Version: 5.1.1wheezy2
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 98
 Depends: libc6 (>= 2.1.3)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts5_5.1.1wheezy1_i386.deb
-Size: 45550
-SHA256: 67ea167d6f1f9a841f0804089e15f6a161ad48a914ce5cdd062ddf53ceea1f39
-SHA1: 6c4ea1b93a8188f56089efa88bcbac4efe8e2259
-MD5sum: abac5f4193a0158a6435da9e032a2d19
+Filename: pool/free/r/ru-tts/librutts5_5.1.1wheezy2_i386.deb
+Size: 45620
+SHA256: a2dd306e9800eb1f18d25430a4fcd7243a80d37bdd1c30c88369e8538731c90e
+SHA1: 887a780f7cd0605c0af261b4cdd1689349c87cab
+MD5sum: 846a777ad9a222acbdf88e2cd73e1b75
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -761,21 +764,21 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 5.1.1wheezy1
+Version: 5.1.1wheezy2
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 53
-Depends: libc6 (>= 2.3), librulexdb0, librutts5 (>= 5.1)
-Recommends: rulex (>= 2.0)
+Depends: locales, libc6 (>= 2.3), librulexdb0, librutts5 (>= 5.1)
+Recommends: rulex-data
 Suggests: sox
 Conflicts: rulex (<< 2.0)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_5.1.1wheezy1_i386.deb
-Size: 11294
-SHA256: 05aad6bb3675226b3ed5643fe8d57976896d6ecfe129ae6bb6142c5f88f7ba8e
-SHA1: efd9f43b4ea12b3a42c23bad438f88e8c0f7ddb2
-MD5sum: 5c00470fdb19cfe96b3f633f7e2a23cd
+Filename: pool/free/r/ru-tts/ru-tts_5.1.1wheezy2_i386.deb
+Size: 11370
+SHA256: eda4f95d28bdef834343ed4a84a7a96facba27a9f2a4ccf3feed16417eff58f6
+SHA1: 9055cc619f2674e27a53eb911b0ac5132408689a
+MD5sum: 5a0f7f2c1fc2d0201d845cc1690b1ca4
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -785,20 +788,45 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.6.1wheezy1
+Version: 3.7.0-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2383
+Installed-Size: 83
 Depends: locales, libc6 (>= 2.3), librulexdb0
-Enhances: ru-tts
-Conflicts: ru-tts (<< 2.0)
+Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.6.1wheezy1_i386.deb
-Size: 1093182
-SHA256: dd00fdd027e7c54bd6905b016487a15a418b98e27d4237f2028101dbfd258875
-SHA1: 586fe0e646decb1cccfdb160750cb638011bcb26
-MD5sum: b34869ee22b1a464eb5c0443fb7c3871
+Filename: pool/free/r/rulex/rulex_3.7.0-1wheezy1_i386.deb
+Size: 30978
+SHA256: d3a8028e1f3c6270a3c8c10a81a69ab9ceb224c0b60630564a059cc49a996bb0
+SHA1: 0cadfc8643f49d0449cb18349e17373d8ea7419e
+MD5sum: e3442f44aeff4586152cb96f4f98fda4
+Description: Russian pronunciation dictionary support binaries
+ RuLex database is primarily intended for use along with the
+ Ru_tts speech synthesizer in order to improve its pronunciation.
+ .
+ This package provides additional utilities to deal with the
+ lexical database. These include text preprocessor rulex
+ and lexholder-ru utility that allows one
+ to browse and alter the database content.
+
+Package: rulex-data
+Source: rulex
+Version: 3.7.0-1wheezy1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 2328
+Enhances: ru-tts
+Conflicts: ru-tts (<< 2.0)
+Breaks: rulex (<< 3.7)
+Replaces: rulex (<< 3.7)
+Priority: optional
+Section: sound
+Filename: pool/free/r/rulex/rulex-data_3.7.0-1wheezy1_all.deb
+Size: 1066162
+SHA256: b55ff173b38091de9181ff1299dbec77f95a48e56946b51dd36397546e767c08
+SHA1: e7677c0436c3692e477446fec567b79826564552
+MD5sum: 75494061817060584f61cb6e1deec528
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts

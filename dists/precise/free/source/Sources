@@ -78,30 +78,30 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16precise1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17precise1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: cdbs, debhelper (>= 5), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- 69970bc7b8ccb5b4e05e3ec2c804bd8e 852 freespeech_1.0m-16precise1.dsc
+ e849bed5108c8c8c7278dd0bde2cba49 880 freespeech_1.0m-17precise1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 49dd086d55682b70d4f4203d5ab15ddc 27028 freespeech_1.0m-16precise1.diff.gz
+ f9dec7335bfed8982f889e653161db1e 26702 freespeech_1.0m-17precise1.diff.gz
 Checksums-Sha1: 
- afb0ce3f89bd44aedddb111ac405980f1de0932b 852 freespeech_1.0m-16precise1.dsc
+ d3413be10e6a81c2242c4887bafd0c1bed9928d2 880 freespeech_1.0m-17precise1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 707048aef9caee65baafb692172c429f76a14d7d 27028 freespeech_1.0m-16precise1.diff.gz
+ 496dd0240edd537a916090e390e07cc44208d45c 26702 freespeech_1.0m-17precise1.diff.gz
 Checksums-Sha256: 
- 1e346cd5683be1fb3a2d48211993f415c6fdad139feaec8adf260ea875ace736 852 freespeech_1.0m-16precise1.dsc
+ b85ce661efeaadb4e3ba03f5a8104e2bf0ec4f67d1d4c4998f29974929e6c0fb 880 freespeech_1.0m-17precise1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 173743e2621ecbb4e5d35b44faa2b77a2135a5c00bb58e42557ca587e74f8705 27028 freespeech_1.0m-16precise1.diff.gz
+ 912790c0189e2665a736c687ec2e18ca8194739467de6b467811617f2021e837 26702 freespeech_1.0m-17precise1.diff.gz
 
 Package: liblouis
 Format: 1.0
@@ -276,7 +276,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.1precise1
+Version: 5.1.1precise2
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -288,20 +288,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 1e65846240891a08024db85e071b0245 668 ru-tts_5.1.1precise1.dsc
- b870a949c18cd97fab425aca139310db 75174 ru-tts_5.1.1precise1.tar.gz
+ fa4e08f4ee44d2e5e51b896108220f18 668 ru-tts_5.1.1precise2.dsc
+ e0423ca4487f66d8664c7573f878b773 76310 ru-tts_5.1.1precise2.tar.gz
 Checksums-Sha1: 
- fc086a21aad52b18222915bbe75937946a58d77c 668 ru-tts_5.1.1precise1.dsc
- 720f7b5350a30f9268cd7b7798657d246bc0cbf9 75174 ru-tts_5.1.1precise1.tar.gz
+ e4923741f8c43a4f5e00eb7169195ac8bb720dbb 668 ru-tts_5.1.1precise2.dsc
+ 5b6434eb054d924617abe7cf50433ee8e5f096fb 76310 ru-tts_5.1.1precise2.tar.gz
 Checksums-Sha256: 
- d98f3dbaa88233f40eeba1489a62f1e87dba23b62f831b329ac78765d3b5dbbe 668 ru-tts_5.1.1precise1.dsc
- b7e1b841f3fa1c3b4d8690f1eab691f3063c4b0b048711ef988b43d7c73a7f51 75174 ru-tts_5.1.1precise1.tar.gz
+ d689e3f4f5d85745825a0c55f15ba374b06038aadcd88d38d1d265bd0eccc981 668 ru-tts_5.1.1precise2.dsc
+ 668c4a6b3d7afd1424f52022c99aea437ac4e4e5a50993aebb0d15bd0da2fe60 76310 ru-tts_5.1.1precise2.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1precise1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1precise1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -309,16 +309,20 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 0f3857f5e24ea138998b733d4834149f 680 rulex_3.6.1precise1.dsc
- 816bbb9e6806f1882eb9a2404b3aaf4f 3221182 rulex_3.6.1precise1.tar.gz
+ bc8b4aea10bad07c38bd78824cc7f29f 976 rulex_3.7.0-1precise1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ 74268717cd714c434663dcd8bc90a4ce 4397 rulex_3.7.0-1precise1.diff.gz
 Checksums-Sha1: 
- 3a791cc934753c012d42ba1ce7701e01b77565cd 680 rulex_3.6.1precise1.dsc
- 3c982c9eb3c18e31a7c0bb4ec8598c5ba6fbac90 3221182 rulex_3.6.1precise1.tar.gz
+ 6d3baa2092d390233e48a98f1ce44f8a1d686522 976 rulex_3.7.0-1precise1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ c3fdfaaca2a877eedbb6bad863df57f074b12cf4 4397 rulex_3.7.0-1precise1.diff.gz
 Checksums-Sha256: 
- 806cda55e7ff5e1286283415fedc6591859f0dfb236cada88b9cfab515069709 680 rulex_3.6.1precise1.dsc
- 7982e29c415e1f3d46a4d1835cd51be13cc85a512823e002cc95bac929ec296f 3221182 rulex_3.6.1precise1.tar.gz
+ 6d71c65eded26a0400aca0fe89941535446357611561875181693ccd31432a29 976 rulex_3.7.0-1precise1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ a36c87fcc2ab864359a364e453c8cf98f584ae649d1697ee959c7242a32d8946 4397 rulex_3.7.0-1precise1.diff.gz
 

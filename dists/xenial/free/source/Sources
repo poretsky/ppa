@@ -56,36 +56,36 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16xenial1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: cdbs, debhelper (>= 5), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- b5416942df718b2003ddfad89daaca7a 848 freespeech_1.0m-16xenial1.dsc
+ f67f31e191e2fed6a4c04830f1d89814 876 freespeech_1.0m-17xenial1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 20beaf204b8b80379cb0a2feaca62715 27154 freespeech_1.0m-16xenial1.diff.gz
+ 7b53718ecf2d3e03eb98cde4f295ca98 26680 freespeech_1.0m-17xenial1.diff.gz
 Checksums-Sha1: 
- 722012a747bf03c2a2e464c300ee0552fb95252c 848 freespeech_1.0m-16xenial1.dsc
+ e37678f1afa4491ff51e6c957a0aea1efc38b926 876 freespeech_1.0m-17xenial1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- c99e70e55c04426b35911383c0d7810d2e3a8bf9 27154 freespeech_1.0m-16xenial1.diff.gz
+ 2a4aa7a3445f93c327517b6bd88c7dbf0ee46ef4 26680 freespeech_1.0m-17xenial1.diff.gz
 Checksums-Sha256: 
- 5f7d825ed62e2871966d509ca8d9e71ed68b699441d51a27bef08f6f8471833c 848 freespeech_1.0m-16xenial1.dsc
+ 5e259fb6b6613731915f8bd9a8234e40a675ba4914afcf225fe384c10b2e3804 876 freespeech_1.0m-17xenial1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 5fe0a47bdef61933d251e4a01978044eda669ce5dcdbf7d40ec3b91831ec1e17 27154 freespeech_1.0m-16xenial1.diff.gz
+ 66f1ad38aa56d8eedfe5361d4806248ae4ec077bba5420a323d5f0b1fd8a6554 26680 freespeech_1.0m-17xenial1.diff.gz
 
 Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.3xenial1
+Version: 4.4.4xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -97,14 +97,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 1a2ab9d400c538ceb3c31bf7c60596c1 956 multispeech_4.4.3xenial1.dsc
- 2069f11baa2ecda7a0eb886149415cea 526477 multispeech_4.4.3xenial1.tar.gz
+ 86589fedfa2b79414876b8cb36b44a83 956 multispeech_4.4.4xenial1.dsc
+ 74ab11bd0bc43ab1ce7bdfce09bf3ae1 526682 multispeech_4.4.4xenial1.tar.gz
 Checksums-Sha1: 
- 1ea111f2c5a87c38f9cb583a9ca16e47c9868c49 956 multispeech_4.4.3xenial1.dsc
- 64de2af3f49ce6d485be87eb9fcfbab1c5ddc5ac 526477 multispeech_4.4.3xenial1.tar.gz
+ 7ef7e7142232937478dbcda3ba7e59a3e1ff2d77 956 multispeech_4.4.4xenial1.dsc
+ 0e204d3f0c1611e35f47ce6e9243168fab2cc745 526682 multispeech_4.4.4xenial1.tar.gz
 Checksums-Sha256: 
- 457e4597e9d94ba880ce507eef0c039ecbb2aa63f7acc60bf7006598716ea341 956 multispeech_4.4.3xenial1.dsc
- 78338fb4fbf96a7ca6db822c5a97385ec4309c10f5194fe7bbe912e36cda9c1b 526477 multispeech_4.4.3xenial1.tar.gz
+ 5ed3277040f7915ff8c45eef7f3863def94e4a08ce56c537768ddd084bee73c3 956 multispeech_4.4.4xenial1.dsc
+ 700e0d3e86bed3498305d9f0c1523bc04681671d2dd174af924e50aa9b89724e 526682 multispeech_4.4.4xenial1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -133,7 +133,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.2xenial1
+Version: 6.0.3xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
@@ -145,20 +145,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- b64418d8564eddf220be040f9148796b 657 ru-tts_6.0.2xenial1.dsc
- 9c9a9d6e30cb63adf1a9303447aebcf3 79370 ru-tts_6.0.2xenial1.tar.gz
+ a0ae77884da28d12568f5a2271fb2e14 657 ru-tts_6.0.3xenial1.dsc
+ 69d23f422b0dc324e00a92df15051f38 79217 ru-tts_6.0.3xenial1.tar.gz
 Checksums-Sha1: 
- 36de68c64135830dfcdf443780fa618435623120 657 ru-tts_6.0.2xenial1.dsc
- 8527d7f51870ecbd0f703b88ab8af2fd8efdd655 79370 ru-tts_6.0.2xenial1.tar.gz
+ 47282b125cb9ffd1d0d20eeabb67fb5b86fe3af4 657 ru-tts_6.0.3xenial1.dsc
+ 4f985e643dc5ef551ceb5cba7a82389b9a298179 79217 ru-tts_6.0.3xenial1.tar.gz
 Checksums-Sha256: 
- 050bcfc028e396736a5786087c78bbee3e4cdea96cb3daa7edb17e29511a506f 657 ru-tts_6.0.2xenial1.dsc
- 401b787b55b3ec7c3f32fe7c75977545bb731faae96e1f34e5e59ed2865c0bda 79370 ru-tts_6.0.2xenial1.tar.gz
+ 49e9df4700b3efa30b7716714c3bcae706393a977a8bf9afbb82a9823c6b154e 657 ru-tts_6.0.3xenial1.dsc
+ bcb973f7eada5d8aa9ac31f09c2a34deaeb70f7df48c2a90574042b2800f2f08 79217 ru-tts_6.0.3xenial1.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1xenial1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
@@ -166,18 +166,22 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 14e039ed74e50c614967475051134876 669 rulex_3.6.1xenial1.dsc
- 5f2fa7d6bb250bd005f47567248d0551 3221410 rulex_3.6.1xenial1.tar.gz
+ a65a9f1f531ef4401c8956d7d8f9df8e 965 rulex_3.7.0-1xenial1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ 179a608aa850acf800ad07c7d856d985 4300 rulex_3.7.0-1xenial1.diff.gz
 Checksums-Sha1: 
- 41438ecacc4897cdc0541c45e9b10ed471b9974b 669 rulex_3.6.1xenial1.dsc
- c16c01a0b55041a95c62f4b0682577c4290a6fdd 3221410 rulex_3.6.1xenial1.tar.gz
+ 3288f392b33f5df4295ddb635f07f9195a8b65f1 965 rulex_3.7.0-1xenial1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ 90db618441a3f9ab3898b03e6c3e1e8418cbf555 4300 rulex_3.7.0-1xenial1.diff.gz
 Checksums-Sha256: 
- 5a92c2974db09642700256c051c2e03a65b8d5afe0aeb122221194e9b9c4e566 669 rulex_3.6.1xenial1.dsc
- c769614a8a8e650f6c68296edc770e3483d5ebd6b1e010d1866654bc6a688be3 3221410 rulex_3.6.1xenial1.tar.gz
+ 078c9157c2c95e29c4ae7bb6840cd3ec0b97bd2d6aaa93e444ac10812cd0623e 965 rulex_3.7.0-1xenial1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 532049644c39f0d0dc6e272342ee0a7a7bbfb32a464a0cb2689fa0030839376d 4300 rulex_3.7.0-1xenial1.diff.gz
 
 Package: wget-el
 Format: 1.0

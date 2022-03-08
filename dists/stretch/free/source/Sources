@@ -33,36 +33,36 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16stretch1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- e696f3cd88064de92dad922e813448b9 852 freespeech_1.0m-16stretch1.dsc
+ e4df043152c02a71db3a6fd25b6018d0 880 freespeech_1.0m-17stretch1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- fd347376f550f4a056b3dd3104eba0d4 27170 freespeech_1.0m-16stretch1.diff.gz
+ 7570641b1854df6863b14f8c1a86c425 26669 freespeech_1.0m-17stretch1.diff.gz
 Checksums-Sha1: 
- 03dcb3bb370c563cb6dd4bb7d153dbfa3e18ce63 852 freespeech_1.0m-16stretch1.dsc
+ 5a854fbfea1179f8861a95bc0c59c12aa33ff968 880 freespeech_1.0m-17stretch1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 62552fd75d5306f183015ea6f0c93daf4ae6059d 27170 freespeech_1.0m-16stretch1.diff.gz
+ 09e30b8af0166b4d0e38456cfcc0d9bf1e9bf045 26669 freespeech_1.0m-17stretch1.diff.gz
 Checksums-Sha256: 
- 36895f5448397fb2cd5fabe9be06e2ed6326c9805a209747c5ed0ddc171ce1f1 852 freespeech_1.0m-16stretch1.dsc
+ a957654ff4829c700f6270b0b42c80d889a12d3e76aa88e8cec6ed4fd64cfe14 880 freespeech_1.0m-17stretch1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- d50938c193d5bd09f1d9181230b4cf1b63d368d8820b6a379c8d54488c47ba94 27170 freespeech_1.0m-16stretch1.diff.gz
+ fc2eb0876ea88c9f940f703e4d2ea29eca468125dfdd542b8c86ec71295745a5 26669 freespeech_1.0m-17stretch1.diff.gz
 
 Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.3stretch1
+Version: 4.4.4stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- c4924eada304968a3267b00880a6360f 960 multispeech_4.4.3stretch1.dsc
- 9885d10d89087fb4ac9abbe86f7a6b50 526433 multispeech_4.4.3stretch1.tar.gz
+ cedd72b280b915fcd6a2146595e88fd3 960 multispeech_4.4.4stretch1.dsc
+ b364d585cfb694eb3bda62c433910821 527032 multispeech_4.4.4stretch1.tar.gz
 Checksums-Sha1: 
- 11b0ede9382dc42d3463772812335a18de7de184 960 multispeech_4.4.3stretch1.dsc
- c74ed756d0702c4ac9fc39d40ef79cb980c0d7b2 526433 multispeech_4.4.3stretch1.tar.gz
+ db6af51dc491c188ee4af53170c3941a154b2330 960 multispeech_4.4.4stretch1.dsc
+ e1b897641f90d10224a70cec3b8d8e756c9c13d3 527032 multispeech_4.4.4stretch1.tar.gz
 Checksums-Sha256: 
- d48802bd40cf02032a89f0dccf3f44f1b649b0d120253f694b66570c77bc8bbf 960 multispeech_4.4.3stretch1.dsc
- 4d95530499689c3912f48c59e44ca208aafd0497b71dd36a5281bd1e99a6e535 526433 multispeech_4.4.3stretch1.tar.gz
+ f36d2d3156a0d8a144025f82bfef6147ba0f8d312d20a4a123f8dde82927d9e4 960 multispeech_4.4.4stretch1.dsc
+ 9cd724440d1667efb41c6e0268f1e6817302bf4f020f2f2e273a32531d6cb7f8 527032 multispeech_4.4.4stretch1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.2stretch1
+Version: 6.0.3stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- ee017093c7a2096bcf6fef9c1c6d4fda 661 ru-tts_6.0.2stretch1.dsc
- 9bd4d44f2719cf4d4ca1f3a7dd7f8a9e 79088 ru-tts_6.0.2stretch1.tar.gz
+ cf7797bfcef935a8ef59fab95e50954a 661 ru-tts_6.0.3stretch1.dsc
+ 5f7172993d23a4f3e336b4c7a38bac58 79668 ru-tts_6.0.3stretch1.tar.gz
 Checksums-Sha1: 
- 3dee14c4ea043b6b694908a9311e9fe06b3208e0 661 ru-tts_6.0.2stretch1.dsc
- a1a6e41dec39c260358869b595f56901838ca748 79088 ru-tts_6.0.2stretch1.tar.gz
+ d537af372c8a64180a81f18427134f2bf2be6551 661 ru-tts_6.0.3stretch1.dsc
+ 5f32d53c8bb65e937a570356ec6fe4a4480b4048 79668 ru-tts_6.0.3stretch1.tar.gz
 Checksums-Sha256: 
- 4a4524e8bd8d9b93d2875943c10eaad51d02e2d98b5844a4e741a69a0918186a 661 ru-tts_6.0.2stretch1.dsc
- a90cc4e703b7cf7a1fb7d6cad953cef91672ddd3588d6aa97b04302d626d64a9 79088 ru-tts_6.0.2stretch1.tar.gz
+ d4f5d9211d3ecc3b354de27d454ed828bd4509bcbff6407bc6ef97f63c2ee0d0 661 ru-tts_6.0.3stretch1.dsc
+ f3f7ff0d8527cfe1771e32774a77d0f9eefc3e830fcbe400f186ff12305d8cfe 79668 ru-tts_6.0.3stretch1.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1stretch1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -143,18 +143,22 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 8ade0a3fa928ba949793e69d5a165e0b 673 rulex_3.6.1stretch1.dsc
- 1544c337bbf8ccc4cfb51947a2fc658d 3221550 rulex_3.6.1stretch1.tar.gz
+ d6bd7c0038743e4daef0c9fd6c4eaad4 969 rulex_3.7.0-1stretch1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ bbc2c426de114d0ff29763894bd8ab01 4328 rulex_3.7.0-1stretch1.diff.gz
 Checksums-Sha1: 
- 3fe020196b40100c0d055c088bb01532d61829de 673 rulex_3.6.1stretch1.dsc
- 1054c09255da9b77518d3d18970ed56f13c77ec8 3221550 rulex_3.6.1stretch1.tar.gz
+ a2989d9ec1dce81d6042edff040afcdedef4df18 969 rulex_3.7.0-1stretch1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ ce34939ccbc2796507fc4dcdeda9412410755fa8 4328 rulex_3.7.0-1stretch1.diff.gz
 Checksums-Sha256: 
- 6216f72b69299cff13ff4a41af7a902842439ed2280c09f9dc7e31bff61e5f16 673 rulex_3.6.1stretch1.dsc
- 81064634bfd2f1924e96e7dd557156395c89bec58c8839200a911bcf8c91fb48 3221550 rulex_3.6.1stretch1.tar.gz
+ 787fc4a5b805de6031ed5aa9f5ddd9ffaf95857c3daf53a207d84dfbd90c5e49 969 rulex_3.7.0-1stretch1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 1e217323faf001944ff0c641fad6bc3dd96dd86b160ccf27564d154659cf6e0f 4328 rulex_3.7.0-1stretch1.diff.gz
 
 Package: wget-el
 Format: 1.0

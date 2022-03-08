@@ -55,30 +55,30 @@ Checksums-Sha256:
 
 Package: freespeech
 Format: 1.0
-Binary: freephone, enlex
-Architecture: any
-Version: 1.0m-16trusty1
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17trusty1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.5
 Build-Depends: cdbs, debhelper (>= 5), libdb-dev
-Package-List: 
- enlex deb sound optional
- freephone deb sound optional
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- fa48e2cbe63a0ab8e7fed7ea11b3326c 848 freespeech_1.0m-16trusty1.dsc
+ 229a7cc69aafea9364f9b3eed6197df9 876 freespeech_1.0m-17trusty1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- dbf3557ad291275ed090d088da30a2e8 27152 freespeech_1.0m-16trusty1.diff.gz
+ ef9bbce11636530bc32416284087ede2 26685 freespeech_1.0m-17trusty1.diff.gz
 Checksums-Sha1: 
- af79deb3b27de9a456486ba31657e60ee5ab92b6 848 freespeech_1.0m-16trusty1.dsc
+ 468266ba9a4e700bf383bc15a36b4f70b8445bb1 876 freespeech_1.0m-17trusty1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 372713e1f521da7cea0615b866fad1c90de8dea3 27152 freespeech_1.0m-16trusty1.diff.gz
+ 5856cc9e4eedfee47812d55934be478dc2925954 26685 freespeech_1.0m-17trusty1.diff.gz
 Checksums-Sha256: 
- 2b36f2c07a3aa4ec271d9cff117b419432a27315d9a0b0220d86448ae302455a 848 freespeech_1.0m-16trusty1.dsc
+ 987b17c1698b6df5ae10ce2af7b7c71bc7593b5772a16feb2ba945e354d570dd 876 freespeech_1.0m-17trusty1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 11523294d78f7653cdb0e32d4d577f3358390d60ed4a0e088bc3d9804b3b81b8 27152 freespeech_1.0m-16trusty1.diff.gz
+ 1ec50bc927dbd35cb897100294c139fea34239fadff03c85c1d4b4a52608a886 26685 freespeech_1.0m-17trusty1.diff.gz
 
 Package: multispeech
 Format: 1.0
@@ -132,7 +132,7 @@ Package: ru-tts
 Format: 1.0
 Binary: ru-tts, librutts5, librutts-dev
 Architecture: any
-Version: 5.1.1trusty1
+Version: 5.1.1trusty2
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 5), libtool (>= 1.5.2), librulexdb-dev
@@ -144,20 +144,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- e6be7b75e544b3255c6c95abcd2df4c7 664 ru-tts_5.1.1trusty1.dsc
- a7009401ec94ed64ee4ead7952cf9421 75047 ru-tts_5.1.1trusty1.tar.gz
+ 1fb4f86b77d56fd1a8deed5ee69168ba 664 ru-tts_5.1.1trusty2.dsc
+ d447e8895f4b1a6392153ccd62a2e641 75647 ru-tts_5.1.1trusty2.tar.gz
 Checksums-Sha1: 
- 952f92aa912066f2820c5014530ec06fc4d1f4f7 664 ru-tts_5.1.1trusty1.dsc
- e9c3c75dce734be4ea6010576d34532c4adb9c5e 75047 ru-tts_5.1.1trusty1.tar.gz
+ 3b8e78ab613660b296b754f28934bcbbc83ac9b2 664 ru-tts_5.1.1trusty2.dsc
+ 28ce09b30285b88fb641c042657a906843aa20c1 75647 ru-tts_5.1.1trusty2.tar.gz
 Checksums-Sha256: 
- 208dc1f8c5f68af0ada4205f00d37ac0aeeedfb01d924e3f23a68ff1b99d1441 664 ru-tts_5.1.1trusty1.dsc
- 8f086fbd55367d57df96ce251f6e19b46dae20b63ebc8dae32d28d928c12157e 75047 ru-tts_5.1.1trusty1.tar.gz
+ 55f213ff05deb6423a2340e79df39d31133e674f8ffd1e92ba2698362fc0461c 664 ru-tts_5.1.1trusty2.dsc
+ aefbe58ed1513dffba1c99397188f530dacfd03217c0e3ecf30322a2a5db787c 75647 ru-tts_5.1.1trusty2.tar.gz
 
 Package: rulex
 Format: 1.0
-Binary: rulex, librulexdb0, librulexdb-dev
-Architecture: any
-Version: 3.6.1trusty1
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.0-1trusty1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -165,16 +165,20 @@ Package-List:
  librulexdb-dev deb libdevel optional arch=any
  librulexdb0 deb libs optional arch=any
  rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
 Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 12593d15aafbe81a3913d309c6c0fa64 676 rulex_3.6.1trusty1.dsc
- aaa175559021de7f5db07d6c47e3e52b 3221338 rulex_3.6.1trusty1.tar.gz
+ b71be9fd66f933a0df9ecbbb19ce0e3b 972 rulex_3.7.0-1trusty1.dsc
+ 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
+ b3a95abb1b360bc75ada2be782b25e66 4282 rulex_3.7.0-1trusty1.diff.gz
 Checksums-Sha1: 
- 77abf287189b22f3efa1524c83985db5a04983bf 676 rulex_3.6.1trusty1.dsc
- 3c24d627bb6d5acedc00b888e351a22ea304c35b 3221338 rulex_3.6.1trusty1.tar.gz
+ 82ce0f643a7b94bce6e6c63085ac2bb7b9fcd2dc 972 rulex_3.7.0-1trusty1.dsc
+ bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
+ 716c5a8bf4187622e9cdffabc516eb78305d17cb 4282 rulex_3.7.0-1trusty1.diff.gz
 Checksums-Sha256: 
- ef2c23f642f8248ffc55cb7dd41575ea676d07d0aab4fe84b8e9e520ff21646b 676 rulex_3.6.1trusty1.dsc
- 06a219d635099be4e10fe9b51de57ed716aa10c1e7389f0f554836a4da0e60f3 3221338 rulex_3.6.1trusty1.tar.gz
+ 66def08f0ceda0c56ef39acc983f9f5049d63b1fc19a63d1f5f2da972cd76cdc 972 rulex_3.7.0-1trusty1.dsc
+ 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
+ 3481e3b07b9f13b63c64a89ae68e3bde64bf51919e7e2ac1b5fb32304c7adf98 4282 rulex_3.7.0-1trusty1.diff.gz
 
