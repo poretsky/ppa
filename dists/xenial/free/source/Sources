@@ -25,7 +25,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-12xenial1
+Version: 1:50.0-13xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.7
@@ -42,17 +42,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- d6ca029a9bcde91d81d0c3a026b1cd1d 1309 emacspeak_50.0-12xenial1.dsc
+ 3fd319791a92e388372a409178f18adb 1309 emacspeak_50.0-13xenial1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 8e1e683b8fef8520243a1e20afe9ba27 155888 emacspeak_50.0-12xenial1.diff.gz
+ de75b200c31e0d184a3f79253493e6e6 158659 emacspeak_50.0-13xenial1.diff.gz
 Checksums-Sha1: 
- 1ca210bea20b65623760c8a8eac1d6ed68dddca8 1309 emacspeak_50.0-12xenial1.dsc
+ 9aa4d659b7d51cee4bb67da6c14ecaaf738d5981 1309 emacspeak_50.0-13xenial1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- e9e6943587585d03760a8fdc841091f2c94bf5a7 155888 emacspeak_50.0-12xenial1.diff.gz
+ e7b648514563a09b394da110e7e3d9a027234752 158659 emacspeak_50.0-13xenial1.diff.gz
 Checksums-Sha256: 
- 1acb3c05108c04a0cc029b31c6b0ff917fbedfdbc8536bfa1016e9a2f64176de 1309 emacspeak_50.0-12xenial1.dsc
+ 08e7695d0374451015b581d6d2a77aa9ce95cbbecef9d0ff5612df2ffeb461b8 1309 emacspeak_50.0-13xenial1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 55dbe920fd179751c6f2c3396196192f10db0efd0619e6070a28716095bfdc1f 155888 emacspeak_50.0-12xenial1.diff.gz
+ 414017a1fd431a85476acf44a29d89af9cfe3b7e204636c82d2b0283c5294f3c 158659 emacspeak_50.0-13xenial1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -85,7 +85,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.4xenial1
+Version: 4.5.0xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: cdbs, debhelper (>= 5), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -97,14 +97,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 86589fedfa2b79414876b8cb36b44a83 956 multispeech_4.4.4xenial1.dsc
- 74ab11bd0bc43ab1ce7bdfce09bf3ae1 526682 multispeech_4.4.4xenial1.tar.gz
+ 812e81d1b4ec0e85238733ae08262532 956 multispeech_4.5.0xenial1.dsc
+ 9db5774b2808ae07b2431dc191a634a8 527468 multispeech_4.5.0xenial1.tar.gz
 Checksums-Sha1: 
- 7ef7e7142232937478dbcda3ba7e59a3e1ff2d77 956 multispeech_4.4.4xenial1.dsc
- 0e204d3f0c1611e35f47ce6e9243168fab2cc745 526682 multispeech_4.4.4xenial1.tar.gz
+ 2a7e93218bfb8a0d5811001d3a55de2e90033ebd 956 multispeech_4.5.0xenial1.dsc
+ 5fdf2708c500c220e9f91f6b14ce1ff0f1065dc4 527468 multispeech_4.5.0xenial1.tar.gz
 Checksums-Sha256: 
- 5ed3277040f7915ff8c45eef7f3863def94e4a08ce56c537768ddd084bee73c3 956 multispeech_4.4.4xenial1.dsc
- 700e0d3e86bed3498305d9f0c1523bc04681671d2dd174af924e50aa9b89724e 526682 multispeech_4.4.4xenial1.tar.gz
+ 7dd6b8fa6a6f765b3998e1e929d34c01d3252c321b3bd73340fb0185cd9a693e 956 multispeech_4.5.0xenial1.dsc
+ 637400baae0d6672414bc122cef41aba9c4fd91fbd2613297ce76beff4848727 527468 multispeech_4.5.0xenial1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -209,4 +209,31 @@ Checksums-Sha256:
  b1e4494c67d9e661f38e70365a095be05c8f1566c41acae5f954a717154def68 821 wget-el_0.5.0-11xenial1.dsc
  ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
  49e5f10d94983afba1341fb59786a5dba90f9a46e4b213290ed61a0f7af864b0 8834 wget-el_0.5.0-11xenial1.diff.gz
+
+Package: youtube-dl-el
+Format: 1.0
+Binary: youtube-dl-el
+Architecture: all
+Version: 2.0-1xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 7.0.50~)
+Package-List:
+ youtube-dl-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/y/youtube-dl-el
+Files: 
+ 87f0d1e501c11787f8c1875d05d05584 871 youtube-dl-el_2.0-1xenial1.dsc
+ aef03c80d468144d1eb152a176ea712b 23794 youtube-dl-el_2.0.orig.tar.gz
+ 759598762828390a39b04aeacd26bc18 3544 youtube-dl-el_2.0-1xenial1.diff.gz
+Checksums-Sha1: 
+ 0ba7967c2fc55b808ff96a007ef1e7be82edf8af 871 youtube-dl-el_2.0-1xenial1.dsc
+ 695d574a3b7154fe296bda6e4e983ba4bc54f7de 23794 youtube-dl-el_2.0.orig.tar.gz
+ 3c5b0b5fc5be4948744d4487029482f141abeccd 3544 youtube-dl-el_2.0-1xenial1.diff.gz
+Checksums-Sha256: 
+ 5cdc77e7edf6f231a586829e8b94c656bbc226e853e2e4116de1b97813048572 871 youtube-dl-el_2.0-1xenial1.dsc
+ 104f8409fdf5b8147ea10ff9bda1307d5b3abdfe5c11a49e4c18dec7d0d3552f 23794 youtube-dl-el_2.0.orig.tar.gz
+ 7a4ed20ca172ceed91570274bcccae95bf5d81c377f1530539ae9f6ec0a57d4e 3544 youtube-dl-el_2.0-1xenial1.diff.gz
 

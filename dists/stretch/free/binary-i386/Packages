@@ -1,8 +1,8 @@
 Package: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 10449
+Installed-Size: 10458
 Depends: emacs24 | emacs (>= 46.0), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
 Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-12stretch1_all.deb
-Size: 3490176
-SHA256: 57ce902519babe91110c1c8386c6389e7dfd08e38a2b791d9f01053c59df0137
-SHA1: 6560486481c79c51be21873ec287f27fd692fa07
-MD5sum: 98a6691b48bde5d676efd2ebdaec6ce8
+Filename: pool/free/e/emacspeak/emacspeak_50.0-13stretch1_all.deb
+Size: 3491166
+SHA256: c4c458314f37da8d8e65cb660ad1607b3b7b6f30819a58cdcd2103cd3991b651
+SHA1: 9815a6d6660f3cc0f9fd71c8b108a14704b3e3c1
+MD5sum: 52e7206c6c3a4d492ffcce2c4a83f165
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -126,7 +126,7 @@ Description: Chimes auditory icons theme for Emacspeak
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -134,11 +134,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-12stretch1_all.deb
-Size: 2987462
-SHA256: 7960b317e321896c02b8dd75e758e267368e96426170542415f186a11208807b
-SHA1: c421d258490cf54980873c2c41c7a8440125f3b3
-MD5sum: 269c12e1d4ba1117ce5b28810961f51d
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-13stretch1_all.deb
+Size: 2989134
+SHA256: 2af454b25061644fa50b7587a540bb6d16e7d35beb422b254ba7a128cead6a42
+SHA1: d13116474928d41d7e0919e6bed69ff0861076c9
+MD5sum: cde59979d89f6afde337ab191d5f451b
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -149,7 +149,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6579
@@ -158,11 +158,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-12stretch1_all.deb
-Size: 1468644
-SHA256: 014c3d5a8463327c72ad9b803f6b6904b042a78b73792dd19fe992d8079ac8e6
-SHA1: 3247f127b3aadb299996f828ebca121117f32857
-MD5sum: e0fa11ae06796c86ae41b629b24bb00e
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-13stretch1_all.deb
+Size: 1468712
+SHA256: c31bf877fde123bc2702c9b73466b6386eae610e2b42232959f011a72ff293ef
+SHA1: 8f62f25d2f167aa8692ba94a679f33b510b7fc28
+MD5sum: 8f84d80713e6b0874baf86025c976516
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -172,7 +172,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 106
@@ -181,11 +181,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-12stretch1_i386.deb
-Size: 41002
-SHA256: a812780da50261ceef38c75764c25ce5a24219bee51bf8dd866c79edb152201c
-SHA1: 2e4f4c645d2b0be7fd1d19b2f6f5205eb58dfe7f
-MD5sum: a01b1bc16c4a78fa9f39e41bca0f6a7c
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-13stretch1_i386.deb
+Size: 41096
+SHA256: f7b3994dc4487bdb4fd6a27ba2fb6ee3abec9a413438bb17e0caab3e74b51337
+SHA1: 72b6b1213f6bf1791561a7e04649652a7094338b
+MD5sum: 6007418645a626ae3191cdb096827539
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -195,7 +195,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 136
@@ -204,11 +204,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-12stretch1_i386.deb
-Size: 43790
-SHA256: ccf162cc797779979c2aefeff525aba9f761ebe6fa4990db91352a784f452bcb
-SHA1: f3cfbdee7e12e57d0aeb9d34210fba65c085d0f4
-MD5sum: 4fc9d4ddcb43f945f1c6cbc7fe486c03
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-13stretch1_i386.deb
+Size: 43878
+SHA256: af71c4c8a75c90bcdf99c4375817b48e17a109f45093a5f90a2bddd5e820a266
+SHA1: 13e433307eed263cfa64ac532451e4b8ee3a6607
+MD5sum: 9c60a82d1a209c38f47d8198343bb8b1
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -218,7 +218,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-12stretch1
+Version: 1:50.0-13stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -226,11 +226,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: extra
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-12stretch1_all.deb
-Size: 3735332
-SHA256: 4d660a2d2a0cbd0006b7ea2b99e119a0d19b13dbcd9fc4fa921e6aeff9aecaf2
-SHA1: 895fae47745674193317f07ff3950e7b8a152137
-MD5sum: 8ae51fa72781700996c930e2bbcfbcec
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-13stretch1_all.deb
+Size: 3733388
+SHA256: e54b0251cadd65f20d03deff5563e0df713d4f0767b3478813c77be03d916b6d
+SHA1: ef70122224385bdfa23a3547837940b9f48fab43
+MD5sum: 85bd79bcbd1a6df7adc8f9522dc60654
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -288,21 +288,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech5
 Source: multispeech
-Version: 4.4.4stretch1
+Version: 4.5.0stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 864
+Installed-Size: 867
 Depends: libbobcat4 (>= 4.04.00), libboost-filesystem1.62.0, libboost-iostreams1.62.0, libboost-locale1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 1.9.2), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Replaces: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech5_4.4.4stretch1_i386.deb
-Size: 236922
-SHA256: 992c999a736e0653d53cf759c30ca226ad36a5886602247c62534279216ce93e
-SHA1: 2e57d573663db96aebda19d55aa3fa18c4ee9299
-MD5sum: a21ba3e81e635ee9b84e53576fb29385
+Filename: pool/free/m/multispeech/libmultispeech5_4.5.0stretch1_i386.deb
+Size: 237540
+SHA256: c7bf15a181e9b2ddeb4192d7cde70a1f2f2d47526eb3051c7603595f0e3ff300
+SHA1: b8b642f0e6a66ffa85349685199ac9559ce3056f
+MD5sum: 35fc6e4163ad61ad72b8ba31c98bc35c
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -398,21 +398,21 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.4.4stretch1
+Version: 4.5.0stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 264
-Depends: libbobcat4 (>= 4.04.00), libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Depends: libbobcat4 (>= 4.04.00), libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.5), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak (>= 1.44.01), espeak-data (>= 1.44.01)
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.4.4stretch1_i386.deb
+Filename: pool/free/m/multispeech/multispeech_4.5.0stretch1_i386.deb
 Size: 78464
-SHA256: 80b357fa4c0ecb9a4394463a55b5fc696fcfc24a7f08a69dd8f5fec75347bebf
-SHA1: 725eb695aeda13c5df76847941dcb15ac7324618
-MD5sum: 4742bb0867c48437946d0199a68cdc0c
+SHA256: 62775120aafe8569f7cbcc96db550b509647e0c3a969b144eda1b2313cdcc1f6
+SHA1: f37eaddc603c16414ff0df0f449aca2e95b494d2
+MD5sum: c9211104b753ba5e6324a9f4c61d5620
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -518,21 +518,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.4.4stretch1
+Version: 4.5.0stretch1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 186
-Depends: libbobcat4 (>= 4.04.00), libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libportaudiocpp0, libstdc++6 (>= 5.2)
+Depends: libbobcat4 (>= 4.04.00), libboost-filesystem1.62.0, libboost-program-options1.62.0, libboost-regex1.62.0, libboost-system1.62.0, libboost-thread1.62.0, libc6 (>= 2.4), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.5), libportaudiocpp0, libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: extra
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.4.4stretch1_i386.deb
-Size: 57952
-SHA256: 04ff226a060aa587d57c390ca34bf6dcb2d5dafe4062fc8f75745a3a27d4eca9
-SHA1: 72edd2910c556c2cd9c4c1f8b4f9130db4be6de5
-MD5sum: f38c4d2f453c59b1772fd25bf76a1d7a
+Filename: pool/free/m/multispeech/sd-multispeech_4.5.0stretch1_i386.deb
+Size: 57972
+SHA256: db3c4ce88cb6785ee5cc76b6e6181dd74232b45a4b5f56c39cda8dc73a14c93e
+SHA1: 3259464005b332767ebd07ad5ad99c51f461eadc
+MD5sum: 12b5ba3e7c6ba5467b0811bd01c41a46
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -567,4 +567,26 @@ Description: interface for wget on Emacsen
  protocols. It is a non-interactive command line tool.
  This package contains an interface program of GNU wget for
  Emacsen.
+
+Package: youtube-dl-el
+Version: 2.0-1stretch1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 97
+Depends: emacs | emacsen, youtube-dl
+Recommends: mpv
+Suggests: w3m-el
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Priority: optional
+Section: net
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.0-1stretch1_all.deb
+Size: 17372
+SHA256: aac6ea80dd9c017e217b87b22a2d88d4fc1c1ad8e3a6e768166a249e79eb9d5f
+SHA1: 005164c2520c446ed3477ebe7c146cc03ccac872
+MD5sum: 5d6fa30ec93426789e7734084e86793b
+Description: Emacs interface for youtube-dl
+ This package manages download queue using youtube-dl as a backend.
+ In conjunction with mpv player it also can play videos online.
+ Amongst this, there is a capability to preview video descriptions
+ and intelligent integration with w3m-el web browser.
 

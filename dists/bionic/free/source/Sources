@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-12bionic1
+Version: 1:50.0-13bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.1.4
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 0e2d88db05e5774c0498eeae0ac85152 1327 emacspeak_50.0-12bionic1.dsc
+ b429fd00ca3cfc7ca17ff569239ca4aa 1327 emacspeak_50.0-13bionic1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 5220728e37877d8409ed7baf8e6e84a3 167838 emacspeak_50.0-12bionic1.diff.gz
+ 4fbc35bb8aea416c426a683756af4652 170313 emacspeak_50.0-13bionic1.diff.gz
 Checksums-Sha1: 
- bfaac24e717c0a2da318831766e0d51a28c6e524 1327 emacspeak_50.0-12bionic1.dsc
+ f3bde90ce28a236d58a941ebe57d7e6773120d18 1327 emacspeak_50.0-13bionic1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- a192672fbfe08b1f4eab84dcd8a7cc536f8c72cc 167838 emacspeak_50.0-12bionic1.diff.gz
+ ec20b55ee8fbb17d3133d02c360a214fe5591904 170313 emacspeak_50.0-13bionic1.diff.gz
 Checksums-Sha256: 
- 03d4200516d66bc35bf23759a0b8dc98e19e12deffeb00056dfefca698b6c0ac 1327 emacspeak_50.0-12bionic1.dsc
+ fa916a247aea4702fa8032dfb7aa04a4882af21c71e46b464825978f615600d0 1327 emacspeak_50.0-13bionic1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- a50a05101e1ab83607996bb6493d0551b29c0259884280865a5dc4710c561072 167838 emacspeak_50.0-12bionic1.diff.gz
+ 8f7d442f1c83565ec63c9025b12192b0df943380fbffacf2f5c3a6c8ff692f43 170313 emacspeak_50.0-13bionic1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.4bionic1
+Version: 4.5.0bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- bd9e397e05be73d96cc783280d95016a 965 multispeech_4.4.4bionic1.dsc
- 2daf2330a54a3a9aa84fcd3bf984ca19 526717 multispeech_4.4.4bionic1.tar.gz
+ 1cfa876481672f53d8233e23074e99dd 965 multispeech_4.5.0bionic1.dsc
+ c88c46b894f5e302b559e806084bbf3b 527190 multispeech_4.5.0bionic1.tar.gz
 Checksums-Sha1: 
- 7d79eb21399a1ad0bda9aa65b01c4de1c9e8bab8 965 multispeech_4.4.4bionic1.dsc
- 39c426e2e1c0f39bd8a153673f91b74c592fea1f 526717 multispeech_4.4.4bionic1.tar.gz
+ 6fe6647c3ec5ff09e9afd36b0b1c0101e75f49e4 965 multispeech_4.5.0bionic1.dsc
+ 628679e434a4cf67dbb4aac0382f43435b421f0f 527190 multispeech_4.5.0bionic1.tar.gz
 Checksums-Sha256: 
- abcb96aafda1c8719500617aba47cdf0817a9c78a08f73ec87288db5d6cda3b0 965 multispeech_4.4.4bionic1.dsc
- 7c3e250d58a93fb9ad874d05cda93562bac96f5f27c4afbe35281d9956f7f0b7 526717 multispeech_4.4.4bionic1.tar.gz
+ aa6ca26977498ea3a04aa5a2b1dd4b1d7670d8aea118cb200813b5a678672bde 965 multispeech_4.5.0bionic1.dsc
+ 2c2d40a0a095ba103e2320177f14de59d1593e444256943e754eabc690578120 527190 multispeech_4.5.0bionic1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -186,4 +186,31 @@ Checksums-Sha256:
  0f3b36f8849bd5dd07f463d9b2b62a0245dd7a06232cf65762afe611cf451697 820 wget-el_0.5.0-11bionic1.dsc
  ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
  0889bce0cfef8afd168e37c0fe575c807767cd0a5b2e25da5d2d04f55cdec2ce 8654 wget-el_0.5.0-11bionic1.diff.gz
+
+Package: youtube-dl-el
+Format: 1.0
+Binary: youtube-dl-el
+Architecture: all
+Version: 2.0-1bionic1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 9)
+Package-List:
+ youtube-dl-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/y/youtube-dl-el
+Files: 
+ a3e9817b7b7988ea78f501430d82e764 865 youtube-dl-el_2.0-1bionic1.dsc
+ aef03c80d468144d1eb152a176ea712b 23794 youtube-dl-el_2.0.orig.tar.gz
+ af280bbc8c391bf3003a222c2b0449a4 3594 youtube-dl-el_2.0-1bionic1.diff.gz
+Checksums-Sha1: 
+ 6fb253f26ef04a8c45bf5833ce1b3cd5bbcbec0f 865 youtube-dl-el_2.0-1bionic1.dsc
+ 695d574a3b7154fe296bda6e4e983ba4bc54f7de 23794 youtube-dl-el_2.0.orig.tar.gz
+ ceb9b96f6034217d2bad9b00e246735fbde6d02b 3594 youtube-dl-el_2.0-1bionic1.diff.gz
+Checksums-Sha256: 
+ 2885fc321de64a692f3ca2de8ebed132493b1908b2d4c8d7e77cd99e878d72be 865 youtube-dl-el_2.0-1bionic1.dsc
+ 104f8409fdf5b8147ea10ff9bda1307d5b3abdfe5c11a49e4c18dec7d0d3552f 23794 youtube-dl-el_2.0.orig.tar.gz
+ 1bd0102516a2d49f342416870e0b647cb5dd04a801861d135687139d12e33c96 3594 youtube-dl-el_2.0-1bionic1.diff.gz
 

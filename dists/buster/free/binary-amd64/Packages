@@ -1,8 +1,8 @@
 Package: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 10451
+Installed-Size: 10460
 Depends: emacs (>= 1:26.1~), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
 Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-12buster1_all.deb
-Size: 3486268
-SHA256: 2c12d65480c1ef8f520fe1aed52d1127714fe241f9efb453c9da0b65ce42b064
-SHA1: 724561e64c42559c1addce2a28f7b71646133413
-MD5sum: 6192c510a99b22ce166705f3f6c77880
+Filename: pool/free/e/emacspeak/emacspeak_50.0-13buster1_all.deb
+Size: 3485228
+SHA256: 168a2797567b3acee41f4e089dd53abee5bdb85f0e7ac17c2c8c7c39b0d438ca
+SHA1: 5d558502fc8d61c487b9e15b56f6ab809d577d19
+MD5sum: 85280a2a945f2f98db14ad0a979faaa4
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-12buster1_all.deb
-Size: 2991220
-SHA256: c4cf6c6950fa4bdec6b0f6067a2f18f0b77673699b85eccecb45099e3bb81314
-SHA1: ff8946902a8902e9191037e99d1cd2a14f7d4423
-MD5sum: 65ac25b57390c233e32f4204e8182718
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-13buster1_all.deb
+Size: 2993592
+SHA256: 9c06de120b6c2b9c55aeff9a5906d4d7de4030287e3a6d18aa87c3c7e5a3ef41
+SHA1: b2ca7f50c9b09168b7c89416ebc183e82076c271
+MD5sum: 3169801b4a3f5c63fa5345e8ea48a8b6
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,7 +56,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6594
@@ -65,11 +65,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-12buster1_all.deb
-Size: 1467096
-SHA256: 236c3ea695bfd486b6edbab3bd12458e9e74d76db2db8245d2bce0f324fbbe1d
-SHA1: 65a963f56bd3fbff8a110c5c563b6eefdbecacf2
-MD5sum: a52a3d2a8e64b2383785e01007c1e7b9
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-13buster1_all.deb
+Size: 1467080
+SHA256: 1830e81b2f32d2e825782b4c048f747fdb4b7e373c5819787d6c5d5e47db1a12
+SHA1: f37ad0f753fea470a36706c9dcb03ab913a05d9d
+MD5sum: 11d4a5abdcc5276c24f11123243ccfad
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 114
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-12buster1_amd64.deb
-Size: 40036
-SHA256: 5ad2cd58a4473cfc842b1715b81a76de173186c2485d2351e886f71fc2c29a98
-SHA1: a598e647f80a8ae13781e707e9053283bf8d00b0
-MD5sum: 5141c7586f58fef60442000543725118
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-13buster1_amd64.deb
+Size: 40112
+SHA256: 5f11f2a13c21a2cf8176bf8114b5853812ad76e53b88ef7cd2248749f917d7cd
+SHA1: 9e4cd0566aa682b7438b328260855a193c437ac7
+MD5sum: e1c9298dc9e69f7a4f6ad80448343229
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 144
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-12buster1_amd64.deb
-Size: 42744
-SHA256: 35da275271217c0a8f070a2ca1a2850c20e2093b659e5062cf15249d469bcf9c
-SHA1: 20b56558b04fdb0eff3d8d56f708948a436c0671
-MD5sum: b941550f9c074b79b7427bb34ca87ae3
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-13buster1_amd64.deb
+Size: 42840
+SHA256: e7e4c23495ead5e6647980c7dadf2543a2cfdf706b9458bf52eb334e402536f7
+SHA1: 30c374c19be58c0e587e4fd2ddc85fc2b3098e12
+MD5sum: 1256ad665d37cfd22647dc93107e77cc
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-12buster1
+Version: 1:50.0-13buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-12buster1_all.deb
-Size: 3737928
-SHA256: 05134150b7faae39635d26171a7590feaa1c19b6893226bbd7263d07277f7030
-SHA1: 3dbafb0fc373c94b13007b824d346f63a356bc16
-MD5sum: 002be8a056c5e986848758ebf24927ad
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-13buster1_all.deb
+Size: 3731988
+SHA256: ee8b5a8023dae4b2651a500a57a832f2db7dc9a76a27786509740e18114ed4f9
+SHA1: 7e081c442953a2abfdc394793970f6da3da3e537
+MD5sum: 39ae250323e4e251b215592fa8fe0800
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -195,21 +195,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech5
 Source: multispeech
-Version: 4.4.4buster1
+Version: 4.5.0buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 842
+Installed-Size: 845
 Depends: libbobcat4, libboost-filesystem1.67.0, libboost-iostreams1.67.0, libboost-locale1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libstdc++6 (>= 5.2)
 Recommends: multispeech | sd-multispeech
 Conflicts: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Replaces: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech5_4.4.4buster1_amd64.deb
-Size: 222724
-SHA256: 9a65f6af37e19d4efbbf0ef7dba4c35c0898e280ab3e2d0ca8e13dc6b848ece4
-SHA1: 161ad37d4f8bf4641a08f9f04b4ae9ced0f8b125
-MD5sum: 4148013782ce908d3e7466b4ed3f115f
+Filename: pool/free/m/multispeech/libmultispeech5_4.5.0buster1_amd64.deb
+Size: 223752
+SHA256: 072611e61c0e3ddb0657f3ba87348c128a96da55c265a4c5cb8b555e3380d5b0
+SHA1: c86ac710286ad26b132977a523e47d3bc156bbc7
+MD5sum: 3ee55a27443fbfdb7ff89a7d27a1a522
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -305,21 +305,21 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.4.4buster1
+Version: 4.5.0buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 281
-Depends: libbobcat4, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Depends: libbobcat4, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.5), libportaudiocpp0, libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak, espeak-data
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.4.4buster1_amd64.deb
+Filename: pool/free/m/multispeech/multispeech_4.5.0buster1_amd64.deb
 Size: 76612
-SHA256: 5458a572db604364d93dfe7c6aef82d17a21bb04a619a091e1782a029ce04302
-SHA1: 27b2c8cb1f1ca97771513ea338d4118896f8e050
-MD5sum: 61adbc9f9171615b0b0cedfe4736b94a
+SHA256: e984acc2cdd6258db08aa1b54b35bdfb7eb68bdf4163584e73b12515e4b6cc18
+SHA1: 7051c2cc07610f61a1d76ff3ccc2a36d85a4b596
+MD5sum: 1e95ff83ab4eb1411898e6a9938cf6ab
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -425,21 +425,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.4.4buster1
+Version: 4.5.0buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 208
-Depends: libbobcat4, libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.4), libportaudiocpp0, libstdc++6 (>= 5.2)
+Depends: libbobcat4, libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libmultispeech5 (>= 4.5), libportaudiocpp0, libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.4.4buster1_amd64.deb
-Size: 57064
-SHA256: 6571b63b241d9c0caae9f8e0b3d7aca5aa73389c098036f2d9387c5056396473
-SHA1: e4facffea57a9890d7bbfb4ce93e4bb3d218ef58
-MD5sum: c7d9e0a9d27a8e5277466b8f50b30302
+Filename: pool/free/m/multispeech/sd-multispeech_4.5.0buster1_amd64.deb
+Size: 57060
+SHA256: 65f76caaf395401d63b47e4d221325a47d089f68d68ab8f3a767c621ef4ac407
+SHA1: 3e23f0be8ba0e16a490264ac3b5c831a85e0e512
+MD5sum: c4a4a1dd191f4e05412ab4cdc690035f
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -474,4 +474,26 @@ Description: interface for wget on Emacsen
  protocols. It is a non-interactive command line tool.
  This package contains an interface program of GNU wget for
  Emacsen.
+
+Package: youtube-dl-el
+Version: 2.0-1buster1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 97
+Depends: emacs | emacsen, youtube-dl
+Recommends: mpv
+Suggests: w3m-el
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Priority: optional
+Section: net
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.0-1buster1_all.deb
+Size: 17484
+SHA256: 995b72884e615417e926e5e148ec52a4ee999e01f6539a10d4f475415fce6574
+SHA1: 4838554c981ad76c78ff2a03244d6dbc52aefc9a
+MD5sum: c0f129d938eddc9327eda5b019b199a6
+Description: Emacs interface for youtube-dl
+ This package manages download queue using youtube-dl as a backend.
+ In conjunction with mpv player it also can play videos online.
+ Amongst this, there is a capability to preview video descriptions
+ and intelligent integration with w3m-el web browser.
 

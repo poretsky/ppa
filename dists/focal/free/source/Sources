@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-12focal1
+Version: 1:50.0-13focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.1.4
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- ef39186dfe8ec448d54378adf7d09df5 1324 emacspeak_50.0-12focal1.dsc
+ 9838ecbfd81243e4c2626fed81ea6889 1324 emacspeak_50.0-13focal1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 4479be7af407b20b2f40e14fc73c34eb 167939 emacspeak_50.0-12focal1.diff.gz
+ fc1e3f8c1e8e6bc10a5e76be575452fa 170441 emacspeak_50.0-13focal1.diff.gz
 Checksums-Sha1: 
- 0ff66e9825dd3908e0f2de161f7d040792bdf98e 1324 emacspeak_50.0-12focal1.dsc
+ 7fe0875eddb7f6f79a3f79aa2ef0f345c3ef14ee 1324 emacspeak_50.0-13focal1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- f4e23aaf7fb87439aa861143235f49ca5c5bcc2a 167939 emacspeak_50.0-12focal1.diff.gz
+ aa36abd34760f7c9c6894cc7be19b7c70fedb4d2 170441 emacspeak_50.0-13focal1.diff.gz
 Checksums-Sha256: 
- 32620e8b093d79653cc1d6e4bb2bba84eea5c6be0b148c936518b3bb555f0331 1324 emacspeak_50.0-12focal1.dsc
+ 54c0c85fe6bcac84cc2cffca6c01b8954b3390c5586ac63271e1075a0a2dc1b6 1324 emacspeak_50.0-13focal1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- d86a0e8ab7cc20445d4160623d613e4bdfebce72c31e577437198b5fa6c9ff42 167939 emacspeak_50.0-12focal1.diff.gz
+ 72cdd381c5eb8c07e4e8b0f324948165ccb05c1476d396d7ab7697451b755b2b 170441 emacspeak_50.0-13focal1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.4.4focal1
+Version: 4.5.0focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- d3cea67d82e8bff853a5d267d37f457d 947 multispeech_4.4.4focal1.dsc
- 7ec70578b218330e2c8c2a6471465861 527148 multispeech_4.4.4focal1.tar.gz
+ 57124c949aa03b8493335c3826f66cfe 947 multispeech_4.5.0focal1.dsc
+ b58c9c14e3611153a3a733f8c186a0d7 526978 multispeech_4.5.0focal1.tar.gz
 Checksums-Sha1: 
- 2351b15c6c41b269d73a7b1c5ae7b7844ce946e1 947 multispeech_4.4.4focal1.dsc
- 00a891046843ba1ef8ccd6d63ff3a9f05d7d2666 527148 multispeech_4.4.4focal1.tar.gz
+ ed0f23c86478c18fafb403708bcb6a18098b2f33 947 multispeech_4.5.0focal1.dsc
+ 4251acca3e164ff5e1910dab323e62f0d52d4b6a 526978 multispeech_4.5.0focal1.tar.gz
 Checksums-Sha256: 
- 3430c9560e07b18028e07fe978e028f3ddbd3c26d4f3d654c5384b8c7fb98901 947 multispeech_4.4.4focal1.dsc
- 3aaa2999e055829879ce0844b9e7429589e9ea0ebfa2a50a8b752425a59f4c54 527148 multispeech_4.4.4focal1.tar.gz
+ e949da4f4a4da5b7ffe267c0812ab2da70cafd6d812fb035abf924195c440d0c 947 multispeech_4.5.0focal1.dsc
+ 600149b7518355e4511533c37b6d6cd555fded46ff30999cafaa95eb6def1b34 526978 multispeech_4.5.0focal1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -186,4 +186,31 @@ Checksums-Sha256:
  a9ce2accad76a6a6dbd5fe7d639e2927349e4abaed49cf0b4733b083036b17ae 817 wget-el_0.5.0-11focal1.dsc
  ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
  572e82404b8c422cc4b7ca9c8e4f8acef45059455d6f915c2a2f1298e24c85d7 8693 wget-el_0.5.0-11focal1.diff.gz
+
+Package: youtube-dl-el
+Format: 1.0
+Binary: youtube-dl-el
+Architecture: all
+Version: 2.0-1focal1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Package-List:
+ youtube-dl-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/y/youtube-dl-el
+Files: 
+ dca0ff7b708c6e15a13547f32f5f2200 862 youtube-dl-el_2.0-1focal1.dsc
+ aef03c80d468144d1eb152a176ea712b 23794 youtube-dl-el_2.0.orig.tar.gz
+ 7c8dcbcebeced458c007310ea02b9f21 3610 youtube-dl-el_2.0-1focal1.diff.gz
+Checksums-Sha1: 
+ ab2c799c2b48a2bece05082e25c19b7609772f23 862 youtube-dl-el_2.0-1focal1.dsc
+ 695d574a3b7154fe296bda6e4e983ba4bc54f7de 23794 youtube-dl-el_2.0.orig.tar.gz
+ 847bb2d33fad4e9cbf913ec21e74698141110e67 3610 youtube-dl-el_2.0-1focal1.diff.gz
+Checksums-Sha256: 
+ ca9ca5d65f5bdf9be4a5902f7b7d99c5ea73f617deaa0772f51c3eda950e7c91 862 youtube-dl-el_2.0-1focal1.dsc
+ 104f8409fdf5b8147ea10ff9bda1307d5b3abdfe5c11a49e4c18dec7d0d3552f 23794 youtube-dl-el_2.0.orig.tar.gz
+ d3019489125925c773a79ab37d42171dc04f132a9538a10cb93501c550595cf0 3610 youtube-dl-el_2.0-1focal1.diff.gz
 
