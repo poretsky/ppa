@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.1-1bionic1
+Version: 2.1-2bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- ebc52b93502c87bfa8a26da66c8937f8 865 youtube-dl-el_2.1-1bionic1.dsc
+ 72d2dac0541ea67e2e2e2b2de2f5c551 865 youtube-dl-el_2.1-2bionic1.dsc
  3aa92c4695f1e17558e565c05021a0a3 23944 youtube-dl-el_2.1.orig.tar.gz
- de9668d1055a11c3ef10996c6182547d 3689 youtube-dl-el_2.1-1bionic1.diff.gz
+ 8eaf88e66cc082db828a4ef8004e7148 3712 youtube-dl-el_2.1-2bionic1.diff.gz
 Checksums-Sha1: 
- 652deffd89b01675e5fc1c2431b44c692f34280d 865 youtube-dl-el_2.1-1bionic1.dsc
+ 8ac0f1c0fa0e0b1f1a2fbcd15095b4e228458675 865 youtube-dl-el_2.1-2bionic1.dsc
  eaae6500b068f5c595386d95516000d740fba4f7 23944 youtube-dl-el_2.1.orig.tar.gz
- fd71d8561d144cd5ee38f5067d685ef9363cfe33 3689 youtube-dl-el_2.1-1bionic1.diff.gz
+ eccf03f3039da4325bbfcea0a9470bbd28a4e977 3712 youtube-dl-el_2.1-2bionic1.diff.gz
 Checksums-Sha256: 
- 30eb6f54432851e532d07394fe452789df37a3f2e42b36c54da7dbd04a506747 865 youtube-dl-el_2.1-1bionic1.dsc
+ db9e36308456c506b5fd526eacce5e2ef5a647e69a66f65a506c5732dcff07ec 865 youtube-dl-el_2.1-2bionic1.dsc
  5dab351c5cfecfc21b8253c6a80cf5e7c82d80405c944a1da9a3af1941d3e2e1 23944 youtube-dl-el_2.1.orig.tar.gz
- 238446a141e2933e02cfa9d5db6cb0f069ec90159049239c485e888c3dbbd7bb 3689 youtube-dl-el_2.1-1bionic1.diff.gz
+ a7eab744659a2f67c97395cf3a2453d60ea42bd4a13d316cd1de7a236cde7211 3712 youtube-dl-el_2.1-2bionic1.diff.gz
 

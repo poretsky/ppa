@@ -214,7 +214,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.1-1xenial1
+Version: 2.1-2xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.7
@@ -225,15 +225,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 4081124dbff23f924f6ae099537e6b9a 871 youtube-dl-el_2.1-1xenial1.dsc
+ 3b81b5f5a803b628aaa3e94fd5803ebb 871 youtube-dl-el_2.1-2xenial1.dsc
  3aa92c4695f1e17558e565c05021a0a3 23944 youtube-dl-el_2.1.orig.tar.gz
- 2d7e95da2606335162713e4102351fb2 3674 youtube-dl-el_2.1-1xenial1.diff.gz
+ 46f8f8949e9aaad135d8ba2e5dbf0f1a 3733 youtube-dl-el_2.1-2xenial1.diff.gz
 Checksums-Sha1: 
- 79b3a1a152120581974da4b03bd9bb302eb24dfe 871 youtube-dl-el_2.1-1xenial1.dsc
+ 3b26a44d76b5e018f7ca35f022dc93934a0e1dd8 871 youtube-dl-el_2.1-2xenial1.dsc
  eaae6500b068f5c595386d95516000d740fba4f7 23944 youtube-dl-el_2.1.orig.tar.gz
- 3a3d38da51454452a78ac0bd92df59e52c12ee70 3674 youtube-dl-el_2.1-1xenial1.diff.gz
+ 66e97533fa5430c2e104691b285dbe942cf8b589 3733 youtube-dl-el_2.1-2xenial1.diff.gz
 Checksums-Sha256: 
- 5d1d630f9f5ddc5a620f2cf804aba143085c7f86939dd3e92c506ae67b0b9c57 871 youtube-dl-el_2.1-1xenial1.dsc
+ 6ca2c0c9d6851a8495511663bbf56f6e05e060d3ca7492d62878348b3a180f4f 871 youtube-dl-el_2.1-2xenial1.dsc
  5dab351c5cfecfc21b8253c6a80cf5e7c82d80405c944a1da9a3af1941d3e2e1 23944 youtube-dl-el_2.1.orig.tar.gz
- f8f12937ef2e2843049237fd78d9958c90bafc7ae117d9200719f1fc2f7e7b5e 3674 youtube-dl-el_2.1-1xenial1.diff.gz
+ 24a9d60fa26418b9b2aa48e2b66de27dd455b2b7bc0f86ab6dc0b7459a5eed7c 3733 youtube-dl-el_2.1-2xenial1.diff.gz
 

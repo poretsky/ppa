@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.1-1stretch1
+Version: 2.1-2stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 7cc2d4e2a85411d454d760acb3aa5c08 869 youtube-dl-el_2.1-1stretch1.dsc
+ 0a40188d618ea63d78a1f414e08dbe60 869 youtube-dl-el_2.1-2stretch1.dsc
  3aa92c4695f1e17558e565c05021a0a3 23944 youtube-dl-el_2.1.orig.tar.gz
- 6095c1f8a1c636085b3728716a01d39e 3668 youtube-dl-el_2.1-1stretch1.diff.gz
+ 39aa80fa44dfcaeffba706ac83b61256 3695 youtube-dl-el_2.1-2stretch1.diff.gz
 Checksums-Sha1: 
- deb8d7ff5b4727fd3b886f2b233142bac222b844 869 youtube-dl-el_2.1-1stretch1.dsc
+ caf05e1aa7d5449562d9f76ac210a779c84c5641 869 youtube-dl-el_2.1-2stretch1.dsc
  eaae6500b068f5c595386d95516000d740fba4f7 23944 youtube-dl-el_2.1.orig.tar.gz
- 17ca9c32d34d8fac0d929f99a2aa3e483ec497c0 3668 youtube-dl-el_2.1-1stretch1.diff.gz
+ db26cddb6bdaba333f71e7d1ff3a1695891d7efc 3695 youtube-dl-el_2.1-2stretch1.diff.gz
 Checksums-Sha256: 
- a6431592514489712ceadfd456355d7213f66a53e8fd93b5e6cb232b93e6a4df 869 youtube-dl-el_2.1-1stretch1.dsc
+ 7e0fe8db2f2e3842c81868d3b7bc41bdf0b5d3a2a339a1c52be0b9c3722f44df 869 youtube-dl-el_2.1-2stretch1.dsc
  5dab351c5cfecfc21b8253c6a80cf5e7c82d80405c944a1da9a3af1941d3e2e1 23944 youtube-dl-el_2.1.orig.tar.gz
- 39241578c703abdc64a3892c55d62514208a5aafa9a21aa2ae17ab2b68ebcd90 3668 youtube-dl-el_2.1-1stretch1.diff.gz
+ 91fdf65a382d5518db62129ea45f654533f045797b212f9348c2ca6488087826 3695 youtube-dl-el_2.1-2stretch1.diff.gz
 
