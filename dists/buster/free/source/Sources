@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.0-1buster1
+Version: 2.1-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 050ad81eb8ffb5b825d60f146a58bb5a 865 youtube-dl-el_2.0-1buster1.dsc
- aef03c80d468144d1eb152a176ea712b 23794 youtube-dl-el_2.0.orig.tar.gz
- ceb273d24135a5e9de1a0e355c42e804 3604 youtube-dl-el_2.0-1buster1.diff.gz
+ 2811eb316d6b674ee71cc36adda9eb40 865 youtube-dl-el_2.1-1buster1.dsc
+ 3aa92c4695f1e17558e565c05021a0a3 23944 youtube-dl-el_2.1.orig.tar.gz
+ 45e1ce7f25c5b6f0d1ffde3e95a65e01 3700 youtube-dl-el_2.1-1buster1.diff.gz
 Checksums-Sha1: 
- d864ec50539cdcd1dcce69e3ce132eb19e85ebc5 865 youtube-dl-el_2.0-1buster1.dsc
- 695d574a3b7154fe296bda6e4e983ba4bc54f7de 23794 youtube-dl-el_2.0.orig.tar.gz
- 65b814b86580561468998e324eb7bed8aa099af7 3604 youtube-dl-el_2.0-1buster1.diff.gz
+ 71bdb0d935e0e4c13ebd8466909a1ac9c234a595 865 youtube-dl-el_2.1-1buster1.dsc
+ eaae6500b068f5c595386d95516000d740fba4f7 23944 youtube-dl-el_2.1.orig.tar.gz
+ 8642de269fe845a293ec70b9c52a4437c0a988b8 3700 youtube-dl-el_2.1-1buster1.diff.gz
 Checksums-Sha256: 
- cafa158e9f38913189ffb10ab0735d81aed44cced977bfe2f57cab0df0a33a19 865 youtube-dl-el_2.0-1buster1.dsc
- 104f8409fdf5b8147ea10ff9bda1307d5b3abdfe5c11a49e4c18dec7d0d3552f 23794 youtube-dl-el_2.0.orig.tar.gz
- d4e74ff2c7d350a94cc837132fe26434ca0f8affe0b91da25595366f88452735 3604 youtube-dl-el_2.0-1buster1.diff.gz
+ dfd91be418e8ea5132b6b604a14b455604f640b0beab3cecaaca776ec728b3b6 865 youtube-dl-el_2.1-1buster1.dsc
+ 5dab351c5cfecfc21b8253c6a80cf5e7c82d80405c944a1da9a3af1941d3e2e1 23944 youtube-dl-el_2.1.orig.tar.gz
+ 03dc5448beb6e8a8cbfc9472136ec959abb04d16062f80a3682bb8e9d2d8154c 3700 youtube-dl-el_2.1-1buster1.diff.gz
 
