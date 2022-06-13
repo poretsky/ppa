@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.1-2focal1
+Version: 2.2-1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 78a7a4e4a3c66f415e3409a864961bd1 862 youtube-dl-el_2.1-2focal1.dsc
- 3aa92c4695f1e17558e565c05021a0a3 23944 youtube-dl-el_2.1.orig.tar.gz
- 3e20a601f435dd22a46689b3c043bc0d 3779 youtube-dl-el_2.1-2focal1.diff.gz
+ 4c70e42fb5701117e5915a9deb43ddb7 862 youtube-dl-el_2.2-1focal1.dsc
+ 9fd500bde64b30984f14fcb92d417253 23960 youtube-dl-el_2.2.orig.tar.gz
+ 33288c5612a56ea3ce74de8adfbe2d89 3819 youtube-dl-el_2.2-1focal1.diff.gz
 Checksums-Sha1: 
- 5a8553b4215adce94511dc64e3f65094dffbe8d8 862 youtube-dl-el_2.1-2focal1.dsc
- eaae6500b068f5c595386d95516000d740fba4f7 23944 youtube-dl-el_2.1.orig.tar.gz
- a431b2c7d64f912b2593b4648f9c65c462b127f6 3779 youtube-dl-el_2.1-2focal1.diff.gz
+ 83d98bdf8a7f5709f222c77edb642aacabcdd3f0 862 youtube-dl-el_2.2-1focal1.dsc
+ fcd88d5f3c88cd7701aa9540ce783f386b1675e8 23960 youtube-dl-el_2.2.orig.tar.gz
+ 3799f5247e94ae83b989d34d4e3ec8d2c425cf44 3819 youtube-dl-el_2.2-1focal1.diff.gz
 Checksums-Sha256: 
- 3ac1470f625ffd48f16b04e8f4496f8228ee224680cfd161360a099d06433883 862 youtube-dl-el_2.1-2focal1.dsc
- 5dab351c5cfecfc21b8253c6a80cf5e7c82d80405c944a1da9a3af1941d3e2e1 23944 youtube-dl-el_2.1.orig.tar.gz
- e2a36ac3b40b6f292eeadc82c2b6f24eedfcf88d468e58ba923f2525b2639237 3779 youtube-dl-el_2.1-2focal1.diff.gz
+ ebd70a62b56ac32c91a475994f9d5ddc720320c681f5464551dd26d4264e03f6 862 youtube-dl-el_2.2-1focal1.dsc
+ 0c4ed9e097f05ecfe46c581d0707e97d1c811fe585cf05c94bf47b50023b76d6 23960 youtube-dl-el_2.2.orig.tar.gz
+ 108dd36164d602482992d748859dc8f44c2f7c7ab486caa70c3afc483e801739 3819 youtube-dl-el_2.2-1focal1.diff.gz
 
