@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-13stretch1
+Version: 1:50.0-14stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -19,17 +19,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 778af481ad6bc3032f27944e2ae2a6fb 1313 emacspeak_50.0-13stretch1.dsc
+ 49d4fe5333a259831cea797d4bd6863e 1313 emacspeak_50.0-14stretch1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- be21bfb3fa4d3ad10d32361df48cb844 158727 emacspeak_50.0-13stretch1.diff.gz
+ 9d2992639fc089ff8e3f1a06527cd4d4 158804 emacspeak_50.0-14stretch1.diff.gz
 Checksums-Sha1: 
- 31ac5a767c1866f0f95d4ee9c776a08a82a1b9fc 1313 emacspeak_50.0-13stretch1.dsc
+ 781f93c91732afddb83c3f713ade2f57af0caf0d 1313 emacspeak_50.0-14stretch1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- 01480ac595bed5a779faf0416087b7f24b6cf846 158727 emacspeak_50.0-13stretch1.diff.gz
+ 40b0eb5d37bafc61648d0d3a92d92bef071ea2f2 158804 emacspeak_50.0-14stretch1.diff.gz
 Checksums-Sha256: 
- bb62a2379a4fb612d16d3a5b545110a7af0f71f3b9731d9e784a806e7966cd7c 1313 emacspeak_50.0-13stretch1.dsc
+ 0c6f881696804f498307d0c23d25ad695f09bdb171749934aa6f61f4d9208447 1313 emacspeak_50.0-14stretch1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- a5d7b659279f64a7c7577c60d76fa8425bd6ef7f9a6113cb73df9d1ec691a43e 158727 emacspeak_50.0-13stretch1.diff.gz
+ e9d288b5e7b56fe06d065b89d56050dd8dd62c0828845af00aeb54a41361c974 158804 emacspeak_50.0-14stretch1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1stretch1
+Version: 3.7.1-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- d6bd7c0038743e4daef0c9fd6c4eaad4 969 rulex_3.7.0-1stretch1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- bbc2c426de114d0ff29763894bd8ab01 4328 rulex_3.7.0-1stretch1.diff.gz
+ eaf2d19beabe319fdf5fd049ea18db41 969 rulex_3.7.1-1stretch1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ 33de8f119ce474b0a216ba2f11a72ed4 4330 rulex_3.7.1-1stretch1.diff.gz
 Checksums-Sha1: 
- a2989d9ec1dce81d6042edff040afcdedef4df18 969 rulex_3.7.0-1stretch1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- ce34939ccbc2796507fc4dcdeda9412410755fa8 4328 rulex_3.7.0-1stretch1.diff.gz
+ 7a2d2effeff53fb301e6f1dea82e3b37279d609c 969 rulex_3.7.1-1stretch1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ 597ede4c9166c4530f338295f12bf6a12bf1ba65 4330 rulex_3.7.1-1stretch1.diff.gz
 Checksums-Sha256: 
- 787fc4a5b805de6031ed5aa9f5ddd9ffaf95857c3daf53a207d84dfbd90c5e49 969 rulex_3.7.0-1stretch1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- 1e217323faf001944ff0c641fad6bc3dd96dd86b160ccf27564d154659cf6e0f 4328 rulex_3.7.0-1stretch1.diff.gz
+ 7555d4eb380417b921bae7e9e2de323dae3a524a7c2bd91f761a7f02282f3ef2 969 rulex_3.7.1-1stretch1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 6c9519fef5724742fa2ee2c8b9b707977f5224aae58ddd35ee16b3d777460f54 4330 rulex_3.7.1-1stretch1.diff.gz
 
 Package: wget-el
 Format: 1.0

@@ -1,5 +1,5 @@
 Package: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 10460
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-13focal1_all.deb
-Size: 3392328
-SHA256: 1e179b358ea39cf31e09ed199e16b328481ceb3a073da9596d615a897c2b7117
-SHA1: 26b89cd1438ec33725eb393fabc1d1287ce0654d
-MD5sum: 4bd784b3641ca357477d96a41c23b457
+Filename: pool/free/e/emacspeak/emacspeak_50.0-14focal1_all.deb
+Size: 3388932
+SHA256: 9fc401eb673c0c2f444534cf6e153b92f908d2ccbe658333bb2fd01976d97e55
+SHA1: 2463a9f72ece995432081bb600caa5d8797149d9
+MD5sum: 2e5197fa0fe18827967e266be895a24b
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-13focal1_all.deb
-Size: 2988700
-SHA256: 06f214854598cf24b1559472d674f82027c4645719c48954ed69e12ba49cb84d
-SHA1: f6c78e8e184a46feabae7fe65ccfb3ba78e30b8e
-MD5sum: 38632cae87341491efe2bc42ed0d484d
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-14focal1_all.deb
+Size: 2990820
+SHA256: 885b5088be7eff52b2534fbb64d39e533f8b00737d6412ef3370ecb04cd95333
+SHA1: 154b31df0731bbd82ccd0900a010be161e8be1d8
+MD5sum: 3d3f1cd0b90961123c93747ba9857d69
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,7 +56,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6412
@@ -65,11 +65,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-13focal1_all.deb
-Size: 1466412
-SHA256: 71daec2a9d7e08b715eace44a62bceef65acc4147aeb35fa9a63813cad7e70b7
-SHA1: 01f7297af0b808da5cc2d133f1a679e977cda3d4
-MD5sum: 4c89bc03d0d65f5ceea422b7712d0227
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-14focal1_all.deb
+Size: 1466408
+SHA256: 05a762317e80bf7c18708f04fecbf2739cc5b041e0811bbc605b67018ea124d7
+SHA1: ab06fab2ca4b5fcc56154268ae11bed5595036b4
+MD5sum: 210da800e3592dccd396343106ab4b4d
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 111
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-13focal1_amd64.deb
-Size: 40332
-SHA256: d3670e4ff7b24e321bac3e915ad59edd87886c132e98d0e82c45e676484f79a1
-SHA1: 51b35b10b795068d8922cc9a96ff60e67c506a5e
-MD5sum: 075b4894a9354fbd3152cf8e7446c272
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-14focal1_amd64.deb
+Size: 40344
+SHA256: 2dcbcda888eec4d5e80f8df40cc4e736ef84f0567d02beac018a6dba1c48c68c
+SHA1: 956c3d6a57348f6f37a7286f6d679366eb363790
+MD5sum: e44df1fe06f20f429349053dd0b09d64
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 145
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-13focal1_amd64.deb
-Size: 42952
-SHA256: 134ffc00359e65ee01ba6e0a068751d224d216affb615cc306a665eb45ae1aea
-SHA1: ed1cb8363a12c57c4095113fd335f129153dab5b
-MD5sum: 39c4a50d232f682c46f72863f7b5969b
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-14focal1_amd64.deb
+Size: 43000
+SHA256: 0c2ac18e0d021d9ba8fb6fb3e95ec087afc6bc212a0d39f78fb348b39c96e375
+SHA1: 55d1eba9e279e15eb37a52081800cd52acad5768
+MD5sum: e2e9c272e9d931e484d6a8b4166cb84c
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-13focal1_all.deb
-Size: 3732068
-SHA256: 2c543e3ba36c8d77a60bd79808e0146c34fe2f3bd05b056310ba556245349616
-SHA1: 1979cd4461558a5055acd45f9c5bbd9b1c826933
-MD5sum: 13a730214919fce16fa41dba5bbd6f86
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-14focal1_all.deb
+Size: 3731384
+SHA256: 72a86e81ce4595c57034fe134f01c02da4d1f1b323af08ea36b364929de827e2
+SHA1: eaa49cd32592ccf181ff7cd96186bf8a225a5a02
+MD5sum: cf73d1dcdd9495f4963260e64aa68120
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -221,37 +221,37 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.0-1focal1
+Version: 3.7.1-1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 69
-Depends: librulexdb0 (= 3.7.0-1focal1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.1-1focal1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.0-1focal1_amd64.deb
-Size: 30004
-SHA256: 746040b9324a7a7b07dbecac1707750044adcd8ef752ef2698856ffdef2dc82e
-SHA1: 566d0df4d7e66dc71c0cb006feb0a72a51c21bd8
-MD5sum: 833f89b251657a7eff17223afcef0535
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.1-1focal1_amd64.deb
+Size: 30028
+SHA256: f8f5c51d2524466333609e3cc5919ab2898dbe9464c21f3e2cd001d694de1eb8
+SHA1: a96057dd645bd14637e5ad56a6f831e209ec5e5f
+MD5sum: a08dbb7054889e1302fd1190d5ab75cd
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.0-1focal1
+Version: 3.7.1-1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 36
 Depends: libc6 (>= 2.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.0-1focal1_amd64.deb
-Size: 12240
-SHA256: c7b7ff9508d8acbf3ae8562b7ab9fba1eaeb7dc88410adf1de15dfa98fd93594
-SHA1: 7e1fd13f6c53f579bfd05a691936d41a9557616f
-MD5sum: 84d14bd90110be96313da1ecdfe054b7
+Filename: pool/free/r/rulex/librulexdb0_3.7.1-1focal1_amd64.deb
+Size: 12248
+SHA256: 60e025dd55cddc50572b0da17d65ae5e2dcc3fe836c7445e937ab7bed5f848f1
+SHA1: a488daf34c96e0edc9cf7ebf3fe27e5cf52bbcfb
+MD5sum: f97bec522e0acdf8675a50fc1a8707fd
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -378,7 +378,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.0-1focal1
+Version: 3.7.1-1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 72
@@ -386,11 +386,11 @@ Depends: locales, libc6 (>= 2.4), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.0-1focal1_amd64.deb
-Size: 29400
-SHA256: 0c54da783f987f4008611bc5e3a3d598d0fb4258b2ac11f663fca60b2ff828de
-SHA1: ad863ff0fab4fff8851f929eb105b8133c96ba0f
-MD5sum: d00977b16ea15d6f61ec9bb04825c10d
+Filename: pool/free/r/rulex/rulex_3.7.1-1focal1_amd64.deb
+Size: 29424
+SHA256: f3ee253a1d221c11686e9b3ba32c526929b3eff8686ba3c6daefcae4e3e737c6
+SHA1: 26d7f491c7c5f89dd92c0804bf749e9640b8d6bb
+MD5sum: b9f86c4706dc4ce3a690bddaecc83200
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -402,21 +402,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.0-1focal1
+Version: 3.7.1-1focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2307
+Installed-Size: 2299
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.0-1focal1_all.deb
-Size: 750148
-SHA256: b97b92d99f05f750fb354e75ace05f026c7a321475a585da87536052972baf3f
-SHA1: 69fe4ed8bba380f3dd8a206fe65f016668695799
-MD5sum: edd1fe438a700900b3757437b7cb4b17
+Filename: pool/free/r/rulex/rulex-data_3.7.1-1focal1_all.deb
+Size: 749432
+SHA256: 58e877612e30edcd87a4dcce0e8318855fbcf285f2171e804a60a5dbbc06a06a
+SHA1: 9b640bd61ab55e0f7365fbac47dfe099c5a4ec43
+MD5sum: aec284f293d70d2cf00f15b9437cb90d
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts

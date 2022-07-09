@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-13bionic1
+Version: 1:50.0-14bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.1.4
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- b429fd00ca3cfc7ca17ff569239ca4aa 1327 emacspeak_50.0-13bionic1.dsc
+ 57d2fa426f0cd261f97dda8073a5b1dc 1327 emacspeak_50.0-14bionic1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 4fbc35bb8aea416c426a683756af4652 170313 emacspeak_50.0-13bionic1.diff.gz
+ 3b3d7ade32462c462f921bc35b47bdc8 170358 emacspeak_50.0-14bionic1.diff.gz
 Checksums-Sha1: 
- f3bde90ce28a236d58a941ebe57d7e6773120d18 1327 emacspeak_50.0-13bionic1.dsc
+ 133f1882d9deb4e738dba30d52286411dd87f265 1327 emacspeak_50.0-14bionic1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- ec20b55ee8fbb17d3133d02c360a214fe5591904 170313 emacspeak_50.0-13bionic1.diff.gz
+ 28b489b92c4eb034b7536ca0b7dc1433733b0bc3 170358 emacspeak_50.0-14bionic1.diff.gz
 Checksums-Sha256: 
- fa916a247aea4702fa8032dfb7aa04a4882af21c71e46b464825978f615600d0 1327 emacspeak_50.0-13bionic1.dsc
+ eb130fd4d7b3e9baaed9cac220a758d826b7953d43dbbc0555457e49d8ed160d 1327 emacspeak_50.0-14bionic1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 8f7d442f1c83565ec63c9025b12192b0df943380fbffacf2f5c3a6c8ff692f43 170313 emacspeak_50.0-13bionic1.diff.gz
+ 2f24c0342dd08db2a234544267c0381640aca34b6e6c9f44861e0d057084a6d6 170358 emacspeak_50.0-14bionic1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1bionic1
+Version: 3.7.1-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 09d50b06c08519b3afead23d232c1594 965 rulex_3.7.0-1bionic1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- 892db3857d3c0fc8d99b5153cb02ad30 4270 rulex_3.7.0-1bionic1.diff.gz
+ 628995d96cb1d76aee672487b73b9cc5 965 rulex_3.7.1-1bionic1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ 698b0bea0957fdad49b0504fefe3d28c 4292 rulex_3.7.1-1bionic1.diff.gz
 Checksums-Sha1: 
- 99bb08eea983ef2623469e80df1f16425f2521c8 965 rulex_3.7.0-1bionic1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- eec66951ffe6033ecd365a64acc4d87232e16a88 4270 rulex_3.7.0-1bionic1.diff.gz
+ 457570c31cd6dff966e6272fe5fb32403a686b58 965 rulex_3.7.1-1bionic1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ 74f1e99a2b6ec6505a0a3b372cb7edf7997ea7fb 4292 rulex_3.7.1-1bionic1.diff.gz
 Checksums-Sha256: 
- 5569288a6424f95f0cbc51faef03ea510b95c30a067e9b059936c10cc64a8583 965 rulex_3.7.0-1bionic1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- 755b11d91af5abafda230fa01ffb49362d367a005b722cfe8d52dd11f2b4e6e9 4270 rulex_3.7.0-1bionic1.diff.gz
+ 025df88912d61bc085352cd97dc04818033e3e07ae324a2d3e165f4160aaca9e 965 rulex_3.7.1-1bionic1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 3912fbae11aaef7597f1ad52c7666e829123e6b0b6dd790dea473a8aa8f5af1f 4292 rulex_3.7.1-1bionic1.diff.gz
 
 Package: wget-el
 Format: 1.0

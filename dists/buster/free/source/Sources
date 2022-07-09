@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- d4c70bb5aed47b9c516652d44f302c68 1327 emacspeak_50.0-13buster1.dsc
+ 8a6bc734eb3b69ab2fca778c908dc525 1327 emacspeak_50.0-14buster1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 30099e7e1acd25f0978040d06ac7ccb7 170408 emacspeak_50.0-13buster1.diff.gz
+ 34763ff2d9b85192f6b98337709ad3f0 170440 emacspeak_50.0-14buster1.diff.gz
 Checksums-Sha1: 
- 308bc7e14423e32f0409b58f5e342c88aaae237a 1327 emacspeak_50.0-13buster1.dsc
+ 7d7c4d701fedd23f38b8e97dffa66c872bf0be8d 1327 emacspeak_50.0-14buster1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- 37358eaa6cd81c1cae74bac69a696a16853e6fae 170408 emacspeak_50.0-13buster1.diff.gz
+ ccc022dc2e47c0f8692dcadda79ecd199e8da20f 170440 emacspeak_50.0-14buster1.diff.gz
 Checksums-Sha256: 
- 6a09a0be861e4c424c39d6a90eccb42c804e35eb2f280953b799fd29dc53aa67 1327 emacspeak_50.0-13buster1.dsc
+ 039d4e44c88eac779a26bcbbfd9b48bc240e4aa41f8f961ba14d6f364ccf4aaa 1327 emacspeak_50.0-14buster1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 982237bec853cd07b895d5a506bd349350283bec1da4944f7ec6b43f7c829162 170408 emacspeak_50.0-13buster1.diff.gz
+ 4e04f5a9778cc2727e9c75b1625289392f15c9363513d917ebdf1ed127d349d1 170440 emacspeak_50.0-14buster1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1buster1
+Version: 3.7.1-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- d6180fe476d8a0cdf4e9444162235f73 965 rulex_3.7.0-1buster1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- 66231cf684394426c788e80675ae079f 4275 rulex_3.7.0-1buster1.diff.gz
+ dd614ada19110a75a934b6946a8e9c10 965 rulex_3.7.1-1buster1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ c11dea2d19e4ba2e3f0c310bef6f158b 4295 rulex_3.7.1-1buster1.diff.gz
 Checksums-Sha1: 
- c4e452a9fd82ec824b38e4b09fc875832f0a9c3c 965 rulex_3.7.0-1buster1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- 2c4bc78c4cf4ad2dfc1624e2318748e7d537285a 4275 rulex_3.7.0-1buster1.diff.gz
+ c6e51f05acae182c3fbc0780a4fafe0d55b025b0 965 rulex_3.7.1-1buster1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ f75d219facf75d4670a87e61699a83c28b113c4d 4295 rulex_3.7.1-1buster1.diff.gz
 Checksums-Sha256: 
- 30a3a020883f8c3c362ed8271328ddf625d5fba36dac10aca7b5689ab5b82efa 965 rulex_3.7.0-1buster1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- 08d94a64454c4b875b5d37a15ec73992ead6e922457db209d0713898ac161c98 4275 rulex_3.7.0-1buster1.diff.gz
+ cbb4ad8646faa1b333e580a5cb75ca9ca2880c57c1c3479673f1c27a42102858 965 rulex_3.7.1-1buster1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 7a3812d8d44df49b66098e12541e82adedacb93800d37dcb44a146ab15769e9d 4295 rulex_3.7.1-1buster1.diff.gz
 
 Package: wget-el
 Format: 1.0

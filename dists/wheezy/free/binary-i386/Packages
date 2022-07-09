@@ -584,37 +584,37 @@ Original-Maintainer: Debian Accessibility Team <debian-accessibility@lists.debia
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.0-1wheezy1
+Version: 3.7.1-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 86
-Depends: librulexdb0 (= 3.7.0-1wheezy1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.1-1wheezy1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.0-1wheezy1_i386.deb
-Size: 31658
-SHA256: 223397867f307c6d69f72816b07c387a5539780653c41d62fb6fa45aea07028e
-SHA1: 014f95008bd8c5801f215c9209b4756c5b1aeecf
-MD5sum: 0ea7d5b508681cf2ee64013c1bbb4475
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.1-1wheezy1_i386.deb
+Size: 31694
+SHA256: 7a1e55fbaf128a1d777639daf45b723e4bbbd778b5188981c4b129c3f06bbead
+SHA1: df10bd91ac2bc3e8bc5a5751d2da65b415e4e766
+MD5sum: ef13f7889addd05813a91a2e4dadbb8c
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.0-1wheezy1
+Version: 3.7.1-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 48
 Depends: libc6 (>= 2.3.4), libdb5.1
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.0-1wheezy1_i386.deb
-Size: 13190
-SHA256: eac84af83f734503de6b7ba6445cec1ce23400661bd32e8795e749c8e1759915
-SHA1: 89650a52a7bf0f5ff3603f069b3fc00011287609
-MD5sum: 45fcf49b31829c40936e8a98daccb214
+Filename: pool/free/r/rulex/librulexdb0_3.7.1-1wheezy1_i386.deb
+Size: 13222
+SHA256: a27854381b1e3e1e2f7648ea9df7ca9c1c7a3639f813b491302e50a7ca8207a8
+SHA1: 9f45de32b41329541dd88d3515cb051c68810cc9
+MD5sum: 35d86a152bed4402b25c205196b3dfcc
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -788,7 +788,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.0-1wheezy1
+Version: 3.7.1-1wheezy1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 83
@@ -796,11 +796,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.0-1wheezy1_i386.deb
-Size: 30978
-SHA256: d3a8028e1f3c6270a3c8c10a81a69ab9ceb224c0b60630564a059cc49a996bb0
-SHA1: 0cadfc8643f49d0449cb18349e17373d8ea7419e
-MD5sum: e3442f44aeff4586152cb96f4f98fda4
+Filename: pool/free/r/rulex/rulex_3.7.1-1wheezy1_i386.deb
+Size: 31010
+SHA256: 67588cddb877af775ae8c5252054cb17cdcd2e0dd1b62b4f0a9f14f4200649ff
+SHA1: c9f9516a2c20d48acc6d6c237765b493470bbd4c
+MD5sum: 88593c92ad90761104a1d2fa41be5b50
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -812,21 +812,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.0-1wheezy1
+Version: 3.7.1-1wheezy1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2328
+Installed-Size: 2320
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.0-1wheezy1_all.deb
-Size: 1066162
-SHA256: b55ff173b38091de9181ff1299dbec77f95a48e56946b51dd36397546e767c08
-SHA1: e7677c0436c3692e477446fec567b79826564552
-MD5sum: 75494061817060584f61cb6e1deec528
+Filename: pool/free/r/rulex/rulex-data_3.7.1-1wheezy1_all.deb
+Size: 1061748
+SHA256: 027b762a86337050a42e82c65ec636a7fab7aa9906355ceb890760bfc8c09c7a
+SHA1: eb043240f23410f33ae3e0eb6fc40d7c893a6213
+MD5sum: 3ecb9871b38cc15b63b838f0376ea498
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts

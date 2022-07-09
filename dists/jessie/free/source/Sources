@@ -134,7 +134,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1jessie1
+Version: 3.7.1-1jessie1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
@@ -147,15 +147,15 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- d4e7d5271df6edb18e2ab54a08a53cd5 965 rulex_3.7.0-1jessie1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- ecf3bdd1dd4445439aebe079fa9da25f 4461 rulex_3.7.0-1jessie1.diff.gz
+ e349d476000319bd0813664c539ea082 965 rulex_3.7.1-1jessie1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ 296473d140ebfeffb553250f28c6daf2 4486 rulex_3.7.1-1jessie1.diff.gz
 Checksums-Sha1: 
- 8c3b0449c7261085c267aaad0f65cc40bb588e32 965 rulex_3.7.0-1jessie1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- ae3371d355837f5e071fcaf9188b605c6cfe3dfd 4461 rulex_3.7.0-1jessie1.diff.gz
+ b9d88381fd648c74d15f241fdb87c3117e6a4c6d 965 rulex_3.7.1-1jessie1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ 65e68302c546ef5100b73ca5acad52e20bd57cc0 4486 rulex_3.7.1-1jessie1.diff.gz
 Checksums-Sha256: 
- 2aa6d44823cfcbd55fa2b7de2bb4c0aa4d0c0681f0386bccbd9f77e4bfef6a5a 965 rulex_3.7.0-1jessie1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- 9f0c5c446d2784a4ab58c717af7a58488f8d1b0298ee5b7236f9e2ff009a0198 4461 rulex_3.7.0-1jessie1.diff.gz
+ d9127990e2ea860aa67c639fb15b6e203ebf6bbb9f0bbe5eda9e9b968f0b7f78 965 rulex_3.7.1-1jessie1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 3bab1100ed74edf57152ec62bb7564f7c00d290636207c3325ff47264598fe88 4486 rulex_3.7.1-1jessie1.diff.gz
 

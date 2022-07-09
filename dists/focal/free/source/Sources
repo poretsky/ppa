@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-13focal1
+Version: 1:50.0-14focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.1.4
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 9838ecbfd81243e4c2626fed81ea6889 1324 emacspeak_50.0-13focal1.dsc
+ 781d825290a4e92d0451e9f03d36fb4a 1324 emacspeak_50.0-14focal1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- fc1e3f8c1e8e6bc10a5e76be575452fa 170441 emacspeak_50.0-13focal1.diff.gz
+ ef3533e68e6462c51d89f0aa7869cfb6 170446 emacspeak_50.0-14focal1.diff.gz
 Checksums-Sha1: 
- 7fe0875eddb7f6f79a3f79aa2ef0f345c3ef14ee 1324 emacspeak_50.0-13focal1.dsc
+ 3f81e1d1c315f30cc7de8072b6e47266ca42ba99 1324 emacspeak_50.0-14focal1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- aa36abd34760f7c9c6894cc7be19b7c70fedb4d2 170441 emacspeak_50.0-13focal1.diff.gz
+ d8a5308cd9782cf7c5acd9b09adfdb1baed6bf91 170446 emacspeak_50.0-14focal1.diff.gz
 Checksums-Sha256: 
- 54c0c85fe6bcac84cc2cffca6c01b8954b3390c5586ac63271e1075a0a2dc1b6 1324 emacspeak_50.0-13focal1.dsc
+ ec581f324d4a8933bb11526442a2469dac7f13ce1d8545fe7b07329993a28a3c 1324 emacspeak_50.0-14focal1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 72cdd381c5eb8c07e4e8b0f324948165ccb05c1476d396d7ab7697451b755b2b 170441 emacspeak_50.0-13focal1.diff.gz
+ e008ad78696bdeba75743142ed384e66598263d5bc55acdff4bc09b1a877b4b8 170446 emacspeak_50.0-14focal1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1focal1
+Version: 3.7.1-1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- b9cee291707f7063524ecb2e12a7783e 962 rulex_3.7.0-1focal1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- a9196b8b2053fcc2af952306936805aa 4277 rulex_3.7.0-1focal1.diff.gz
+ 3e1ea87f886f55bc9a455e840d91d410 962 rulex_3.7.1-1focal1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ 7d8f2e2d3a38b9bfa29e5660e91fd9d8 4297 rulex_3.7.1-1focal1.diff.gz
 Checksums-Sha1: 
- 995e9ea8bfe327c9d91603e9179c84bb5f15eb34 962 rulex_3.7.0-1focal1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- b8fcb0a029a2598c765dc8a90ea45206b4566f20 4277 rulex_3.7.0-1focal1.diff.gz
+ 9d3511497051cda4ee9816d9c1fefc5bc26555f7 962 rulex_3.7.1-1focal1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ 5ae9b9dfe65294510e7ec15e693cb73296eda950 4297 rulex_3.7.1-1focal1.diff.gz
 Checksums-Sha256: 
- a495c51f1ee5296e62c3a8fb1707e1afd3298ff7f6b6c01a211f7e3809d8c09b 962 rulex_3.7.0-1focal1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- 1c3235ecaf5267fd95fcd05a7d3c55f82aac5a0074b28df86d0e9075dea0198d 4277 rulex_3.7.0-1focal1.diff.gz
+ 6a476db816e4c9fac711873ff32513ba3b2c10e6a9346e67a2331d294f5f4a1d 962 rulex_3.7.1-1focal1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 321637c430fed40747b168e3da2dab8d99b914fb927a00f7270ab58e52ae57af 4297 rulex_3.7.1-1focal1.diff.gz
 
 Package: wget-el
 Format: 1.0

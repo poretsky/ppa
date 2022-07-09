@@ -1,5 +1,5 @@
 Package: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 10460
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-13buster1_all.deb
-Size: 3485228
-SHA256: 168a2797567b3acee41f4e089dd53abee5bdb85f0e7ac17c2c8c7c39b0d438ca
-SHA1: 5d558502fc8d61c487b9e15b56f6ab809d577d19
-MD5sum: 85280a2a945f2f98db14ad0a979faaa4
+Filename: pool/free/e/emacspeak/emacspeak_50.0-14buster1_all.deb
+Size: 3392716
+SHA256: 6c2dd61556a4847c8fd3dbebb8b768dd23d2c0a8136e675af952ba34bf3b1890
+SHA1: 7ec9bc9e2ca2b1b7793290f3ef49eef87a0f9180
+MD5sum: 5587a4d053d1ddd06378109238a8c24e
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-13buster1_all.deb
-Size: 2993592
-SHA256: 9c06de120b6c2b9c55aeff9a5906d4d7de4030287e3a6d18aa87c3c7e5a3ef41
-SHA1: b2ca7f50c9b09168b7c89416ebc183e82076c271
-MD5sum: 3169801b4a3f5c63fa5345e8ea48a8b6
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-14buster1_all.deb
+Size: 2989988
+SHA256: 00b4d7d57fafc842a95c1542b36ff49120a9f6c3444ab4ece802c3c8d4ff2918
+SHA1: 8bdac02189c6a56ca14d9259faf3b4871bd85922
+MD5sum: 030472ca3aaec761095b98bf4527aa4a
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,7 +56,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6594
@@ -65,11 +65,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-13buster1_all.deb
-Size: 1467080
-SHA256: 1830e81b2f32d2e825782b4c048f747fdb4b7e373c5819787d6c5d5e47db1a12
-SHA1: f37ad0f753fea470a36706c9dcb03ab913a05d9d
-MD5sum: 11d4a5abdcc5276c24f11123243ccfad
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-14buster1_all.deb
+Size: 1467008
+SHA256: d72830fefa865889816c7185cb83bef4acf33c0aef2433884947f97507a550cb
+SHA1: 5ce940310edea34fb326859742d76ccc9572d309
+MD5sum: 2a9c82cef8a34b901a97d0889b83d213
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 114
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-13buster1_amd64.deb
-Size: 40112
-SHA256: 5f11f2a13c21a2cf8176bf8114b5853812ad76e53b88ef7cd2248749f917d7cd
-SHA1: 9e4cd0566aa682b7438b328260855a193c437ac7
-MD5sum: e1c9298dc9e69f7a4f6ad80448343229
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-14buster1_amd64.deb
+Size: 40152
+SHA256: b2808ccd1375f973362df99ce700992440786f6ad47404558e45682d9b187792
+SHA1: d83c7fbe9902a2d5f3fd7922e71d5c22d2209a54
+MD5sum: 7ecc91a7a94c55f1d08ff32afd3459f5
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 144
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-13buster1_amd64.deb
-Size: 42840
-SHA256: e7e4c23495ead5e6647980c7dadf2543a2cfdf706b9458bf52eb334e402536f7
-SHA1: 30c374c19be58c0e587e4fd2ddc85fc2b3098e12
-MD5sum: 1256ad665d37cfd22647dc93107e77cc
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-14buster1_amd64.deb
+Size: 42892
+SHA256: 71a0d533edad1c0f386377cc82fbadf5adfd3911342400ac7815a04357d50795
+SHA1: 307ff821154ad60ddc6dcf02da87feaef3599f52
+MD5sum: f8218e0c9e69e47f51e1153e374e93a8
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-13buster1
+Version: 1:50.0-14buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-13buster1_all.deb
-Size: 3731988
-SHA256: ee8b5a8023dae4b2651a500a57a832f2db7dc9a76a27786509740e18114ed4f9
-SHA1: 7e081c442953a2abfdc394793970f6da3da3e537
-MD5sum: 39ae250323e4e251b215592fa8fe0800
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-14buster1_all.deb
+Size: 3738996
+SHA256: 998b82030956df7a41c45e3b77d370a897798cbab3dc47461038a0508d0e7d69
+SHA1: 36890a340bf06d6ec23b1b6586f0f0ac7e3bbd0b
+MD5sum: 70aa5de54308bf3336a4daa586cbfde6
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -221,37 +221,37 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.0-1buster1
+Version: 3.7.1-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 69
-Depends: librulexdb0 (= 3.7.0-1buster1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.1-1buster1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.0-1buster1_amd64.deb
-Size: 29940
-SHA256: e7b31f8bd83686b81e4e22bcd0b84573ec54f11d52e3df0b4f705e97749941af
-SHA1: ec9fd8fea9437dad9c6ddc7ea3286a92029ccba8
-MD5sum: ca3ba0f7e761f4936804a3bd89c47020
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.1-1buster1_amd64.deb
+Size: 29952
+SHA256: f1bec3d7f033c9bbd3505a4d95925546ee489beaab4a4e156aa86d002c36aac7
+SHA1: 251743a44b1b5d41b946abac2de2283b2076e973
+MD5sum: e3309976bb6533cbb0ff5232fa122ac4
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.0-1buster1
+Version: 3.7.1-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 36
 Depends: libc6 (>= 2.3.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.0-1buster1_amd64.deb
-Size: 12108
-SHA256: ae4cbf71cf8447a95ee1dd002880f0fee077cd24fb62e77a26ad09769f8ab8bb
-SHA1: 4750d193002102dab78bf889d07cbeb31e51da29
-MD5sum: e31952f7729571195b4aab0bff08278f
+Filename: pool/free/r/rulex/librulexdb0_3.7.1-1buster1_amd64.deb
+Size: 12128
+SHA256: aaf1eaa74b82df56cc5a99d3590d8eaff7576d0e0b7664d336f4abfc18572f3b
+SHA1: 05f1a92d7961ec09c0ad735f7a9d3c41ee2de77a
+MD5sum: ea14e84adfab8daf423c92f666ff37fa
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -378,7 +378,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.0-1buster1
+Version: 3.7.1-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 72
@@ -386,11 +386,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.0-1buster1_amd64.deb
-Size: 29216
-SHA256: 9a61fcf858a280ff27b874a04ace73339fde88fa3c92a09e1c1e421d5a265afb
-SHA1: d279ed6cdba227f80254966f3337aace345bdaba
-MD5sum: fbd13919eba3746fb8fbc2839a8cde8c
+Filename: pool/free/r/rulex/rulex_3.7.1-1buster1_amd64.deb
+Size: 29248
+SHA256: da04a9f8ea18c9c6f999bbb6e674a929b787a5e0460db8d88ffe98b8f9d3329a
+SHA1: 69511fcb189f03ebcad7dd9a8df34ca5406dcbc6
+MD5sum: 5d7a2ebfc7513aaa0f669f12255c98e0
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -402,21 +402,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.0-1buster1
+Version: 3.7.1-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2307
+Installed-Size: 2299
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.0-1buster1_all.deb
-Size: 748516
-SHA256: 329a87f2756cb94a3fe488127e0ae846f1fa2cb9b6a043c5b44ef1e6b3c6668f
-SHA1: 8baaa9e772db2cca4799ce7d7c8f4d17fffff789
-MD5sum: 539d9fa1cdb5891a357e927e802c75fd
+Filename: pool/free/r/rulex/rulex-data_3.7.1-1buster1_all.deb
+Size: 750268
+SHA256: 0fccb8c5b24d23d1f5233a7d1729a637f42a1587d9308e48e63dcdb6161df260
+SHA1: b57c50d5affaa8aeb3209971d57f80cd9512ee6d
+MD5sum: 2a092a5b92d6871dd16babe4377eaec8
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts

@@ -301,7 +301,7 @@ Package: rulex
 Format: 1.0
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.0-1precise1
+Version: 3.7.1-1precise1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 5), libdb-dev, libtool (>= 1.5.2), locales
@@ -314,15 +314,15 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- bc8b4aea10bad07c38bd78824cc7f29f 976 rulex_3.7.0-1precise1.dsc
- 4d871a09d60cea75a25436c74ab088f2 3217588 rulex_3.7.0.orig.tar.gz
- 74268717cd714c434663dcd8bc90a4ce 4397 rulex_3.7.0-1precise1.diff.gz
+ f2ae3511eed10475a17f3405bd10e310 976 rulex_3.7.1-1precise1.dsc
+ 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
+ 2d4301ff17c1a8900f6120c098e1b657 4392 rulex_3.7.1-1precise1.diff.gz
 Checksums-Sha1: 
- 6d3baa2092d390233e48a98f1ce44f8a1d686522 976 rulex_3.7.0-1precise1.dsc
- bec310de24059e3bbe103befa91d582f0a9e067e 3217588 rulex_3.7.0.orig.tar.gz
- c3fdfaaca2a877eedbb6bad863df57f074b12cf4 4397 rulex_3.7.0-1precise1.diff.gz
+ 9aee4bd59ab8cf35c13066338980352210f291d4 976 rulex_3.7.1-1precise1.dsc
+ 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
+ f7fe5d0eef56159606db741dab3a74813f957b2c 4392 rulex_3.7.1-1precise1.diff.gz
 Checksums-Sha256: 
- 6d71c65eded26a0400aca0fe89941535446357611561875181693ccd31432a29 976 rulex_3.7.0-1precise1.dsc
- 4823b7f4398f164413497cc12bdac004bce8790ec22a3ac68eb524a3c268fd2c 3217588 rulex_3.7.0.orig.tar.gz
- a36c87fcc2ab864359a364e453c8cf98f584ae649d1697ee959c7242a32d8946 4397 rulex_3.7.0-1precise1.diff.gz
+ 4481549bc8b563f9f95a5f3cbcbf5b0228edb33e7e85a5a3a46e9d24c1a61728 976 rulex_3.7.1-1precise1.dsc
+ 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
+ 8b0989e2f04b952aacb12a354535ec59c17d26d2347f73d48e02874186fe8b36 4392 rulex_3.7.1-1precise1.diff.gz
 
