@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-14buster1
+Version: 1:50.0-15buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 8a6bc734eb3b69ab2fca778c908dc525 1327 emacspeak_50.0-14buster1.dsc
+ 5062b571538cc56fed7661e8e0338d20 1327 emacspeak_50.0-15buster1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 34763ff2d9b85192f6b98337709ad3f0 170440 emacspeak_50.0-14buster1.diff.gz
+ 1dddae2ee2a55ec1dec0659d265eb1d4 171011 emacspeak_50.0-15buster1.diff.gz
 Checksums-Sha1: 
- 7d7c4d701fedd23f38b8e97dffa66c872bf0be8d 1327 emacspeak_50.0-14buster1.dsc
+ b037803542256ce43834e26aa81aed732e6c17d1 1327 emacspeak_50.0-15buster1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- ccc022dc2e47c0f8692dcadda79ecd199e8da20f 170440 emacspeak_50.0-14buster1.diff.gz
+ a3f5837d14fb65d4bbeb9edf5941f53427f52c80 171011 emacspeak_50.0-15buster1.diff.gz
 Checksums-Sha256: 
- 039d4e44c88eac779a26bcbbfd9b48bc240e4aa41f8f961ba14d6f364ccf4aaa 1327 emacspeak_50.0-14buster1.dsc
+ 37c3e488fec178471dc88ad77162d2a3bc349ded7284454b6a7a35aca89c4803 1327 emacspeak_50.0-15buster1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- 4e04f5a9778cc2727e9c75b1625289392f15c9363513d917ebdf1ed127d349d1 170440 emacspeak_50.0-14buster1.diff.gz
+ af930072f147469ebefe38e9eeb5b12482f92e3be0eaf7ab50ffbe23a8bb346d 171011 emacspeak_50.0-15buster1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.5.0buster1
+Version: 4.5.1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- f8350355efd4af422b9d2cd4c7980454 965 multispeech_4.5.0buster1.dsc
- 44b06863c705883179dd614f2683c3eb 527213 multispeech_4.5.0buster1.tar.gz
+ 8f1d65e71ac7457514f88013130288c4 965 multispeech_4.5.1buster1.dsc
+ b2669c95efd0c066c970cc00be3ad7ba 527690 multispeech_4.5.1buster1.tar.gz
 Checksums-Sha1: 
- 3c2f1ab209d464fcbefff639725973116f9f061f 965 multispeech_4.5.0buster1.dsc
- 869d0828ade82ecccd2f294cf1468687f44b15d4 527213 multispeech_4.5.0buster1.tar.gz
+ e3931d30d5ad58137f6d626a1eb4b76c6f2d9e00 965 multispeech_4.5.1buster1.dsc
+ 81e30a42e4440bf68df4905980498fd4eb496231 527690 multispeech_4.5.1buster1.tar.gz
 Checksums-Sha256: 
- d6263583769dd39b342e1ba4f4923bd353dfd8a6ed523509a200b5bac0098736 965 multispeech_4.5.0buster1.dsc
- 112d97cd3b7a0922ed0beffd552f9e94b0ff548fad8dc196a98e9956da4c7e3c 527213 multispeech_4.5.0buster1.tar.gz
+ 8fa01b9b569a0dde6f5a24ebb3e71783a163cece3a46481dcd779e61959216c2 965 multispeech_4.5.1buster1.dsc
+ 081b3509c9721f95edde56f110eaec528ff8a667cea59912bf9efe4a52df4953 527690 multispeech_4.5.1buster1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.2-1buster1
+Version: 2.3-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,15 +202,12 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 6573854db891064a1c5cbd02f6263b5c 865 youtube-dl-el_2.2-1buster1.dsc
- 9fd500bde64b30984f14fcb92d417253 23960 youtube-dl-el_2.2.orig.tar.gz
- cde41b50ce0f2d488f120c62c2c06c1b 3775 youtube-dl-el_2.2-1buster1.diff.gz
+ 5bfc4ff9c2e676c01012f3ace402c2b7 615 youtube-dl-el_2.3-1buster1.dsc
+ 8283dc1414d292af93f53e5ee8896215 27545 youtube-dl-el_2.3-1buster1.tar.gz
 Checksums-Sha1: 
- a7ed6e2bd424ff78a53cf7cc659b61f746d43511 865 youtube-dl-el_2.2-1buster1.dsc
- fcd88d5f3c88cd7701aa9540ce783f386b1675e8 23960 youtube-dl-el_2.2.orig.tar.gz
- 15b430197b1ebb7a4569b0077a544a162db490bb 3775 youtube-dl-el_2.2-1buster1.diff.gz
+ f3781b3f0860176b6e189b8d15a8c3acbb58d0f3 615 youtube-dl-el_2.3-1buster1.dsc
+ af82ed11648691ba918e8f3b17c383f36377270d 27545 youtube-dl-el_2.3-1buster1.tar.gz
 Checksums-Sha256: 
- 288341126c98a2fa813db3ffa0f6fcdd485dca27bade2f901e2cb51a0cabcf40 865 youtube-dl-el_2.2-1buster1.dsc
- 0c4ed9e097f05ecfe46c581d0707e97d1c811fe585cf05c94bf47b50023b76d6 23960 youtube-dl-el_2.2.orig.tar.gz
- 30a5df139d3858d3b70dfdfb7cc0129d658acbc756074737998ee5e4221b7245 3775 youtube-dl-el_2.2-1buster1.diff.gz
+ 46962d2088588c2c95314a9e7f1034d18d9cebc997650b083d9ec458871a732f 615 youtube-dl-el_2.3-1buster1.dsc
+ 0a0f51da2386d932318c6f03a0c2f64415ae5d56d03e34b45c074d00489d8212 27545 youtube-dl-el_2.3-1buster1.tar.gz
 

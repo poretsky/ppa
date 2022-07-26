@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-14stretch1
+Version: 1:50.0-15stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -19,17 +19,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 49d4fe5333a259831cea797d4bd6863e 1313 emacspeak_50.0-14stretch1.dsc
+ 4a227dfe86aeeed91b19dbd713482d1b 1313 emacspeak_50.0-15stretch1.dsc
  c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 9d2992639fc089ff8e3f1a06527cd4d4 158804 emacspeak_50.0-14stretch1.diff.gz
+ 04ced71b45d420241c9efbefda316d92 159342 emacspeak_50.0-15stretch1.diff.gz
 Checksums-Sha1: 
- 781f93c91732afddb83c3f713ade2f57af0caf0d 1313 emacspeak_50.0-14stretch1.dsc
+ 759b7cc909fa7a27d75eb348d8e0b87ea6c3f403 1313 emacspeak_50.0-15stretch1.dsc
  61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- 40b0eb5d37bafc61648d0d3a92d92bef071ea2f2 158804 emacspeak_50.0-14stretch1.diff.gz
+ b36f33c69af4e2bdaa9fdee381dda9a733d7a5d1 159342 emacspeak_50.0-15stretch1.diff.gz
 Checksums-Sha256: 
- 0c6f881696804f498307d0c23d25ad695f09bdb171749934aa6f61f4d9208447 1313 emacspeak_50.0-14stretch1.dsc
+ 6373d58e38d37636771ef317d8d03f57108efcb66ef57782e27a6624ede5ab71 1313 emacspeak_50.0-15stretch1.dsc
  5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- e9d288b5e7b56fe06d065b89d56050dd8dd62c0828845af00aeb54a41361c974 158804 emacspeak_50.0-14stretch1.diff.gz
+ c4be2e7652badae45edea500462aff7c604fd2f486861ec11325c7ce89192505 159342 emacspeak_50.0-15stretch1.diff.gz
 
 Package: freespeech
 Format: 1.0
@@ -62,7 +62,7 @@ Package: multispeech
 Format: 1.0
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.5.0stretch1
+Version: 4.5.1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,14 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- ec896d2594f187f169ab39dd5d68b7ab 960 multispeech_4.5.0stretch1.dsc
- ca74b8e11fcdfe091f8728e138cd37f6 527443 multispeech_4.5.0stretch1.tar.gz
+ 03185d7da3567d176da095a3a578b576 960 multispeech_4.5.1stretch1.dsc
+ ca44d52dda4bdd245ae38ed65dbe0010 527795 multispeech_4.5.1stretch1.tar.gz
 Checksums-Sha1: 
- 5d8526b9cda7a3c0125ace4b6d3dddd541538826 960 multispeech_4.5.0stretch1.dsc
- 9aeedcc850fca0092bc05fb4c59ec7cbc0bf48d7 527443 multispeech_4.5.0stretch1.tar.gz
+ 3fba391c8e8aee1901ed6ec2bf7afc99dbeb131e 960 multispeech_4.5.1stretch1.dsc
+ 472fd1e58ea5387a6e4292df5e4c07a08a5d4a75 527795 multispeech_4.5.1stretch1.tar.gz
 Checksums-Sha256: 
- c7219a85404d46c36d16806dee1593257241904909e8135e1acd2a4e9b389d49 960 multispeech_4.5.0stretch1.dsc
- db6e1e7921097e0f8edc79faafad93f2a8be08cca6706c399ff0d337756b743c 527443 multispeech_4.5.0stretch1.tar.gz
+ a2e6f6c733131c11b3d7a6988b9f0493736d6be68cb33645d2d863bab38fced3 960 multispeech_4.5.1stretch1.dsc
+ 6d6a9b1a8da5968ffa15d149fd73beb43cb1c38aa76b53379225bd9d591ceb04 527795 multispeech_4.5.1stretch1.tar.gz
 
 Package: rbook
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 1.0
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.2-1stretch1
+Version: 2.3-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -202,15 +202,12 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 1b5c505b2de2c59fb30ae1c32467a2ee 869 youtube-dl-el_2.2-1stretch1.dsc
- 9fd500bde64b30984f14fcb92d417253 23960 youtube-dl-el_2.2.orig.tar.gz
- 8fd7d12bb5a12b12b6916053ed71dc11 3731 youtube-dl-el_2.2-1stretch1.diff.gz
+ f06da6f027402f53ef4842a078b43f94 619 youtube-dl-el_2.3-1stretch1.dsc
+ c2c8105754117a41a88077bc65a5b5fe 27346 youtube-dl-el_2.3-1stretch1.tar.gz
 Checksums-Sha1: 
- 4b5c056edae37472a0748ae8896c8ba7fd7a986d 869 youtube-dl-el_2.2-1stretch1.dsc
- fcd88d5f3c88cd7701aa9540ce783f386b1675e8 23960 youtube-dl-el_2.2.orig.tar.gz
- 7f988272291a6df4d9fba503deca9e90cc20bf73 3731 youtube-dl-el_2.2-1stretch1.diff.gz
+ 7dcbe5382c574b5b9a2081205a1cc0523b2658bf 619 youtube-dl-el_2.3-1stretch1.dsc
+ c3a009016e0963676b379bc513bc5441508df678 27346 youtube-dl-el_2.3-1stretch1.tar.gz
 Checksums-Sha256: 
- 413b1f3b88a2f5b5e711b1494f030c607cf09908049b4ff23aace58693bdb17f 869 youtube-dl-el_2.2-1stretch1.dsc
- 0c4ed9e097f05ecfe46c581d0707e97d1c811fe585cf05c94bf47b50023b76d6 23960 youtube-dl-el_2.2.orig.tar.gz
- cbd5b9f992d6b9861686b1cdbe36d46b0252b9c6b32a9d87f90c9567f7674aad 3731 youtube-dl-el_2.2-1stretch1.diff.gz
+ 2102265d158f8c12bdcdb7924e29fe2941e723de05e89c271d01cbc13000a95a 619 youtube-dl-el_2.3-1stretch1.dsc
+ 43280ea1caf6c3c3920eda908ac6fbb0293209b7f6930e42885df9d74af40726 27346 youtube-dl-el_2.3-1stretch1.tar.gz
 

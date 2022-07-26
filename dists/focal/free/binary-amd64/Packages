@@ -1,5 +1,5 @@
 Package: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 10460
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-14focal1_all.deb
-Size: 3388932
-SHA256: 9fc401eb673c0c2f444534cf6e153b92f908d2ccbe658333bb2fd01976d97e55
-SHA1: 2463a9f72ece995432081bb600caa5d8797149d9
-MD5sum: 2e5197fa0fe18827967e266be895a24b
+Filename: pool/free/e/emacspeak/emacspeak_50.0-15focal1_all.deb
+Size: 3388432
+SHA256: 199468e41536c4814a59bb2b2e76c6464fb6f10731b72d8c8525a0974bc785ea
+SHA1: becaf5aafa56596d0d8c129c7796e246529fcd63
+MD5sum: a80f78c00f1680cb954c594628b8e348
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-14focal1_all.deb
-Size: 2990820
-SHA256: 885b5088be7eff52b2534fbb64d39e533f8b00737d6412ef3370ecb04cd95333
-SHA1: 154b31df0731bbd82ccd0900a010be161e8be1d8
-MD5sum: 3d3f1cd0b90961123c93747ba9857d69
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-15focal1_all.deb
+Size: 2991748
+SHA256: 84ccf23ac5f85c9a4b726d808304b83fce9337d17afb55c313379a0d43e09bf2
+SHA1: a5c5dccda7b8619f8eaf43eb562bfc8ed2251b5f
+MD5sum: 2f95d7698ab2d887341d60bbc8083d36
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,20 +56,20 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 6412
+Installed-Size: 6413
 Suggests: emacspeak, www-browser
 Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-14focal1_all.deb
-Size: 1466408
-SHA256: 05a762317e80bf7c18708f04fecbf2739cc5b041e0811bbc605b67018ea124d7
-SHA1: ab06fab2ca4b5fcc56154268ae11bed5595036b4
-MD5sum: 210da800e3592dccd396343106ab4b4d
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-15focal1_all.deb
+Size: 1466380
+SHA256: f5b115df1aee4ee32ca929eb4950de69236c200d8fc6f06b6b4df014249f3871
+SHA1: 3f28efb1f255429c89dc2ee2995a0cc2863ba8e8
+MD5sum: a5d4b91f5e006607b7ecf26fd94795cc
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 111
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-14focal1_amd64.deb
-Size: 40344
-SHA256: 2dcbcda888eec4d5e80f8df40cc4e736ef84f0567d02beac018a6dba1c48c68c
-SHA1: 956c3d6a57348f6f37a7286f6d679366eb363790
-MD5sum: e44df1fe06f20f429349053dd0b09d64
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-15focal1_amd64.deb
+Size: 40444
+SHA256: ab766cd80b285c99ba663fd402913facda9a2cae6054f0c1a7933c657dcc3544
+SHA1: 00de13118d34b0f69d2a509c04df4468f679abc3
+MD5sum: 853c84f32be5e7c0d0e314840ac21a65
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 145
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-14focal1_amd64.deb
-Size: 43000
-SHA256: 0c2ac18e0d021d9ba8fb6fb3e95ec087afc6bc212a0d39f78fb348b39c96e375
-SHA1: 55d1eba9e279e15eb37a52081800cd52acad5768
-MD5sum: e2e9c272e9d931e484d6a8b4166cb84c
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-15focal1_amd64.deb
+Size: 43004
+SHA256: 58b98b0502685f7d376fc1ec65ba7993cac600f0f71ab73d5d6173504784e472
+SHA1: 1dfec84471843a0dcffba473c6878929fb59c8e6
+MD5sum: 7290af1562ba5b3610053f28390fc2bf
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-14focal1
+Version: 1:50.0-15focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-14focal1_all.deb
-Size: 3731384
-SHA256: 72a86e81ce4595c57034fe134f01c02da4d1f1b323af08ea36b364929de827e2
-SHA1: eaa49cd32592ccf181ff7cd96186bf8a225a5a02
-MD5sum: cf73d1dcdd9495f4963260e64aa68120
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-15focal1_all.deb
+Size: 3741204
+SHA256: 5906e32067c3385e152555ba84ea88f2cfdd9dc850bfd39efa8291d5064f4cc8
+SHA1: 891fc59a24bb47cce581874d873501d9773585df
+MD5sum: e75fca0c0c7fcc90bc1d95775391de40
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -195,21 +195,21 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech5
 Source: multispeech
-Version: 4.5.0focal1
+Version: 4.5.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 857
+Installed-Size: 853
 Depends: libbobcat5 (>= 5.02.00), libboost-filesystem1.71.0, libboost-locale1.71.0, libboost-program-options1.71.0, libboost-regex1.71.0-icu66, libboost-thread1.71.0, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libportaudiocpp0, libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libsoundtouch1 (>= 2.0.0), libstdc++6 (>= 9)
 Recommends: multispeech | sd-multispeech
 Conflicts: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Replaces: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech5_4.5.0focal1_amd64.deb
-Size: 228024
-SHA256: 161406e85ddfd52dcf01fa7e895d208c22e9a3aa948aba18c45cf590154e961b
-SHA1: 60f772fe86d691734d3e1612198b96a31150f08a
-MD5sum: 0c83e1fd8dd00a2f8351a3d15e40f6ce
+Filename: pool/free/m/multispeech/libmultispeech5_4.5.1focal1_amd64.deb
+Size: 229916
+SHA256: ddd2a3e6aab97d801c87e026d7ad4469adfde24080ad81f05ad76a541a62ad05
+SHA1: 29b212a206689039b01b090135b7e08c26fd1619
+MD5sum: 2e74eb3e74e786337d65db4dbdc0e092
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -305,7 +305,7 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.5.0focal1
+Version: 4.5.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 268
@@ -315,11 +315,11 @@ Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.5.0focal1_amd64.deb
-Size: 81900
-SHA256: 488cf15bf6eda7e3823fa16223148ea8b67d1561294629bc7dec399986c5503e
-SHA1: 03e9a37f6c309374fd608078b7b5160f4a07be09
-MD5sum: 65e5cb013410fc820eefac6e28302cc5
+Filename: pool/free/m/multispeech/multispeech_4.5.1focal1_amd64.deb
+Size: 81860
+SHA256: 5fa6bfbbf4eda2eb10f6f92a53d333b1d5a70292787d5ba9d8f385ac7dcfeffb
+SHA1: 52a608b03dd7a2eb06618b0bdec9e4c8ad40f002
+MD5sum: f4abfb905ce3670f4729027b205cdb1f
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -425,7 +425,7 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.5.0focal1
+Version: 4.5.1focal1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 207
@@ -435,11 +435,11 @@ Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.5.0focal1_amd64.deb
-Size: 62136
-SHA256: 95d38ec9096d9cc0c12d4fe9f39e0b8e50901540494e115041b09078a44e26a6
-SHA1: d62d4300792a57e2e4b2ae4f89df05b16e99cfca
-MD5sum: 90545d7e67616af075ddb62f16407119
+Filename: pool/free/m/multispeech/sd-multispeech_4.5.1focal1_amd64.deb
+Size: 62140
+SHA256: 638b6832bd9b9021592fbabf9680dec292a4367ffeae8b70789d6a0e37e9ad36
+SHA1: 70f190081dc8257b4f526ad3dc935ea8dd697642
+MD5sum: 1537a7af5b8767cda0a521ddffa299cc
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -476,21 +476,21 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 2.2-1focal1
+Version: 2.3-1focal1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 100
+Installed-Size: 103
 Depends: emacs | emacsen, youtube-dl
 Recommends: mpv
 Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.2-1focal1_all.deb
-Size: 17956
-SHA256: 63da6063dabef809c595fac0a60d1fcc6360082776142089803c40a9d42a9c9f
-SHA1: 587a59fabe061e49451be10b3c155437f819f0bc
-MD5sum: 0bb7e221bc743c3fca23af6f7b09a94e
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.3-1focal1_all.deb
+Size: 18548
+SHA256: 20c6e418000e4547d5eb4862326761649c8ea8a4a6df319387dc7b30bbc11ebc
+SHA1: 6033030b7869fd3ee6fa2892e581026ea159aeb8
+MD5sum: 31ac6eba827fd5fe57514ab34e3bc506
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.
