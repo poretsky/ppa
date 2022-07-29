@@ -107,10 +107,10 @@ Checksums-Sha256:
  ae7582098818688ed44e6a7ca54a4a49369fb115662512d9b10e920689e0e3e1 25015 rbook_2.6.0buster1.tar.gz
 
 Package: ru-tts
-Format: 1.0
+Format: 3.0 (native)
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.3buster1
+Version: 6.0.4buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 3efd478b4cfb5fe4354a85cc1005432c 657 ru-tts_6.0.3buster1.dsc
- ec6f47c6d74cc50ec7d39e339dcb9a13 79847 ru-tts_6.0.3buster1.tar.gz
+ 5e8cce113491bd302471f4eae7627151 666 ru-tts_6.0.4buster1.dsc
+ 64b498b8b3f53d144b0dca1066b0c367 65188 ru-tts_6.0.4buster1.tar.xz
 Checksums-Sha1: 
- c1371d2fb05a9bcdce93a3c1faf52b4b7f299406 657 ru-tts_6.0.3buster1.dsc
- d747ce893fb9d976a1917b31bddd577ebaae82fd 79847 ru-tts_6.0.3buster1.tar.gz
+ 0ce5e4879a8b62fdbab55baecff7f22f2d5080e8 666 ru-tts_6.0.4buster1.dsc
+ 4f01f3e8bbd0387aae5e097da760e6e319284e2e 65188 ru-tts_6.0.4buster1.tar.xz
 Checksums-Sha256: 
- a50dbfc8e05619c43223b62bc67cb5cf1654f6a9f936b68724c4fe5a205d863c 657 ru-tts_6.0.3buster1.dsc
- 7ebfe1e7e37463ef646a87291b6cd86d0a4bbf6ec70343ee94b9ddd57dfad441 79847 ru-tts_6.0.3buster1.tar.gz
+ f3a978f9b23eb32ab36cef4016bd2301bb36d38e6fad363147ec1af63c1aa2b9 666 ru-tts_6.0.4buster1.dsc
+ 23a935b72f7f8085d7e5a6c7ad1ac28fad4558e2f888ba300eb982954e33d24b 65188 ru-tts_6.0.4buster1.tar.xz
 
 Package: rulex
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.1-1buster1
+Version: 3.7.2-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- dd614ada19110a75a934b6946a8e9c10 965 rulex_3.7.1-1buster1.dsc
- 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
- c11dea2d19e4ba2e3f0c310bef6f158b 4295 rulex_3.7.1-1buster1.diff.gz
+ 8944612f88af6a2a10eea1796a3ff848 991 rulex_3.7.2-1buster1.dsc
+ 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
+ 6f43b8cd6ab7d63182df70c173267da7 4404 rulex_3.7.2-1buster1.debian.tar.xz
 Checksums-Sha1: 
- c6e51f05acae182c3fbc0780a4fafe0d55b025b0 965 rulex_3.7.1-1buster1.dsc
- 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
- f75d219facf75d4670a87e61699a83c28b113c4d 4295 rulex_3.7.1-1buster1.diff.gz
+ e9d8d8277166325eceb09ed82e38ee590d4eccee 991 rulex_3.7.2-1buster1.dsc
+ 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
+ 2f21e4040b1545d5317759dbec3dac120a2f6e88 4404 rulex_3.7.2-1buster1.debian.tar.xz
 Checksums-Sha256: 
- cbb4ad8646faa1b333e580a5cb75ca9ca2880c57c1c3479673f1c27a42102858 965 rulex_3.7.1-1buster1.dsc
- 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
- 7a3812d8d44df49b66098e12541e82adedacb93800d37dcb44a146ab15769e9d 4295 rulex_3.7.1-1buster1.diff.gz
+ 05cfc8e082205e439b535aceda51bfcbe183becfc72ef764d69296da7c46d810 991 rulex_3.7.2-1buster1.dsc
+ 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
+ 270ab18e0640195ff8b75c169d487f80ab9f7a3a7fbe749fa177b0954f8ea893 4404 rulex_3.7.2-1buster1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -188,10 +188,10 @@ Checksums-Sha256:
  bb4a6e4a617628898442c21fb040218cb77416a0ea1ad2e3f24387815441f56a 8655 wget-el_0.5.0-11buster1.diff.gz
 
 Package: youtube-dl-el
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-1buster1
+Version: 2.3-2buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,12 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 5bfc4ff9c2e676c01012f3ace402c2b7 615 youtube-dl-el_2.3-1buster1.dsc
- 8283dc1414d292af93f53e5ee8896215 27545 youtube-dl-el_2.3-1buster1.tar.gz
+ f4d2e626f6381f10daf3985ad5ffe53b 891 youtube-dl-el_2.3-2buster1.dsc
+ b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
+ ac4bd4c2e2a0cca708b678c054603f58 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
 Checksums-Sha1: 
- f3781b3f0860176b6e189b8d15a8c3acbb58d0f3 615 youtube-dl-el_2.3-1buster1.dsc
- af82ed11648691ba918e8f3b17c383f36377270d 27545 youtube-dl-el_2.3-1buster1.tar.gz
+ 052da381bef2efcffbf274920912d56c0b0deac7 891 youtube-dl-el_2.3-2buster1.dsc
+ 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
+ 5a16cdbbfd8d0fec27e1f5475b56e9681d8ff807 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
 Checksums-Sha256: 
- 46962d2088588c2c95314a9e7f1034d18d9cebc997650b083d9ec458871a732f 615 youtube-dl-el_2.3-1buster1.dsc
- 0a0f51da2386d932318c6f03a0c2f64415ae5d56d03e34b45c074d00489d8212 27545 youtube-dl-el_2.3-1buster1.tar.gz
+ beff210fb647c7e79132b949d22d4ff73687b01ae9da51c1434a1aa8bab4a611 891 youtube-dl-el_2.3-2buster1.dsc
+ 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
+ cbd4a208ff7e2d175a4e05eaac46430aec5d6f419482094a4baf5c1e385470cc 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
 

@@ -107,10 +107,10 @@ Checksums-Sha256:
  e811fbd169d310b63387a716fc4d982883eaa9c207ab593ec76ad1435863ed1f 24852 rbook_2.6.0focal1.tar.gz
 
 Package: ru-tts
-Format: 1.0
+Format: 3.0 (native)
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.3focal1
+Version: 6.0.4focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- fb817208d9ad09ada75f0f621e3fd7ae 654 ru-tts_6.0.3focal1.dsc
- 320e8661a94d5f650d9b56f813aac087 79342 ru-tts_6.0.3focal1.tar.gz
+ 1fbb95328044271cd6232b9059139175 663 ru-tts_6.0.4focal1.dsc
+ 9a06be7614a030f065be111b7751f991 65108 ru-tts_6.0.4focal1.tar.xz
 Checksums-Sha1: 
- 9038657b3185f8192886a9af31b69c18f412e249 654 ru-tts_6.0.3focal1.dsc
- 2bbb956fdebaa461e108cc28f9e0c2a8f5a577ad 79342 ru-tts_6.0.3focal1.tar.gz
+ d17b62694022300757cd204f8910460bf357bb0a 663 ru-tts_6.0.4focal1.dsc
+ 1696a905090745309c4214bedf0796ade88e5cf1 65108 ru-tts_6.0.4focal1.tar.xz
 Checksums-Sha256: 
- 41d4279e4fd45a7d59be76dc00e1ece3f51655fdf27d15d3f920e3b6921a3581 654 ru-tts_6.0.3focal1.dsc
- 17922f0e9bf834d309b5b946ba73df5dc9349ec6d8ac56e158afad2fde359836 79342 ru-tts_6.0.3focal1.tar.gz
+ bec050544e72d4da4f234831971d7780a95d4d3b3fc1cec6e4f0a2469baeab8e 663 ru-tts_6.0.4focal1.dsc
+ e8d26093fafba39a8b289457dd753cf451fe48732b4755d539c5a3be65ad2708 65108 ru-tts_6.0.4focal1.tar.xz
 
 Package: rulex
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.1-1focal1
+Version: 3.7.2-1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 3e1ea87f886f55bc9a455e840d91d410 962 rulex_3.7.1-1focal1.dsc
- 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
- 7d8f2e2d3a38b9bfa29e5660e91fd9d8 4297 rulex_3.7.1-1focal1.diff.gz
+ 12782327a6bd3b131ed7389f10a67b2f 988 rulex_3.7.2-1focal1.dsc
+ 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
+ 76a0dbc902ca27e9adcd3a9754ede347 4408 rulex_3.7.2-1focal1.debian.tar.xz
 Checksums-Sha1: 
- 9d3511497051cda4ee9816d9c1fefc5bc26555f7 962 rulex_3.7.1-1focal1.dsc
- 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
- 5ae9b9dfe65294510e7ec15e693cb73296eda950 4297 rulex_3.7.1-1focal1.diff.gz
+ 878a37f2c8e097d3c44a46c8e1447dd1faffead6 988 rulex_3.7.2-1focal1.dsc
+ 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
+ 634ec21c02c217f0f4bfc33a419558dfe095cd88 4408 rulex_3.7.2-1focal1.debian.tar.xz
 Checksums-Sha256: 
- 6a476db816e4c9fac711873ff32513ba3b2c10e6a9346e67a2331d294f5f4a1d 962 rulex_3.7.1-1focal1.dsc
- 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
- 321637c430fed40747b168e3da2dab8d99b914fb927a00f7270ab58e52ae57af 4297 rulex_3.7.1-1focal1.diff.gz
+ 6cddcc1e71b33cf2f26852faeb0e05a19870200e084cb05c10a48638feb7608e 988 rulex_3.7.2-1focal1.dsc
+ 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
+ 04a6c3cd33fcc78fdfb58f7335f3d2b1cd0a86a538bf468bdb7c4df4a3289951 4408 rulex_3.7.2-1focal1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -188,10 +188,10 @@ Checksums-Sha256:
  572e82404b8c422cc4b7ca9c8e4f8acef45059455d6f915c2a2f1298e24c85d7 8693 wget-el_0.5.0-11focal1.diff.gz
 
 Package: youtube-dl-el
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-1focal1
+Version: 2.3-2focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,12 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 3aad8aed08d1ce4415e42edce1b302c6 612 youtube-dl-el_2.3-1focal1.dsc
- 5be73376c6bf2d950ea2f9af3130bb9c 27499 youtube-dl-el_2.3-1focal1.tar.gz
+ 5a6840240b530892c1d2977229f451d9 888 youtube-dl-el_2.3-2focal1.dsc
+ b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
+ 81739dc89f620de396fce628c2f43752 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
 Checksums-Sha1: 
- 208e33df0b687f25e029739522fa607d87f95811 612 youtube-dl-el_2.3-1focal1.dsc
- 583ee1cab3beb01c2ce3ea4bef520b6177dccb1c 27499 youtube-dl-el_2.3-1focal1.tar.gz
+ ce70a1c82fc966e0be588061c7c583f4cfc9d554 888 youtube-dl-el_2.3-2focal1.dsc
+ 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
+ 20f6eca34b547c763cf4130e74ce08eb8f72aa4f 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
 Checksums-Sha256: 
- e5653649a7f3890d4b8165987f78857815548f27fac7d0b98a1a9218c3668f45 612 youtube-dl-el_2.3-1focal1.dsc
- b7f1d3272daccf93283af2ac035c4605f72bbec4c717a63d36928d084cb57ced 27499 youtube-dl-el_2.3-1focal1.tar.gz
+ d8dac0ce185e8685cbdb9c0e24518e4d8592e1d3e49b8a98e2348f832b8b0ab6 888 youtube-dl-el_2.3-2focal1.dsc
+ 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
+ 8b6dff6c07011d9c71e260fa16c4781323ff384357328c141f2d2e2252baafe2 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
 

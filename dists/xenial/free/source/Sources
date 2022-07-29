@@ -130,10 +130,10 @@ Checksums-Sha256:
  d87520dc0f7bd0eef1dcd3fcefedc3773286d84153177ce25aaf1fded189bafe 24783 rbook_2.6.0xenial1.tar.gz
 
 Package: ru-tts
-Format: 1.0
+Format: 3.0 (native)
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.3xenial1
+Version: 6.0.4xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libtool-bin, librulexdb-dev
@@ -145,20 +145,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- a0ae77884da28d12568f5a2271fb2e14 657 ru-tts_6.0.3xenial1.dsc
- 69d23f422b0dc324e00a92df15051f38 79217 ru-tts_6.0.3xenial1.tar.gz
+ a827a94f1fd285e838c23a7b1222930a 666 ru-tts_6.0.4xenial1.dsc
+ 01bceba297c80080a5ccef4600d139a1 65212 ru-tts_6.0.4xenial1.tar.xz
 Checksums-Sha1: 
- 47282b125cb9ffd1d0d20eeabb67fb5b86fe3af4 657 ru-tts_6.0.3xenial1.dsc
- 4f985e643dc5ef551ceb5cba7a82389b9a298179 79217 ru-tts_6.0.3xenial1.tar.gz
+ 0fd3d2161fcc1e77650768f126c2c8f41e4d7ec0 666 ru-tts_6.0.4xenial1.dsc
+ 6396cdadf9eed8d252c893d0cb6ecf4e1b037b8d 65212 ru-tts_6.0.4xenial1.tar.xz
 Checksums-Sha256: 
- 49e9df4700b3efa30b7716714c3bcae706393a977a8bf9afbb82a9823c6b154e 657 ru-tts_6.0.3xenial1.dsc
- bcb973f7eada5d8aa9ac31f09c2a34deaeb70f7df48c2a90574042b2800f2f08 79217 ru-tts_6.0.3xenial1.tar.gz
+ 6b3000fc353dbdae00935308f2d645f07f74dd745e337f60825d97d45c13a85b 666 ru-tts_6.0.4xenial1.dsc
+ 18917c7853b58ff924c8f4757508f08e135d8dd0b62f4a39a009940edb500b4b 65212 ru-tts_6.0.4xenial1.tar.xz
 
 Package: rulex
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.1-1xenial1
+Version: 3.7.2-1xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 5), libdb-dev, libtool-bin, locales
@@ -171,17 +171,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- d3c2b72644f4bfaf9da99ef2d6fb0b59 965 rulex_3.7.1-1xenial1.dsc
- 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
- c8f6b133ddb038dc92ae2c70bae6e276 4322 rulex_3.7.1-1xenial1.diff.gz
+ b81cbd52fe29f82492161835b38a32ef 991 rulex_3.7.2-1xenial1.dsc
+ 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
+ a47334d8b331299642009a75df31b75c 4460 rulex_3.7.2-1xenial1.debian.tar.xz
 Checksums-Sha1: 
- d872e0768ab26800220800aa6a7866e5f4fdf465 965 rulex_3.7.1-1xenial1.dsc
- 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
- 54cfc25de9feb6f03f9540ff391e3ad864c31832 4322 rulex_3.7.1-1xenial1.diff.gz
+ 8bebd9ba4d0ea008b16c6c59e7eceb71411a10ba 991 rulex_3.7.2-1xenial1.dsc
+ 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
+ b2b70591962ebca7888cf53647341582e7883fb9 4460 rulex_3.7.2-1xenial1.debian.tar.xz
 Checksums-Sha256: 
- 6fc1c0a98e779563ee9c840f53414bffd5f294ca096344ccd165d1386fa2dc81 965 rulex_3.7.1-1xenial1.dsc
- 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
- be2c2e0dcb7bfabe023244e9954a1d30cf3782aaddcc0b249d6e0ad07e6bde01 4322 rulex_3.7.1-1xenial1.diff.gz
+ c7a1bc24eeeeb0a2038ee487e26f0c6fb95313d9938f9882927c707bcd259e52 991 rulex_3.7.2-1xenial1.dsc
+ 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
+ b3d06afc37b89a59eaebe03a59f2c6cede374739139bd0a142b8bd022a0301e4 4460 rulex_3.7.2-1xenial1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -211,10 +211,10 @@ Checksums-Sha256:
  49e5f10d94983afba1341fb59786a5dba90f9a46e4b213290ed61a0f7af864b0 8834 wget-el_0.5.0-11xenial1.diff.gz
 
 Package: youtube-dl-el
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-1xenial1
+Version: 2.3-2xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.7
@@ -225,12 +225,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 86923b028f50e1d880e7ee4944ad7715 621 youtube-dl-el_2.3-1xenial1.dsc
- 99f4c864da48bbf3adbed2e4f3e404c1 27206 youtube-dl-el_2.3-1xenial1.tar.gz
+ 46b267fe51e22b2f2f1ff11a1c50c3e1 897 youtube-dl-el_2.3-2xenial1.dsc
+ b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
+ bed305466433bd19412c65769091ac2c 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
 Checksums-Sha1: 
- 0428677e9ba7d5cd069d9d31b5f03ee07d0d0b9f 621 youtube-dl-el_2.3-1xenial1.dsc
- 0612987d26131d5a0c307e884dbe765b8724d988 27206 youtube-dl-el_2.3-1xenial1.tar.gz
+ 27fd2c073d45713938893e1351c509701e81e32d 897 youtube-dl-el_2.3-2xenial1.dsc
+ 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
+ d89644d403707e56c571dd59476cf1b1ab1baa27 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
 Checksums-Sha256: 
- f3926cb10f988fecb963df4a6655bd484022cd56e3b5dea860800ceff2c565d4 621 youtube-dl-el_2.3-1xenial1.dsc
- a2b5faa7f496de31a7996e6d1dc2af926459f01ac4ec0af538470a8928aca555 27206 youtube-dl-el_2.3-1xenial1.tar.gz
+ 6d7222e0f99067e0e78e1814f40a53896a19b3fd4377ead182e063ee33d5506f 897 youtube-dl-el_2.3-2xenial1.dsc
+ 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
+ d5a94aa7ba07c7eac2fb5c35f6900a89d0091bc5007a478e43e2aed6e3ed5edf 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
 

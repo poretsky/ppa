@@ -107,10 +107,10 @@ Checksums-Sha256:
  d0a1bea1d0249ba89a0ef62f3182828284bfff75a0e2de8d0db932d0a7414057 24922 rbook_2.6.0bionic1.tar.gz
 
 Package: ru-tts
-Format: 1.0
+Format: 3.0 (native)
 Binary: ru-tts, librutts6, librutts-dev
 Architecture: any
-Version: 6.0.3bionic1
+Version: 6.0.4bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 9329da1aacfd9efbb8c4436dd4e247b6 657 ru-tts_6.0.3bionic1.dsc
- 06d0729c9b39d5ac4db7c39e02417c6b 79577 ru-tts_6.0.3bionic1.tar.gz
+ 66a3a9b04c7983a04cd784fd46edb542 666 ru-tts_6.0.4bionic1.dsc
+ 0457bfead093c963699d0e6693266b63 65168 ru-tts_6.0.4bionic1.tar.xz
 Checksums-Sha1: 
- 4de5639682d7cfbc0fd054d7135ea4408ac317d8 657 ru-tts_6.0.3bionic1.dsc
- 0d8184dfd731e3249a792997afb9ab15602f1d82 79577 ru-tts_6.0.3bionic1.tar.gz
+ 1ad7121edfc9e5987687f896fc16903e69377a89 666 ru-tts_6.0.4bionic1.dsc
+ c62a2458b3a750ac1bff10ab47a19ba9d49d8d6b 65168 ru-tts_6.0.4bionic1.tar.xz
 Checksums-Sha256: 
- cb4b73925a6ef66fc049fa1d939459c29cb83b9bf16d5383afcf83eb0d115ca5 657 ru-tts_6.0.3bionic1.dsc
- 79bba277d87a252d5ab8a9ae1bf711f264cd8b39942373254a8397e4c77ffd14 79577 ru-tts_6.0.3bionic1.tar.gz
+ 976476fa8512d5492ddad94b395a8ae3228975eb99d474ac97d21091408723d4 666 ru-tts_6.0.4bionic1.dsc
+ 6caa5565a2a9ce53179c63cda235d620f6d55386cd39ec0732e9595060f38d0b 65168 ru-tts_6.0.4bionic1.tar.xz
 
 Package: rulex
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.1-1bionic1
+Version: 3.7.2-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 628995d96cb1d76aee672487b73b9cc5 965 rulex_3.7.1-1bionic1.dsc
- 9d1cbc95fddffbcda6b4a0be3cc1ba63 3218110 rulex_3.7.1.orig.tar.gz
- 698b0bea0957fdad49b0504fefe3d28c 4292 rulex_3.7.1-1bionic1.diff.gz
+ 3da70348d29d8ee94191fe12c9965866 991 rulex_3.7.2-1bionic1.dsc
+ 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
+ 6febaf26c0744e22b77eba5410847541 4400 rulex_3.7.2-1bionic1.debian.tar.xz
 Checksums-Sha1: 
- 457570c31cd6dff966e6272fe5fb32403a686b58 965 rulex_3.7.1-1bionic1.dsc
- 359082d87975866c731a42a4317d23b8b0df9412 3218110 rulex_3.7.1.orig.tar.gz
- 74f1e99a2b6ec6505a0a3b372cb7edf7997ea7fb 4292 rulex_3.7.1-1bionic1.diff.gz
+ 4ece406b88e75dc9d05ec9e091b87b0d933fdea8 991 rulex_3.7.2-1bionic1.dsc
+ 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
+ 301fa53a7e73d7f21cfb07c5eea028273c050278 4400 rulex_3.7.2-1bionic1.debian.tar.xz
 Checksums-Sha256: 
- 025df88912d61bc085352cd97dc04818033e3e07ae324a2d3e165f4160aaca9e 965 rulex_3.7.1-1bionic1.dsc
- 7b5258b0dade7533a2544e569d4d589fc75271093c8462dd92c00e707f2beb23 3218110 rulex_3.7.1.orig.tar.gz
- 3912fbae11aaef7597f1ad52c7666e829123e6b0b6dd790dea473a8aa8f5af1f 4292 rulex_3.7.1-1bionic1.diff.gz
+ 42cb75e6be10149c009fdf6e06f1433e0dfc6467eb1b172ccc27e0cdc3c39bc9 991 rulex_3.7.2-1bionic1.dsc
+ 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
+ c4b8288646449b2d730ba1b8c19152470074151f01c801c44e57378ebdbdbbbf 4400 rulex_3.7.2-1bionic1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -188,10 +188,10 @@ Checksums-Sha256:
  0889bce0cfef8afd168e37c0fe575c807767cd0a5b2e25da5d2d04f55cdec2ce 8654 wget-el_0.5.0-11bionic1.diff.gz
 
 Package: youtube-dl-el
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-1bionic1
+Version: 2.3-2bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,12 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 0a580c0daff620383acf7920cdd840d9 615 youtube-dl-el_2.3-1bionic1.dsc
- f20c627dd624c7fc433cb000f30276cb 27436 youtube-dl-el_2.3-1bionic1.tar.gz
+ c92c48b65bbee29eaa1883aed4a49664 891 youtube-dl-el_2.3-2bionic1.dsc
+ b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
+ f8a944eef26c4978fb101d63f74aea99 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
 Checksums-Sha1: 
- 22a39d28e94593480dcd42eb90740592b1f42ed8 615 youtube-dl-el_2.3-1bionic1.dsc
- daed3d23b1944d41141940bf1463e57fe4177059 27436 youtube-dl-el_2.3-1bionic1.tar.gz
+ 11233c55a83a194770aa66153c7725c93049ba28 891 youtube-dl-el_2.3-2bionic1.dsc
+ 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
+ f9e07f460979da6bdad35c0a70ec37bb82e10ac4 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
 Checksums-Sha256: 
- edb202c0183a5c50d57f965b5f2a1ec0a1086eb4ecea3044396f1d9fc82e17b6 615 youtube-dl-el_2.3-1bionic1.dsc
- 7df8cadca71974604702ad7ffbe2bda7206e026421c8d0952692350393eb0e2d 27436 youtube-dl-el_2.3-1bionic1.tar.gz
+ 65f856a2e91b47764defc9a56dbe17d98b71c209fce6fd39a25709b9643ac563 891 youtube-dl-el_2.3-2bionic1.dsc
+ 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
+ b9a7908ba88f6c59c16e3fe43f848767124b423fab44d8d735e2d9e6e7c67ced 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
 

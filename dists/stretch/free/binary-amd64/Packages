@@ -314,55 +314,55 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.1-1stretch1
+Version: 3.7.2-1stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 69
-Depends: librulexdb0 (= 3.7.1-1stretch1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.2-1stretch1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.1-1stretch1_amd64.deb
-Size: 29746
-SHA256: 71cbf5d52c709b7a028dec3416e2b387f877bdb3e4e25f4dfdf18b89cd08269a
-SHA1: 9cfa62b2e22fe7534341df4db0ee41164bcdec03
-MD5sum: a23ed7fffc817dcc823020f3ca7cc2c4
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.2-1stretch1_amd64.deb
+Size: 29762
+SHA256: 324e6f51b4731e7946c7ef9a73a88f38c29b7f61775ea62f1a0805169b6abab1
+SHA1: 504b9e47a618d638a6126d45935a3104607fd4a2
+MD5sum: bb9617f63f1db750de26cd75233dc5d4
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.1-1stretch1
+Version: 3.7.2-1stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 36
 Depends: libc6 (>= 2.3.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.1-1stretch1_amd64.deb
-Size: 11872
-SHA256: 2aeecc263a0add85dec1e5f4295b8af1a34f07c3fe78737409bbc9e9d60df0f7
-SHA1: ae5b01f1cffa8fa9294e643c2694c28d67ea7d32
-MD5sum: 122a1cc0f3ffe22460bcd8f1ba0fbc79
+Filename: pool/free/r/rulex/librulexdb0_3.7.2-1stretch1_amd64.deb
+Size: 11920
+SHA256: a18aaca5dc0ad503dbf5acab2a21d80f23a3c70dc4bd631437ad3d45cc1c89ed
+SHA1: 63ed08fdc67af6f4a39e12a62086bc2f71b16712
+MD5sum: aacc911dc5ed825e27a5431ee0e41c1f
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.0.3stretch1
+Version: 6.0.4stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 110
-Depends: librutts6 (= 6.0.3stretch1)
+Installed-Size: 111
+Depends: librutts6 (= 6.0.4stretch1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.0.3stretch1_amd64.deb
-Size: 45224
-SHA256: d726898163b57347b8984eacf10bb86e8169783bcb4f1b3e24645b831763e104
-SHA1: b0c00ad306942858cdfe5ae17a10353bc10f6fe2
-MD5sum: 8d506770a937b743f70ff3cdf79327fe
+Filename: pool/free/r/ru-tts/librutts-dev_6.0.4stretch1_amd64.deb
+Size: 45320
+SHA256: d51bb3cc73c3e0c41bc5590f393e05c7f477493bdb9945ae681a86417e6921be
+SHA1: b4ab11c03f804dc74b7a9b05bd21fa435e1722dd
+MD5sum: c30a84e41f8bf200b73f72d62aa3f557
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -375,18 +375,18 @@ Description: software Russian TTS engine
 
 Package: librutts6
 Source: ru-tts
-Version: 6.0.3stretch1
+Version: 6.0.4stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 85
+Installed-Size: 86
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts6_6.0.3stretch1_amd64.deb
-Size: 40208
-SHA256: 33c04ba887cd14d039c855fde79b942ab074e7a631d596f2e9392ad2e50e1b73
-SHA1: b7aeaf9e6adb67ba44db2bff3a2fa0be275e3020
-MD5sum: f63b6d99379985b005b7b9ef1a2d9dcf
+Filename: pool/free/r/ru-tts/librutts6_6.0.4stretch1_amd64.deb
+Size: 40306
+SHA256: bc31f2cbc81e8e0e1b3fef26121e80c34357a99515753ae62bcc4b0a283d33c2
+SHA1: 2279a59cc836125929aae726034bc3858ba098f7
+MD5sum: 98a57d386faa54c83a5e9668656fa872
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -446,10 +446,10 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.0.3stretch1
+Version: 6.0.4stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 41
+Installed-Size: 42
 Depends: locales, libc6 (>= 2.3), librulexdb0, librutts6 (>= 6.0)
 Recommends: rulex-data
 Suggests: sox
@@ -457,11 +457,11 @@ Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.0.3stretch1_amd64.deb
-Size: 13952
-SHA256: a0897eac776f8e95e91f5d2a26752913f26f83aafee48119aa5aaea16866851d
-SHA1: c1bd52c71937c7bf92d423bcbe0263c501972b84
-MD5sum: 9c61d3ca41e83a189344a4d55c27f9a6
+Filename: pool/free/r/ru-tts/ru-tts_6.0.4stretch1_amd64.deb
+Size: 14236
+SHA256: 90cecc7d95506ba2d6509e973ce9a5171ea2cc53ec2a5ee070c904dc1ebea6a9
+SHA1: 9bba3fb29303f7c2ad382f3e13d0e3e550f8faa0
+MD5sum: c4c94e74ed6d279391d666d1d21da55f
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -471,7 +471,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.1-1stretch1
+Version: 3.7.2-1stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 68
@@ -479,11 +479,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.1-1stretch1_amd64.deb
-Size: 29338
-SHA256: 51827e782541524916dbb4b979ced9da43d049891b21dead51e3e78aed2d23c0
-SHA1: 585e7d35a8e9091a1aae7ea09c4b0dbd7a41f907
-MD5sum: 9841d65e2438cb9adaa4c53ea346e91a
+Filename: pool/free/r/rulex/rulex_3.7.2-1stretch1_amd64.deb
+Size: 29370
+SHA256: 922fda16896facfcb42bdaa343778575a13a01f925f62b3447d0dfd35fe9e0f6
+SHA1: b8455e003003d952de5e68d43460502a5839f2a3
+MD5sum: bb1ff2595564dd3a0559f07e2566465b
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -495,21 +495,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.1-1stretch1
+Version: 3.7.2-1stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2299
+Installed-Size: 2315
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.1-1stretch1_all.deb
-Size: 748604
-SHA256: f1ab0dde0e52eef35890a12e18c69f4089005d9de79901d796fb4d93ec957544
-SHA1: 382846fca9b9e82ac6df61a0a50838eda0cfd4f3
-MD5sum: e453f24c76c8f6ee0d17abc343da3e17
+Filename: pool/free/r/rulex/rulex-data_3.7.2-1stretch1_all.deb
+Size: 749176
+SHA256: 82f009c768de3ddc8ad4e0f05ec76843173ea77c7a6c29cf83ff6bd51783b757
+SHA1: 35176cfbfef91cf4134dd904767ee81fed14d61c
+MD5sum: 400b84d26c52dad9eb9c0b9a0897991d
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts
@@ -569,7 +569,7 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 2.3-1stretch1
+Version: 2.3-2stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 100
@@ -579,11 +579,11 @@ Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.3-1stretch1_all.deb
-Size: 18274
-SHA256: b87933872f189a444b4874200b0fea885eac353b2bdbe1ed8e1274068e2c3251
-SHA1: 9b315890c79c4216c3ea5914f1c85168335172bc
-MD5sum: 1edef7a4decde7a1e1bfec886f284f49
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.3-2stretch1_all.deb
+Size: 18314
+SHA256: e6e1447ca12033f0fa6af714937887d262430fd0793ac626630566927ee3b3d8
+SHA1: dacfcdee9366cb6ef69730295c238b4492d342f2
+MD5sum: 9bbd0b516baa2430d884b76f54fd47a9
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.

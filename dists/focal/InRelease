@@ -6,18 +6,18 @@ Label: accessibility
 Suite: ubuntu
 Codename: focal
 Version: 20.04
-Date: Tue, 26 Jul 2022 19:18:37 UTC
+Date: Fri, 29 Jul 2022 09:38:06 UTC
 Architectures: amd64
 Components: free non-free
 Description: Accessibility packages
 MD5Sum:
- aeeb8456b35a537c8632ad8a252fe7d7 18803 free/binary-amd64/Packages
- 118a5bc671b9db2c2801e9f6c4743a77 5741 free/binary-amd64/Packages.gz
- 2d573d4d82300696c12197302a5ba2cd 5718 free/binary-amd64/Packages.bz2
+ 21c2ee216c1d82fac2e8786c78f2316c 18803 free/binary-amd64/Packages
+ c35e5c537a4d250780fef7c61f1dca93 5748 free/binary-amd64/Packages.gz
+ a95abf7d78cbd334fae1283ee1d18ec6 5737 free/binary-amd64/Packages.bz2
  c53ce450c7b1948a3ec5d9a238833095 141 free/binary-amd64/Release
- 3e690f6914bcd7855c2c7b948d4473f0 9134 free/source/Sources
- 274dd538c71125139bb102c0bea5530a 3063 free/source/Sources.gz
- 84d334ca865e21643d657362d1e39419 3058 free/source/Sources.bz2
+ 24f6310e97d8bea92c40d12c5af8490f 9445 free/source/Sources
+ 04698cf4370c5877f9712cc28f54e466 3197 free/source/Sources.gz
+ 05ab8d4aa931159d65c7aef2c6a03a91 3191 free/source/Sources.bz2
  e656b98cc585739da0f33db8c09f5e88 142 free/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
@@ -27,16 +27,16 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 non-free/source/Sources.bz2
  7dae6473c2840df42472d0f6af3307fd 146 non-free/source/Release
- eb50f41cf2669303ff3e5089c749e082 105204 Contents-amd64
- ca681ee4ecf9c6dda611be9ee76bb12e 9226 Contents-amd64.gz
+ c2786e58ed68e1ee222fd530e2baa46d 105204 Contents-amd64
+ b391792591e4dadff352534291f46020 9226 Contents-amd64.gz
 SHA1:
- ef297967e57230b579e197658357bc5751488289 18803 free/binary-amd64/Packages
- 49fb674964892e58ffe80d2c3ae4999347ee7653 5741 free/binary-amd64/Packages.gz
- a7ad2da401b28d5e0a806a01111fdf4ddfc3de7a 5718 free/binary-amd64/Packages.bz2
+ 663783377a9cbcea49b754bf995c5311386f61e3 18803 free/binary-amd64/Packages
+ be0a1cc574fb5bc67f22676b83897c6030fd65d4 5748 free/binary-amd64/Packages.gz
+ 7e939aa3e773e6513f7d5b7b08d77130d8a894e7 5737 free/binary-amd64/Packages.bz2
  83316948a2177f0261b05118b0f7b5ff05afe52d 141 free/binary-amd64/Release
- ca48f8448e02071257094a9857a8f1b576856ac4 9134 free/source/Sources
- 2772b8c4bef809e449a7c7253f81178e81fcd006 3063 free/source/Sources.gz
- 4cf7eac4dc3b019451744cb456b5c76b7c488f35 3058 free/source/Sources.bz2
+ 0debe1d666aa537439976719d07c8f6b5220609b 9445 free/source/Sources
+ cd355d0de7d761475da3e9e217c2eed17d35281f 3197 free/source/Sources.gz
+ 02f1b55d5d93c9be11a72408b31e1996e602776f 3191 free/source/Sources.bz2
  72c38f138214050fe38584a030e8d50fccc3e687 142 free/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
@@ -46,16 +46,16 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 non-free/source/Sources.bz2
  ba756219ebbf7b01087848aac27a57d3fa79af0b 146 non-free/source/Release
- fb31af79035f01a97fb9607376673292410257aa 105204 Contents-amd64
- 11dc16c1c38fb05b511c19d4c8447044ba78da2e 9226 Contents-amd64.gz
+ 5f6940056b902b7063c1f93674434fcae2ac97ff 105204 Contents-amd64
+ 20d9b93334d38da6797ac59aa2ed0ac5be8ca4ed 9226 Contents-amd64.gz
 SHA256:
- 032d174ae4be44fc214124784b371dc6403a517d5f80e1f9bbd68be65ae191fc 18803 free/binary-amd64/Packages
- bdd2972ed91e12b04c4dbae3319016e2e24b69610adf37e12cfd9e376c3210a4 5741 free/binary-amd64/Packages.gz
- 064d162862714475d24e3e0718d300cdc2f917c0f024df9ff00ebbbfaee89ec2 5718 free/binary-amd64/Packages.bz2
+ dbeb281e59b946feb42417dd6e290c42cd08e92c740b6bbe1d2131f280ea9ee2 18803 free/binary-amd64/Packages
+ 027b8b0b28a55e5b5077930c19f0b26ff70a0b1ad57ece420e34aa64215ed973 5748 free/binary-amd64/Packages.gz
+ 7366f16e40d066e2801a3a76f70531cf4ef7fa85484a121f4e9d912f4351303d 5737 free/binary-amd64/Packages.bz2
  c58a929747c4df195c0f8fe1485094377c53435403b927818af92b5103c0913c 141 free/binary-amd64/Release
- a48619723f9c328776d0ec6149e5345e80b579fdef1e6b4393debfe2e415421a 9134 free/source/Sources
- f05de3a5f51f910ed3a93bd3b882ffd44bd768ba8641f1f874cd212c3d085fd4 3063 free/source/Sources.gz
- 04b8d1196871602b29f5bbe830d14e462a67a5a0a61f54965dbc976c84b37032 3058 free/source/Sources.bz2
+ b7ffedadcba5dfc307c256e785bfd72777733cdd0a76ea9eeecf41cea3ce2493 9445 free/source/Sources
+ bd444f746cc5ebedd83873e7a36b4ba792dff48ebde20af96525e7abc7d978c6 3197 free/source/Sources.gz
+ 502022d8fedbc45a76411b4a3d436a51f9f51c2ffaadd0cc5daa76b0b70cae47 3191 free/source/Sources.bz2
  4a616b85c7ae4a310e7c36b4d380b80c2f6d12cb73478203ab82b127e82e2621 142 free/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
@@ -65,12 +65,12 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 non-free/source/Sources.bz2
  56947373bffe5388bb3dc5887ff8c86c07431fbbd383f6115c535a4b5feb0488 146 non-free/source/Release
- ad137677eb6214fb7bec45848c710c32e50772a1d1b270aaca686f08dd977aba 105204 Contents-amd64
- f74229fb1c91c295deec55372a07a4a0379493066a3357977995072850e103ee 9226 Contents-amd64.gz
+ 88722df64c78b485dc8c22cd6c5821975de1ad4621268571ac36a50d0365b37c 105204 Contents-amd64
+ 51dc0dd61c4203bef25e7f3f88492ad8ba06c17ea09c49b3e35f9b277f9cc37e 9226 Contents-amd64.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iEYEAREIAAYFAmLgPg4ACgkQ/ytogf9LBB/gVACgo8QkKj5pj4QQdOWPq49uA1Xb
-OHwAn0CRDnF9JTrukI+Ywj7mw0DiTqT4
-=gV24
+iEYEAREIAAYFAmLjqn8ACgkQ/ytogf9LBB82WgCgkVDPbnG7jbZcJXoQnOOqL8j6
+eb8An2LGYfHtQVdNqjFhN4+G1/u7eFN8
+=XemB
 -----END PGP SIGNATURE-----
