@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-2buster1
+Version: 2.4-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- f4d2e626f6381f10daf3985ad5ffe53b 891 youtube-dl-el_2.3-2buster1.dsc
- b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
- ac4bd4c2e2a0cca708b678c054603f58 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
+ 3165d51709cfd7b36f34dae72f0b4fc5 891 youtube-dl-el_2.4-1buster1.dsc
+ 58e09d8be5440208adb7c0f5b08d4c4e 21712 youtube-dl-el_2.4.orig.tar.xz
+ 7bfcbbc483e5d662c3aa598c7ad16f8a 4156 youtube-dl-el_2.4-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 052da381bef2efcffbf274920912d56c0b0deac7 891 youtube-dl-el_2.3-2buster1.dsc
- 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
- 5a16cdbbfd8d0fec27e1f5475b56e9681d8ff807 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
+ 0cef9656d7a8d4b3a8a3e2b7fb0c4cff69eeb3ed 891 youtube-dl-el_2.4-1buster1.dsc
+ 9c3b9c8d2de3053eee6953dca095fa28666552f2 21712 youtube-dl-el_2.4.orig.tar.xz
+ 442623a4f264f5ae7526bc34da91e0fb33cdc89e 4156 youtube-dl-el_2.4-1buster1.debian.tar.xz
 Checksums-Sha256: 
- beff210fb647c7e79132b949d22d4ff73687b01ae9da51c1434a1aa8bab4a611 891 youtube-dl-el_2.3-2buster1.dsc
- 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
- cbd4a208ff7e2d175a4e05eaac46430aec5d6f419482094a4baf5c1e385470cc 4064 youtube-dl-el_2.3-2buster1.debian.tar.xz
+ bdcab42f00c694f1f9ab707721c94bacb25d9693459d6e4223a23dd63caf3bd9 891 youtube-dl-el_2.4-1buster1.dsc
+ 4791b50fcfd3f9cd4d0ef5f12d1b3d0dae4939787d56a84091daa6725c2a8806 21712 youtube-dl-el_2.4.orig.tar.xz
+ 47a10ee111e51d63b1d5706e8856d67e0dba401b423baf7244f7155a913e74cb 4156 youtube-dl-el_2.4-1buster1.debian.tar.xz
 

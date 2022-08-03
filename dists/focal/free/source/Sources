@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-2focal1
+Version: 2.4-1focal1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 5a6840240b530892c1d2977229f451d9 888 youtube-dl-el_2.3-2focal1.dsc
- b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
- 81739dc89f620de396fce628c2f43752 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
+ d46724e26ea3bdc8dc5a7406b6fef818 888 youtube-dl-el_2.4-1focal1.dsc
+ 58e09d8be5440208adb7c0f5b08d4c4e 21712 youtube-dl-el_2.4.orig.tar.xz
+ 2ae575799f1e75279cd04377d2eef4a1 4220 youtube-dl-el_2.4-1focal1.debian.tar.xz
 Checksums-Sha1: 
- ce70a1c82fc966e0be588061c7c583f4cfc9d554 888 youtube-dl-el_2.3-2focal1.dsc
- 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
- 20f6eca34b547c763cf4130e74ce08eb8f72aa4f 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
+ 7a22c89d445ae3f3dbaa7f331024d9e6e30f48ec 888 youtube-dl-el_2.4-1focal1.dsc
+ 9c3b9c8d2de3053eee6953dca095fa28666552f2 21712 youtube-dl-el_2.4.orig.tar.xz
+ d7887ec277d90980f8b4e6e386892ab5cbe59ac5 4220 youtube-dl-el_2.4-1focal1.debian.tar.xz
 Checksums-Sha256: 
- d8dac0ce185e8685cbdb9c0e24518e4d8592e1d3e49b8a98e2348f832b8b0ab6 888 youtube-dl-el_2.3-2focal1.dsc
- 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
- 8b6dff6c07011d9c71e260fa16c4781323ff384357328c141f2d2e2252baafe2 4124 youtube-dl-el_2.3-2focal1.debian.tar.xz
+ bf76c6063ba2298256487bdce34c6a4132a5f44d382178459d1dc38978d2a127 888 youtube-dl-el_2.4-1focal1.dsc
+ 4791b50fcfd3f9cd4d0ef5f12d1b3d0dae4939787d56a84091daa6725c2a8806 21712 youtube-dl-el_2.4.orig.tar.xz
+ db74fef71116a9fdaf6f0e9bde044ab4a8239331c98aac5be73516118e99948d 4220 youtube-dl-el_2.4-1focal1.debian.tar.xz
 

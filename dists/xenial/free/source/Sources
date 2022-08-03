@@ -214,7 +214,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-2xenial1
+Version: 2.4-1xenial1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.7
@@ -225,15 +225,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 46b267fe51e22b2f2f1ff11a1c50c3e1 897 youtube-dl-el_2.3-2xenial1.dsc
- b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
- bed305466433bd19412c65769091ac2c 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
+ 082b778c8e4311a43ced5c42b13062bb 897 youtube-dl-el_2.4-1xenial1.dsc
+ 58e09d8be5440208adb7c0f5b08d4c4e 21712 youtube-dl-el_2.4.orig.tar.xz
+ e0c9fc14ff43ad31276093d396e4a0ac 4144 youtube-dl-el_2.4-1xenial1.debian.tar.xz
 Checksums-Sha1: 
- 27fd2c073d45713938893e1351c509701e81e32d 897 youtube-dl-el_2.3-2xenial1.dsc
- 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
- d89644d403707e56c571dd59476cf1b1ab1baa27 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
+ b03d709b985808287c527f58f2507ee57a1eb9d0 897 youtube-dl-el_2.4-1xenial1.dsc
+ 9c3b9c8d2de3053eee6953dca095fa28666552f2 21712 youtube-dl-el_2.4.orig.tar.xz
+ ce9f944d300889815cfa0c9c8433371d7305ff77 4144 youtube-dl-el_2.4-1xenial1.debian.tar.xz
 Checksums-Sha256: 
- 6d7222e0f99067e0e78e1814f40a53896a19b3fd4377ead182e063ee33d5506f 897 youtube-dl-el_2.3-2xenial1.dsc
- 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
- d5a94aa7ba07c7eac2fb5c35f6900a89d0091bc5007a478e43e2aed6e3ed5edf 4052 youtube-dl-el_2.3-2xenial1.debian.tar.xz
+ f60bdabff3adb17871cfbba826995f7d7cc4b84570067a8505a3ffa30f19ea71 897 youtube-dl-el_2.4-1xenial1.dsc
+ 4791b50fcfd3f9cd4d0ef5f12d1b3d0dae4939787d56a84091daa6725c2a8806 21712 youtube-dl-el_2.4.orig.tar.xz
+ cf9247fa859df985e5bfdc43229e607393ac195aa36747afea6e00ed3a95871d 4144 youtube-dl-el_2.4-1xenial1.debian.tar.xz
 

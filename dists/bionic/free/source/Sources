@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.3-2bionic1
+Version: 2.4-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- c92c48b65bbee29eaa1883aed4a49664 891 youtube-dl-el_2.3-2bionic1.dsc
- b00d20debc31ddfb0638b17172470ea7 21456 youtube-dl-el_2.3.orig.tar.xz
- f8a944eef26c4978fb101d63f74aea99 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
+ 6efad8661908cded35138ae6d569ecaf 891 youtube-dl-el_2.4-1bionic1.dsc
+ 58e09d8be5440208adb7c0f5b08d4c4e 21712 youtube-dl-el_2.4.orig.tar.xz
+ 9927d8fbb8b191ddb59d67cd2ac9baad 4136 youtube-dl-el_2.4-1bionic1.debian.tar.xz
 Checksums-Sha1: 
- 11233c55a83a194770aa66153c7725c93049ba28 891 youtube-dl-el_2.3-2bionic1.dsc
- 1d8dec5226d58a8c40b6eac1bb0e8d3c93fcdc39 21456 youtube-dl-el_2.3.orig.tar.xz
- f9e07f460979da6bdad35c0a70ec37bb82e10ac4 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
+ 590998439a6f69352fac91b2cc4a0ff3e9f8df96 891 youtube-dl-el_2.4-1bionic1.dsc
+ 9c3b9c8d2de3053eee6953dca095fa28666552f2 21712 youtube-dl-el_2.4.orig.tar.xz
+ 530411395db8780ca34e2cda1041fa62ace4f134 4136 youtube-dl-el_2.4-1bionic1.debian.tar.xz
 Checksums-Sha256: 
- 65f856a2e91b47764defc9a56dbe17d98b71c209fce6fd39a25709b9643ac563 891 youtube-dl-el_2.3-2bionic1.dsc
- 07f4f4e9225e52e6ebcb28caaa889f8456dc99692d876834ecd8b8876755a08c 21456 youtube-dl-el_2.3.orig.tar.xz
- b9a7908ba88f6c59c16e3fe43f848767124b423fab44d8d735e2d9e6e7c67ced 4044 youtube-dl-el_2.3-2bionic1.debian.tar.xz
+ c100e43b7ddd7bfba403c4c872aea71fbe9d37d764eed95a4c9ac9770e0d2ac9 891 youtube-dl-el_2.4-1bionic1.dsc
+ 4791b50fcfd3f9cd4d0ef5f12d1b3d0dae4939787d56a84091daa6725c2a8806 21712 youtube-dl-el_2.4.orig.tar.xz
+ 6d2a98563e39a31c8e3b4169b54a9e958239e463ed0be8310643aeb6587477ce 4136 youtube-dl-el_2.4-1bionic1.debian.tar.xz
 
