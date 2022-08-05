@@ -589,21 +589,21 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 2.4-1xenial1
+Version: 2.5-1xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 101
+Installed-Size: 102
 Depends: emacs | emacsen, youtube-dl
 Recommends: mpv
 Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.4-1xenial1_all.deb
-Size: 18728
-SHA256: bb30fd225aed786e4cfb59a943565a61a954b0159d0642042c8cf9941dd826b2
-SHA1: 799640844d92eef09ef2b205582f36b56825bda8
-MD5sum: d08e6a990813f585689e9f214a4bb96c
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.5-1xenial1_all.deb
+Size: 18952
+SHA256: ea7346aac94a12fe5008353348c803914c63471bf23b93d961affa221eb72d85
+SHA1: 7d6e1006fa107b3bc06f22a5591f92d198b8adfe
+MD5sum: c7f42841c55e1bde9dc8d42cae085222
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.
