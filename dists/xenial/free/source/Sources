@@ -21,6 +21,29 @@ Checksums-Sha256:
  bc7caeefa55bee383f1c35160ff859378b5c42ea96b82ef926c64c44d3823b34 511 btpd-el_1.9xenial1.dsc
  16ce080f2794bbab5355d3667375eb9c4898a28ef78bef676db1e98213a22c06 17065 btpd-el_1.9xenial1.tar.gz
 
+Package: catalogue
+Format: 3.0 (native)
+Binary: catalogue
+Architecture: all
+Version: 2.7.1xenial1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 5)
+Package-List:
+ catalogue deb misc optional arch=all
+Priority: optional
+Section: misc
+Directory: pool/free/c/catalogue
+Files: 
+ 924e500897a7f1ef696e7eac592d2eb1 546 catalogue_2.7.1xenial1.dsc
+ b829bdfc0e2c39c4535ced843b778002 25288 catalogue_2.7.1xenial1.tar.xz
+Checksums-Sha1: 
+ 93d7db262dce69cf9d9a961462bf698cc7674cad 546 catalogue_2.7.1xenial1.dsc
+ 6480d66370e493c199f3ef62d24c62aa5dc372bf 25288 catalogue_2.7.1xenial1.tar.xz
+Checksums-Sha256: 
+ 77d92ee70afde97848dc807cf1053d96c11b39594bcd932826b44fa3de41da76 546 catalogue_2.7.1xenial1.dsc
+ 9add86392b59f3d2b2e3cde60afad6773f8513b1a22fea2b03d928987eaa0f46 25288 catalogue_2.7.1xenial1.tar.xz
+
 Package: emacspeak
 Format: 1.0
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic

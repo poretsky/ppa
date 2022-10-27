@@ -18,6 +18,30 @@ Description: Emacs frontend for the Btpd BitTorrent client
  allowing to start torrent download just by clicking on a respective
  link. Torrent's content can be previewed as a virtual directory tree.
 
+Package: catalogue
+Version: 2.7.1xenial1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 168
+Depends: edb, emacs | emacsen
+Recommends: libcdio-utils, eject, cd-discid
+Suggests: cdtool
+Priority: optional
+Section: misc
+Filename: pool/free/c/catalogue/catalogue_2.7.1xenial1_all.deb
+Size: 28416
+SHA256: bf79b4214a65fe54c6627f262efc1be57156634bf3faa2dea1af3644eb8e2e91
+SHA1: 62bb9c04a645de7d70245f445fe0f956ca0846ec
+MD5sum: d5cc5e1e629678e4ff28cfa2beede3c7
+Description: Media collection catalogue
+ The main purpose of this package is to keep and manage simple media
+ collection catalogue providing easy data access and control means from
+ within Emacs. Initially it was designed for keeping CD/DVD collection,
+ but nothing prevents it from using with another content, such as paper
+ books or something else. Nevertheless, there is an extra advantage
+ especially for CD and DVD, since these media types can be
+ automatically identified and recognized being put into the drive.
+
 Package: emacspeak
 Version: 1:50.0-15xenial1
 Architecture: all
