@@ -135,7 +135,7 @@ Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.2-1bionic1
+Version: 3.7.3-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.1.4
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 3da70348d29d8ee94191fe12c9965866 991 rulex_3.7.2-1bionic1.dsc
- 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
- 6febaf26c0744e22b77eba5410847541 4400 rulex_3.7.2-1bionic1.debian.tar.xz
+ 2a4cdb858f2e855f8ea38cd8eecb5752 991 rulex_3.7.3-1bionic1.dsc
+ 442dd2b0906398786fa92778d4dfd9fc 2302956 rulex_3.7.3.orig.tar.xz
+ 94d73dc2dead9e0ee12d60a71ad7ad24 4448 rulex_3.7.3-1bionic1.debian.tar.xz
 Checksums-Sha1: 
- 4ece406b88e75dc9d05ec9e091b87b0d933fdea8 991 rulex_3.7.2-1bionic1.dsc
- 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
- 301fa53a7e73d7f21cfb07c5eea028273c050278 4400 rulex_3.7.2-1bionic1.debian.tar.xz
+ 75162fbf92c5639445c44c2bd7159ffefd91a782 991 rulex_3.7.3-1bionic1.dsc
+ 4178e5d9376bf89d2c851d7a9bb7bf7c79a7b96e 2302956 rulex_3.7.3.orig.tar.xz
+ 0597c6f0084ee7b23712c5eecfae08e086265d75 4448 rulex_3.7.3-1bionic1.debian.tar.xz
 Checksums-Sha256: 
- 42cb75e6be10149c009fdf6e06f1433e0dfc6467eb1b172ccc27e0cdc3c39bc9 991 rulex_3.7.2-1bionic1.dsc
- 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
- c4b8288646449b2d730ba1b8c19152470074151f01c801c44e57378ebdbdbbbf 4400 rulex_3.7.2-1bionic1.debian.tar.xz
+ d691f341857f6510f85ec0694f1182284c497c69c483ea540c5eb38345692c46 991 rulex_3.7.3-1bionic1.dsc
+ d6fb12778f990f1e10e37586eb3049cdc35ea0cf07dda0d35b71ca26ef52afc8 2302956 rulex_3.7.3.orig.tar.xz
+ 67e61c7c280b27a6a7cdc39bd0601edeac356382b9df45103d9cad44aeaab685 4448 rulex_3.7.3-1bionic1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.5-1bionic1
+Version: 2.6-1bionic1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.1.4
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- ddf38d9dcd18ed0450ef66fa735ac991 891 youtube-dl-el_2.5-1bionic1.dsc
- 1b6ef8e7176be76cd79d4c235245b5ee 21852 youtube-dl-el_2.5.orig.tar.xz
- 4778157dd9e8e459b44b68399f85a32c 4224 youtube-dl-el_2.5-1bionic1.debian.tar.xz
+ fac33d8472868f2feccd4e185466a109 891 youtube-dl-el_2.6-1bionic1.dsc
+ 351ea1db50faa7b88eb07b06db481f97 21856 youtube-dl-el_2.6.orig.tar.xz
+ c60a555adb9f06f6f07bf6a9d26c7f29 4244 youtube-dl-el_2.6-1bionic1.debian.tar.xz
 Checksums-Sha1: 
- 848fa1feea0016563bda3a3c7c053aa720b5b099 891 youtube-dl-el_2.5-1bionic1.dsc
- a05d49d700ab827f4b890ce28b5b9c32b8065cc5 21852 youtube-dl-el_2.5.orig.tar.xz
- b52dca0b9264daa287c47ec084499f4f71016965 4224 youtube-dl-el_2.5-1bionic1.debian.tar.xz
+ 3b6a9096177d8c924de91845c759a44448b039d0 891 youtube-dl-el_2.6-1bionic1.dsc
+ 744cbc848f44872db94ee46e1d0cdb4058456055 21856 youtube-dl-el_2.6.orig.tar.xz
+ 1c7c5c72c2ab88bddfd6233c7dcec1059e81aa4e 4244 youtube-dl-el_2.6-1bionic1.debian.tar.xz
 Checksums-Sha256: 
- 21201789c4dc8921558b4aab1aae0761f61b63db075cc8ae8ed7b4f18b51b634 891 youtube-dl-el_2.5-1bionic1.dsc
- 94eaa8adab4d2a7c795d05a2dcec91eae83ee3c627c64ec842aeb212dfeb193e 21852 youtube-dl-el_2.5.orig.tar.xz
- 98d31699d319854255dca9811f5687393823d8068f92bffe50fb46aee868ebed 4224 youtube-dl-el_2.5-1bionic1.debian.tar.xz
+ bcd0024445c9bb06d2e4626e8cf4b313930dfb6a9bc96ad2b08b506ad8c35c6a 891 youtube-dl-el_2.6-1bionic1.dsc
+ 2a511da71dce1d659c3377c4da3c3c62c63d07149f5712b299ab8e95172793b9 21856 youtube-dl-el_2.6.orig.tar.xz
+ 4c7b17959abb713f3e1ee8ba880dcef43c7d170930c6efebdcaa61bdd5654f66 4244 youtube-dl-el_2.6-1bionic1.debian.tar.xz
 

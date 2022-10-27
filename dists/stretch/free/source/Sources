@@ -135,7 +135,7 @@ Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.2-1stretch1
+Version: 3.7.3-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- e66fcd861ec0f6dc373271d80efafa09 995 rulex_3.7.2-1stretch1.dsc
- 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
- 4d48f14877eea9899b3d23e4de1e67cc 4488 rulex_3.7.2-1stretch1.debian.tar.xz
+ 80ce684dea0c6cc38bd1ee4e10c7d22d 995 rulex_3.7.3-1stretch1.dsc
+ 442dd2b0906398786fa92778d4dfd9fc 2302956 rulex_3.7.3.orig.tar.xz
+ 87392f902dfe9af9993b4bc708111f8a 4500 rulex_3.7.3-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 4221ee175502deca9506b492657dd4468ab4731f 995 rulex_3.7.2-1stretch1.dsc
- 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
- c5c65cf479757ed1961e0613323b5c43e85fb946 4488 rulex_3.7.2-1stretch1.debian.tar.xz
+ 31cad6cba2c763e4b4fdb27617f4e86b4a88fa5a 995 rulex_3.7.3-1stretch1.dsc
+ 4178e5d9376bf89d2c851d7a9bb7bf7c79a7b96e 2302956 rulex_3.7.3.orig.tar.xz
+ 2423cfd46339efddbeed310f3b83a73130f53ea9 4500 rulex_3.7.3-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 17f73939e589702da31fd6884c0e086556dc3fb2f6ea6d6336af749f5dc12da4 995 rulex_3.7.2-1stretch1.dsc
- 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
- fd8236766eac3d272ea4c079ff2340c7c44683def3f0974f00af57b4fb348bad 4488 rulex_3.7.2-1stretch1.debian.tar.xz
+ c7a06dfa3a55f2386378918c0892280cfa5ef25a2dc71b99d5d915989f1bbfe1 995 rulex_3.7.3-1stretch1.dsc
+ d6fb12778f990f1e10e37586eb3049cdc35ea0cf07dda0d35b71ca26ef52afc8 2302956 rulex_3.7.3.orig.tar.xz
+ 4884bf9a5aba77e0c6cfe0f40dc06105650e36ba26e29ddf5c460e3b5b015d70 4500 rulex_3.7.3-1stretch1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.5-1stretch1
+Version: 2.6-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 896da31140636c265a51c8f161948f1a 895 youtube-dl-el_2.5-1stretch1.dsc
- 1b6ef8e7176be76cd79d4c235245b5ee 21852 youtube-dl-el_2.5.orig.tar.xz
- 87c270a41955ac6789f9031be861dc00 4220 youtube-dl-el_2.5-1stretch1.debian.tar.xz
+ 04976261ef37dc8135a45987ffc21cae 895 youtube-dl-el_2.6-1stretch1.dsc
+ 351ea1db50faa7b88eb07b06db481f97 21856 youtube-dl-el_2.6.orig.tar.xz
+ 9a2ef5c665a6452c66c68dbb55d3b44a 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 1fc1b0cc8873b7c29563be85d449ee24cb8120d2 895 youtube-dl-el_2.5-1stretch1.dsc
- a05d49d700ab827f4b890ce28b5b9c32b8065cc5 21852 youtube-dl-el_2.5.orig.tar.xz
- 7b5fb05e1b5a38e2c205927169cb053bc28f6bb5 4220 youtube-dl-el_2.5-1stretch1.debian.tar.xz
+ ab1fb19fee1038a783ba07d567d15f21f692c7d1 895 youtube-dl-el_2.6-1stretch1.dsc
+ 744cbc848f44872db94ee46e1d0cdb4058456055 21856 youtube-dl-el_2.6.orig.tar.xz
+ 0aa42472b346b83674e371b0a258cb9d130f5606 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- bea00a70db00e5f5c6365a5abcb843f1c3786eceb927ce9d501c75f1c176cb5e 895 youtube-dl-el_2.5-1stretch1.dsc
- 94eaa8adab4d2a7c795d05a2dcec91eae83ee3c627c64ec842aeb212dfeb193e 21852 youtube-dl-el_2.5.orig.tar.xz
- 86e7c4c378ce464b3fa988f339bc021dc918572873bf275f5cde6b680678f251 4220 youtube-dl-el_2.5-1stretch1.debian.tar.xz
+ 87b1959cdd3693bc870faee5e5e456f289a98205017501247eaede4bfabd2784 895 youtube-dl-el_2.6-1stretch1.dsc
+ 2a511da71dce1d659c3377c4da3c3c62c63d07149f5712b299ab8e95172793b9 21856 youtube-dl-el_2.6.orig.tar.xz
+ 0ebd31c66dcacb6672066b350524ad4b302e2cb1406b544e7b65e586eab48e7d 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
 

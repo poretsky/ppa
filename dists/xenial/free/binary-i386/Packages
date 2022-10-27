@@ -334,37 +334,37 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.2-1xenial1
+Version: 3.7.3-1xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 66
-Depends: librulexdb0 (= 3.7.2-1xenial1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.3-1xenial1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.2-1xenial1_i386.deb
-Size: 30184
-SHA256: 919ac142df486a7581c4b68f3db62f4187d05e74ff4fa7e6d70cc7427aad3af8
-SHA1: 928227195375cf35f8e1e3536c6e5bc0513cc4e8
-MD5sum: 3540c136bcdedb6aed2525d1af18d2f9
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.3-1xenial1_i386.deb
+Size: 30194
+SHA256: 91c7d5065e25032186b2616ef058f2461db1741427b2676a73f36c892fdee327
+SHA1: a643110b8fca1ed7fe0a9ada3bf4d9aec92f148b
+MD5sum: 02dcbd90f681ec7f83d77993a004677e
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.2-1xenial1
+Version: 3.7.3-1xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 35
 Depends: libc6 (>= 2.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.2-1xenial1_i386.deb
-Size: 13000
-SHA256: 33cde7c10c33b1c56d7543f239015c9180b33b8bf4f823e418f475e897c18cb9
-SHA1: 898f9302a6992605ff3db7e1e16e033c87c90a8c
-MD5sum: c774ad65dee17e0474131f7ebe7bc804
+Filename: pool/free/r/rulex/librulexdb0_3.7.3-1xenial1_i386.deb
+Size: 13008
+SHA256: 3fc3b3290aa75a678db49abc5163c30b41d0171d9b9c2302325318e8a89b893d
+SHA1: 872b10dd21fb823d802f447b8540fe802c4c1a89
+MD5sum: a5a2929e056c639874feb4516a2ecee2
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -491,7 +491,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.2-1xenial1
+Version: 3.7.3-1xenial1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 62
@@ -499,11 +499,11 @@ Depends: locales, libc6 (>= 2.4), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.2-1xenial1_i386.deb
-Size: 28966
-SHA256: 06bd8f9a3e5738e578be9701f48c68103b90201ef82a0e30f7fbcf7c0f332889
-SHA1: 22654ba425cffe4320b291b2b12e670ebbdc50f4
-MD5sum: e7d5809973657a5946327cd9a6b5338b
+Filename: pool/free/r/rulex/rulex_3.7.3-1xenial1_i386.deb
+Size: 28972
+SHA256: cbbaac2e0805bcfdb3884634f8aa7be0701a87adbbdd669280642e70fcaf8587
+SHA1: 8d53641bbbefdc9f15e30a2d4faf141d7e246f8d
+MD5sum: 0e58bd71ed85dfe7425994b66aead0b3
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -515,21 +515,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.2-1xenial1
+Version: 3.7.3-1xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2315
+Installed-Size: 2303
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.2-1xenial1_all.deb
-Size: 750892
-SHA256: f7aa73a872786164950e9923438ee3ebb038ee17c909113c10c6e062965789fb
-SHA1: 9f0be197901dd7b3064809301cee8a239515d437
-MD5sum: da0aa3f16bf5e2b448de1a6ba768fbeb
+Filename: pool/free/r/rulex/rulex-data_3.7.3-1xenial1_all.deb
+Size: 745038
+SHA256: 38fc8fb05bf28df7208367b3a90fe5e94e3dd013bef50eb2b3334a76762dc620
+SHA1: 376d7d8062c7d4f367d345f0f8382d35d9eb1c56
+MD5sum: cd491b4383134f697f2eed51126b9886
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts
@@ -589,7 +589,7 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 2.5-1xenial1
+Version: 2.6-1xenial1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 102
@@ -599,11 +599,11 @@ Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.5-1xenial1_all.deb
-Size: 18952
-SHA256: ea7346aac94a12fe5008353348c803914c63471bf23b93d961affa221eb72d85
-SHA1: 7d6e1006fa107b3bc06f22a5591f92d198b8adfe
-MD5sum: c7f42841c55e1bde9dc8d42cae085222
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.6-1xenial1_all.deb
+Size: 18996
+SHA256: 93a76656219658d5a8975eed26b991e13516a242788520d334a6ca2f8c41a202
+SHA1: 1130750eeb3d3f3d014b37dbaa818965a114521e
+MD5sum: c7c7ba916e3b15d6e08a2a6bd1c88201
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.

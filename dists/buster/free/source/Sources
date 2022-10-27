@@ -135,7 +135,7 @@ Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.2-1buster1
+Version: 3.7.3-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 8944612f88af6a2a10eea1796a3ff848 991 rulex_3.7.2-1buster1.dsc
- 1445599e9865d73135f8955254791d9f 2306076 rulex_3.7.2.orig.tar.xz
- 6f43b8cd6ab7d63182df70c173267da7 4404 rulex_3.7.2-1buster1.debian.tar.xz
+ 16aef3c1364f0106922404dd7e708260 991 rulex_3.7.3-1buster1.dsc
+ 442dd2b0906398786fa92778d4dfd9fc 2302956 rulex_3.7.3.orig.tar.xz
+ 5f4665b4ad0f89eb442e4d9eec9b8057 4452 rulex_3.7.3-1buster1.debian.tar.xz
 Checksums-Sha1: 
- e9d8d8277166325eceb09ed82e38ee590d4eccee 991 rulex_3.7.2-1buster1.dsc
- 51070df4f9091c157907dfc7d4457eb7f5955b8a 2306076 rulex_3.7.2.orig.tar.xz
- 2f21e4040b1545d5317759dbec3dac120a2f6e88 4404 rulex_3.7.2-1buster1.debian.tar.xz
+ 374888eb0acceeb76283fa7195fe95278fe7c5ea 991 rulex_3.7.3-1buster1.dsc
+ 4178e5d9376bf89d2c851d7a9bb7bf7c79a7b96e 2302956 rulex_3.7.3.orig.tar.xz
+ 4aaa1d1641e44ad3264fcb8e51bc283c0b84217d 4452 rulex_3.7.3-1buster1.debian.tar.xz
 Checksums-Sha256: 
- 05cfc8e082205e439b535aceda51bfcbe183becfc72ef764d69296da7c46d810 991 rulex_3.7.2-1buster1.dsc
- 07c1c2f3554352a986b923880fc266603631bdde997564621df3428c946b4980 2306076 rulex_3.7.2.orig.tar.xz
- 270ab18e0640195ff8b75c169d487f80ab9f7a3a7fbe749fa177b0954f8ea893 4404 rulex_3.7.2-1buster1.debian.tar.xz
+ cfdf4ce15fb6665c1e877dd420e8d4f3925032d0f2c6824d75101d1361f6b3d7 991 rulex_3.7.3-1buster1.dsc
+ d6fb12778f990f1e10e37586eb3049cdc35ea0cf07dda0d35b71ca26ef52afc8 2302956 rulex_3.7.3.orig.tar.xz
+ 953883ea41e42f5c93ee7d97f102c39656023c5702169c61213514a647be01f1 4452 rulex_3.7.3-1buster1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.5-1buster1
+Version: 2.6-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 208b8218e5467eaf456f996d78c0769f 891 youtube-dl-el_2.5-1buster1.dsc
- 1b6ef8e7176be76cd79d4c235245b5ee 21852 youtube-dl-el_2.5.orig.tar.xz
- cfa050495eb5e3e99ed6b2dc41fd720c 4240 youtube-dl-el_2.5-1buster1.debian.tar.xz
+ a8f25ba000a5302f2c18d8f60c00c1f4 891 youtube-dl-el_2.6-1buster1.dsc
+ 351ea1db50faa7b88eb07b06db481f97 21856 youtube-dl-el_2.6.orig.tar.xz
+ dcdba8c9a71272ce625616be54fe084a 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 467dd312a52368a7abc0505c03a7fc56d948a6e8 891 youtube-dl-el_2.5-1buster1.dsc
- a05d49d700ab827f4b890ce28b5b9c32b8065cc5 21852 youtube-dl-el_2.5.orig.tar.xz
- 0d22323d7593e4fdf82204f659538beace1d2729 4240 youtube-dl-el_2.5-1buster1.debian.tar.xz
+ e8ca6e296c3477e0af37ccdd737eaa4019626d52 891 youtube-dl-el_2.6-1buster1.dsc
+ 744cbc848f44872db94ee46e1d0cdb4058456055 21856 youtube-dl-el_2.6.orig.tar.xz
+ 47dc65eca57981b4bab6701369c4622af9087750 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
 Checksums-Sha256: 
- 6a85ea0a789f51e9811da7589662f93ee307531bccb91731560c91b4d002b29e 891 youtube-dl-el_2.5-1buster1.dsc
- 94eaa8adab4d2a7c795d05a2dcec91eae83ee3c627c64ec842aeb212dfeb193e 21852 youtube-dl-el_2.5.orig.tar.xz
- 63e480e1928a777a36756e88627cc42793a26c9fa79060ba8f0dc0d7169d8ac1 4240 youtube-dl-el_2.5-1buster1.debian.tar.xz
+ 25ea5d1b91ca2dfe01d24314b6aef035860847bde8b8b869bd08dd3125b6f4b9 891 youtube-dl-el_2.6-1buster1.dsc
+ 2a511da71dce1d659c3377c4da3c3c62c63d07149f5712b299ab8e95172793b9 21856 youtube-dl-el_2.6.orig.tar.xz
+ e1c20466b441f07cff50889bbceb12e6e6073e622080edaf1a047ca5cd15bca0 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
 
