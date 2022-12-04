@@ -1,8 +1,8 @@
 Package: emacspeak
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 5062b571538cc56fed7661e8e0338d20 1327 emacspeak_50.0-15buster1.dsc
- c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 1dddae2ee2a55ec1dec0659d265eb1d4 171011 emacspeak_50.0-15buster1.diff.gz
+ c21874605757969a3892ec2a1bc8c829 1356 emacspeak_50.0-18buster2.dsc
+ d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
+ 17d6a8aad2709bc895e6ba806f7b312a 135888 emacspeak_50.0-18buster2.debian.tar.xz
 Checksums-Sha1: 
- b037803542256ce43834e26aa81aed732e6c17d1 1327 emacspeak_50.0-15buster1.dsc
- 61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- a3f5837d14fb65d4bbeb9edf5941f53427f52c80 171011 emacspeak_50.0-15buster1.diff.gz
+ 83f9a18495ea4612d2b13bd1887673df47ccf64f 1356 emacspeak_50.0-18buster2.dsc
+ 86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
+ ec7794424d6adea89a8f1cead3b2cea6a807ca9a 135888 emacspeak_50.0-18buster2.debian.tar.xz
 Checksums-Sha256: 
- 37c3e488fec178471dc88ad77162d2a3bc349ded7284454b6a7a35aca89c4803 1327 emacspeak_50.0-15buster1.dsc
- 5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- af930072f147469ebefe38e9eeb5b12482f92e3be0eaf7ab50ffbe23a8bb346d 171011 emacspeak_50.0-15buster1.diff.gz
+ 4237a6ce44966a5201794f4b6f77c79edae681bc557b9dc053fb0c3a9475b419 1356 emacspeak_50.0-18buster2.dsc
+ 6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
+ f701daa8126b4cb9e182f44ec95ec7cc726fbf4c5efca6b7881a9e40dd22386b 135888 emacspeak_50.0-18buster2.debian.tar.xz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.3-1buster1
+Version: 3.7.4-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 16aef3c1364f0106922404dd7e708260 991 rulex_3.7.3-1buster1.dsc
- 442dd2b0906398786fa92778d4dfd9fc 2302956 rulex_3.7.3.orig.tar.xz
- 5f4665b4ad0f89eb442e4d9eec9b8057 4452 rulex_3.7.3-1buster1.debian.tar.xz
+ b02f82bfe8292bd768d134b6296e1654 991 rulex_3.7.4-1buster1.dsc
+ 2711f1327b660e1b4060d9948f23dd7e 2301052 rulex_3.7.4.orig.tar.xz
+ 3a9ccf91ff58f2988cf96e243f97155b 4580 rulex_3.7.4-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 374888eb0acceeb76283fa7195fe95278fe7c5ea 991 rulex_3.7.3-1buster1.dsc
- 4178e5d9376bf89d2c851d7a9bb7bf7c79a7b96e 2302956 rulex_3.7.3.orig.tar.xz
- 4aaa1d1641e44ad3264fcb8e51bc283c0b84217d 4452 rulex_3.7.3-1buster1.debian.tar.xz
+ 9c54f4c90f01c576fefb790210a348a9663249a6 991 rulex_3.7.4-1buster1.dsc
+ c49e3d8991718e0bfa02d78c5d90cc7ecd3ce455 2301052 rulex_3.7.4.orig.tar.xz
+ 77df5dadda42b87f5e48627250607ecfa6003dee 4580 rulex_3.7.4-1buster1.debian.tar.xz
 Checksums-Sha256: 
- cfdf4ce15fb6665c1e877dd420e8d4f3925032d0f2c6824d75101d1361f6b3d7 991 rulex_3.7.3-1buster1.dsc
- d6fb12778f990f1e10e37586eb3049cdc35ea0cf07dda0d35b71ca26ef52afc8 2302956 rulex_3.7.3.orig.tar.xz
- 953883ea41e42f5c93ee7d97f102c39656023c5702169c61213514a647be01f1 4452 rulex_3.7.3-1buster1.debian.tar.xz
+ 05fac4ebd63a1f347d69359e61ad447fa024007ea7cd6bfc92a4a458bb12d152 991 rulex_3.7.4-1buster1.dsc
+ d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
+ a76583dca71042ba62e9e923cd2e0d55fbcdd3db3083f80e688bb6e4c8393367 4580 rulex_3.7.4-1buster1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.6-1buster1
+Version: 2.7-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 4.3.0
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- a8f25ba000a5302f2c18d8f60c00c1f4 891 youtube-dl-el_2.6-1buster1.dsc
- 351ea1db50faa7b88eb07b06db481f97 21856 youtube-dl-el_2.6.orig.tar.xz
- dcdba8c9a71272ce625616be54fe084a 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
+ 3a85ed14ddd4499e1947b78810b360f1 891 youtube-dl-el_2.7-1buster1.dsc
+ eabe4fed3c8e55a6269afc0b7a78ae56 21876 youtube-dl-el_2.7.orig.tar.xz
+ a064825f15eb708d980772a49db6ea12 4336 youtube-dl-el_2.7-1buster1.debian.tar.xz
 Checksums-Sha1: 
- e8ca6e296c3477e0af37ccdd737eaa4019626d52 891 youtube-dl-el_2.6-1buster1.dsc
- 744cbc848f44872db94ee46e1d0cdb4058456055 21856 youtube-dl-el_2.6.orig.tar.xz
- 47dc65eca57981b4bab6701369c4622af9087750 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
+ 3e474235467da07f86addf15ff0ac0444dd18ad0 891 youtube-dl-el_2.7-1buster1.dsc
+ 5c752cd2745d2ec0c9d425119e8f513f3ac8db09 21876 youtube-dl-el_2.7.orig.tar.xz
+ 05b3c5a375a5af77646ece70f63f6d537abe4936 4336 youtube-dl-el_2.7-1buster1.debian.tar.xz
 Checksums-Sha256: 
- 25ea5d1b91ca2dfe01d24314b6aef035860847bde8b8b869bd08dd3125b6f4b9 891 youtube-dl-el_2.6-1buster1.dsc
- 2a511da71dce1d659c3377c4da3c3c62c63d07149f5712b299ab8e95172793b9 21856 youtube-dl-el_2.6.orig.tar.xz
- e1c20466b441f07cff50889bbceb12e6e6073e622080edaf1a047ca5cd15bca0 4264 youtube-dl-el_2.6-1buster1.debian.tar.xz
+ 3322722ecda8aa314be58a4afb98426c66aa486403d2416ef7ce2eb7e9305503 891 youtube-dl-el_2.7-1buster1.dsc
+ e0368fc40df6ceab16f4311b8092697925ddac25f7aebabd3d3ab69d6755f2bf 21876 youtube-dl-el_2.7.orig.tar.xz
+ 372e0d5f5b724f1765d7a79fd9f5f86cb624fdac031685ec763affe2a8c5b2e3 4336 youtube-dl-el_2.7-1buster1.debian.tar.xz
 

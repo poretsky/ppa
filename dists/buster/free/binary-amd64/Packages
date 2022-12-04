@@ -1,8 +1,8 @@
 Package: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 10460
+Installed-Size: 10426
 Depends: emacs (>= 1:26.1~), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
 Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-15buster1_all.deb
-Size: 3392012
-SHA256: 512221289fac6903e33c09f8ee6769095425bf8dcc01650844e75c68720d6001
-SHA1: c9fa79c1629ce3833d8d7e146b657582cb0a3bd3
-MD5sum: 6c6393147000870a6384f4cb275969de
+Filename: pool/free/e/emacspeak/emacspeak_50.0-18buster2_all.deb
+Size: 3471240
+SHA256: a371a4814decb3a710ffb3bf31ff64a5093e9ed3f45f77593f1afd1390d8d708
+SHA1: dc053d6b63a83b96b816538cc47d4140edce51ed
+MD5sum: b4ffb758a40419eb425bf4199d5e7293
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-15buster1_all.deb
-Size: 2991460
-SHA256: 94b443535bc2c7588894e246a4a97d24ae0946a6040cf5ba2b313189f3915669
-SHA1: edbe0a9304c1c2a5fd039c6191b757f34af94efc
-MD5sum: 3b6c6f371513b49f9b56dcbb16e71d0a
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-18buster2_all.deb
+Size: 2991452
+SHA256: e7c00b7a7ba0544d8e6bbbd2d9249388cbcbdea4fd72bb240fc1d418b4dd4e89
+SHA1: ab12f2c016c6dde8cd043d5fa593ad767cb4f135
+MD5sum: 34891055b50c51eda956bdde86c0737d
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,20 +56,20 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 6594
+Installed-Size: 6583
 Suggests: emacspeak, www-browser
 Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-15buster1_all.deb
-Size: 1467140
-SHA256: 34bebeba2dfbafe8cbf67a21c0bd6c0520057a145205c4fd7045777f0c29af7b
-SHA1: c1da7bdd10437a904233eb90529cea980227b478
-MD5sum: fe96b9f604a7d1c81df40c32018cb817
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-18buster2_all.deb
+Size: 1454784
+SHA256: 1ca9a22543688b44a9561d1e6d4134b1749c1d389d5d911bf3b2c18e98f93f95
+SHA1: dbb8f499d2e009ac0f4d6fdf02ace07c9242f230
+MD5sum: 72c9c1c095bfdb93d3721c9e6800b3f4
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 114
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-15buster1_amd64.deb
-Size: 40228
-SHA256: bec3379e2ca7e87e80c138ae1662e77a9283613d21717ffe3dafe1ff2bbc400c
-SHA1: b788eda0f51ddc8a9872c56da0379586ff05b0c9
-MD5sum: 486398861ac72f3531464ed23a9522fb
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-18buster2_amd64.deb
+Size: 40408
+SHA256: 165c48a8c2586cfc8b86a3ad51ed718b4de2b1c79a363fa23ee32d7975f948e6
+SHA1: 6cc03cba0b2c1b3d3fbb76b18be338f001babca6
+MD5sum: 24f00b9018bd99028e75ae5e355ddfbb
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 144
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-15buster1_amd64.deb
-Size: 42968
-SHA256: 152be24f1acd65fc472e34923abc8d576855723951f5c1638cde84aa9b78b96b
-SHA1: d1847bee7c44f7f1c65a9c33246089a84f20fcda
-MD5sum: ad360486966300246f7fb148ce6ff264
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-18buster2_amd64.deb
+Size: 43104
+SHA256: 8520275fd827690ec456972480bbf9ac1bcc56bf3627cffa830d508975429ea0
+SHA1: 4d969165ba25e0ae6dccf6e1651d1ce89a845067
+MD5sum: 8291904bceef9ebcd9d6c298928a2176
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-15buster1
+Version: 1:50.0-18buster2
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-15buster1_all.deb
-Size: 3734264
-SHA256: 26251a85f309f114cb7d086d9c898a7c6e6b7c2d38f9ad685cf51e1df1702f2d
-SHA1: 000c451056845f860e66ce8654e6777e66cea36c
-MD5sum: 70dd787a06162b02e70e911612482176
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-18buster2_all.deb
+Size: 3736272
+SHA256: e74c31329388769a710740bcc91294eb6cceabbd75c4d0708ebb01caf0bb8fba
+SHA1: 153190ed4f2f8c19be11250d9c8f5277e66304b4
+MD5sum: 78844b955b346c6f0a25b300651b7cb9
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
@@ -221,37 +221,37 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.3-1buster1
+Version: 3.7.4-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 69
-Depends: librulexdb0 (= 3.7.3-1buster1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.4-1buster1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.3-1buster1_amd64.deb
-Size: 30012
-SHA256: 54e20951a5eb48dde040a7977cdb0de8f616329b662a53eee1572e221306a7ae
-SHA1: d12e0897f05ae89f1dacc36402b9bdfd1ec47f13
-MD5sum: c4515d4fa3df94d2294761621d77fd84
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.4-1buster1_amd64.deb
+Size: 30112
+SHA256: 64e317458eadb26b4f6a27fed2895decae14544fc5cbeafc47a5c3d83673bbeb
+SHA1: 379dcaeda037bb384129303e8a60629af03a4ead
+MD5sum: d7e13993f2f9d854b17b5bd516480dd9
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.3-1buster1
+Version: 3.7.4-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 36
 Depends: libc6 (>= 2.3.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.3-1buster1_amd64.deb
-Size: 12180
-SHA256: c361baa3acb34bb071624029d48cf002ccd98ec9a9210b9a714789f973398211
-SHA1: baf54867b7ce82550321c4e052f0f6bab655b60f
-MD5sum: 124c54d9c4acb5de44b4faf10f12d3af
+Filename: pool/free/r/rulex/librulexdb0_3.7.4-1buster1_amd64.deb
+Size: 12276
+SHA256: cddfb0327552518c3b95841434c52fcf6e1628ee34dc92ef695d972b6b370b13
+SHA1: d5f864c1a3d73e1d64c6a1fb47b92fea5ac9d98f
+MD5sum: 1cbf390a1b5d2793801ff787403def48
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
@@ -378,7 +378,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.3-1buster1
+Version: 3.7.4-1buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 72
@@ -386,11 +386,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.3-1buster1_amd64.deb
-Size: 29296
-SHA256: ca24d0af58af4455c1c832e804862ce141488b8e63f5eba20a026306371c4b8f
-SHA1: 3d3c4f56b29e248c88e2449724de719f77efa86f
-MD5sum: eee035399268b30cd3da579f5f59a63f
+Filename: pool/free/r/rulex/rulex_3.7.4-1buster1_amd64.deb
+Size: 29388
+SHA256: d1e82d3a9f8e99693c4e55b8eb064a942a1d5e9efc1490f37d4080283f7ddd2d
+SHA1: c2a47c5a75a3eaa0b0ea63f8577ea55f8b279c4a
+MD5sum: ab6cf5a3199ec09a19b9f06085ed6630
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -402,21 +402,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.3-1buster1
+Version: 3.7.4-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2303
+Installed-Size: 2263
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.3-1buster1_all.deb
-Size: 745756
-SHA256: 0ea34e00ee2c09aa2a2f7cf0259b9b18db555ed2a81d0c3b56f36fd181c2b8e0
-SHA1: 0a9286688c51ac00cbfd79f6f12bfce11287db89
-MD5sum: fedf04fd73309b1fec3537c7fbe31745
+Filename: pool/free/r/rulex/rulex-data_3.7.4-1buster1_all.deb
+Size: 742208
+SHA256: 36ead102a37f2283226cd1173e124058b98c84902f2d7bfaa81323cad32b3d0a
+SHA1: dfbeff45dda74881f07079a681856f69bd42a7b2
+MD5sum: 7e3d6ff16da2bf8b638ca174daf4294a
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts
@@ -476,7 +476,7 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 2.6-1buster1
+Version: 2.7-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 102
@@ -486,11 +486,11 @@ Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.6-1buster1_all.deb
-Size: 19108
-SHA256: c3a993bd23b387db3bf8a099391cd39757d90d058a268f2cbc572871d3a986bb
-SHA1: 159fddab353342c0c39eefe4fcee2732e833586b
-MD5sum: 9b075ce7979e4ee1d2f0064dd2027ec6
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_2.7-1buster1_all.deb
+Size: 19236
+SHA256: a7b24cb2016e039b1aff4ee2dbae5d1056cf17ecd252f4276b9e374df6e1dd03
+SHA1: f12644b8661ee570f182760072c0d1251142cd56
+MD5sum: 6ff4100d61fb8fa9236d84654233f6f3
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.

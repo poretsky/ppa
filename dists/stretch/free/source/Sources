@@ -1,8 +1,8 @@
 Package: emacspeak
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-15stretch1
+Version: 1:50.0-18stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -19,17 +19,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 4a227dfe86aeeed91b19dbd713482d1b 1313 emacspeak_50.0-15stretch1.dsc
- c4d078771e0ebd73e56680ba1d8ffe33 15270948 emacspeak_50.0.orig.tar.gz
- 04ced71b45d420241c9efbefda316d92 159342 emacspeak_50.0-15stretch1.diff.gz
+ f8ca10a88b0260dc02d563aaeb03c477 1342 emacspeak_50.0-18stretch1.dsc
+ d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
+ 6de43eff8175a4acd8c00f0f8f596cc0 132268 emacspeak_50.0-18stretch1.debian.tar.xz
 Checksums-Sha1: 
- 759b7cc909fa7a27d75eb348d8e0b87ea6c3f403 1313 emacspeak_50.0-15stretch1.dsc
- 61ac6f3bf6bc5e1f9d7c5b418ebde0d58d1b413d 15270948 emacspeak_50.0.orig.tar.gz
- b36f33c69af4e2bdaa9fdee381dda9a733d7a5d1 159342 emacspeak_50.0-15stretch1.diff.gz
+ f4cd6e7202dbbc87712be621e5499f6db17f45fd 1342 emacspeak_50.0-18stretch1.dsc
+ 86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
+ 30f75711adbf0f87c18ab7148cbc18d331a4a1e6 132268 emacspeak_50.0-18stretch1.debian.tar.xz
 Checksums-Sha256: 
- 6373d58e38d37636771ef317d8d03f57108efcb66ef57782e27a6624ede5ab71 1313 emacspeak_50.0-15stretch1.dsc
- 5b1e2362f3cb01cc890226776157ca7b139927e3f65583593d55848197d48b85 15270948 emacspeak_50.0.orig.tar.gz
- c4be2e7652badae45edea500462aff7c604fd2f486861ec11325c7ce89192505 159342 emacspeak_50.0-15stretch1.diff.gz
+ 45d21bb0cfdfa9bcefc22912303819b53f933cadbfe7d10797f13ac9f6d954ae 1342 emacspeak_50.0-18stretch1.dsc
+ 6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
+ a26d7edf6e4beec6daa757123d448d68aff891520446da341f1f61457eb4e6e8 132268 emacspeak_50.0-18stretch1.debian.tar.xz
 
 Package: freespeech
 Format: 1.0
@@ -135,7 +135,7 @@ Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.3-1stretch1
+Version: 3.7.4-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 80ce684dea0c6cc38bd1ee4e10c7d22d 995 rulex_3.7.3-1stretch1.dsc
- 442dd2b0906398786fa92778d4dfd9fc 2302956 rulex_3.7.3.orig.tar.xz
- 87392f902dfe9af9993b4bc708111f8a 4500 rulex_3.7.3-1stretch1.debian.tar.xz
+ 298577ec7cdc49d0152ab1cf5f1170ef 995 rulex_3.7.4-1stretch1.dsc
+ 2711f1327b660e1b4060d9948f23dd7e 2301052 rulex_3.7.4.orig.tar.xz
+ 0800d5a0ba5a539f7fc38c97a1618662 4628 rulex_3.7.4-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 31cad6cba2c763e4b4fdb27617f4e86b4a88fa5a 995 rulex_3.7.3-1stretch1.dsc
- 4178e5d9376bf89d2c851d7a9bb7bf7c79a7b96e 2302956 rulex_3.7.3.orig.tar.xz
- 2423cfd46339efddbeed310f3b83a73130f53ea9 4500 rulex_3.7.3-1stretch1.debian.tar.xz
+ 6ae224e76b3b96c2135046f7acfef00e4bb8b7b5 995 rulex_3.7.4-1stretch1.dsc
+ c49e3d8991718e0bfa02d78c5d90cc7ecd3ce455 2301052 rulex_3.7.4.orig.tar.xz
+ 57365bcab78dee9fff2d22d7adc9e93e1312ed37 4628 rulex_3.7.4-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- c7a06dfa3a55f2386378918c0892280cfa5ef25a2dc71b99d5d915989f1bbfe1 995 rulex_3.7.3-1stretch1.dsc
- d6fb12778f990f1e10e37586eb3049cdc35ea0cf07dda0d35b71ca26ef52afc8 2302956 rulex_3.7.3.orig.tar.xz
- 4884bf9a5aba77e0c6cfe0f40dc06105650e36ba26e29ddf5c460e3b5b015d70 4500 rulex_3.7.3-1stretch1.debian.tar.xz
+ adb9cb6039c6ddf93f91f013c8d4440824f77e1a8b1d2584221a14ffe459eec6 995 rulex_3.7.4-1stretch1.dsc
+ d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
+ 74b24c22a8be54ee1804c8dece58d370e2218ebc0e1bf4487a642ece8af71ea2 4628 rulex_3.7.4-1stretch1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0
@@ -191,7 +191,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 2.6-1stretch1
+Version: 2.7-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -202,15 +202,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 04976261ef37dc8135a45987ffc21cae 895 youtube-dl-el_2.6-1stretch1.dsc
- 351ea1db50faa7b88eb07b06db481f97 21856 youtube-dl-el_2.6.orig.tar.xz
- 9a2ef5c665a6452c66c68dbb55d3b44a 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
+ c86cdf766ebae284d73869fead4e4dda 895 youtube-dl-el_2.7-1stretch1.dsc
+ eabe4fed3c8e55a6269afc0b7a78ae56 21876 youtube-dl-el_2.7.orig.tar.xz
+ ec7007e37eee33c478579cc2927989fa 4316 youtube-dl-el_2.7-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- ab1fb19fee1038a783ba07d567d15f21f692c7d1 895 youtube-dl-el_2.6-1stretch1.dsc
- 744cbc848f44872db94ee46e1d0cdb4058456055 21856 youtube-dl-el_2.6.orig.tar.xz
- 0aa42472b346b83674e371b0a258cb9d130f5606 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
+ 7fd163f4bac5889ab73174dea53e5ded1e8d59f3 895 youtube-dl-el_2.7-1stretch1.dsc
+ 5c752cd2745d2ec0c9d425119e8f513f3ac8db09 21876 youtube-dl-el_2.7.orig.tar.xz
+ 54b83b88779a12fc2edb453d96996cffce13f907 4316 youtube-dl-el_2.7-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 87b1959cdd3693bc870faee5e5e456f289a98205017501247eaede4bfabd2784 895 youtube-dl-el_2.6-1stretch1.dsc
- 2a511da71dce1d659c3377c4da3c3c62c63d07149f5712b299ab8e95172793b9 21856 youtube-dl-el_2.6.orig.tar.xz
- 0ebd31c66dcacb6672066b350524ad4b302e2cb1406b544e7b65e586eab48e7d 4248 youtube-dl-el_2.6-1stretch1.debian.tar.xz
+ 2587fad25be3e9f987d56404fceb562f18e4ae59013e0d4e89386981dc018466 895 youtube-dl-el_2.7-1stretch1.dsc
+ e0368fc40df6ceab16f4311b8092697925ddac25f7aebabd3d3ab69d6755f2bf 21876 youtube-dl-el_2.7.orig.tar.xz
+ 9a0182589665146b6c1541269180ce1391f4868d6b0e546036983761cbcb8864 4316 youtube-dl-el_2.7-1stretch1.debian.tar.xz
 
