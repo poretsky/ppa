@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 3.0 (quilt)
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-18buster2
+Version: 1:50.0-19buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- c21874605757969a3892ec2a1bc8c829 1356 emacspeak_50.0-18buster2.dsc
+ ad1827d80da875f1bd79740538fed26b 1356 emacspeak_50.0-19buster1.dsc
  d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
- 17d6a8aad2709bc895e6ba806f7b312a 135888 emacspeak_50.0-18buster2.debian.tar.xz
+ 82bcc12872fcd795ba2a174e205489a5 135888 emacspeak_50.0-19buster1.debian.tar.xz
 Checksums-Sha1: 
- 83f9a18495ea4612d2b13bd1887673df47ccf64f 1356 emacspeak_50.0-18buster2.dsc
+ fe4fd1e1b18db02a61122679c22b0dd9623b477f 1356 emacspeak_50.0-19buster1.dsc
  86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
- ec7794424d6adea89a8f1cead3b2cea6a807ca9a 135888 emacspeak_50.0-18buster2.debian.tar.xz
+ 79c54c66abb9b1df6097464674fe2c84de2217e2 135888 emacspeak_50.0-19buster1.debian.tar.xz
 Checksums-Sha256: 
- 4237a6ce44966a5201794f4b6f77c79edae681bc557b9dc053fb0c3a9475b419 1356 emacspeak_50.0-18buster2.dsc
+ 0f874ee5d360ae2c95c99de0125d6e83880c5b38dcd3ebfce0c4fda0fe4129d4 1356 emacspeak_50.0-19buster1.dsc
  6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
- f701daa8126b4cb9e182f44ec95ec7cc726fbf4c5efca6b7881a9e40dd22386b 135888 emacspeak_50.0-18buster2.debian.tar.xz
+ a806aebfa94ad77a3aba5f94ac6a2f27395058ef8f3a3de45476b34053d91dc0 135888 emacspeak_50.0-19buster1.debian.tar.xz
 
 Package: freespeech
 Format: 1.0
