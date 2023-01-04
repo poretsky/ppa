@@ -6,22 +6,22 @@ Label: accessibility
 Suite: debian
 Codename: stretch
 Version: 9.0
-Date: Sun, 11 Dec 2022 20:01:18 UTC
+Date: Wed, 04 Jan 2023 13:29:59 UTC
 Architectures: amd64 i386
 Components: free non-free
 Description: Accessibility packages
 MD5Sum:
- 7bb901dad714b83a583737a6378673e7 22448 free/binary-amd64/Packages
- f922b08531a9f02d4391989d2fd1630a 6396 free/binary-amd64/Packages.gz
- 5bf8c7e3b3dc21deb07f51d4297dab95 6380 free/binary-amd64/Packages.bz2
+ 5a25d31fff85dd95f73418f92193d42a 23690 free/binary-amd64/Packages
+ 5e4895b3bbe5104ae8c237ed00334fbc 6888 free/binary-amd64/Packages.gz
+ 9f3e1abca50c6937981e45084b0d8310 6778 free/binary-amd64/Packages.bz2
  d6dc17d1b9aed7b6bb349f7cdc653d31 139 free/binary-amd64/Release
- 32b94d5d40cee17b101f0c9a7ed314bd 22420 free/binary-i386/Packages
- da4c8c4c3d95c49138d921176e72b332 6396 free/binary-i386/Packages.gz
- c26203f9d6a5a2c7f4058aa629153415 6356 free/binary-i386/Packages.bz2
+ 5a05c768d51665a92be772c94029339b 23662 free/binary-i386/Packages
+ 187d58054e4c861973116d3ecb985826 6890 free/binary-i386/Packages.gz
+ 33188c7671463c28b35510abde6de152 6764 free/binary-i386/Packages.bz2
  cee53bfb163b5b685e71f22cf22ea95b 138 free/binary-i386/Release
- be00d234048f61152cba8c229c55e9d9 9560 free/source/Sources
- c6da7ba50c205e52bb9c089b6f59a9d3 3234 free/source/Sources.gz
- d4489ba22ffe6730f0968a5f3a566aef 3213 free/source/Sources.bz2
+ 538a03a2d1e13ae1a81e952770033d86 10850 free/source/Sources
+ 1c4e065b999c2e93c3f685bc51270e24 3600 free/source/Sources.gz
+ 48e16cb873cea6a2973c2a11c4c4d715 3603 free/source/Sources.bz2
  220b5690c7da645d472a32e094163754 140 free/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
@@ -35,22 +35,22 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  4059d198768f9f8dc9372dc1c54bc3c3 14 non-free/source/Sources.bz2
  a9bd2180c3f2518a7db25a64ab0352f3 144 non-free/source/Release
- 72c1cc73df62860faad34ab1f60276cd 123791 Contents-amd64
- b28e9e075352f66e9eb84345a7e65df5 10329 Contents-amd64.gz
- 72c1cc73df62860faad34ab1f60276cd 123791 Contents-i386
- b28e9e075352f66e9eb84345a7e65df5 10329 Contents-i386.gz
+ 7b75dde317c35fd18fc5a7fc13479d51 124731 Contents-amd64
+ 27b334eca2405ac3508bab2c2faa050c 10434 Contents-amd64.gz
+ 7b75dde317c35fd18fc5a7fc13479d51 124731 Contents-i386
+ 27b334eca2405ac3508bab2c2faa050c 10434 Contents-i386.gz
 SHA1:
- 4ccaf520a25bef9096e0cc1599172c0cc905e326 22448 free/binary-amd64/Packages
- fe4b54e99d19b95390f59151da53986dc7b6389f 6396 free/binary-amd64/Packages.gz
- 0e86e08898007a181eb7452bfe17168a8a7af16c 6380 free/binary-amd64/Packages.bz2
+ 283e7f7560aeeb315986916ce72eab1b4ff159d0 23690 free/binary-amd64/Packages
+ 7324a544928b8eb92eb92fea3ddeafed91cb4194 6888 free/binary-amd64/Packages.gz
+ caaec55945744c658df3f73e226f96910891ac42 6778 free/binary-amd64/Packages.bz2
  8650f7bbca8100630d60721072f7c0b582611788 139 free/binary-amd64/Release
- aa9f474b715bdfc5a075368da86f6336cf033613 22420 free/binary-i386/Packages
- a6fbd669136c0100a4248904dc00f302b052653c 6396 free/binary-i386/Packages.gz
- 65f50f6940712474d6bbc100a90b95bcba5d01fe 6356 free/binary-i386/Packages.bz2
+ f997f432058e6188feb29cbab9a03ae4405ac554 23662 free/binary-i386/Packages
+ d5e5dbf4a26790c74dd61d414210b45dd8d1ed64 6890 free/binary-i386/Packages.gz
+ eed49014107f16457b5d3b872e7f8f5463949c66 6764 free/binary-i386/Packages.bz2
  69fe704bd2c1470ccb6c6bb811c27c2d5cfe1843 138 free/binary-i386/Release
- 1c30c26eb77634645dfab1d2cdbc2e852a0d2e92 9560 free/source/Sources
- 546de95adce19520942d8c33a2a1a7c5e2503480 3234 free/source/Sources.gz
- f40cf300d2e7fce7fde94ded659474bceecae509 3213 free/source/Sources.bz2
+ d0f840e9d3183cb4962b3c9a4f26ef23178df6e0 10850 free/source/Sources
+ 250288d597330ccab05132eb05173d736ebee536 3600 free/source/Sources.gz
+ e6960682461144dfc9e44c53912d78d8c0d0cd28 3603 free/source/Sources.bz2
  f32590b987bb781b51180c156c0966301ec66892 140 free/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
@@ -64,22 +64,22 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 non-free/source/Sources.bz2
  4d1fdbf565dd3a1d053a61a38319e6872a0b74bb 144 non-free/source/Release
- 1d3bfd044202a59c089b5772048bdb9715f9d7e3 123791 Contents-amd64
- 812fe91f5eeb2af8355246bd85f06c9db3bd304e 10329 Contents-amd64.gz
- 1d3bfd044202a59c089b5772048bdb9715f9d7e3 123791 Contents-i386
- 812fe91f5eeb2af8355246bd85f06c9db3bd304e 10329 Contents-i386.gz
+ a6e8a77e8b7a5b2f9970909457f5df8313025d57 124731 Contents-amd64
+ 50032a7bc108ffb5f25a5f3f7a6c28b5ccb01101 10434 Contents-amd64.gz
+ a6e8a77e8b7a5b2f9970909457f5df8313025d57 124731 Contents-i386
+ 50032a7bc108ffb5f25a5f3f7a6c28b5ccb01101 10434 Contents-i386.gz
 SHA256:
- 5f952b2bd7ca5bc3eda91f6cc2d8469346661dae81559ce063b919444b020ca6 22448 free/binary-amd64/Packages
- 122c4577fa52b4aaaa67db8c537645278c3208347fdacfaa5206485a73b150b8 6396 free/binary-amd64/Packages.gz
- adddb4ca99ce7364308961f410f6cae81dafa6d2a0b1dd1b800bfe51d1d77eb4 6380 free/binary-amd64/Packages.bz2
+ a8e59cd907727763d5c05f871953fabd2d6b3454a9455a479960a8bc397e5351 23690 free/binary-amd64/Packages
+ 0cafdff369d49a79928270c5e5ecd7cde0561ae33440778d4e18d8accef988d5 6888 free/binary-amd64/Packages.gz
+ 62af23daac87c1b5495d403a6f3d3af9fd0b29be640a21c99cab168d82a954c6 6778 free/binary-amd64/Packages.bz2
  35f8c0827befc0b21dd39e5a85025ba32902246917b1a66cf84787344338cf38 139 free/binary-amd64/Release
- 7f8cc9d96937c230a5510a774476d240299b825d38d4a9390f8f1802826bfafc 22420 free/binary-i386/Packages
- cd88b93e9b0cb84758d55be764ed51663ae0ea35339d290f8ce9e1df62577d9e 6396 free/binary-i386/Packages.gz
- 5acdc1ceed12c04e20f7d787688955efe3f8ea0ed3358e8764d8675eb83fe0bc 6356 free/binary-i386/Packages.bz2
+ 4decc81dbf30a9f6c31ad0934fa3af95386663a4c33c5d1dc60a978f3e73cb2f 23662 free/binary-i386/Packages
+ 257417803ef1bf83a5c2686a8923e7070a8372b630f34246893030df9674ac2a 6890 free/binary-i386/Packages.gz
+ b7c9625bb81e9c0694882081ded59cc6e386b313b2796be70a5100ef131f0605 6764 free/binary-i386/Packages.bz2
  33e66190b5eae89fa73fe30c5f27f954ce5c70ed0e323fade845595847d78bc4 138 free/binary-i386/Release
- cdf66af7b88d97cc0adbfda6bb83a7d4a5cf7ecb1595693fd38d73553187b21d 9560 free/source/Sources
- 7ef466bb114ca60dc38933256f5b301cdbf91df76a94aaed9e5fdc6f1d7cc326 3234 free/source/Sources.gz
- 455ae711ef6b746a5324439eb8e540b145532e1e47f9876f9cf0e52889c31e14 3213 free/source/Sources.bz2
+ 6d658fdcb02ea4a8c4fa80cbd55bf3e4a2e542f991f0fa137978f8dc79721397 10850 free/source/Sources
+ 548dd776c860d8e0bccaa45ef626637815b4cd10d88b4fe978156d82fbafbe8a 3600 free/source/Sources.gz
+ 442bce48a5031c39e1525226784c7500f0cbfb1bd07ccbd8d6aabffcdb896765 3603 free/source/Sources.bz2
  22fc6d058f3e7e0a1dfc1083d94d05e4cd34f94889ce91e0a92c67b5ce4dda7b 140 free/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
@@ -93,14 +93,14 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/source/Sources.gz
  d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 non-free/source/Sources.bz2
  a58b0b243eeeab0d1887ba41496339166e82f4e2f7897fe411f11a01f21df39c 144 non-free/source/Release
- d29e404659ae0a108fde04449af9e6ede3814fa07a096cd19f850f5f2350ca38 123791 Contents-amd64
- aee127284277efe40fbc28fb1e300555a20dcfbabe68434290805c2cca19b180 10329 Contents-amd64.gz
- d29e404659ae0a108fde04449af9e6ede3814fa07a096cd19f850f5f2350ca38 123791 Contents-i386
- aee127284277efe40fbc28fb1e300555a20dcfbabe68434290805c2cca19b180 10329 Contents-i386.gz
+ 8927fa94a8ef1ec42fde2f1b095731a2f674e220064266aa9503dba87caeefb3 124731 Contents-amd64
+ 351e222ca6e634611cccb728ff1538f1e64164b0f500a8d37e237b388f5721f4 10434 Contents-amd64.gz
+ 8927fa94a8ef1ec42fde2f1b095731a2f674e220064266aa9503dba87caeefb3 124731 Contents-i386
+ 351e222ca6e634611cccb728ff1538f1e64164b0f500a8d37e237b388f5721f4 10434 Contents-i386.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iEYEAREIAAYFAmOWNw8ACgkQ/ytogf9LBB8usgCgitbwWpcpLDAM+DG+3WuMgqAx
-Ui4AnjAVLOwkfGg9pKD0/jsLT33gU2uu
-=iLF/
+iEYEAREIAAYFAmO1f1gACgkQ/ytogf9LBB8PfgCeJH8W4IPd2waA7thuTPh5ICs2
+78oAn10U1C7mQFryVf2MUWEmACZT0jmQ
+=gv/z
 -----END PGP SIGNATURE-----

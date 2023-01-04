@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 3.0 (quilt)
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-19stretch1
+Version: 1:50.0-20stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -19,17 +19,17 @@ Priority: extra
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 318749bc42faf8a69aa75a0b6b115389 1342 emacspeak_50.0-19stretch1.dsc
+ ecb8eb7b707ac0314f8216296ff4b0aa 1342 emacspeak_50.0-20stretch1.dsc
  d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
- f8841bf88a750c6b25f6dd389f7311f6 131480 emacspeak_50.0-19stretch1.debian.tar.xz
+ d48c841dfd95c8d978196f02e22ff412 131884 emacspeak_50.0-20stretch1.debian.tar.xz
 Checksums-Sha1: 
- a953666cd6a7a3d116895f4350a38df3660cd773 1342 emacspeak_50.0-19stretch1.dsc
+ 0d37cd207b77e476cd7caf7614e9d8a6d1f8f43a 1342 emacspeak_50.0-20stretch1.dsc
  86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
- 244cbc71312938d3785490bf9bfd6f6b9263a424 131480 emacspeak_50.0-19stretch1.debian.tar.xz
+ 631f5754e1c01fdf8ea13172bd267cad9d7c4541 131884 emacspeak_50.0-20stretch1.debian.tar.xz
 Checksums-Sha256: 
- f29f891dddc4d768a074ac6e4d22a1507e16a73ec54b58b90440af0635fee054 1342 emacspeak_50.0-19stretch1.dsc
+ f6d80bdcf87b25b83619e7124122ff5638baa5dea3baa6a3bc0fb4f44ca26443 1342 emacspeak_50.0-20stretch1.dsc
  6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
- f3f94914356b4f358c24b3a370f9ad7c8d993d9cae641ee3aa039bac1820d58d 131480 emacspeak_50.0-19stretch1.debian.tar.xz
+ c2daddb5b4bb5308b9112aba42fb904eb3a697418d08267fe483b4b22566add1 131884 emacspeak_50.0-20stretch1.debian.tar.xz
 
 Package: freespeech
 Format: 1.0
@@ -159,6 +159,33 @@ Checksums-Sha256:
  adb9cb6039c6ddf93f91f013c8d4440824f77e1a8b1d2584221a14ffe459eec6 995 rulex_3.7.4-1stretch1.dsc
  d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
  74b24c22a8be54ee1804c8dece58d370e2218ebc0e1bf4487a642ece8af71ea2 4628 rulex_3.7.4-1stretch1.debian.tar.xz
+
+Package: transmission-el
+Format: 3.0 (quilt)
+Binary: elpa-transmission
+Architecture: all
+Version: 0.12.2-1stretch1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/holomorph/transmission
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), dh-elpa
+Package-List:
+ elpa-transmission deb lisp optional arch=all
+Priority: optional
+Section: lisp
+Directory: pool/free/t/transmission-el
+Files: 
+ f0e26a26406f3f39f6bde6405c5e83c0 948 transmission-el_0.12.2-1stretch1.dsc
+ a604716bdf838f7ad4d2243a9f7b82ce 117390 transmission-el_0.12.2.orig.tar.gz
+ 25768bd5d1a8f8b2a2b12948c2ff55ef 3004 transmission-el_0.12.2-1stretch1.debian.tar.xz
+Checksums-Sha1: 
+ 8e0bc2bd69a878aafee28ab17f8e480382006b28 948 transmission-el_0.12.2-1stretch1.dsc
+ fd9aa552babfddf65a82ab83b5707c2238c7bf25 117390 transmission-el_0.12.2.orig.tar.gz
+ 09d869edde4e3a94f9093863ba715e71e950382a 3004 transmission-el_0.12.2-1stretch1.debian.tar.xz
+Checksums-Sha256: 
+ dd2583a88f251249b4db986ed7b3f71aa891e20fff439ea13b3065553d08b0c7 948 transmission-el_0.12.2-1stretch1.dsc
+ 84b3410d775ea2169cc3f7cc9f0f8eeba84b862215fdfceed0a3d8e16f5427ae 117390 transmission-el_0.12.2.orig.tar.gz
+ d789397e43a0e698c535460c4495916eec1b04ddd34a905cf1b6552c2490f028 3004 transmission-el_0.12.2-1stretch1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0

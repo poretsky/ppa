@@ -1,8 +1,37 @@
-Package: emacspeak
-Version: 1:50.0-19buster1
+Package: elpa-transmission
+Source: transmission-el
+Version: 0.12.2-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 10426
+Installed-Size: 136
+Depends: emacsen-common
+Recommends: emacs (>= 47.0)
+Suggests: transmission-daemon
+Enhances: emacs
+Homepage: https://github.com/holomorph/transmission
+Priority: optional
+Section: lisp
+Filename: pool/free/t/transmission-el/elpa-transmission_0.12.2-1buster1_all.deb
+Size: 31880
+SHA256: 3ee3357a42bc9900c62ed75c6e30562ca2bfcbc31f422c8f9e738bd9ef886d50
+SHA1: f264786a470251fdd22b88b52dad8f488f29d5c4
+MD5sum: 493d1b38d2177c85cfc6468c6b606487
+Description: Emacs interface to a Transmission session
+ This package provides an Emacs interface to a Transmission session. A
+ variety of commands are available for manipulating torrents and their
+ contents, many of which can be applied over multiple items by
+ selecting them with marks or within a region. One can add,
+ start/stop, verify, remove torrents, set speed limits, ratio limits,
+ bandwidth priorities, trackers, etc. Also, one can navigate to the
+ corresponding file list, torrent info, or peer info contexts. In the
+ file list, individual files can be toggled for download, and their
+ priorities set.
+
+Package: emacspeak
+Version: 1:50.0-20buster1
+Architecture: all
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Installed-Size: 10429
 Depends: emacs (>= 1:26.1~), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
 Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
@@ -11,11 +40,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-19buster1_all.deb
-Size: 3372492
-SHA256: ddb9e50508f20ff85aff76125aa2a8fbda4e0d7851ae538e632dcf4842597f15
-SHA1: 374ef774557921cd122a8722f0f56bf700bc69ab
-MD5sum: a54b464425ca3bfae50ebabd93cc0db9
+Filename: pool/free/e/emacspeak/emacspeak_50.0-20buster1_all.deb
+Size: 3472716
+SHA256: 1a92c151a3c6ce070af591890efa099b089aec26ca27d7d5e70866d179c4867a
+SHA1: f654da6d42e9bda88e08a60b4f1ee5ddda099530
+MD5sum: 8cb2988e5312a0a53811ba54ddec8074
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +62,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-19buster1
+Version: 1:50.0-20buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +70,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-19buster1_all.deb
-Size: 2986020
-SHA256: 8406dc7afa051b5732a8af3b969a774ad1b713cddcbaac9f58d3cae9024a2e82
-SHA1: 9eba6bbe249e76a3281eee8dee7b75e687aef98c
-MD5sum: 592f8b0a01cc311042a65b63d61abd31
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-20buster1_all.deb
+Size: 2991192
+SHA256: 86667157fa9c1f2a56db8d8d80b9d2990c21223e2a5ee57d91af61bc781b1fb7
+SHA1: 82df6fbad9898ffa1ed33450d64719c65242a419
+MD5sum: 7ca23f385413b82ac4f02012b6fc74dc
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,7 +85,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-19buster1
+Version: 1:50.0-20buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6583
@@ -65,11 +94,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-19buster1_all.deb
-Size: 1454824
-SHA256: 84bb130b593c0ff21361f4657acebc18d7da684f5e0cbfbec8a807add1c1174c
-SHA1: b32ede5d2241d55a55379031fc7d186367203ec0
-MD5sum: 1d250170b6b5e747c64109709c61d445
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-20buster1_all.deb
+Size: 1454928
+SHA256: 9eadd49f8bfca15d7592e7bc513a6c8572237a749313137b0454499926ce8267
+SHA1: 87df93ff355226ba91a072c8fc496ad94fb79900
+MD5sum: eedbdfb3f6390a523c41b298d0241ea3
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +108,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-19buster1
+Version: 1:50.0-20buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 114
@@ -88,11 +117,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-19buster1_amd64.deb
-Size: 40484
-SHA256: 26175f62e35f255a6682438f7afa7148323c3482eff1219d012e05c347ee3ca5
-SHA1: 82a72136fed3c9eb917984c0fd9f75ea140addb7
-MD5sum: 0db212e1b653cee7965ae6e0c8bb9476
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-20buster1_amd64.deb
+Size: 40520
+SHA256: 50aa3df0fb48bec9aced3a7f795472108f291343b2147b61ed62f15e0209c4d7
+SHA1: 96e1be20362e7d5ccc887d39dd537fd9726b7537
+MD5sum: cfc9e6fe54bded6fd4e1e117e2a68a72
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +131,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-19buster1
+Version: 1:50.0-20buster1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 144
@@ -111,11 +140,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-19buster1_amd64.deb
-Size: 43196
-SHA256: d5572d4d5ba43c97f0cc7959b98c16a432191bebc09f042e3b9375bb5bfb1aa1
-SHA1: 2649a6e9ffc85690bc0eb5048bb441243abfb9b7
-MD5sum: e39c6783bbc6c0d3653bd97838ad6ae3
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-20buster1_amd64.deb
+Size: 43224
+SHA256: d4b54e04fa698715c195ebc52d2ea94b997c28a54acc426894c50b5754ea1495
+SHA1: cdc999da7ec44b6a7dbc0282adaa83df0a2ea9c3
+MD5sum: d5a1c38cf88ecb02de97833fa9503808
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +154,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-19buster1
+Version: 1:50.0-20buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +162,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-19buster1_all.deb
-Size: 3737024
-SHA256: d0d85a21a9ad5fdd4688a1822f3d9a3a30280c2c5e2dd6acd55318ebbd8cce02
-SHA1: 20097675c2748612599f6f61b2e308c00971b241
-MD5sum: 98833d94b0ce15c43906b6b784d28045
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-20buster1_all.deb
+Size: 3736284
+SHA256: 8bab2d667efa1030d88f7bf62006be5beead175fe40127f00c8c29edf3ba059e
+SHA1: 5f30d517a73c50693c738371f9e9e28ee7b2439a
+MD5sum: ed6c46b01f0ddb667f8262ca623ba3ec
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.
