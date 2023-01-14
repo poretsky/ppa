@@ -1,0 +1,7 @@
+Archive: debian
+Version: 11.0
+Component: non-free
+Origin: poretsky
+Label: accessibility
+Architecture: i386
+Description: Accessibility packages

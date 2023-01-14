@@ -1,0 +1,216 @@
+Package: emacspeak
+Format: 3.0 (quilt)
+Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
+Architecture: any all
+Version: 1:50.0-20bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: http://emacspeak.sf.net
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10), po-debconf, libespeak-dev, tcl-dev, libasound2-dev
+Build-Depends-Indep: texinfo, texlive-latex-base, texlive-fonts-recommended, xsltproc, docbook-xsl, csound
+Package-List:
+ emacspeak deb editors optional arch=all
+ emacspeak-classic deb sound optional arch=all
+ emacspeak-doc deb doc optional arch=all
+ emacspeak-espeak deb sound optional arch=any
+ emacspeak-outloud deb sound optional arch=any
+ emacspeak-pan-chimes deb sound optional arch=all
+Priority: optional
+Section: editors
+Directory: pool/free/e/emacspeak
+Files: 
+ 5b8286041c00a137f655e4a6c21aa597 1365 emacspeak_50.0-20bullseye1.dsc
+ d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
+ a74ffe5ea15e67be03bda8041ac16540 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+Checksums-Sha1: 
+ afe3b5e63890b051adba26ad9a034c99712d99df 1365 emacspeak_50.0-20bullseye1.dsc
+ 86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
+ 0ac727b18ad9928b41d0464e543469e5d3cd23a4 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+Checksums-Sha256: 
+ 8fed60e4c73bdba213b231ad89cd7fb97ad91061a4046253504a40a447522550 1365 emacspeak_50.0-20bullseye1.dsc
+ 6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
+ 223d3c2a62bd7a0e2c3d5ea897972e18a37c0dc04138fda1367b804ae1305317 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+
+Package: freespeech
+Format: 1.0
+Binary: freephone, enlex-data
+Architecture: any all
+Version: 1.0m-17bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.3.0
+Build-Depends: cdbs, debhelper (>= 10), libdb-dev
+Package-List:
+ enlex-data deb sound optional arch=all
+ freephone deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/f/freespeech
+Files: 
+ 263774c245ae4b389d555f13a8feadcc 885 freespeech_1.0m-17bullseye1.dsc
+ 9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
+ cffa664929fc2d5ec45dcd322fe90658 26687 freespeech_1.0m-17bullseye1.diff.gz
+Checksums-Sha1: 
+ 636240327d80da0ae06c1bf54b7016b10683fe28 885 freespeech_1.0m-17bullseye1.dsc
+ 03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
+ 730447327d540443d44484b71de25c821dc8e531 26687 freespeech_1.0m-17bullseye1.diff.gz
+Checksums-Sha256: 
+ 411acde11a9638be42a6581f4e332107782c92037576b8352a35103b99e9ebe3 885 freespeech_1.0m-17bullseye1.dsc
+ 8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
+ 4df539adefa80d6b4bf3e2f1c6c8913b2d9e63261c2346b7a01a99ed8431a402 26687 freespeech_1.0m-17bullseye1.diff.gz
+
+Package: multispeech
+Format: 1.0
+Binary: multispeech, sd-multispeech, libmultispeech5
+Architecture: any
+Version: 4.5.1bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.3.0
+Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
+Package-List:
+ libmultispeech5 deb sound optional arch=any
+ multispeech deb sound optional arch=any
+ sd-multispeech deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/m/multispeech
+Files: 
+ 71a69eeffa8b147f27c34193943223ba 959 multispeech_4.5.1bullseye1.dsc
+ 726c283818efa33fa9e024d8f8aefef3 527775 multispeech_4.5.1bullseye1.tar.gz
+Checksums-Sha1: 
+ e310ed4c0b1a35b8fa4e5c5bec7ad983039562b4 959 multispeech_4.5.1bullseye1.dsc
+ 18ddfc5b2c5d81a3c86f58e86bb26ae032aab125 527775 multispeech_4.5.1bullseye1.tar.gz
+Checksums-Sha256: 
+ 4ed0602f33a66ae44fae662714c4148bbbc2b16618a2975112d3a785fc354dde 959 multispeech_4.5.1bullseye1.dsc
+ c9852b530c09b3f5e0f2df4d7f13385284c7e377028ad7a41e14290f0229b190 527775 multispeech_4.5.1bullseye1.tar.gz
+
+Package: rbook
+Format: 1.0
+Binary: rbook
+Architecture: all
+Version: 2.6.0bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10)
+Package-List:
+ rbook deb text optional arch=all
+Priority: optional
+Section: text
+Directory: pool/free/r/rbook
+Files: 
+ 7dfe20af0200556a63f3ee8925ec0453 522 rbook_2.6.0bullseye1.dsc
+ 47f734ddfe1076a5756a1d1ac205023b 24424 rbook_2.6.0bullseye1.tar.gz
+Checksums-Sha1: 
+ f05b4a32409c5c8f4725473c4619ccdb275a1078 522 rbook_2.6.0bullseye1.dsc
+ 4165797a1557f6c2ec1a8db7a91b9bb48fd950ad 24424 rbook_2.6.0bullseye1.tar.gz
+Checksums-Sha256: 
+ 7aab37c7db054a19370839c03f39f9f11f8fa90026b68a40980eef987b06d4b9 522 rbook_2.6.0bullseye1.dsc
+ ad7249fd6919e306a50d6c3ae590efa79a114d851c7178de86d04a2c7e947d08 24424 rbook_2.6.0bullseye1.tar.gz
+
+Package: ru-tts
+Format: 3.0 (native)
+Binary: ru-tts, librutts7, librutts-dev
+Architecture: any
+Version: 6.1.0bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
+Package-List:
+ librutts-dev deb libdevel optional arch=any
+ librutts7 deb libs optional arch=any
+ ru-tts deb sound optional arch=any
+Priority: optional
+Section: sound
+Directory: pool/free/r/ru-tts
+Files: 
+ d05149d3b2150013875d6316d27d0413 675 ru-tts_6.1.0bullseye1.dsc
+ 95531928aadc66655466c6c6ea753597 65248 ru-tts_6.1.0bullseye1.tar.xz
+Checksums-Sha1: 
+ b93d85b7617f7242bd0c03e930c45fcf18d37765 675 ru-tts_6.1.0bullseye1.dsc
+ dcb0bf14cfcc1d30b8d6bc7d4a9e6794f19dcec0 65248 ru-tts_6.1.0bullseye1.tar.xz
+Checksums-Sha256: 
+ f0d86fbf626051948ec7cdcc0480dcf750c48b49313dcb50bf4c884db51228f0 675 ru-tts_6.1.0bullseye1.dsc
+ a63a287ba2714bcbd4a5aa986f6558e7a6f61444ab23a9634d362bebdd2e196d 65248 ru-tts_6.1.0bullseye1.tar.xz
+
+Package: rulex
+Format: 3.0 (quilt)
+Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
+Architecture: any all
+Version: 3.7.4-1bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
+Package-List:
+ librulexdb-dev deb libdevel optional arch=any
+ librulexdb0 deb libs optional arch=any
+ rulex deb sound optional arch=any
+ rulex-data deb sound optional arch=all
+Priority: optional
+Section: sound
+Directory: pool/free/r/rulex
+Files: 
+ 7e1cd47a51b8bcad0ff7b608f71a007d 1000 rulex_3.7.4-1bullseye1.dsc
+ 2711f1327b660e1b4060d9948f23dd7e 2301052 rulex_3.7.4.orig.tar.xz
+ 82ef40121f0388e1eb3705bdcfea7de6 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+Checksums-Sha1: 
+ 10731fd248259fbdb9e0bc0c1333108a683e9339 1000 rulex_3.7.4-1bullseye1.dsc
+ c49e3d8991718e0bfa02d78c5d90cc7ecd3ce455 2301052 rulex_3.7.4.orig.tar.xz
+ 8523b88a6b476163ff21c2713698518f264bfe9c 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+Checksums-Sha256: 
+ 02d6bb8a6391e58efe2218fde05f613fe244defe139d888910f84438925db798 1000 rulex_3.7.4-1bullseye1.dsc
+ d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
+ 23250bdd5014b96c8a61ab7e1b55006f6cf746973144ae1d390bad8e0915b922 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+
+Package: wget-el
+Format: 1.0
+Binary: wget-el
+Architecture: all
+Version: 0.5.0-11bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/ataka/emacs-wget
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10)
+Package-List:
+ wget-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/w/wget-el
+Files: 
+ d705c289f5bc0fb7c7faffe910965195 829 wget-el_0.5.0-11bullseye1.dsc
+ eed64c8bd629b82538753af54e8749ab 37074 wget-el_0.5.0.orig.tar.gz
+ d0c3ce497e0f05fc53fa38ea46173d95 8703 wget-el_0.5.0-11bullseye1.diff.gz
+Checksums-Sha1: 
+ a05e44cecf4e447003bc93caceaee81df142bff7 829 wget-el_0.5.0-11bullseye1.dsc
+ f4a6406268e82dbbebfeaa17954189ebc6129a0e 37074 wget-el_0.5.0.orig.tar.gz
+ eb27799d7cb10d81badda22028db9ee47a0e76cc 8703 wget-el_0.5.0-11bullseye1.diff.gz
+Checksums-Sha256: 
+ 93efcdf0b0d37de5748aad1e3cd2f717defa7e56cddd957b202c30b05766353c 829 wget-el_0.5.0-11bullseye1.dsc
+ ce59516c15f9de0c637d033419605c58f4da2f5ba762f74a5911cc96b6df7e81 37074 wget-el_0.5.0.orig.tar.gz
+ 16d65bffe64222c0f9fad4cd32dc2b730008b257aaeee07724f7772497b3846a 8703 wget-el_0.5.0-11bullseye1.diff.gz
+
+Package: youtube-dl-el
+Format: 3.0 (quilt)
+Binary: youtube-dl-el
+Architecture: all
+Version: 2.7-1bullseye1
+Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
+Homepage: https://github.com/poretsky/youtube-dl-emacs
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10)
+Package-List:
+ youtube-dl-el deb net optional arch=all
+Priority: optional
+Section: net
+Directory: pool/free/y/youtube-dl-el
+Files: 
+ 1f6be8c203499dcbaef527f5cc851068 900 youtube-dl-el_2.7-1bullseye1.dsc
+ eabe4fed3c8e55a6269afc0b7a78ae56 21876 youtube-dl-el_2.7.orig.tar.xz
+ 6c6dd9017f3f845b75a08d37df0aa14a 4300 youtube-dl-el_2.7-1bullseye1.debian.tar.xz
+Checksums-Sha1: 
+ eeca58bbcc3e87e6a1b79695ebda9b8d220a5f58 900 youtube-dl-el_2.7-1bullseye1.dsc
+ 5c752cd2745d2ec0c9d425119e8f513f3ac8db09 21876 youtube-dl-el_2.7.orig.tar.xz
+ 1c7e20a8838760e1a71c35405156612da796b991 4300 youtube-dl-el_2.7-1bullseye1.debian.tar.xz
+Checksums-Sha256: 
+ 4fecaed8ad2de85525d1f6f56a13688c6e62974634005d8fda9513e52e8f3d4d 900 youtube-dl-el_2.7-1bullseye1.dsc
+ e0368fc40df6ceab16f4311b8092697925ddac25f7aebabd3d3ab69d6755f2bf 21876 youtube-dl-el_2.7.orig.tar.xz
+ 5077ef8baf12d30a7d5c6cc3fe3fe5fa5536fba62a6a2a051860a4d5823d03ad 4300 youtube-dl-el_2.7-1bullseye1.debian.tar.xz
+

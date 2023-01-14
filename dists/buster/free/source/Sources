@@ -108,28 +108,28 @@ Checksums-Sha256:
 
 Package: ru-tts
 Format: 3.0 (native)
-Binary: ru-tts, librutts6, librutts-dev
+Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.0.4buster1
+Version: 6.1.0buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
 Package-List:
  librutts-dev deb libdevel optional arch=any
- librutts6 deb libs optional arch=any
+ librutts7 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 5e8cce113491bd302471f4eae7627151 666 ru-tts_6.0.4buster1.dsc
- 64b498b8b3f53d144b0dca1066b0c367 65188 ru-tts_6.0.4buster1.tar.xz
+ 885afd2dc3794887b1a8787915b5fbce 666 ru-tts_6.1.0buster1.dsc
+ dfe4315072cadcaa71234eeb1f2c2c14 65324 ru-tts_6.1.0buster1.tar.xz
 Checksums-Sha1: 
- 0ce5e4879a8b62fdbab55baecff7f22f2d5080e8 666 ru-tts_6.0.4buster1.dsc
- 4f01f3e8bbd0387aae5e097da760e6e319284e2e 65188 ru-tts_6.0.4buster1.tar.xz
+ aa7dda55454ddb81639647b1d7aad14d9b29a358 666 ru-tts_6.1.0buster1.dsc
+ 5ba5383a296b6fc586fb9f35d863c8d2975171d6 65324 ru-tts_6.1.0buster1.tar.xz
 Checksums-Sha256: 
- f3a978f9b23eb32ab36cef4016bd2301bb36d38e6fad363147ec1af63c1aa2b9 666 ru-tts_6.0.4buster1.dsc
- 23a935b72f7f8085d7e5a6c7ad1ac28fad4558e2f888ba300eb982954e33d24b 65188 ru-tts_6.0.4buster1.tar.xz
+ 1ce048712043d632f9997445471e55fdfbaac00bb7f65f9e9f55de83dcf5efb3 666 ru-tts_6.1.0buster1.dsc
+ 3307fe44764b0cc9f7abc151d0205d1368e18ee00ed46567d79e862bcfa6dbc3 65324 ru-tts_6.1.0buster1.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)

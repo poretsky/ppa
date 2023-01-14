@@ -108,28 +108,28 @@ Checksums-Sha256:
 
 Package: ru-tts
 Format: 3.0 (native)
-Binary: ru-tts, librutts6, librutts-dev
+Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.0.4stretch1
+Version: 6.1.0stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
 Package-List:
  librutts-dev deb libdevel optional arch=any
- librutts6 deb libs optional arch=any
+ librutts7 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 4e7952e62aad61c2ffd26c0d85a8dd12 670 ru-tts_6.0.4stretch1.dsc
- 37744c01614f0d6e47a9c979492a3773 65180 ru-tts_6.0.4stretch1.tar.xz
+ e35d91f7897bd516a0f853a340398861 670 ru-tts_6.1.0stretch1.dsc
+ ef3a8c9d5a211515339f9d0a4d6994c9 65328 ru-tts_6.1.0stretch1.tar.xz
 Checksums-Sha1: 
- 109e7730d776296dfc09648dd040a3b9cd0d4e08 670 ru-tts_6.0.4stretch1.dsc
- a41b9e520c8dea98441393e304132a147867ca3a 65180 ru-tts_6.0.4stretch1.tar.xz
+ bfdd5b6434dffc00e3957e07098b16a76fa1806e 670 ru-tts_6.1.0stretch1.dsc
+ fec4da4a0a9fdf8c954aaa192f444a930dc71e1b 65328 ru-tts_6.1.0stretch1.tar.xz
 Checksums-Sha256: 
- 01e19efca93a8ff1c4b770e57a5a52a4ce77e99dccf4618aa63edf67fffe1b0f 670 ru-tts_6.0.4stretch1.dsc
- a4c1610b6ea2f52596eacf58b0f35b75b9ea5eeecd4b760ebb91056efd83feb9 65180 ru-tts_6.0.4stretch1.tar.xz
+ 7a45b8bb8ba392935ae8f4382dce0b6d4207488f77652716e30ed8122caf2766 670 ru-tts_6.1.0stretch1.dsc
+ 359ce93d3aaec3acab76dce2dbdda803a332109381c31ed8c3a73cd054f3bfb6 65328 ru-tts_6.1.0stretch1.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
