@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 3.0 (native)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.0stretch1
+Version: 6.1.1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- e35d91f7897bd516a0f853a340398861 670 ru-tts_6.1.0stretch1.dsc
- ef3a8c9d5a211515339f9d0a4d6994c9 65328 ru-tts_6.1.0stretch1.tar.xz
+ a3be97a189b92d44431bcfb6d0aec56b 670 ru-tts_6.1.1stretch1.dsc
+ 49c6694a794c9bf1c4acbf844258b462 65356 ru-tts_6.1.1stretch1.tar.xz
 Checksums-Sha1: 
- bfdd5b6434dffc00e3957e07098b16a76fa1806e 670 ru-tts_6.1.0stretch1.dsc
- fec4da4a0a9fdf8c954aaa192f444a930dc71e1b 65328 ru-tts_6.1.0stretch1.tar.xz
+ a2f04baa467cc15117e69ec8874e35228ded34ca 670 ru-tts_6.1.1stretch1.dsc
+ cb2d7ad4cb82d5798ef3e766dac19b934b1cb426 65356 ru-tts_6.1.1stretch1.tar.xz
 Checksums-Sha256: 
- 7a45b8bb8ba392935ae8f4382dce0b6d4207488f77652716e30ed8122caf2766 670 ru-tts_6.1.0stretch1.dsc
- 359ce93d3aaec3acab76dce2dbdda803a332109381c31ed8c3a73cd054f3bfb6 65328 ru-tts_6.1.0stretch1.tar.xz
+ 856fe25c1ed2247fc0a9a0fd602b98d045bcd70b66fe49222ad8ef8a64a65b1e 670 ru-tts_6.1.1stretch1.dsc
+ 49660e02b5ffe90b44301ef0fe33610353e98b48bf2fe8b70fa911172037f10b 65356 ru-tts_6.1.1stretch1.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.4-1stretch1
+Version: 3.7.5-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 298577ec7cdc49d0152ab1cf5f1170ef 995 rulex_3.7.4-1stretch1.dsc
- 2711f1327b660e1b4060d9948f23dd7e 2301052 rulex_3.7.4.orig.tar.xz
- 0800d5a0ba5a539f7fc38c97a1618662 4628 rulex_3.7.4-1stretch1.debian.tar.xz
+ 12f8729d54eb25e70e1e022446071520 995 rulex_3.7.5-1stretch1.dsc
+ 5a98a72d28af9a6771eb38804ab25816 2301104 rulex_3.7.5.orig.tar.xz
+ 7ee03b824e1e361edbf2eed2b3be1a2b 4640 rulex_3.7.5-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 6ae224e76b3b96c2135046f7acfef00e4bb8b7b5 995 rulex_3.7.4-1stretch1.dsc
- c49e3d8991718e0bfa02d78c5d90cc7ecd3ce455 2301052 rulex_3.7.4.orig.tar.xz
- 57365bcab78dee9fff2d22d7adc9e93e1312ed37 4628 rulex_3.7.4-1stretch1.debian.tar.xz
+ 9937e2f28955b7cf751f53dc7301c5d89dd33fda 995 rulex_3.7.5-1stretch1.dsc
+ 9477c725d812e01e7326d62a45d447308401d436 2301104 rulex_3.7.5.orig.tar.xz
+ 018c3a50a22498318f68404d916f6505e1652d74 4640 rulex_3.7.5-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- adb9cb6039c6ddf93f91f013c8d4440824f77e1a8b1d2584221a14ffe459eec6 995 rulex_3.7.4-1stretch1.dsc
- d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
- 74b24c22a8be54ee1804c8dece58d370e2218ebc0e1bf4487a642ece8af71ea2 4628 rulex_3.7.4-1stretch1.debian.tar.xz
+ b6cc7344766c7e54e1d208aecd11baf1701384da0d4c84ba10e16ab24c251f0d 995 rulex_3.7.5-1stretch1.dsc
+ 05899db83163e43a815d761ec733f82f47c5869e1dc0b0b5259bdb442a3879f4 2301104 rulex_3.7.5.orig.tar.xz
+ 76216656a80f5c2e7888f03a9cc91eefdbc7f6f637ce7cc0a66c8ed67c0d46ba 4640 rulex_3.7.5-1stretch1.debian.tar.xz
 
 Package: transmission-el
 Format: 3.0 (quilt)

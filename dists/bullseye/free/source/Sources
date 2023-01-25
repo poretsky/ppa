@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 3.0 (native)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.0bullseye1
+Version: 6.1.1bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
@@ -122,20 +122,20 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- d05149d3b2150013875d6316d27d0413 675 ru-tts_6.1.0bullseye1.dsc
- 95531928aadc66655466c6c6ea753597 65248 ru-tts_6.1.0bullseye1.tar.xz
+ 95fa07158d22aedaf19cbb6365e288c2 675 ru-tts_6.1.1bullseye1.dsc
+ 314d56d72dc02568d081970dde63a5dd 65252 ru-tts_6.1.1bullseye1.tar.xz
 Checksums-Sha1: 
- b93d85b7617f7242bd0c03e930c45fcf18d37765 675 ru-tts_6.1.0bullseye1.dsc
- dcb0bf14cfcc1d30b8d6bc7d4a9e6794f19dcec0 65248 ru-tts_6.1.0bullseye1.tar.xz
+ 0d3bfdd8e2b94f7e0544bbf7a98150bfb6f31447 675 ru-tts_6.1.1bullseye1.dsc
+ 7859dd472031ce2c025685d1757b63ba3b5f448f 65252 ru-tts_6.1.1bullseye1.tar.xz
 Checksums-Sha256: 
- f0d86fbf626051948ec7cdcc0480dcf750c48b49313dcb50bf4c884db51228f0 675 ru-tts_6.1.0bullseye1.dsc
- a63a287ba2714bcbd4a5aa986f6558e7a6f61444ab23a9634d362bebdd2e196d 65248 ru-tts_6.1.0bullseye1.tar.xz
+ 3caeb229b4d97b31146bc0d441ed2b4e3667311947fd5ca7f4307ef98d876d18 675 ru-tts_6.1.1bullseye1.dsc
+ b857f4e6055c5f199aa600c31e80f780d4aa72fb12e039c170532d844399a56c 65252 ru-tts_6.1.1bullseye1.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.4-1bullseye1
+Version: 3.7.5-1bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
@@ -148,17 +148,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 7e1cd47a51b8bcad0ff7b608f71a007d 1000 rulex_3.7.4-1bullseye1.dsc
- 2711f1327b660e1b4060d9948f23dd7e 2301052 rulex_3.7.4.orig.tar.xz
- 82ef40121f0388e1eb3705bdcfea7de6 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+ 41bf942def48bbf62500327abf9297ef 1000 rulex_3.7.5-1bullseye1.dsc
+ 5a98a72d28af9a6771eb38804ab25816 2301104 rulex_3.7.5.orig.tar.xz
+ 1a5c55e598e0c49b5f1c1188ca818644 3144 rulex_3.7.5-1bullseye1.debian.tar.xz
 Checksums-Sha1: 
- 10731fd248259fbdb9e0bc0c1333108a683e9339 1000 rulex_3.7.4-1bullseye1.dsc
- c49e3d8991718e0bfa02d78c5d90cc7ecd3ce455 2301052 rulex_3.7.4.orig.tar.xz
- 8523b88a6b476163ff21c2713698518f264bfe9c 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+ 282693dacf3e836ae0e683ec26b46e0fe393cab3 1000 rulex_3.7.5-1bullseye1.dsc
+ 9477c725d812e01e7326d62a45d447308401d436 2301104 rulex_3.7.5.orig.tar.xz
+ 4c891b2183f892780bf3cd905b76b196bda862c1 3144 rulex_3.7.5-1bullseye1.debian.tar.xz
 Checksums-Sha256: 
- 02d6bb8a6391e58efe2218fde05f613fe244defe139d888910f84438925db798 1000 rulex_3.7.4-1bullseye1.dsc
- d2edc06fc164f556238c32c012124975d56b765330d04a6e64247bbf4d298b3e 2301052 rulex_3.7.4.orig.tar.xz
- 23250bdd5014b96c8a61ab7e1b55006f6cf746973144ae1d390bad8e0915b922 3104 rulex_3.7.4-1bullseye1.debian.tar.xz
+ 203a15262759c8dad582c6e343ad4b1f75fc2876fd8e36963325a87f496564f5 1000 rulex_3.7.5-1bullseye1.dsc
+ 05899db83163e43a815d761ec733f82f47c5869e1dc0b0b5259bdb442a3879f4 2301104 rulex_3.7.5.orig.tar.xz
+ 519c8595c272f12fa5b10aaecfc103442cb53c14da3ff5c55ee6185d9b356824 3144 rulex_3.7.5-1bullseye1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0

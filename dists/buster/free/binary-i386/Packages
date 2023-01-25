@@ -250,55 +250,55 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.4-1buster1
+Version: 3.7.5-1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 68
-Depends: librulexdb0 (= 3.7.4-1buster1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.5-1buster1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.4-1buster1_i386.deb
-Size: 30872
-SHA256: f265d507abebb4ea5635bc7a5761dc9acb939498e22e2379421385ed01f108ca
-SHA1: b680766761cca08260d08a1872f97173a95fe100
-MD5sum: 3e96e429aa4c3419d21eb5615bcbc294
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.5-1buster1_i386.deb
+Size: 30888
+SHA256: 47f6eb1705b0ec9df23df0bc81030ac291574af17b9aa0fd2c9875a0572ee8fd
+SHA1: d80ffeee87419496f4f82eea82e940e997c7cd47
+MD5sum: 8648a1dc51103033a3572e0166b30665
 Description: Russian pronunciation dictionary access library
  .
  This package contains the development files.
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.4-1buster1
+Version: 3.7.5-1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 39
 Depends: libc6 (>= 2.3.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.4-1buster1_i386.deb
-Size: 12852
-SHA256: 00b425a8c81f465f61d8ef952d565aef48867ff579b1570db57ae9f6ab43db80
-SHA1: 7dcb7fd834bfd94a301526a86675d04e92abe338
-MD5sum: db53cc0aadd3a0279f6276b9e02a5ed5
+Filename: pool/free/r/rulex/librulexdb0_3.7.5-1buster1_i386.deb
+Size: 12868
+SHA256: 50cdd49346cb12a0e6d6a44605ecbf827b13d9565878af9e5176b577071e39f8
+SHA1: a709ef7488dd43925126eb92aa9b9ed8bbf0fbbc
+MD5sum: 8e69d8cb774edd83bdd73f42233470b5
 Description: Russian pronunciation dictionary access library
  .
  This package contains the shared library.
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.1.0buster1
+Version: 6.1.1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 110
-Depends: librutts7 (= 6.1.0buster1)
+Depends: librutts7 (= 6.1.1buster1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.1.0buster1_i386.deb
-Size: 47492
-SHA256: e759aef122d7783b047b4a64fe8180ae8992bf57f3c779ade61bf583a9b4645d
-SHA1: b3a5523bc4b42b7ec46e0d5bb691e1c62e56e2fb
-MD5sum: f8198025d547cb609adefda893e6e5c8
+Filename: pool/free/r/ru-tts/librutts-dev_6.1.1buster1_i386.deb
+Size: 47520
+SHA256: 4e442e2006a16e61509ddbdd16fc8890da55a71c589caba1f35b03bd4ffa212d
+SHA1: 40b4e9385200eb5319dd2fb4f210d2c330419998
+MD5sum: 554b09339a5957c25324e3ebc6d8015b
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -335,18 +335,18 @@ Description: software Russian TTS engine
 
 Package: librutts7
 Source: ru-tts
-Version: 6.1.0buster1
+Version: 6.1.1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 89
 Depends: libc6 (>= 2.1.3)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts7_6.1.0buster1_i386.deb
-Size: 42024
-SHA256: 7e9f2d649faf7c86113b3122cf2f50375c335ec4266d691f874eea02c33d59db
-SHA1: 05874d89e4f522ebe14f381bdf87e187981a41f1
-MD5sum: 7f24c1e438379d3d3a8aa13effc7a24b
+Filename: pool/free/r/ru-tts/librutts7_6.1.1buster1_i386.deb
+Size: 42052
+SHA256: 77d75e919cdad5168fcf949d429dd60438cce8e85d317b2db6e89c5b3a27be80
+SHA1: 698336b3e407c99c2d0bc3696bf69ece5eb542c1
+MD5sum: 17b317d4671dd8839729c6add0f70b04
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -406,7 +406,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.1.0buster1
+Version: 6.1.1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 41
@@ -417,11 +417,11 @@ Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.1.0buster1_i386.deb
-Size: 14460
-SHA256: 8d247caa4ed0ec3e6bd1f094c7d5878516ce90054d50365bde205138cf4b2c7f
-SHA1: fc162d048136bc221b69418d15f18488e4a75bc3
-MD5sum: 8cc59f43e617eb003c49c95d000a9603
+Filename: pool/free/r/ru-tts/ru-tts_6.1.1buster1_i386.deb
+Size: 14476
+SHA256: 614c751572fe3fbfa1ae8c4cdd35acd37ec3f97ef8cf30d989bb0b61e8b9ec5d
+SHA1: cd0b7b0b83f882df81c16f114c5ca2eb679d9f03
+MD5sum: 9a65c8d797dd31c880b590e766b97acc
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -431,7 +431,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.4-1buster1
+Version: 3.7.5-1buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 70
@@ -439,11 +439,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.4-1buster1_i386.deb
-Size: 29260
-SHA256: e8f640fc07c4f9cf3c74b8fb37c7a71ff1bb7d2ccd6ab348f7febb596d42d19a
-SHA1: e124e7fb2e82117673dc264bd5f2432a6677455c
-MD5sum: 6f1ddd3c92e1455092364ee9514553e5
+Filename: pool/free/r/rulex/rulex_3.7.5-1buster1_i386.deb
+Size: 29272
+SHA256: 4b2493e2d44913f481c049df1e5191b43f66cc2355f9d1d360f375422435df32
+SHA1: b61a320f2313bf1fa2a0bec7190b1df8bc1cb335
+MD5sum: 22d7562e650459e58b2cd4e3ea5ac6fa
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -455,21 +455,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.4-1buster1
+Version: 3.7.5-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2263
+Installed-Size: 2267
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.4-1buster1_all.deb
-Size: 742208
-SHA256: 36ead102a37f2283226cd1173e124058b98c84902f2d7bfaa81323cad32b3d0a
-SHA1: dfbeff45dda74881f07079a681856f69bd42a7b2
-MD5sum: 7e3d6ff16da2bf8b638ca174daf4294a
+Filename: pool/free/r/rulex/rulex-data_3.7.5-1buster1_all.deb
+Size: 741660
+SHA256: ec34d67975f9fdca20fb894aff4661ac77b33d7bf16ff54be8713baba4269837
+SHA1: 031b2d8fd512fcda5354a96eb18b8e856fd97302
+MD5sum: 3d78565650f939cb8bb0d6a7c9c8be43
 Description: Russian pronunciation dictionary
  This package is aimed primarily for use together with the Russian
  TTS engine Ru_tts. When it is installed you can instruct Ru_tts

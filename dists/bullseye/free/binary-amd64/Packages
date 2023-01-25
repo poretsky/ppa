@@ -221,19 +221,19 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.4-1bullseye1
+Version: 3.7.5-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 68
-Depends: librulexdb0 (= 3.7.4-1bullseye1), libdb-dev, libc6-dev
+Depends: librulexdb0 (= 3.7.5-1bullseye1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.4-1bullseye1_amd64.deb
-Size: 28324
-SHA256: 33a363c5f12f84a16e9af3c30b7acfeecfd06a700f8ea92f1e292fb0441cbdc5
-SHA1: c37898c8bf3af0e9c5f81c5703522bff17056522
-MD5sum: 5f5c7f7d8231a18334540bde5db950aa
+Filename: pool/free/r/rulex/librulexdb-dev_3.7.5-1bullseye1_amd64.deb
+Size: 28348
+SHA256: b5c237625261a9e63f641551bc626eff0857191705019bdff4fba6a0410a7c56
+SHA1: d984a9ec28bf835fdb7e205b71214e3415d34fb8
+MD5sum: 1a4942ff456b561ddd4e8ff258eda960
 Description: Russian pronunciation dictionary access library
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -242,18 +242,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.4-1bullseye1
+Version: 3.7.5-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 35
 Depends: libc6 (>= 2.3.4), libdb5.3
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.4-1bullseye1_amd64.deb
-Size: 10452
-SHA256: d3d50644d45ba15c3e18dc60eb9ce85288693fbfa4dfbd18a002b13bfe0e9d0f
-SHA1: 45cd3985af9fd9257e98f22e19744a889a3d32e0
-MD5sum: 2fe66d9b282709da6d27b9484fa5db40
+Filename: pool/free/r/rulex/librulexdb0_3.7.5-1bullseye1_amd64.deb
+Size: 10492
+SHA256: 69b333a3c93f5c253fb6d6ce6ccd7486e5dd46ae536af126696867dbb6770613
+SHA1: a391de24d2fbb3ca507ad44b3d9d663fce18b8ae
+MD5sum: e4160a2ed365d6a075d8b95b37db12b1
 Description: Russian pronunciation dictionary access library
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -262,18 +262,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.1.0bullseye1
+Version: 6.1.1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 115
-Depends: librutts7 (= 6.1.0bullseye1)
+Depends: librutts7 (= 6.1.1bullseye1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.1.0bullseye1_amd64.deb
-Size: 45692
-SHA256: d458ed70c662ae7ae813fc910c27cca9387560e93e6f1e0c82a6043e624b4c12
-SHA1: 4c5e39ee665db00d22b912dc72a537495dcbdf7f
-MD5sum: 7b6d5f84a30d597dc2e011fb3e59ff1a
+Filename: pool/free/r/ru-tts/librutts-dev_6.1.1bullseye1_amd64.deb
+Size: 45696
+SHA256: ff0b2208d1012c9cc4c34400d194b675c4f4e3b71d58a904c017dbd88a40763f
+SHA1: deff6eea03d59460237831d65643ae58032c915d
+MD5sum: 3ee3447b1302e2948c24d4626c8f5e55
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -286,18 +286,18 @@ Description: software Russian TTS engine
 
 Package: librutts7
 Source: ru-tts
-Version: 6.1.0bullseye1
+Version: 6.1.1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 89
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts7_6.1.0bullseye1_amd64.deb
-Size: 40212
-SHA256: 78e7a2f6e4b54e2a4f19f2711fd0824bf8ef218b4294500776df729b9e8ba12f
-SHA1: 327bb05fb5c76587e5b6154e0a3034d3a34bf5da
-MD5sum: e185c59c13c3e0b179355ce21aec11c0
+Filename: pool/free/r/ru-tts/librutts7_6.1.1bullseye1_amd64.deb
+Size: 40256
+SHA256: 39e512060d8fd0768f1ffa34dc466ffc3dd00e2853330b8e0dabe1714d461386
+SHA1: 7950ce963af25cfb696f0057d773e35f82f6dfdc
+MD5sum: bf5adb44ea874bca1362bafc17ed9f9a
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -357,7 +357,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.1.0bullseye1
+Version: 6.1.1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 42
@@ -368,11 +368,11 @@ Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.1.0bullseye1_amd64.deb
-Size: 14220
-SHA256: cb1ef98aed1588ddb2132a5ae43688a320bb0ccbc0aa05d3aa3b72b0ea650e5d
-SHA1: 9408b8df54e2c32a2498bf6db7d2b842c25faf77
-MD5sum: a3d8ff1f8ebe4497f72345b155db6703
+Filename: pool/free/r/ru-tts/ru-tts_6.1.1bullseye1_amd64.deb
+Size: 14240
+SHA256: 203c08523dcb6d2b931cc441da6eb596abdcd28ba227a58085eb32b3e542f6ae
+SHA1: 51f858946505d71d16fb51bdec19aae5fc0cd75e
+MD5sum: fe5e284fe05cbf65fe080265a6bbc4d5
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -382,7 +382,7 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.4-1bullseye1
+Version: 3.7.5-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 71
@@ -390,11 +390,11 @@ Depends: locales, libc6 (>= 2.3), librulexdb0
 Recommends: rulex-data (>= 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.4-1bullseye1_amd64.deb
-Size: 27528
-SHA256: a2ef0ebfb4b3cf860cc11b8910a1838aa5b6cd1497d4df790ef926186626c234
-SHA1: d5be7f6214776d3f07f9bc669f44ecd9a7fadaf9
-MD5sum: ca72a3339fc1cd26574a2c880ff14346
+Filename: pool/free/r/rulex/rulex_3.7.5-1bullseye1_amd64.deb
+Size: 27568
+SHA256: ccc1bdf2b4a73b4511c1786dc2b5b25dfd5ae0b8d4bcb63675b87f2c4af8ec25
+SHA1: 9d92f94a622b2ba74a8c6d52aea7aeba1380822d
+MD5sum: 4d6b63aa454e4b431d8a30625662e124
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -406,21 +406,21 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.4-1bullseye1
+Version: 3.7.5-1bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2262
+Installed-Size: 2266
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.4-1bullseye1_all.deb
-Size: 739664
-SHA256: 808d6f3ae10291179b264ea986b7b9be17c20f611e44475d3d2a2b3ee2762cfb
-SHA1: 26ae1fac6021437aab42ea30925af4fd489f2bea
-MD5sum: 819db98b6b431821bb5543c935119a7e
+Filename: pool/free/r/rulex/rulex-data_3.7.5-1bullseye1_all.deb
+Size: 740712
+SHA256: b099714329e2843f9a57301ba8dd36bd4f643a44529397c52f52c0254e12c47b
+SHA1: 14edaf6a401d28bfd9b1e39773b9dc8da43f8098
+MD5sum: 583680d1446edde58a60f3c521925abb
 Description: Russian pronunciation dictionary
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
