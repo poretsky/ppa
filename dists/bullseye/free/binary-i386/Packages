@@ -262,18 +262,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.1.1bullseye1
+Version: 6.1.2bullseye1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 110
-Depends: librutts7 (= 6.1.1bullseye1)
+Depends: librutts7 (= 6.1.2bullseye1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.1.1bullseye1_i386.deb
-Size: 47168
-SHA256: 912bba587d8bb291db144b73667acbbbe6ec397a648325d229d1eb8738feebcf
-SHA1: df34ad0c7da3efd5077729126ead2158203f502f
-MD5sum: 83ef3401438cc9d5fe0f9b9731ee73b9
+Filename: pool/free/r/ru-tts/librutts-dev_6.1.2bullseye1_i386.deb
+Size: 47172
+SHA256: 62950edbea847f38e32d9a3d126c2f0e3d69d0e0aa1f726c27fbfe9b6596a9a8
+SHA1: 72ab2ddbeb4fe0062b75fa90e01f30001eaf5e08
+MD5sum: dd0e37a3d84a0d8255f5bb84f6721cb4
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -286,18 +286,18 @@ Description: software Russian TTS engine
 
 Package: librutts7
 Source: ru-tts
-Version: 6.1.1bullseye1
+Version: 6.1.2bullseye1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 93
 Depends: libc6 (>= 2.1.3)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts7_6.1.1bullseye1_i386.deb
-Size: 41540
-SHA256: a8acf5227c69604185b6ab77ba3c5cebffc34c1178fd174f5af9628b6d2189b6
-SHA1: c1b61e5669f5e30476215b0c536e8f880a3cbc01
-MD5sum: f7e65a0e3062fc635ef94ffdefe17fc0
+Filename: pool/free/r/ru-tts/librutts7_6.1.2bullseye1_i386.deb
+Size: 41552
+SHA256: 6f662b94ba8ec2104b98eed5d214476923369ba09980e6fc8a0d6cc33642f22a
+SHA1: c9cfde2ba370b9944fb7c78e257dd6e98377c2b6
+MD5sum: 4a704c7eefeb0456150dca9a49611b44
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -357,7 +357,7 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.1.1bullseye1
+Version: 6.1.2bullseye1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 41
@@ -368,11 +368,11 @@ Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.1.1bullseye1_i386.deb
-Size: 14380
-SHA256: c2792cafb976e78d8c17e2fc56045cece378699090ef38387e7e8b8ca085379e
-SHA1: 00a89e54871079b7298637cb6a8bb4f9848160ee
-MD5sum: fb201ca604ed7c0d593a0deb1629383c
+Filename: pool/free/r/ru-tts/ru-tts_6.1.2bullseye1_i386.deb
+Size: 14404
+SHA256: 4f8f654185fb1aecebe79376ea039f9eb292cfaef210df746daa9c600c3291ce
+SHA1: 3228962992b147acff8acac0182d46e0b79c466b
+MD5sum: ac8e0f269a2fd8fa1f8606c0e8b841c0
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input

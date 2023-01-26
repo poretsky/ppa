@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: ru-tts
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.1stretch1
+Version: 6.1.2stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
@@ -11,8 +11,8 @@ Package-List:
  librutts7 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Checksums-Sha1:
- cb2d7ad4cb82d5798ef3e766dac19b934b1cb426 65356 ru-tts_6.1.1stretch1.tar.xz
+ d4a8aac8aa7905ebe53ff32dbfea3ddd8965c242 65344 ru-tts_6.1.2stretch1.tar.xz
 Checksums-Sha256:
- 49660e02b5ffe90b44301ef0fe33610353e98b48bf2fe8b70fa911172037f10b 65356 ru-tts_6.1.1stretch1.tar.xz
+ 60333bfe4938cc71cf39ef15d1614598a6eca066f90e99ed5f127b5cba70f189 65344 ru-tts_6.1.2stretch1.tar.xz
 Files:
- 49c6694a794c9bf1c4acbf844258b462 65356 ru-tts_6.1.1stretch1.tar.xz
+ 3dc09cc9728b0abcb541436df5a2d420 65344 ru-tts_6.1.2stretch1.tar.xz

@@ -2,17 +2,17 @@ Format: 3.0 (native)
 Source: ru-tts
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.1buster1
+Version: 6.1.2bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
-Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
+Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
 Package-List:
  librutts-dev deb libdevel optional arch=any
  librutts7 deb libs optional arch=any
  ru-tts deb sound optional arch=any
 Checksums-Sha1:
- 2efe5596012199e2cea78905508f07df49b9b488 65336 ru-tts_6.1.1buster1.tar.xz
+ f7e617b64f219d087f60f152b7f5fcae5dac7244 65308 ru-tts_6.1.2bullseye1.tar.xz
 Checksums-Sha256:
- 5b7c64d81deeab60d34f5fa3fec1892ccaf4b3831e870adff416b4a6e0260a3f 65336 ru-tts_6.1.1buster1.tar.xz
+ 31f75199ac520d10c79e129f6980efddff0ae227df7f2d838ee2617cc21a4623 65308 ru-tts_6.1.2bullseye1.tar.xz
 Files:
- fe502d9ba7c7d049da31d85d8037f58a 65336 ru-tts_6.1.1buster1.tar.xz
+ 404f2790efbf3da5b46c37b99b659cec 65308 ru-tts_6.1.2bullseye1.tar.xz
