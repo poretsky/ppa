@@ -110,7 +110,7 @@ Package: ru-tts
 Format: 3.0 (native)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.2bullseye1
+Version: 6.1.3bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
@@ -122,14 +122,14 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 8eb521dffc482c95e0030af47dcf7728 675 ru-tts_6.1.2bullseye1.dsc
- 404f2790efbf3da5b46c37b99b659cec 65308 ru-tts_6.1.2bullseye1.tar.xz
+ 8a487bd6ac3ba38fa1ae55133f58d6a6 675 ru-tts_6.1.3bullseye1.dsc
+ 633a6b8df6dfde1ee0144d7ea6c3499d 65360 ru-tts_6.1.3bullseye1.tar.xz
 Checksums-Sha1: 
- 4ddce596d8ed6b693739bd798078013395707bf4 675 ru-tts_6.1.2bullseye1.dsc
- f7e617b64f219d087f60f152b7f5fcae5dac7244 65308 ru-tts_6.1.2bullseye1.tar.xz
+ 321a22d72a0cd47d131ad861ea2e89038ed5cbfc 675 ru-tts_6.1.3bullseye1.dsc
+ f42a339817f41f795cd4f3b476370c15be1d1c74 65360 ru-tts_6.1.3bullseye1.tar.xz
 Checksums-Sha256: 
- 31920912a5ec32f1fd843758ef7a8007ad2209350165383e7501aa2d6fd2d0a8 675 ru-tts_6.1.2bullseye1.dsc
- 31f75199ac520d10c79e129f6980efddff0ae227df7f2d838ee2617cc21a4623 65308 ru-tts_6.1.2bullseye1.tar.xz
+ b40c111b3b820f8ac782041ab4bb9668570f62e15e2e6b009cb33b971eb585d2 675 ru-tts_6.1.3bullseye1.dsc
+ 20f2ffd4e222a41d1f8eaecbc409549e46620df202740050a3d91a9b577ed323 65360 ru-tts_6.1.3bullseye1.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
