@@ -1,8 +1,8 @@
 Package: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 10420
+Installed-Size: 10422
 Depends: emacs (>= 1:27.1~), perl, make, adduser, debconf (>= 0.5) | debconf-2.0
 Recommends: multispeech (>= 2.8), python, tclx8.4, tcl
 Suggests: emacspeak-classic, emacspeak-pan-chimes, emacspeak-espeak, emacspeak-outloud, psgml, xsltproc, espeak, w3m-el, phantomjs
@@ -11,11 +11,11 @@ Replaces: emacspeak (<< 1:50.0), emacspeak-3d
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: editors
-Filename: pool/free/e/emacspeak/emacspeak_50.0-20bullseye1_all.deb
-Size: 3378552
-SHA256: e5c2aa5afe114c95b7289fe9b68695eccea41397ebf822f634c1e35a736f4ddf
-SHA1: b040b72ed4d02de6f716918036c6378c60f6f776
-MD5sum: f7732aa391ed5c0c8bad0994f5c12df6
+Filename: pool/free/e/emacspeak/emacspeak_50.0-21bullseye1_all.deb
+Size: 3373084
+SHA256: 235ed548c1e848d827d3858b149c117c07be5f0aa9b61c55f9099d8261b65a38
+SHA1: 33921cf44729b3c4c254d172cb61eaf1f78d8e5a
+MD5sum: 1ac21b5faac7f2d0cf47b9377e9c2fb3
 Description: speech output interface to Emacs
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -33,7 +33,7 @@ Description: speech output interface to Emacs
 
 Package: emacspeak-classic
 Source: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 7281
@@ -41,11 +41,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-20bullseye1_all.deb
-Size: 2990408
-SHA256: 9b38b545536cbbec3e846932ecf2e16a7c1935ef99d46ed11a513f9b56289b8f
-SHA1: eb739f3cbad56bb22bf2b49a466e1ef998e3ee64
-MD5sum: f85fe12017961b66647d099f70dbb0fa
+Filename: pool/free/e/emacspeak/emacspeak-classic_50.0-21bullseye1_all.deb
+Size: 2989076
+SHA256: ee040e5fa3450d54cbb61a9f88313a2cffd740c5805b62fc96dc87a10c24ffb7
+SHA1: 8491f9b8adbd998dd9159af13138f2053dfac981
+MD5sum: 8942436c815b058818d27053f57eb88f
 Description: Classic auditory icons theme for Emacspeak
  This theme is made up of the original default-8k sounds
  that have been converted to 44.1k stereo format.
@@ -56,7 +56,7 @@ Description: Classic auditory icons theme for Emacspeak
 
 Package: emacspeak-doc
 Source: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6401
@@ -65,11 +65,11 @@ Replaces: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: doc
-Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-20bullseye1_all.deb
-Size: 1453468
-SHA256: 01dc128285ece2bb78194ebaee2e576ca0fbc22b410ed4dc1f26b6ee6cdc1143
-SHA1: 3d13f781b5ad226aaa36ade92063eca23dddf379
-MD5sum: 2738021fd5658bc44fb9edce233eb59d
+Filename: pool/free/e/emacspeak/emacspeak-doc_50.0-21bullseye1_all.deb
+Size: 1453428
+SHA256: 2a098bd6dbcb822349fd5a1b7c260f836e81d918585fca2338224bbcb6a092c0
+SHA1: cfe773de8048e9b9102e3a9d3f8bceb61982dd13
+MD5sum: 5f1ec8608cbb0c6346ab074c91db0475
 Description: Emacspeak documentation
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -79,7 +79,7 @@ Description: Emacspeak documentation
 
 Package: emacspeak-espeak
 Source: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 117
@@ -88,11 +88,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-20bullseye1_i386.deb
-Size: 41652
-SHA256: 9a3583326ae49e82da6fdf484c0548bf4aa395a0d04d0c30473de97cffb316a9
-SHA1: 25f3ccd2659ee435cbe73823fb7b0b1239f39fb5
-MD5sum: 7423993a346cc51824a3d9158cd3163c
+Filename: pool/free/e/emacspeak/emacspeak-espeak_50.0-21bullseye1_i386.deb
+Size: 41744
+SHA256: d06987948ec48927c7f36b3da8451c1553b04cecd71d31338905c33b5986d1f1
+SHA1: d79204551a9d7c2c40ed5dbeefbbf0592ed6ede9
+MD5sum: 423ef2832b5066f32d934981e8e38249
 Description: Espeak speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -102,7 +102,7 @@ Description: Espeak speech server for Emacspeak
 
 Package: emacspeak-outloud
 Source: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 143
@@ -111,11 +111,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-20bullseye1_i386.deb
-Size: 43644
-SHA256: f1d4a109eafb0318b480547a1eb293afd5892a9204d13c58047bba9291e3a7f8
-SHA1: e074130819a01af172e3d974efdf437a30b02949
-MD5sum: 342f7a7d439ea469ab13e1bd0b69bb25
+Filename: pool/free/e/emacspeak/emacspeak-outloud_50.0-21bullseye1_i386.deb
+Size: 43696
+SHA256: 158ab1a1bcb635a5e40d4162b6149c226fff034c67cf65a0ee724399c009113e
+SHA1: e6bb55179d1dbd60dee2362523697c302a02c161
+MD5sum: 2867446d10d1246778c615b09f3d20e9
 Description: IBM ViaVoice Outloud speech server for Emacspeak
  Emacspeak is a speech output system that will allow someone who
  cannot see to work directly on a UNIX system.
@@ -125,7 +125,7 @@ Description: IBM ViaVoice Outloud speech server for Emacspeak
 
 Package: emacspeak-pan-chimes
 Source: emacspeak
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 6536
@@ -133,11 +133,11 @@ Recommends: emacspeak
 Homepage: http://emacspeak.sf.net
 Priority: optional
 Section: sound
-Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-20bullseye1_all.deb
-Size: 3739656
-SHA256: b08f08e4f1ed35c230b0d95cbf3f9ba2763d95a3e3fc78f08539ea53e36f8371
-SHA1: 0f70cec516b719f176787b5416e72db97b849087
-MD5sum: f680335ab34561d4adfe8f8b14656afd
+Filename: pool/free/e/emacspeak/emacspeak-pan-chimes_50.0-21bullseye1_all.deb
+Size: 3732152
+SHA256: 85dc81017db5321de166126327303b80b0051432f86239edbf8a572cbcda78d1
+SHA1: 9071483d0728207e8f2a99114e79466772e5d510
+MD5sum: 5cea79279c5ffbfca2652c2903ec5410
 Description: Pan-chimes auditory icons theme for Emacspeak
  This theme is made up mostly of different chimes and short notes
  from various instruments with autopan effect applied.

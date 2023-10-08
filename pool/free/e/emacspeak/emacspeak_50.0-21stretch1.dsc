@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: emacspeak
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-20stretch1
+Version: 1:50.0-21stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 3.9.8
@@ -17,10 +17,10 @@ Package-List:
  emacspeak-pan-chimes deb sound extra arch=all
 Checksums-Sha1:
  86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
- 631f5754e1c01fdf8ea13172bd267cad9d7c4541 131884 emacspeak_50.0-20stretch1.debian.tar.xz
+ a8aa6881d5239819fc2c7bf85c646042fcc31251 132400 emacspeak_50.0-21stretch1.debian.tar.xz
 Checksums-Sha256:
  6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
- c2daddb5b4bb5308b9112aba42fb904eb3a697418d08267fe483b4b22566add1 131884 emacspeak_50.0-20stretch1.debian.tar.xz
+ 8d8ddfa7f66328613c745920febfb116d9fe17b456d8cf6cd841e7557b8a1635 132400 emacspeak_50.0-21stretch1.debian.tar.xz
 Files:
  d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
- d48c841dfd95c8d978196f02e22ff412 131884 emacspeak_50.0-20stretch1.debian.tar.xz
+ 111a8819f884e219d4682a6fa9049778 132400 emacspeak_50.0-21stretch1.debian.tar.xz

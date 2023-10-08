@@ -2,7 +2,7 @@ Package: emacspeak
 Format: 3.0 (quilt)
 Binary: emacspeak, emacspeak-doc, emacspeak-espeak, emacspeak-outloud, emacspeak-pan-chimes, emacspeak-classic
 Architecture: any all
-Version: 1:50.0-20bullseye1
+Version: 1:50.0-21bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: http://emacspeak.sf.net
 Standards-Version: 4.3.0
@@ -19,17 +19,17 @@ Priority: optional
 Section: editors
 Directory: pool/free/e/emacspeak
 Files: 
- 5b8286041c00a137f655e4a6c21aa597 1365 emacspeak_50.0-20bullseye1.dsc
+ cdda9dc2007ab6b6874e56c9bbe4cf18 1365 emacspeak_50.0-21bullseye1.dsc
  d113243235dbeb420dabd354e7cd2eef 13534526 emacspeak_50.0.orig.tar.bz2
- a74ffe5ea15e67be03bda8041ac16540 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+ e7ce1e9a50a3867588ef4a7187c207d3 145388 emacspeak_50.0-21bullseye1.debian.tar.xz
 Checksums-Sha1: 
- afe3b5e63890b051adba26ad9a034c99712d99df 1365 emacspeak_50.0-20bullseye1.dsc
+ 6c92efc12cc758348b380ab64fe7b8d710c6c443 1365 emacspeak_50.0-21bullseye1.dsc
  86ea8a300295b55307ee6c2481f8954dab9c9fc0 13534526 emacspeak_50.0.orig.tar.bz2
- 0ac727b18ad9928b41d0464e543469e5d3cd23a4 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+ 422650b01f18e2bdfa0179eca9b892a5b6e43075 145388 emacspeak_50.0-21bullseye1.debian.tar.xz
 Checksums-Sha256: 
- 8fed60e4c73bdba213b231ad89cd7fb97ad91061a4046253504a40a447522550 1365 emacspeak_50.0-20bullseye1.dsc
+ f6264c56ed13b934c513e3589b083d0646f5c54113a8135321d84f5d20a150e4 1365 emacspeak_50.0-21bullseye1.dsc
  6be28f635c73f6b2a10b4cbd914def6a902662b71266a95d8bbe62ef7e3e5267 13534526 emacspeak_50.0.orig.tar.bz2
- 223d3c2a62bd7a0e2c3d5ea897972e18a37c0dc04138fda1367b804ae1305317 144816 emacspeak_50.0-20bullseye1.debian.tar.xz
+ 225d915dbf7badf09beba6479d277a350eb83d252768c44705e5c95675643cc8 145388 emacspeak_50.0-21bullseye1.debian.tar.xz
 
 Package: freespeech
 Format: 3.0 (quilt)
