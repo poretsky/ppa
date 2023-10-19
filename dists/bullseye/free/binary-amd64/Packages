@@ -149,7 +149,7 @@ Description: Pan-chimes auditory icons theme for Emacspeak
 
 Package: enlex-data
 Source: freespeech
-Version: 1.0m-18bullseye1
+Version: 1.0m-19bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 5157
@@ -158,11 +158,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/enlex-data_1.0m-18bullseye1_all.deb
-Size: 834976
-SHA256: 30ee06519f3d7feed150fc75aa2e84d7b60c3a1c9d36efab01b39884c712e613
-SHA1: 2ed6382a6df67d01978a9e8b53764674e32f37cd
-MD5sum: 3753e0f3f970521147d459d3f3e6ab4e
+Filename: pool/free/f/freespeech/enlex-data_1.0m-19bullseye1_all.deb
+Size: 835400
+SHA256: 06db18f1ab1062396bfd6bdef3fb75406598f582815a687bbcf8cfa0b3f6c535
+SHA1: dce6254dca0cddc7f90bbf2c5d84c5396fcee3f2
+MD5sum: 5d17813e5beb55c2c379bd692b431bbf
 Description: English pronunciation dictionary
  This package is aimed primarily for use together with the Freephone
  phonetizer for Mbrola. When it is installed you can instruct Freephone
@@ -171,7 +171,7 @@ Description: English pronunciation dictionary
 
 Package: freephone
 Source: freespeech
-Version: 1.0m-18bullseye1
+Version: 1.0m-19bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 182
@@ -182,11 +182,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/freephone_1.0m-18bullseye1_amd64.deb
-Size: 36696
-SHA256: d95b18e24921de9819584327a91eef51493fac52c5044577b776965cb121c507
-SHA1: 3e300914aeff3849c1bb594af00a9ea015e7657d
-MD5sum: 9357031353aa61f8b636657d140e2ad8
+Filename: pool/free/f/freespeech/freephone_1.0m-19bullseye1_amd64.deb
+Size: 36500
+SHA256: 9d5af5123a67aa1378e4f86f01e069730ce93072bbe0bf95980c33597d011757
+SHA1: 8ea1057129deb87ee31e3501e5a6fd25fbd112e4
+MD5sum: b4661ae42c8c2a565130a39d993ec2d7
 Description: English Text-To-Phoneme converter
  freephone converts English text to phonemes for MBROLA.
  .
@@ -483,7 +483,7 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 3.0-1bullseye1
+Version: 3.1-1bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 114
@@ -493,11 +493,11 @@ Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_3.0-1bullseye1_all.deb
-Size: 21268
-SHA256: ac29a545db37fe0612e435b01e757a7b71ef54a23a0d977e522b427be699ad5f
-SHA1: 57dcf1577a747105bb1f722d745aed777a36842c
-MD5sum: 3732f2bcd87802cabec2c393ba831b30
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_3.1-1bullseye1_all.deb
+Size: 21280
+SHA256: 9c634b3a04e6476a8bb09aac6b14f1eae474dde10776c337fa1c2f003a83d65a
+SHA1: 4c9d42c037bc759a82d8f7c81d65e8156238ee57
+MD5sum: ef39e6769d6f37b8a50ac72838bb03d8
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.

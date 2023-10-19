@@ -178,7 +178,7 @@ Description: Pan-chimes auditory icons theme for Emacspeak
 
 Package: enlex-data
 Source: freespeech
-Version: 1.0m-18buster1
+Version: 1.0m-19buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 5157
@@ -187,11 +187,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/enlex-data_1.0m-18buster1_all.deb
-Size: 834264
-SHA256: 8880704cc1ace02ba1594baa3352db8caa1ab1b2f25fd41e83723031ca35862f
-SHA1: 672c1ed5df3d92f8bcb2e89ec997a546b10cf93a
-MD5sum: 2615ab376594d48f04d85c3ddd9159a7
+Filename: pool/free/f/freespeech/enlex-data_1.0m-19buster1_all.deb
+Size: 835892
+SHA256: 80a61f50387250d90760283d93ce9801fbb40327352ddc5e3ab1b9eb06c340ef
+SHA1: 7dd91075b2322553df0c7a4cec63b4eef0aac166
+MD5sum: 51d6f8ccd1677181306490b78f970e81
 Description: English pronunciation dictionary
  This package is aimed primarily for use together with the Freephone
  phonetizer for Mbrola. When it is installed you can instruct Freephone
@@ -200,7 +200,7 @@ Description: English pronunciation dictionary
 
 Package: freephone
 Source: freespeech
-Version: 1.0m-18buster1
+Version: 1.0m-19buster1
 Architecture: i386
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 133
@@ -211,11 +211,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/freephone_1.0m-18buster1_i386.deb
-Size: 33908
-SHA256: 8f68636216682d1e3ea81135b95f205811ba4e55555dadff9efd039caa06027b
-SHA1: 094aeeeed74dc5f1e976f553a2f1f645922af35e
-MD5sum: de11a517c79f5b7cfa773dd5c789242f
+Filename: pool/free/f/freespeech/freephone_1.0m-19buster1_i386.deb
+Size: 33904
+SHA256: 1e07dc0a9d1d6c400477a904a1ca4d2d45379517d46343ea89e5f3a7166cbf39
+SHA1: 40a80fb5202f6e93c494cd4eb30edb1f5e7e3add
+MD5sum: 2f5ad262a896ecb87c747e689893fd66
 Description: English Text-To-Phoneme converter
  freephone converts English text to phonemes for MBROLA.
  .
@@ -529,7 +529,7 @@ Description: interface for wget on Emacsen
  Emacsen.
 
 Package: youtube-dl-el
-Version: 3.0-1buster1
+Version: 3.1-1buster1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 112
@@ -539,11 +539,11 @@ Suggests: w3m-el
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Priority: optional
 Section: net
-Filename: pool/free/y/youtube-dl-el/youtube-dl-el_3.0-1buster1_all.deb
-Size: 21812
-SHA256: ea4acb0649779ab9b69df3ac5f15af17c89ae7f3f022a33cc2cc65135365977a
-SHA1: 52c6c29e96ee1601e05887d921bba35bf7c6623b
-MD5sum: 90a6c048d08351f11b359f2cb3b1db46
+Filename: pool/free/y/youtube-dl-el/youtube-dl-el_3.1-1buster1_all.deb
+Size: 21836
+SHA256: 7c1c8c94c2ef390e68163055c8897c30ff74f9f596d61a2524e6b8f1a260fb09
+SHA1: 86ceb70f31fbee0228b3c61778f7acd4270f9c1d
+MD5sum: 81c23582405a317f6001859f315af482
 Description: Emacs interface for youtube-dl
  This package manages download queue using youtube-dl as a backend.
  In conjunction with mpv player it also can play videos online.

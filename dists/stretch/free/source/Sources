@@ -35,7 +35,7 @@ Package: freespeech
 Format: 3.0 (quilt)
 Binary: freephone, enlex-data
 Architecture: any all
-Version: 1.0m-18stretch1
+Version: 1.0m-19stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), libdb-dev
@@ -46,17 +46,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- cd8ecfa4db086ecb7a5abb448abc56ef 906 freespeech_1.0m-18stretch1.dsc
+ 5751076b4aa486b11ddc47664029e97d 906 freespeech_1.0m-19stretch1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 9ab94b3edb513b66fe63767155e1ccce 28228 freespeech_1.0m-18stretch1.debian.tar.xz
+ aee3119de0a5985a4489dd7d8a89e0e6 28908 freespeech_1.0m-19stretch1.debian.tar.xz
 Checksums-Sha1: 
- 1b4087658fef00634a3c7d55489ede280ebd8de2 906 freespeech_1.0m-18stretch1.dsc
+ d08d176cb4690814b540931221f47bca0aa3ce93 906 freespeech_1.0m-19stretch1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- 4b8bc5478e5161b1e810e0cac2fb5444f5c9448f 28228 freespeech_1.0m-18stretch1.debian.tar.xz
+ 4a556bb92dc966fd242af0121b15380d6b648797 28908 freespeech_1.0m-19stretch1.debian.tar.xz
 Checksums-Sha256: 
- 7ed07c5f64fe05303072f5881c410db5f3561a0749c891f74d3af3de607cc436 906 freespeech_1.0m-18stretch1.dsc
+ bbd88f875c641d92e165b6698f12d829567a64f040a7adbc22ec533488aaf6d4 906 freespeech_1.0m-19stretch1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- f6b519579d28827e3fa4306adb6c9e1eb316ff1578ca7e2a736c1648078f4d2f 28228 freespeech_1.0m-18stretch1.debian.tar.xz
+ 0818bc14417ddc8b313862c1760ba8dd2d7dee0430a62dbd8482c820c5abb552 28908 freespeech_1.0m-19stretch1.debian.tar.xz
 
 Package: multispeech
 Format: 1.0
@@ -218,7 +218,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 3.0-1stretch1
+Version: 3.1-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -229,15 +229,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 9b9ebc2554b88ff79838cbe0893bc492 895 youtube-dl-el_3.0-1stretch1.dsc
- dc158ebca09e9386b36f78bc94c8d595 24032 youtube-dl-el_3.0.orig.tar.xz
- 4c5fb948b1a7aecf4fc31b542e4c96aa 5068 youtube-dl-el_3.0-1stretch1.debian.tar.xz
+ 9480c53cfd77a5dfc3b2116e0d1e1d40 895 youtube-dl-el_3.1-1stretch1.dsc
+ 53980338c9f499c6c61e2e698fc2dd26 24024 youtube-dl-el_3.1.orig.tar.xz
+ 52f4e2fdc56bbe3fec6bdfe402fb3b00 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 019284824a48803ad3204d331393eed52bf44164 895 youtube-dl-el_3.0-1stretch1.dsc
- 9e15d87c0fef8d8436930f2c99c0232844d41ad7 24032 youtube-dl-el_3.0.orig.tar.xz
- b6a6dc4255bf0117ea4585f0a810af84caa2aaf1 5068 youtube-dl-el_3.0-1stretch1.debian.tar.xz
+ bab19792298c0fa6b609a16881f3fb8d1f856ebe 895 youtube-dl-el_3.1-1stretch1.dsc
+ 68861b0ba20f4e1591bc36d9d5319019804bdf39 24024 youtube-dl-el_3.1.orig.tar.xz
+ cec9c0b1e97d29d74b5ee6d4c30451c26f0c2294 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- bf33e0f11851f9c797760fa0ad4d4dde0a8bfac222c9f1631b8562335f1b57ec 895 youtube-dl-el_3.0-1stretch1.dsc
- 6e69f18eea4d381879a206ff226d67d3aef162cc8149225ee2b8a6670bd1badf 24032 youtube-dl-el_3.0.orig.tar.xz
- aea110e725800e53ca85eb6bcfb8a99ad595aeb34cb581ad9bbf0c5936fa35e9 5068 youtube-dl-el_3.0-1stretch1.debian.tar.xz
+ 434183eafe3e941c97d11fa1fac9b052032915f27b62d4977d27c597cc8c9349 895 youtube-dl-el_3.1-1stretch1.dsc
+ 081406652ad3166e75295a943ae641f4609f1c6bf9853f2781154668f7d7de80 24024 youtube-dl-el_3.1.orig.tar.xz
+ 5f473e103bb2c560347bb24b210cf4ed0a83db9ef0f6427ca5b4a82f0dd2adef 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
 
