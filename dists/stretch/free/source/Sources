@@ -218,7 +218,7 @@ Package: youtube-dl-el
 Format: 3.0 (quilt)
 Binary: youtube-dl-el
 Architecture: all
-Version: 3.1-1stretch1
+Version: 3.2-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Homepage: https://github.com/poretsky/youtube-dl-emacs
 Standards-Version: 3.9.8
@@ -229,15 +229,15 @@ Priority: optional
 Section: net
 Directory: pool/free/y/youtube-dl-el
 Files: 
- 9480c53cfd77a5dfc3b2116e0d1e1d40 895 youtube-dl-el_3.1-1stretch1.dsc
- 53980338c9f499c6c61e2e698fc2dd26 24024 youtube-dl-el_3.1.orig.tar.xz
- 52f4e2fdc56bbe3fec6bdfe402fb3b00 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
+ 841877443aa24ae9a00e512e758579aa 895 youtube-dl-el_3.2-1stretch1.dsc
+ d9f23a3ca9cc3c8fa5b5fc0d2e0024de 24028 youtube-dl-el_3.2.orig.tar.xz
+ 9f4a70e485419d6c954e7c225027d452 5108 youtube-dl-el_3.2-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- bab19792298c0fa6b609a16881f3fb8d1f856ebe 895 youtube-dl-el_3.1-1stretch1.dsc
- 68861b0ba20f4e1591bc36d9d5319019804bdf39 24024 youtube-dl-el_3.1.orig.tar.xz
- cec9c0b1e97d29d74b5ee6d4c30451c26f0c2294 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
+ 4fcaa43cf015a4c30d39f157d0b41899c09de0ba 895 youtube-dl-el_3.2-1stretch1.dsc
+ 22bf83c3be251a678bc759fe0c2cb5a455c8aa94 24028 youtube-dl-el_3.2.orig.tar.xz
+ 693fddb5420bc698b40cf85f7431cf431be838d3 5108 youtube-dl-el_3.2-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 434183eafe3e941c97d11fa1fac9b052032915f27b62d4977d27c597cc8c9349 895 youtube-dl-el_3.1-1stretch1.dsc
- 081406652ad3166e75295a943ae641f4609f1c6bf9853f2781154668f7d7de80 24024 youtube-dl-el_3.1.orig.tar.xz
- 5f473e103bb2c560347bb24b210cf4ed0a83db9ef0f6427ca5b4a82f0dd2adef 5088 youtube-dl-el_3.1-1stretch1.debian.tar.xz
+ 8c2537799e291666eb8a958dd3d6a504120e665363a3ae260e9dd148e1423017 895 youtube-dl-el_3.2-1stretch1.dsc
+ 350d2e3576c1896e86898b4d1f5591a61085b0a76206fe273a9d83aaebcfc857 24028 youtube-dl-el_3.2.orig.tar.xz
+ 56b83bbf766c214a73c3b8e56a9dcaa16f1f8be6ddf4b35a102c40596c6dab77 5108 youtube-dl-el_3.2-1stretch1.debian.tar.xz
 

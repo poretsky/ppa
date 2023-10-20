@@ -6,22 +6,22 @@ Label: accessibility
 Suite: debian
 Codename: stretch
 Version: 9.0
-Date: Thu, 19 Oct 2023 16:36:02 UTC
+Date: Fri, 20 Oct 2023 14:40:07 UTC
 Architectures: amd64 i386
 Components: free non-free
 Description: Accessibility packages
 MD5Sum:
- 14f38a016093904849692cde5b1b610b 24501 free/binary-amd64/Packages
- 9b3fd7581a13177be829791bbfedc5d3 7011 free/binary-amd64/Packages.gz
- a1e7ba4e1304e28c48ecd450ec04c1af 6906 free/binary-amd64/Packages.bz2
+ 7bad1a218be610b5655a5d41d12ac223 24501 free/binary-amd64/Packages
+ acebef24e894c2321acbdac18b181b6f 7008 free/binary-amd64/Packages.gz
+ 14dab99e1c2919230ffda63c53500916 6913 free/binary-amd64/Packages.bz2
  d6dc17d1b9aed7b6bb349f7cdc653d31 139 free/binary-amd64/Release
- 89b5c9869f29df285a98bd35ca2c7c6f 24472 free/binary-i386/Packages
- 206416488dc3478d64c20de7b9523bb6 7029 free/binary-i386/Packages.gz
- 068106847b8844ef99ecaadb2cea9049 6919 free/binary-i386/Packages.bz2
+ ceb3d46dedd20828bce090319ffd05a3 24472 free/binary-i386/Packages
+ 0740fc61e18b715f937af16a62ba45a9 7026 free/binary-i386/Packages.gz
+ 6905fff56202e7f521529993924dddd0 6901 free/binary-i386/Packages.bz2
  cee53bfb163b5b685e71f22cf22ea95b 138 free/binary-i386/Release
- e43dc273b6a7d59022ce157cc91493ef 10882 free/source/Sources
- c2d989f530c6ee9d7dfc3c557c61defd 3609 free/source/Sources.gz
- 82a0a4fd6772af5547e4b597842304cc 3598 free/source/Sources.bz2
+ a8f84c760ea2ae98bfb89065d7542aba 10882 free/source/Sources
+ 355c8ccb6270c0017648aa844370aef5 3603 free/source/Sources.gz
+ 0403ccb85917ece3ce9f6b878e462e7f 3594 free/source/Sources.bz2
  220b5690c7da645d472a32e094163754 140 free/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 non-free/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 non-free/binary-amd64/Packages.gz
@@ -40,17 +40,17 @@ MD5Sum:
  c19649b398f9658aa417e1dde3fe291f 124995 Contents-i386
  07de1f2042c50efdcef5c3101451d135 10467 Contents-i386.gz
 SHA1:
- fb050cfcf78a6a1ffe496e45e2cc169b09ff25e6 24501 free/binary-amd64/Packages
- 6c7b44561eb08228300b962c7b845cbaf01d84ed 7011 free/binary-amd64/Packages.gz
- c078146027a355bc54834bd1ef4fadba517c03ee 6906 free/binary-amd64/Packages.bz2
+ 76cfee33214933531e69093a1eca3835919ac147 24501 free/binary-amd64/Packages
+ d1f702cded1730f455cf0628b3b7e635b35da059 7008 free/binary-amd64/Packages.gz
+ 9399abc7267ab10bbcb935a61c955911ee251506 6913 free/binary-amd64/Packages.bz2
  8650f7bbca8100630d60721072f7c0b582611788 139 free/binary-amd64/Release
- ff95be78ad6f40a72d3cc0c10dd2068f5398e1ae 24472 free/binary-i386/Packages
- d853c8f420e42306b1f90ae42d96586d78c35df3 7029 free/binary-i386/Packages.gz
- 02df947fa6ec2dfeedc94c7ab56d39d32caac5c6 6919 free/binary-i386/Packages.bz2
+ 6dc16e73c631843915ffef39883f121292b9e4f4 24472 free/binary-i386/Packages
+ b1915bac1b8c0c33a0caea679731f0db2c133388 7026 free/binary-i386/Packages.gz
+ 9c73aa3ef575bd6bd3631c746b484934ff1ed08d 6901 free/binary-i386/Packages.bz2
  69fe704bd2c1470ccb6c6bb811c27c2d5cfe1843 138 free/binary-i386/Release
- 8d8e2a45c042be49155f3157d288bdea5f9c93aa 10882 free/source/Sources
- fca556a6a17d5c58fa72d78784f49f49cc7eac7e 3609 free/source/Sources.gz
- 3ec225aadd65680a164a6d375cf684b30084a569 3598 free/source/Sources.bz2
+ 0af4df4bea4940cc91558f2e9db96bc5047359fc 10882 free/source/Sources
+ cf400d6f21d68acba909e15ecb3dfe71b250fd33 3603 free/source/Sources.gz
+ 6c21318def3182d7bd0a9fbf9a07bc05d03dbfbb 3594 free/source/Sources.bz2
  f32590b987bb781b51180c156c0966301ec66892 140 free/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 non-free/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/binary-amd64/Packages.gz
@@ -69,17 +69,17 @@ SHA1:
  855c5c1661d21c39cdb7df783c0b412304def2d1 124995 Contents-i386
  0930a9960882872b31c241ad9a720c852f9f6cf8 10467 Contents-i386.gz
 SHA256:
- 61111f347e4785bfbe2f654b0e03b5aa1c5f1aa50bf2b7638e86e73ac270d0fd 24501 free/binary-amd64/Packages
- 8e450ebaa2b46e0e11bd84f522a4ab96335812d9f3c5362a33cc0503f1bcd432 7011 free/binary-amd64/Packages.gz
- d2a3d1cb7bd2ba872df74c84540ff1d2cd5a7677f199c712c0f20c2ebadb1206 6906 free/binary-amd64/Packages.bz2
+ 44118607eff3fbdc736b9ab830ec063c41995ba037dee1973dfc745e0fed25c5 24501 free/binary-amd64/Packages
+ 02ee0b76acbda13705764a88cbf43fc7189d4403e867e662d7869e85798bc8bf 7008 free/binary-amd64/Packages.gz
+ 433dd4b5ad8310e1f8d6207d9a0dc7e4b1fb9530a52a9cc945ebde91e8ad0445 6913 free/binary-amd64/Packages.bz2
  35f8c0827befc0b21dd39e5a85025ba32902246917b1a66cf84787344338cf38 139 free/binary-amd64/Release
- 7e6e94e09d1c70a95193806b4026a7d8104427a04e70c28dc0ad755ab961c9ee 24472 free/binary-i386/Packages
- fcc3b88da121662045b148eecfecb0c6595bab3494f5c7b8e809235d85941caa 7029 free/binary-i386/Packages.gz
- 61179b70caa4709c78e5d706a8fb643eb44939aed894bf93516c20c8d9d36f50 6919 free/binary-i386/Packages.bz2
+ 72f670e5922ebaaef811eddb60662b59b4a8e10b2494411fa25419ac2a4a87ed 24472 free/binary-i386/Packages
+ c8d723be38a082aefb218c697a29519b7027644750a35a206cd111e36f7fb595 7026 free/binary-i386/Packages.gz
+ 755817d7135aea92535f1433a98296a38cd88fc338270e3ad5bb92ea13d8f75e 6901 free/binary-i386/Packages.bz2
  33e66190b5eae89fa73fe30c5f27f954ce5c70ed0e323fade845595847d78bc4 138 free/binary-i386/Release
- 9f052b5255ba90dafb9072b334855f53d262cacc88f84366ac3b31c144396df0 10882 free/source/Sources
- d438484bf8cb4fd0fd4f629848f99811c6507c9dd019036c5357a4b28c51352a 3609 free/source/Sources.gz
- d591b769a06f05a739cc769994fcd0ffdd6569c5eb966951b2ea169a3522b542 3598 free/source/Sources.bz2
+ 674ca3cc5c7b825a1e33d25b7fe4c1caf68f717b0166ae16ac7fe4d32f64a44e 10882 free/source/Sources
+ dde561ff920ba2223e32192d4ee3fdab8c01b28c82e1a074598c0f95faf060b2 3603 free/source/Sources.gz
+ 11c5bfedb33b167dce764dbc86dab559a986db993678fee2c8cd6013e9ee8b2c 3594 free/source/Sources.bz2
  22fc6d058f3e7e0a1dfc1083d94d05e4cd34f94889ce91e0a92c67b5ce4dda7b 140 free/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 non-free/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 non-free/binary-amd64/Packages.gz
@@ -100,7 +100,7 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iEYEAREIAAYFAmUxWvMACgkQ/ytogf9LBB9fNgCfWtU/mk3cpWVRO1B23+hIypen
-SEEAn3WIyhl8Fby4uBWZJVCMppuf1sWX
-=rmu5
+iEYEAREIAAYFAmUykUcACgkQ/ytogf9LBB+ZkwCgnKu9kx/W0Wo+mSfv5pMYNMLB
+LS4An1SLbsJUrgQsHXLKBpvvEAnBCBkI
+=ET77
 -----END PGP SIGNATURE-----
