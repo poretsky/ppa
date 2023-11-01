@@ -271,7 +271,7 @@ Description: Pan-chimes auditory icons theme for Emacspeak
 
 Package: enlex-data
 Source: freespeech
-Version: 1.0m-19stretch1
+Version: 1.0m-20stretch1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 5157
@@ -280,11 +280,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/enlex-data_1.0m-19stretch1_all.deb
-Size: 835912
-SHA256: 1d9da248434b400b206e70ea081ae91f99b6eaddf4d72c53e15d78dc5152eef4
-SHA1: cb9d58e240e9ab7e2d8bdbf58418eacdab1a0430
-MD5sum: 995ed4598ac2fbd3b8dc13bed1adbc20
+Filename: pool/free/f/freespeech/enlex-data_1.0m-20stretch1_all.deb
+Size: 835940
+SHA256: 44829ac980b04f91bf0547d2f321ae99d00a84338ae3d3201091a31802b22bad
+SHA1: 378679e2aaebcd38237733f38d19534ab3a1225e
+MD5sum: 7d9428ed7e7e3671fe2bbca652dc52a8
 Description: English pronunciation dictionary
  This package is aimed primarily for use together with the Freephone
  phonetizer for Mbrola. When it is installed you can instruct Freephone
@@ -293,7 +293,7 @@ Description: English pronunciation dictionary
 
 Package: freephone
 Source: freespeech
-Version: 1.0m-19stretch1
+Version: 1.0m-20stretch1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 174
@@ -304,11 +304,11 @@ Conflicts: enlex
 Replaces: enlex
 Priority: optional
 Section: sound
-Filename: pool/free/f/freespeech/freephone_1.0m-19stretch1_amd64.deb
-Size: 36422
-SHA256: 090c6313d62b7fc2dd4e64e106b00f12b769d26ea91593456918546cc7298de0
-SHA1: 9c147346da4b6697b38820346aac8dfb9c13c0cd
-MD5sum: a7a7e4db2b78432c12724f397695161b
+Filename: pool/free/f/freespeech/freephone_1.0m-20stretch1_amd64.deb
+Size: 36392
+SHA256: 46422702e0343226052e36d106976b59170ae641dbb07b13e8adc83415310186
+SHA1: 37aecba503e9cb8df5a6a0f557ca0e0ed71910f7
+MD5sum: 38b9c1ab5ac7b75471eed91fac0066fb
 Description: English Text-To-Phoneme converter
  freephone converts English text to phonemes for MBROLA.
  .

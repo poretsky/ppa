@@ -35,7 +35,7 @@ Package: freespeech
 Format: 3.0 (quilt)
 Binary: freephone, enlex-data
 Architecture: any all
-Version: 1.0m-19buster1
+Version: 1.0m-20buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), libdb-dev
@@ -46,17 +46,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/f/freespeech
 Files: 
- fe43ec08de493ada4bfa740f089e3eba 902 freespeech_1.0m-19buster1.dsc
+ 90df22b59cd19a23a3d34258db431e81 902 freespeech_1.0m-20buster1.dsc
  9abf0285271d9a99078be92df9f4a71f 1345507 freespeech_1.0m.orig.tar.gz
- 5aa8b898005794c1978f46181a1cee77 28880 freespeech_1.0m-19buster1.debian.tar.xz
+ 18261ff38d6cbae2857181d10717da76 28996 freespeech_1.0m-20buster1.debian.tar.xz
 Checksums-Sha1: 
- bf1b700bf862efb7bf44c080efddb64772912517 902 freespeech_1.0m-19buster1.dsc
+ dbe5e8e75374330190be10180049a1e2169f0758 902 freespeech_1.0m-20buster1.dsc
  03a0337b15b5b233edc9d3f2b093ace30fb1e994 1345507 freespeech_1.0m.orig.tar.gz
- dfbe1fa17eeb2e068543ad7c2eaec6f141c59314 28880 freespeech_1.0m-19buster1.debian.tar.xz
+ 69e278e413caadb68597b6c929c78f83ca23c8dd 28996 freespeech_1.0m-20buster1.debian.tar.xz
 Checksums-Sha256: 
- 8600915f0f7663911f273ee3846d1a73196d47e7611edf14b442005d798d38b7 902 freespeech_1.0m-19buster1.dsc
+ a1c4a0afc60bb9d6ad13016ee23ff936469209a4ff2c546be55f22fe102e55ba 902 freespeech_1.0m-20buster1.dsc
  8e414924216e01436f3437d6e13b43e94ee6ea90365bdce2f27851766e38d82b 1345507 freespeech_1.0m.orig.tar.gz
- 25f594627f5b92214d2921a8bc6084392f9d0fe805f5380ddfdfe5f34e3e0e49 28880 freespeech_1.0m-19buster1.debian.tar.xz
+ 02ff3a49ec6efe7d5fb9de3459f80e78f1fd9fe2ba52a4a599030929607f7cce 28996 freespeech_1.0m-20buster1.debian.tar.xz
 
 Package: multispeech
 Format: 1.0
