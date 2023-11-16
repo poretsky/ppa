@@ -59,10 +59,10 @@ Checksums-Sha256:
  1c65ed2018aa5fb6721f544a4c3e68ebe0b08d800dace7e12374825cfe6078b1 28992 freespeech_1.0m-20bullseye1.debian.tar.xz
 
 Package: multispeech
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.5.2bullseye1
+Version: 4.6.0-1bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 10), po-debconf, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 2e5d9fa8ec923f4fc752b5c4f327aaa6 959 multispeech_4.5.2bullseye1.dsc
- 7c779cc72b5d531e6f0477d6a46d090b 528433 multispeech_4.5.2bullseye1.tar.gz
+ d5852cb0abfeffe76c0772f8cc7d85e9 1246 multispeech_4.6.0-1bullseye1.dsc
+ a06bcb91a48d43bd6038f55616ad8b22 309008 multispeech_4.6.0.orig.tar.xz
+ bf20b73192a14ba5cacced764540d6ad 20048 multispeech_4.6.0-1bullseye1.debian.tar.xz
 Checksums-Sha1: 
- 6b2f06341893896d544cdbfa26c6c7ba0d291332 959 multispeech_4.5.2bullseye1.dsc
- 8bfe655708a1322275a2f36836fe22bc4d7ee92c 528433 multispeech_4.5.2bullseye1.tar.gz
+ c17c4ceb6f0b6824f95b56341eae5c4c79048c1e 1246 multispeech_4.6.0-1bullseye1.dsc
+ fa7a6fce820deb1d2e7599390ddb5d20dfa21661 309008 multispeech_4.6.0.orig.tar.xz
+ 2c96035c799e97d1cdc273b1fe777be06bb80501 20048 multispeech_4.6.0-1bullseye1.debian.tar.xz
 Checksums-Sha256: 
- a8825b3aac1a525f3311f9fd1cb6ef07626d5cccd30577e6b2fed9bc12f82f03 959 multispeech_4.5.2bullseye1.dsc
- c69bb3cc0412b155a3d4d49a820113bdcbee399622a7b6d6e4a9d94b64e7cb3d 528433 multispeech_4.5.2bullseye1.tar.gz
+ 74637ad42c3532f8f2fd06161268e1a30302aa0eace6c25a1f7679e3b1ff8555 1246 multispeech_4.6.0-1bullseye1.dsc
+ b7301701f4f9c97a585b1f50f21fcfaa0d74b9bddbd26a48288f04d0ff99f4f0 309008 multispeech_4.6.0.orig.tar.xz
+ e17a7f5c5eab19fafc9b20e71b95ed7ddce2d645600d9eeb86d526ec3d9366d4 20048 multispeech_4.6.0-1bullseye1.debian.tar.xz
 
 Package: rbook
 Format: 1.0
@@ -107,13 +110,13 @@ Checksums-Sha256:
  ad7249fd6919e306a50d6c3ae590efa79a114d851c7178de86d04a2c7e947d08 24424 rbook_2.6.0bullseye1.tar.gz
 
 Package: ru-tts
-Format: 3.0 (native)
+Format: 3.0 (quilt)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.4bullseye1
+Version: 6.2.0-1bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
-Build-Depends: debhelper (>= 10), libtool-bin, librulexdb-dev
+Build-Depends: debhelper (>= 10), libtool-bin
 Package-List:
  librutts-dev deb libdevel optional arch=any
  librutts7 deb libs optional arch=any
@@ -122,20 +125,23 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 5881d3046fb810fd4c1657e3c3827341 681 ru-tts_6.1.4bullseye1.dsc
- 00fe205ecab195ca59825e26874f7093 4364380 ru-tts_6.1.4bullseye1.tar.xz
+ a513fd3b16583f207e2e472edbff66d4 925 ru-tts_6.2.0-1bullseye1.dsc
+ 942a23da2ee67773e034d71bbf449fa6 4360420 ru-tts_6.2.0.orig.tar.xz
+ 74465ebfc5e691904a0f9f993a4a8546 7496 ru-tts_6.2.0-1bullseye1.debian.tar.xz
 Checksums-Sha1: 
- 6b892c559cc81f273b81aec02047aee2db79bf1b 681 ru-tts_6.1.4bullseye1.dsc
- 67afb4b45187c2f571a98a084789cbca629de519 4364380 ru-tts_6.1.4bullseye1.tar.xz
+ 26c35ccd69f03f917118b9759857d1bc52091d50 925 ru-tts_6.2.0-1bullseye1.dsc
+ c4e798cb3a648c3950c74b89ff6864d558b2e30d 4360420 ru-tts_6.2.0.orig.tar.xz
+ 90539f8ac2dd1bd5ee8963446ecd6740866fe9b5 7496 ru-tts_6.2.0-1bullseye1.debian.tar.xz
 Checksums-Sha256: 
- 773cd9400f41fd4d09ab8433f204a580da6df9bae2e475ad970278292ce5bbfd 681 ru-tts_6.1.4bullseye1.dsc
- d9b462c76a7702bb91e851221148d1c9d856083f56c470e40b562cce42eb0b31 4364380 ru-tts_6.1.4bullseye1.tar.xz
+ 7f97ba9f33f7babaea89e8bfcbc2ebf52a1520e65d379afdfc0b86d19c1960c2 925 ru-tts_6.2.0-1bullseye1.dsc
+ a97a4b341d5be80332cdb07534d278affa0aa4b1ef7fb20f6cb37c78d2e91edf 4360420 ru-tts_6.2.0.orig.tar.xz
+ cbe7ab87f65770db8ed9dc40d01857f4185fbc246b3c129a387fe73ce459f27b 7496 ru-tts_6.2.0-1bullseye1.debian.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.6-1bullseye1
+Version: 3.8.0-1bullseye1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 10), libdb-dev, libtool-bin, locales
@@ -148,17 +154,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- b530530ce5c1e0711b35a004804674c7 1000 rulex_3.7.6-1bullseye1.dsc
- d1385f7d5ec171fd2a0ef3879255a42b 2301192 rulex_3.7.6.orig.tar.xz
- 9ca28efb34fd8fe0a64263d19c5074c6 3148 rulex_3.7.6-1bullseye1.debian.tar.xz
+ 4def4130a66884e054a30fdc8130bdac 1000 rulex_3.8.0-1bullseye1.dsc
+ 5abd46a73490d506c2dd6fd36c091741 2234788 rulex_3.8.0.orig.tar.xz
+ 7c729bc09d35e20ab3b1e67a01f897a5 3280 rulex_3.8.0-1bullseye1.debian.tar.xz
 Checksums-Sha1: 
- 30312bb6042cecfaf156e23e06a2cdeee961aabb 1000 rulex_3.7.6-1bullseye1.dsc
- 21017406b2d041ef2adb2b8dab1975e612c513bb 2301192 rulex_3.7.6.orig.tar.xz
- 0bb9b70de003cdc0ab7471b6dfd2e8ac36f4f9dc 3148 rulex_3.7.6-1bullseye1.debian.tar.xz
+ 6fafb21fdb696fb7ae444de6f9ed7ed8f52fd89d 1000 rulex_3.8.0-1bullseye1.dsc
+ 57cd341d654a4ba0b8b6796e92a93a2564e246d8 2234788 rulex_3.8.0.orig.tar.xz
+ 7b5476b88d51907e34c16f8f6d1930c29dba0f4e 3280 rulex_3.8.0-1bullseye1.debian.tar.xz
 Checksums-Sha256: 
- 57accb28495bbba34640bd5ae4acb0d50a1ea0d492fb092d63ccd73c9426406b 1000 rulex_3.7.6-1bullseye1.dsc
- 54cf0c698a8e8ab0008efb91cd7bb727951532e9f3c7bf53f32ed10b4020da6a 2301192 rulex_3.7.6.orig.tar.xz
- 97c60a41241411e68aa99cd2308df63a06400caca161b38993481a84b2ed7a90 3148 rulex_3.7.6-1bullseye1.debian.tar.xz
+ ae84559abc29b2630e05cc900ea35acdb8b3c4bb1c09264e7a669fe78a8e919b 1000 rulex_3.8.0-1bullseye1.dsc
+ eac9c979c60fd1463a0ffff480f4728499d862bbe4502223ac85ca9c12d91b05 2234788 rulex_3.8.0.orig.tar.xz
+ 3ae5a6b2ff97bc2142afdb6eeabc808efee4643472868241ebd93dcca3c55054 3280 rulex_3.8.0-1bullseye1.debian.tar.xz
 
 Package: wget-el
 Format: 1.0

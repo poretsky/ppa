@@ -195,7 +195,7 @@ Description: English Text-To-Phoneme converter
 
 Package: libmultispeech5
 Source: multispeech
-Version: 4.5.2bullseye1
+Version: 4.6.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 793
@@ -205,11 +205,11 @@ Conflicts: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Replaces: libmultispeech0, libmultispeech3, multispeech (<< 4.0.0)
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/libmultispeech5_4.5.2bullseye1_amd64.deb
-Size: 219388
-SHA256: 793f54c9b32dd2b9e54e1f8be30d89af492a33e2beac6c1144edcffd2f234547
-SHA1: 7d714a6445498fcb21c187389749ccf46edf48d9
-MD5sum: a22e11c4080d54c1a02dcb4c8a92ceac
+Filename: pool/free/m/multispeech/libmultispeech5_4.6.0-1bullseye1_amd64.deb
+Size: 219472
+SHA256: e7bce11b2f21e9e462b25cc0b45c6ad0d4852f898577ad32afc1e9715f3effe8
+SHA1: 52ca73fdd4b8bac22545113ba4d4bac687e72e0a
+MD5sum: 7e11ed4ac0289c98654a0bd29e556b71
 Description: Multilingual speech server
  Though Multispeech was primarily designed for use in conjunction
  with Emacspeak, but being capable to work with Speech Dispatcher
@@ -221,19 +221,19 @@ Description: Multilingual speech server
 
 Package: librulexdb-dev
 Source: rulex
-Version: 3.7.6-1bullseye1
+Version: 3.8.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 68
-Depends: librulexdb0 (= 3.7.6-1bullseye1), libdb-dev, libc6-dev
+Installed-Size: 74
+Depends: librulexdb0 (= 3.8.0-1bullseye1), libdb-dev, libc6-dev
 Suggests: rulex
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/rulex/librulexdb-dev_3.7.6-1bullseye1_amd64.deb
-Size: 28384
-SHA256: fd1edd00f0e982807268a798b297f774822b5aaf167b7e61d2323d6b132e9556
-SHA1: 3054b4bdfae0d209416bac1f296974bcab5d488e
-MD5sum: 867bea7cadaa59064be7924aa28480d2
+Filename: pool/free/r/rulex/librulexdb-dev_3.8.0-1bullseye1_amd64.deb
+Size: 31564
+SHA256: 9c974ab772d187a69bed70f8945f8f8122635eaa2ead1ab2e5679d4daae1d94e
+SHA1: ece41561d96b4b0d4eb56b759161124b31e99c36
+MD5sum: b4894756d2ca9ac869cf3be45b6b7e6a
 Description: Russian pronunciation dictionary access library
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -242,18 +242,19 @@ Description: Russian pronunciation dictionary access library
 
 Package: librulexdb0
 Source: rulex
-Version: 3.7.6-1bullseye1
+Version: 3.8.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 35
 Depends: libc6 (>= 2.3.4), libdb5.3
+Recommends: rulex-data (>= 3.8)
 Priority: optional
 Section: libs
-Filename: pool/free/r/rulex/librulexdb0_3.7.6-1bullseye1_amd64.deb
-Size: 10540
-SHA256: 37830c73ca160da4e09e5cd1c99785badc3f82c139c676a3646aac6eed49be6b
-SHA1: bff934c495d0631514ec7b46226e3f84e99767cd
-MD5sum: 642560ffa1a24355e29433c3267db2dc
+Filename: pool/free/r/rulex/librulexdb0_3.8.0-1bullseye1_amd64.deb
+Size: 11308
+SHA256: b3912e21cca524c6062a72b0060da8fa3dd1e218dc5105574caaa06cdbc9cc1a
+SHA1: 2030b9021d6df296d8e24e2b2e31b9d02f28be13
+MD5sum: dcc309256ad3620697401a5f03be32f1
 Description: Russian pronunciation dictionary access library
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -262,18 +263,18 @@ Description: Russian pronunciation dictionary access library
 
 Package: librutts-dev
 Source: ru-tts
-Version: 6.1.4bullseye1
+Version: 6.2.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 115
-Depends: librutts7 (= 6.1.4bullseye1)
+Depends: librutts7 (= 6.2.0-1bullseye1)
 Priority: optional
 Section: libdevel
-Filename: pool/free/r/ru-tts/librutts-dev_6.1.4bullseye1_amd64.deb
-Size: 45852
-SHA256: e23fff1132715c6de20570778419899c5df74b547a1b83a313b22ab71cc8591d
-SHA1: 60ec35abfce1c6806c0b7ce843d44cd37ab0fadf
-MD5sum: 62155e0d9039b1c8f4e7f348ac7dd3df
+Filename: pool/free/r/ru-tts/librutts-dev_6.2.0-1bullseye1_amd64.deb
+Size: 46072
+SHA256: f2421202c527f1ced0e1f365966efd7ab164ac143f0d76a687015554b3cf4b9b
+SHA1: ca08541212d2a09105715759e73cee4bd56ca771
+MD5sum: dcc699b491e02ac015ed27f17371333f
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -286,18 +287,18 @@ Description: software Russian TTS engine
 
 Package: librutts7
 Source: ru-tts
-Version: 6.1.4bullseye1
+Version: 6.2.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 89
 Depends: libc6 (>= 2.14)
 Priority: optional
 Section: libs
-Filename: pool/free/r/ru-tts/librutts7_6.1.4bullseye1_amd64.deb
-Size: 40392
-SHA256: e558f13cfb116c0ec325ffc1e78bc8f87b807f09b0a7fc33a2c71e94daa53493
-SHA1: 51b09657e4eed0870663978d1dc1d8e4e92b683d
-MD5sum: 541d847cf6c7c82729de3b6e69e20d68
+Filename: pool/free/r/ru-tts/librutts7_6.2.0-1bullseye1_amd64.deb
+Size: 40560
+SHA256: d25cd4334769f2356a8a1cc3ddabd821e2884ee81e6be1026c1dae806d720e7d
+SHA1: 8be7f71a65670b9725e60ec5ad517d1720cc5d2d
+MD5sum: 7da2c7bf892b1bb581d3aa25363a8fbf
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset as an input
@@ -309,21 +310,21 @@ Description: software Russian TTS engine
  This package provides the shared library.
 
 Package: multispeech
-Version: 4.5.2bullseye1
+Version: 4.6.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 241
-Depends: libbobcat5 (>= 5.07.00), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech5 (>= 4.5), libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
+Depends: libbobcat5 (>= 5.07.00), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech5 (>= 4.6), libstdc++6 (>= 5.2), debconf (>= 0.5) | debconf-2.0
 Recommends: espeak, espeak-data
 Suggests: emacspeak, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: emacspeak
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/multispeech_4.5.2bullseye1_amd64.deb
-Size: 76376
-SHA256: f08fb3b53011de6f6beefd5e699699a5528fee1b4ed224d6e63376804e8049e3
-SHA1: ec3c967e26f225d8506e7e3664612f765da2a330
-MD5sum: 4de66a60ed04a58147d575ead2b8dad4
+Filename: pool/free/m/multispeech/multispeech_4.6.0-1bullseye1_amd64.deb
+Size: 76468
+SHA256: c1d60a5e798d8cd0ffdba42e2486e7e771069cac37b50f35fb7661dd7c5aaaba
+SHA1: 0b3a76eb53916ea8b53b9d535dddf4f973ccae81
+MD5sum: cba08e282c214b3b49ad4024b5cd2c47
 Description: Multilingual speech server for Emacspeak
  This speech server provides multilingual speech output for Emacspeak
  using software TTS engines such as mbrola, espeak, ru_tts, etc.
@@ -357,22 +358,21 @@ Description: Read books in Emacs with synthesized voice
  it also can produce audiobooks in mp3 format.
 
 Package: ru-tts
-Version: 6.1.4bullseye1
+Version: 6.2.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 42
-Depends: locales, libc6 (>= 2.3), librulexdb0, librutts7 (>= 6.1)
-Recommends: rulex-data
-Suggests: sox
+Depends: locales, libc6 (>= 2.3), librutts7 (>= 6.2)
+Suggests: rulex-data, sox
 Conflicts: rulex (<< 2.0)
 Breaks: libmultispeech0 (<< 4.1), rbook (<< 2.6)
 Priority: optional
 Section: sound
-Filename: pool/free/r/ru-tts/ru-tts_6.1.4bullseye1_amd64.deb
-Size: 14328
-SHA256: d6567c6e6c0b8faaadb2b4157af87e05e877e419dbe6135d2ccf3579079d4078
-SHA1: 3db1034aa2271dfdfc8f57e115284f283b876cd3
-MD5sum: 6b5c13473b2be4d1dd9f5c482115eb5b
+Filename: pool/free/r/ru-tts/ru-tts_6.2.0-1bullseye1_amd64.deb
+Size: 14724
+SHA256: 6acacc0965b8eddd8ef694ceeb055daec02ec3ad9c4ec74eeb31f17a19b86bf0
+SHA1: aa40371bd9f0d17c6e8bb00a0c531dca7396e95b
+MD5sum: 577a1d605c8918966aea1d1baaeaf29b
 Description: software Russian TTS engine
  This is a Russian speech synthesizer.
  it takes Russian text in koi8-r charset from standard input
@@ -382,19 +382,18 @@ Description: software Russian TTS engine
  some player for it like sox for example.
 
 Package: rulex
-Version: 3.7.6-1bullseye1
+Version: 3.8.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 71
-Depends: locales, libc6 (>= 2.3), librulexdb0
-Recommends: rulex-data (>= 3.7)
+Depends: locales, libc6 (>= 2.3.4), librulexdb0 (>= 3.8)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex_3.7.6-1bullseye1_amd64.deb
-Size: 27596
-SHA256: 4739233b53531902fe52da9f95e48c398d9c0687682af914d6b6bd9545860265
-SHA1: dba864fb51cd7f281fa323d46d6ea913e48db407
-MD5sum: 24aaf9ed478b7210d64dedef1b1294dd
+Filename: pool/free/r/rulex/rulex_3.8.0-1bullseye1_amd64.deb
+Size: 28764
+SHA256: ed37f2f5a3cb21738ec15ef47ed467492c710b71c2f2935c3cd55992eeccbda9
+SHA1: b864550eb4796fcc06eb81ac7ebec42ca560f3de
+MD5sum: 3e9c674b19c946a32984ffbfec2f184b
 Description: Russian pronunciation dictionary support binaries
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -406,21 +405,22 @@ Description: Russian pronunciation dictionary support binaries
 
 Package: rulex-data
 Source: rulex
-Version: 3.7.6-1bullseye1
+Version: 3.8.0-1bullseye1
 Architecture: all
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
-Installed-Size: 2266
+Installed-Size: 1878
+Recommends: librulexdb0 (>= 3.8)
 Enhances: ru-tts
 Conflicts: ru-tts (<< 2.0)
 Breaks: rulex (<< 3.7)
 Replaces: rulex (<< 3.7)
 Priority: optional
 Section: sound
-Filename: pool/free/r/rulex/rulex-data_3.7.6-1bullseye1_all.deb
-Size: 740096
-SHA256: db828bd14dc8914cc166a2a0031330a10d441270ca8b5e4608b7bf11b53fb9b8
-SHA1: b781cca56f234afc8eabb89f94a69df1655b148e
-MD5sum: f74976f21ad2078387746d58c19f0c8a
+Filename: pool/free/r/rulex/rulex-data_3.8.0-1bullseye1_all.deb
+Size: 620224
+SHA256: a682ccf0de0d1a4a28f073e778bc130087e4f4f817410ad8263bc8e975066267
+SHA1: a5afb99987684c6881d9a6972fce74f80f48c610
+MD5sum: 368a9d0c04c05a0762ed648dd74f6ace
 Description: Russian pronunciation dictionary
  RuLex database is primarily intended for use along with the
  Ru_tts speech synthesizer in order to improve its pronunciation.
@@ -432,21 +432,21 @@ Description: Russian pronunciation dictionary
 
 Package: sd-multispeech
 Source: multispeech
-Version: 4.5.2bullseye1
+Version: 4.6.0-1bullseye1
 Architecture: amd64
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Installed-Size: 172
-Depends: libbobcat5 (>= 5.07.00), libboost-filesystem1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech5 (>= 4.5), libstdc++6 (>= 5.2)
+Depends: libbobcat5 (>= 5.07.00), libboost-filesystem1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libmultispeech5 (>= 4.6), libstdc++6 (>= 5.2)
 Recommends: espeak, espeak-data
 Suggests: speech-dispatcher, mbrola, mbrola-en1, freephone, ru-tts
 Enhances: speech-dispatcher
 Priority: optional
 Section: sound
-Filename: pool/free/m/multispeech/sd-multispeech_4.5.2bullseye1_amd64.deb
-Size: 56072
-SHA256: 7122b0aa13b5f4415c70e06d05d4b4e2a53280361e8b91f319d418becb1b2208
-SHA1: c7b0622a3c9b9cd404d5f72f2d808766efa3ae6c
-MD5sum: 63051f8af36a962defa1e166962e73a3
+Filename: pool/free/m/multispeech/sd-multispeech_4.6.0-1bullseye1_amd64.deb
+Size: 56200
+SHA256: b8053b3e036459f2bc94a2e10b1c0dc67522fda213e1cd03b891581d278a4999
+SHA1: aa86952e2fd362b743fa25b823eeaf0cb6759066
+MD5sum: 966acfa67ce9f5f10ed345d402627322
 Description: Multilingual Speech Dispatcher backend
  This module provides multilingual speech output for Speech Dispatcher
  using software TTS engines such as mbrola, espeak, ru_tts, etc.

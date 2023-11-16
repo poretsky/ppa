@@ -59,10 +59,10 @@ Checksums-Sha256:
  1b6a875f7555e5e6d166e453dc8ec214ca32928246149294788c5100c1e56160 29012 freespeech_1.0m-20stretch1.debian.tar.xz
 
 Package: multispeech
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.5.2stretch1
+Version: 4.6.0-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,17 @@ Priority: extra
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 9037e6686652ba0ca85e524f9beae0cf 960 multispeech_4.5.2stretch1.dsc
- d1d7cc662f00a809cdbff3b9ede6770e 527734 multispeech_4.5.2stretch1.tar.gz
+ d8bb25860d85d53d644f34b97c44fb0b 1247 multispeech_4.6.0-1stretch1.dsc
+ a06bcb91a48d43bd6038f55616ad8b22 309008 multispeech_4.6.0.orig.tar.xz
+ a44f751e00b7d410cf9e31df9b9dd257 20052 multispeech_4.6.0-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- b61f8984b9b07906d33b0911f5776389669afd38 960 multispeech_4.5.2stretch1.dsc
- cdf8f6c1a689888fca7a02dff2862b5241f929e8 527734 multispeech_4.5.2stretch1.tar.gz
+ 82d1f8193a2fdc856ec54298f2fcc2d010adca3d 1247 multispeech_4.6.0-1stretch1.dsc
+ fa7a6fce820deb1d2e7599390ddb5d20dfa21661 309008 multispeech_4.6.0.orig.tar.xz
+ 97486650c647a081d1d0d2c11298c265025b2533 20052 multispeech_4.6.0-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 27f30ed8ebeb5d877aa8bf99ff8beea9736dcb7b7cc77bdd5adb64f64890633d 960 multispeech_4.5.2stretch1.dsc
- 8b6cc9dcd65e9a6931101b2639e9970d8169ff9b0641ca36d6a09c603d5bc8b0 527734 multispeech_4.5.2stretch1.tar.gz
+ 8d062cb35e64afb9cc87e42acb86bd850b324dfd5f9a95cb506b853294f08521 1247 multispeech_4.6.0-1stretch1.dsc
+ b7301701f4f9c97a585b1f50f21fcfaa0d74b9bddbd26a48288f04d0ff99f4f0 309008 multispeech_4.6.0.orig.tar.xz
+ a4d2fbb9e98bee242a817c54618f5fb3440cee2a32a56d5d2d4398a4997f9ed0 20052 multispeech_4.6.0-1stretch1.debian.tar.xz
 
 Package: rbook
 Format: 1.0
@@ -107,13 +110,13 @@ Checksums-Sha256:
  493e97f04e39ecde9943a8b467ad9bc4ccf1a727f695beb19cf6accc138a1849 24965 rbook_2.6.0stretch1.tar.gz
 
 Package: ru-tts
-Format: 3.0 (native)
+Format: 3.0 (quilt)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.4stretch1
+Version: 6.2.0-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
-Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
+Build-Depends: debhelper (>= 9), libtool-bin
 Package-List:
  librutts-dev deb libdevel optional arch=any
  librutts7 deb libs optional arch=any
@@ -122,20 +125,23 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- 0e2dc0717d4e6663e3208f929b84cc83 676 ru-tts_6.1.4stretch1.dsc
- 463913fc929fc5ab588bcdab8e226064 4364444 ru-tts_6.1.4stretch1.tar.xz
+ f8b489667f5021084fd27e34cb89d370 920 ru-tts_6.2.0-1stretch1.dsc
+ 942a23da2ee67773e034d71bbf449fa6 4360420 ru-tts_6.2.0.orig.tar.xz
+ aa4d3be0b367782ca6f7f82e545e52ef 7436 ru-tts_6.2.0-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- dba3d7f0069395e2be178cc487cd63c879bcabd5 676 ru-tts_6.1.4stretch1.dsc
- a55917dc453335044b4bd8f89f34a0cc74f8e0f4 4364444 ru-tts_6.1.4stretch1.tar.xz
+ 9855ef74cf76e04816fbd31795f967bef0d1396f 920 ru-tts_6.2.0-1stretch1.dsc
+ c4e798cb3a648c3950c74b89ff6864d558b2e30d 4360420 ru-tts_6.2.0.orig.tar.xz
+ 998f2a870954db70a633a6aa48b5ebd72dc819f8 7436 ru-tts_6.2.0-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 82eb62bf2eb41c73f355c785afba6a0d885fca7398b9a877900590c419d6b6a3 676 ru-tts_6.1.4stretch1.dsc
- f4683af243fe7bf68fdf669103b1ac65879bf0919bb59052c708cb99dcb7524a 4364444 ru-tts_6.1.4stretch1.tar.xz
+ 824c17bb42554faa6bf71f18b43c4b3105b8d2f2ffa7c5d65d67458e80b3ded1 920 ru-tts_6.2.0-1stretch1.dsc
+ a97a4b341d5be80332cdb07534d278affa0aa4b1ef7fb20f6cb37c78d2e91edf 4360420 ru-tts_6.2.0.orig.tar.xz
+ cc8e20c9664a005751358f29f041a7cae849b79c5181a79de0d632bb5a165946 7436 ru-tts_6.2.0-1stretch1.debian.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.6-1stretch1
+Version: 3.8.0-1stretch1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +154,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 7df64276cb29fa7a22a8b91c979cebf3 995 rulex_3.7.6-1stretch1.dsc
- d1385f7d5ec171fd2a0ef3879255a42b 2301192 rulex_3.7.6.orig.tar.xz
- 7646c407f7276fe72b7041d87c14104b 4660 rulex_3.7.6-1stretch1.debian.tar.xz
+ de0484d1057bc1fec094acaa1737acc2 995 rulex_3.8.0-1stretch1.dsc
+ 5abd46a73490d506c2dd6fd36c091741 2234788 rulex_3.8.0.orig.tar.xz
+ 71b3c01388ed8ea7ec19a916225db5ea 4764 rulex_3.8.0-1stretch1.debian.tar.xz
 Checksums-Sha1: 
- 5f01fcbf00bebfaa4d5fa4463e4913af930c7afe 995 rulex_3.7.6-1stretch1.dsc
- 21017406b2d041ef2adb2b8dab1975e612c513bb 2301192 rulex_3.7.6.orig.tar.xz
- d2bdd0f4825876529700bb7d97d6aab83b7aa3a5 4660 rulex_3.7.6-1stretch1.debian.tar.xz
+ aebc93c2e5a1e35d2353818fb2cb3c9c03a594da 995 rulex_3.8.0-1stretch1.dsc
+ 57cd341d654a4ba0b8b6796e92a93a2564e246d8 2234788 rulex_3.8.0.orig.tar.xz
+ 4cb40e201b03326960cbae2ed0758129a7e95bb7 4764 rulex_3.8.0-1stretch1.debian.tar.xz
 Checksums-Sha256: 
- 510e3c53999e0d91fb7c21ada2f334dd5d79ceeac580cc71b63d6f73d28ea209 995 rulex_3.7.6-1stretch1.dsc
- 54cf0c698a8e8ab0008efb91cd7bb727951532e9f3c7bf53f32ed10b4020da6a 2301192 rulex_3.7.6.orig.tar.xz
- b73f88655e37662f22c264b1cc402bbbd652dd9dff8598e455d99c7070e76c31 4660 rulex_3.7.6-1stretch1.debian.tar.xz
+ 7a106c97ea23bddcae5dabe014933c40c31a46b8035b461a231819a9fc7d5c0b 995 rulex_3.8.0-1stretch1.dsc
+ eac9c979c60fd1463a0ffff480f4728499d862bbe4502223ac85ca9c12d91b05 2234788 rulex_3.8.0.orig.tar.xz
+ 387d82cc983f241174dfd688e1b02da5ae839724dd95f7e03ffa14a060c9d664 4764 rulex_3.8.0-1stretch1.debian.tar.xz
 
 Package: transmission-el
 Format: 3.0 (quilt)

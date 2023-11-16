@@ -59,10 +59,10 @@ Checksums-Sha256:
  02ff3a49ec6efe7d5fb9de3459f80e78f1fd9fe2ba52a4a599030929607f7cce 28996 freespeech_1.0m-20buster1.debian.tar.xz
 
 Package: multispeech
-Format: 1.0
+Format: 3.0 (quilt)
 Binary: multispeech, sd-multispeech, libmultispeech5
 Architecture: any
-Version: 4.5.2buster1
+Version: 4.6.0-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: cdbs, debhelper (>= 9), po-debconf, autotools-dev, libsndfile1-dev, libsoundtouch-dev, portaudio19-dev, libportaudiocpp0, libpulse-dev, libbobcat-dev, libboost-thread-dev, libboost-regex-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-locale-dev, libboost-program-options-dev, libspeechd-dev
@@ -74,14 +74,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/m/multispeech
 Files: 
- 8f53c577b90fe4713b02c2f4a36fc677 965 multispeech_4.5.2buster1.dsc
- feaf0e0326ce338073a5a00da06f0123 528111 multispeech_4.5.2buster1.tar.gz
+ 497007beafc0bedaa62d3a5d88e0046d 1252 multispeech_4.6.0-1buster1.dsc
+ a06bcb91a48d43bd6038f55616ad8b22 309008 multispeech_4.6.0.orig.tar.xz
+ 054a3a21083665888a3ce212e6f12907 19980 multispeech_4.6.0-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 091e44636f62ee74024f329e3a957ea5759a3671 965 multispeech_4.5.2buster1.dsc
- fe3c4e88c049b380e86824d6bd939f21028c90ef 528111 multispeech_4.5.2buster1.tar.gz
+ 0c3d36b925d18568f6410d95ccaba2aefe722e05 1252 multispeech_4.6.0-1buster1.dsc
+ fa7a6fce820deb1d2e7599390ddb5d20dfa21661 309008 multispeech_4.6.0.orig.tar.xz
+ 6fa0ad650201def626fcfcde6eda8346fb9cee55 19980 multispeech_4.6.0-1buster1.debian.tar.xz
 Checksums-Sha256: 
- d546d26f657e79707cd6be3b04c38551d5766ded9085898a403a1f2eafed54a6 965 multispeech_4.5.2buster1.dsc
- 6f684124feb64463e5ac2fb8fc6bd40fe05ae6b47faa2a6d9e2cd342683382c6 528111 multispeech_4.5.2buster1.tar.gz
+ 33c6aed6a898132c29a4768fc27443b5cd59788e1dfb5bc72c2a8b98773921ea 1252 multispeech_4.6.0-1buster1.dsc
+ b7301701f4f9c97a585b1f50f21fcfaa0d74b9bddbd26a48288f04d0ff99f4f0 309008 multispeech_4.6.0.orig.tar.xz
+ 91b855def7b615f14c6d4fb7f7b71eaaada8f681ad8e9ff5522c9f9e57962eb2 19980 multispeech_4.6.0-1buster1.debian.tar.xz
 
 Package: rbook
 Format: 1.0
@@ -107,13 +110,13 @@ Checksums-Sha256:
  ae7582098818688ed44e6a7ca54a4a49369fb115662512d9b10e920689e0e3e1 25015 rbook_2.6.0buster1.tar.gz
 
 Package: ru-tts
-Format: 3.0 (native)
+Format: 3.0 (quilt)
 Binary: ru-tts, librutts7, librutts-dev
 Architecture: any
-Version: 6.1.4buster1
+Version: 6.2.0-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
-Build-Depends: debhelper (>= 9), libtool-bin, librulexdb-dev
+Build-Depends: debhelper (>= 9), libtool-bin
 Package-List:
  librutts-dev deb libdevel optional arch=any
  librutts7 deb libs optional arch=any
@@ -122,20 +125,23 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/ru-tts
 Files: 
- b8e4d71356d03fd4a058df691a44a95f 672 ru-tts_6.1.4buster1.dsc
- d901f1196e5348e1bae334c1d4bb4cc6 4364468 ru-tts_6.1.4buster1.tar.xz
+ 4fbd7cef12176546e3ee988e86ae9a23 916 ru-tts_6.2.0-1buster1.dsc
+ 942a23da2ee67773e034d71bbf449fa6 4360420 ru-tts_6.2.0.orig.tar.xz
+ 8347e681a8279f660c0906fe67fae1cb 7404 ru-tts_6.2.0-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 0bafbc82f57699b97a87731fe4d8fe4db5c71f18 672 ru-tts_6.1.4buster1.dsc
- 71fe1656af438ba11953f4f365da11742476bd5c 4364468 ru-tts_6.1.4buster1.tar.xz
+ c126f4f25afa5a701ca009d210e11c7c6a35afd5 916 ru-tts_6.2.0-1buster1.dsc
+ c4e798cb3a648c3950c74b89ff6864d558b2e30d 4360420 ru-tts_6.2.0.orig.tar.xz
+ 5a3e908b9f12e8b01532f520593e4b92921ecd89 7404 ru-tts_6.2.0-1buster1.debian.tar.xz
 Checksums-Sha256: 
- 9d79cc1a36736bc10e0bc44afbe654c27ea904158a278f3009aa4ed50f1e3275 672 ru-tts_6.1.4buster1.dsc
- ff541605504a96ba3c83b560cf78f53084792f464a9ddc73513e28c8eb8a793a 4364468 ru-tts_6.1.4buster1.tar.xz
+ 90bf2fffa7e679b4d3abf7d1fb07b708d02d576c2a5d66be861d9bb4b74f22e8 916 ru-tts_6.2.0-1buster1.dsc
+ a97a4b341d5be80332cdb07534d278affa0aa4b1ef7fb20f6cb37c78d2e91edf 4360420 ru-tts_6.2.0.orig.tar.xz
+ 2ae88cd4ca0c746152f2da8b9b6eb27740351cb073ea91ec852058d447f22914 7404 ru-tts_6.2.0-1buster1.debian.tar.xz
 
 Package: rulex
 Format: 3.0 (quilt)
 Binary: rulex, rulex-data, librulexdb0, librulexdb-dev
 Architecture: any all
-Version: 3.7.6-1buster1
+Version: 3.8.0-1buster1
 Maintainer: Igor B. Poretsky <poretsky@mlbox.ru>
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 9), libdb-dev, libtool-bin, locales
@@ -148,17 +154,17 @@ Priority: optional
 Section: sound
 Directory: pool/free/r/rulex
 Files: 
- 39c240f6f1b5f0066f499372acfbf72b 991 rulex_3.7.6-1buster1.dsc
- d1385f7d5ec171fd2a0ef3879255a42b 2301192 rulex_3.7.6.orig.tar.xz
- 86faa1683ad63eba89bbbec8b569fe30 4612 rulex_3.7.6-1buster1.debian.tar.xz
+ 2fcae8280a6126c54ec42d2326b2d5ee 991 rulex_3.8.0-1buster1.dsc
+ 5abd46a73490d506c2dd6fd36c091741 2234788 rulex_3.8.0.orig.tar.xz
+ 81311d3058d8bd371f0eb2be43640882 4720 rulex_3.8.0-1buster1.debian.tar.xz
 Checksums-Sha1: 
- 1206bb3f1bea35615820e53d47da205cb30cb4c8 991 rulex_3.7.6-1buster1.dsc
- 21017406b2d041ef2adb2b8dab1975e612c513bb 2301192 rulex_3.7.6.orig.tar.xz
- 6a345587c41ac204466e2db91ce6fbf3578f7d09 4612 rulex_3.7.6-1buster1.debian.tar.xz
+ 4b22ce7b0fa16b9d2d84f45200e47028c533155e 991 rulex_3.8.0-1buster1.dsc
+ 57cd341d654a4ba0b8b6796e92a93a2564e246d8 2234788 rulex_3.8.0.orig.tar.xz
+ cd131a2b88ecb5bac48878c8c51f81eb9bf082f2 4720 rulex_3.8.0-1buster1.debian.tar.xz
 Checksums-Sha256: 
- 61348812c8d1c7dcbbce6389dc33f7718fa89434f685addef2c0f5cd9f4bffce 991 rulex_3.7.6-1buster1.dsc
- 54cf0c698a8e8ab0008efb91cd7bb727951532e9f3c7bf53f32ed10b4020da6a 2301192 rulex_3.7.6.orig.tar.xz
- 28302e20c2dcb23efa28b7653e58705a1df76e9b4a84d5dc19639ba12f255ea9 4612 rulex_3.7.6-1buster1.debian.tar.xz
+ 4ce00850d8b68f0358ca15483bf1c78cc3f3fc003cdf56d880af26b0d89a76ff 991 rulex_3.8.0-1buster1.dsc
+ eac9c979c60fd1463a0ffff480f4728499d862bbe4502223ac85ca9c12d91b05 2234788 rulex_3.8.0.orig.tar.xz
+ cd13fe84e834fffc576414d871a3bcfc89322817887b0639380c1d3f538d29ff 4720 rulex_3.8.0-1buster1.debian.tar.xz
 
 Package: transmission-el
 Format: 3.0 (quilt)
